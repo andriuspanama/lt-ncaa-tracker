@@ -34,11 +34,11 @@ function demoGames(players){
       return {event_id:'d'+i,date:d,opponent:'Demo',home:i%2===0,result:rnd()>.4?'W':'L',score:'70-65',min:mn,pts:Math.round(fgm*2+rnd()*6*sk),reb:Math.round(mn/6*(big?1.4:.6)*rnd()*2),ast:Math.round(rnd()*(big?2:5)),stl:Math.round(rnd()*1.6),blk:Math.round(rnd()*(big?2:.6)),to:Math.round(rnd()*3),pf:Math.round(rnd()*4),fgm,fga,tpm:0,tpa:0,ftm:Math.round(rnd()*3),fta:Math.round(rnd()*4)}})});
   return out;
 }
-const av=p=>`<div class="av sm" style="--ring:${ring(p.team)}">${esc(ini(p.name))}</div>`;
+const av=p=>avatar(p,'sm');
 function list(rows,key,fmt,title,sub,minGP){
   const r=rows.slice().sort((a,b)=>b[key]-a[key]).slice(0,minGP||10),mx=Math.max(...r.map(x=>x[key]),1);
   return `<section class="card"><h2>${title}</h2><p class="sub">${sub}</p>`+(r.length?r.map((x,i)=>`<div class="rowc"><span class="mt">${i+1}</span>${av(x.p)}
-  <div><div class="nm">${esc(x.p.name)}</div><div class="mt">${esc(x.p.team)} · ${x.gp} rung.</div><div class="bar2"><i style="width:${Math.max(0,x[key])/mx*100}%"></i></div></div><span class="v">${fmt(x[key])}</span></div>`).join(''):'<p class="empty">Duomenų dar nėra</p>')+`<div class="src">LT NCAA Tracker</div></section>`;
+  <div><div class="nm">${esc(x.p.name)}</div><div class="mt">${teamLogo(x.p.team,'tl xs')}${esc(x.p.team)} · ${x.gp} rung.</div><div class="bar2"><i style="width:${Math.max(0,x[key])/mx*100}%"></i></div></div><span class="v">${fmt(x[key])}</span></div>`).join(''):'<p class="empty">Duomenų dar nėra</p>')+`<div class="src">LT NCAA Tracker</div></section>`;
 }
 function scatter(rows){
   if(!rows.length)return `<section class="card"><h2>MINUTĖS VS TAŠKAI</h2><p class="empty">Duomenų dar nėra</p></section>`;
@@ -61,7 +61,7 @@ async function draw(){
    +cats.map(([k,t])=>list(all,k,v=>v.toFixed(1),'LYDERIAI · '+t,`${per} · vidurkis per rungtynes`,3)).join('');
 }
 (async()=>{
-  S.players=(await load('data/players.json'))?.players||[];
+  await mediaReady;S.players=(await load('data/players.json'))?.players||[];
   await Promise.all(S.players.map(async p=>{const g=await load(`data/games/${p.id}.json`);if(g)S.real[p.id]=g}));
   S.demo=new URLSearchParams(location.search).has('demo');
   document.querySelectorAll('#dm button').forEach(b=>{b.classList.toggle('on',(b.dataset.d==='1')===S.demo);b.onclick=()=>{S.demo=b.dataset.d==='1';document.querySelectorAll('#dm button').forEach(x=>x.classList.toggle('on',x===b));draw()}});

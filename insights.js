@@ -61,7 +61,7 @@ function demo(players){let seed=11;const R=()=>(seed=(seed*16807)%2147483647)/21
   const days=['2026-11-03','2026-11-06','2026-11-10','2026-11-14','2026-11-18','2026-11-22'],opp=['Duke Blue Devils','Kansas Jayhawks','Gonzaga Bulldogs','Ohio Bobcats','Utah Utes','Baylor Bears'];
   players.forEach(p=>{const big=p.height_cm>=203,sk=R();o[p.id]=days.map((d,i)=>{const mn=Math.round(12+R()*24),fga=Math.round(mn*(.3+R()*.3)),fgm=Math.round(fga*(.35+R()*.3));
     return {event_id:p.team+i,date:d,opponent:opp[(i+p.height_cm)%6],home:i%2===0,result:R()>.4?'W':'L',score:'78-71',min:mn,pts:Math.round(fgm*2+R()*8*sk),reb:Math.round(mn/6*(big?1.6:.7)*R()*2),ast:Math.round(R()*(big?3:6)),stl:Math.round(R()*1.8),blk:Math.round(R()*(big?2:.7)),to:Math.round(R()*3),pf:Math.round(R()*4),fgm,fga,tpm:Math.round(R()*3),tpa:5,ftm:Math.round(R()*3),fta:Math.round(R()*4)}})});return o}
-const av=p=>`<div class="av sm" style="--ring:hsl(${[...p.team].reduce((a,c)=>a+c.charCodeAt(0)*7,0)%360} 70% 55%)">${esc(p.name.split(' ').map(w=>w[0]).slice(0,2).join(''))}</div>`;
+const av=p=>avatar(p,'sm');
 const lk=p=>`<a href="index.html#${encodeURIComponent(p.id)}">${esc(p.name)}</a>`;
 function fill(){
   const games=S.demo?demo(S.players):S.real,dates=Object.values(games).flat().map(g=>g.date),sel=$('#key');
@@ -73,11 +73,11 @@ function draw(){
   const r=build(S.per,key,S.players,games,S.demo?['Duke Blue Devils','Kansas Jayhawks']:S.top25,S.demo?[]:S.awards,S.demo?10:undefined);
   out.innerHTML=(S.demo?'<div class="demo">DEMO: bandomieji skaičiai, ne tikra statistika.</div>':'')+
    `<section class="card sum"><h2>${S.per==='week'?'SAVAITĖS APŽVALGA':'MĖNESIO APŽVALGA'}</h2><p class="sub">${fd(r.range[0])} – ${fd(r.range[1])}</p>${r.sum.map(s=>`<p>${esc(s)}</p>`).join('')||'<p class="empty">Duomenų dar nėra</p>'}</section>`+
-   `<section class="card"><h2>TOP 10</h2><p class="sub">Impact Score vidurkis</p>${r.top.map((x,i)=>`<div class="rowc"><span class="mt">${i+1}</span>${av(x.p)}<div><div class="nm">${lk(x.p)}</div><div class="mt">${esc(x.p.team)} · ${x.ppg.toFixed(1)} tšk. · ${x.reb.toFixed(1)} atk. · ${x.ast.toFixed(1)} perd. · ${x.gp} rung.</div></div><span class="v">${x.imp.toFixed(1)}</span></div>`).join('')||'<p class="empty">Duomenų dar nėra</p>'}</section>`+
+   `<section class="card"><h2>TOP 10</h2><p class="sub">Impact Score vidurkis</p>${r.top.map((x,i)=>`<div class="rowc"><span class="mt">${i+1}</span>${av(x.p)}<div><div class="nm">${lk(x.p)}</div><div class="mt">${teamLogo(x.p.team,'tl xs')}${esc(x.p.team)} · ${x.ppg.toFixed(1)} tšk. · ${x.reb.toFixed(1)} atk. · ${x.ast.toFixed(1)} perd. · ${x.gp} rung.</div></div><span class="v">${x.imp.toFixed(1)}</span></div>`).join('')||'<p class="empty">Duomenų dar nėra</p>'}</section>`+
    `<h2 style="margin:16px 0 8px">PERLIUKAI</h2>`+(r.items.map(i=>`<div class="ins"><span class="tg ${i.type}">${i.type.toUpperCase()}</span><span class="mt">${fd(i.date)} · ${lk(i.p)}</span><p>${esc(i.text)}</p></div>`).join('')||'<p class="empty">Perliukų šiame laikotarpyje dar nėra</p>');
 }
 (async()=>{
-  S.players=(await load('data/players.json'))?.players||[];NM=(await load('data/names.json'))||{};
+  await mediaReady;S.players=(await load('data/players.json'))?.players||[];NM=(await load('data/names.json'))||{};
   S.top25=(await load('data/rankings.json'))?.top25||[];S.awards=(await load('data/awards.json'))||[];
   await Promise.all(S.players.map(async p=>{const g=await load(`data/games/${p.id}.json`);if(g)S.real[p.id]=g}));
   S.demo=new URLSearchParams(location.search).has('demo');

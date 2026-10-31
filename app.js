@@ -17,9 +17,9 @@ function render(){
   $('#grid').innerHTML=list.map(p=>{
     const s=st(p);
     const row=s&&s.gp?`<div class="stats">${[['pts','PPG'],['reb','RPG'],['ast','APG'],['stl','SPG']].map(([k,l])=>`<div><b>${val(s,k)}</b><span>${l}</span></div>`).join('')}</div>`:`<div class="empty">Duomenų dar nėra</div>`;
-    return `<article class="pl" data-id="${esc(p.id)}"><div class="top"><div class="av" style="--ring:${ring(p.team)}">${esc(ini(p.name))}</div>
+    return `<article class="pl" data-id="${esc(p.id)}"><div class="top">${avatar(p)}
     <div><div class="nm">${esc(p.name)}</div><div class="mt">${esc(p.team)} · ${esc(p.conference)}</div>
-    <div class="mt">${p.height_cm} cm (${ftin(p.height_cm)}) · ${esc(p.position)}</div></div></div>${row}</article>`}).join('')||'<p class="empty">Nieko nerasta</p>';
+    <div class="mt">${p.height_cm} cm (${ftin(p.height_cm)}) · ${esc(p.position)}</div></div>${teamLogo(p.team)}</div>${row}</article>`}).join('')||'<p class="empty">Nieko nerasta</p>';
   document.querySelectorAll('.pl').forEach(el=>el.onclick=()=>openProfile(S.players.find(p=>p.id===el.dataset.id)));
   leaders(list);
 }
@@ -29,7 +29,7 @@ function leaders(list){
   const max=rows[0]?.v||1;
   $('#leaders').innerHTML=`<h2>LYDERIAI</h2><p class="sub">${per} · vidurkis per rungtynes</p>
   <div class="chips">${CATS.map(([k,l])=>`<button data-c="${k}" class="${k===S.cat?'on':''}">${l}</button>`).join('')}</div>
-  ${rows.length?rows.map((r,i)=>`<div class="lrow"><span class="mt">${i+1}</span><div class="av sm" style="--ring:${ring(r.p.team)}">${esc(ini(r.p.name))}</div>
+  ${rows.length?rows.map((r,i)=>`<div class="lrow"><span class="mt">${i+1}</span>${avatar(r.p,'sm')}
   <div><div class="nm">${esc(r.p.name)}</div><div class="mt">${esc(r.p.team)}</div><div class="bar2"><i style="width:${r.v/max*100}%"></i></div></div><b class="v">${r.v}</b></div>`).join(''):'<p class="empty">Duomenų dar nėra</p>'}`;
   document.querySelectorAll('#leaders [data-c]').forEach(b=>b.onclick=()=>{S.cat=b.dataset.c;render()});
 }
@@ -48,7 +48,7 @@ async function openProfile(p){
   const close=()=>{sh.hidden=true;document.body.style.overflow=''};
   sh.onclick=e=>{if(e.target===sh)close()};
   sh.innerHTML=`<div class="sh-in"><button class="x">✕</button>
-  <h2>${esc(p.name)}</h2><p class="sub">${esc(p.team)} · ${esc(p.conference)} · ${p.height_cm} cm (${ftin(p.height_cm)}) · ${esc(p.position)}${p.class_year?' · '+esc(p.class_year):''}</p><div id="pb" class="empty">Kraunama…</div></div>`;
+  <h2>${teamLogo(p.team,'tl md')}${esc(p.name)}</h2><p class="sub">${esc(p.team)} · ${esc(p.conference)} · ${p.height_cm} cm (${ftin(p.height_cm)}) · ${esc(p.position)}${p.class_year?' · '+esc(p.class_year):''}</p><div id="pb" class="empty">Kraunama…</div></div>`;
   sh.querySelector('.x').onclick=close;
   const g=await load(`data/games/${p.id}.json`);
   const b=sh.querySelector('#pb');
@@ -65,7 +65,7 @@ async function openProfile(p){
   ${[...g].reverse().map(x=>`<tr><td>${fd(x.date)}</td><td>${x.home?'vs':'@'} ${esc(x.opponent)}</td><td class="${x.result==='W'?'w':'l'}">${esc(x.result||'?')} ${score(x)}</td><td>${x.min}</td><td>${x.pts}</td><td>${x.reb}</td><td>${x.ast}</td></tr>`).join('')}</table></div>`;
 }
 (async()=>{
-  const [pl,stt]=await Promise.all([load('data/players.json'),load('data/stats.json')]);
+  const [pl,stt]=await Promise.all([load('data/players.json'),load('data/stats.json')]);await mediaReady;
   S.players=pl?.players||[];S.stats=stt;
   $('#upd').textContent=stt?.updated?`Atnaujinta: ${stt.updated}`:'Statistika dar nepradėta';
   [...new Set(S.players.map(p=>p.conference))].sort().forEach(c=>$('#conf').insertAdjacentHTML('beforeend',`<option>${esc(c)}</option>`));

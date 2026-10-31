@@ -1,0 +1,29 @@
+:root{--alt:#0c1015;--chip:#1b212a}
+[data-theme=light]{--bg:#f3f5f8;--card:#fff;--line:#dde2e8;--tx:#10151b;--mu:#5b6675;--ac:#d95a00;--gr:#16a34a;--rd:#dc2626;--alt:#eef1f5;--chip:#e8ecf1}
+[data-theme=light] .bar2,[data-theme=light] .av{background:var(--chip)}
+[data-theme=light] .seg button.on,[data-theme=light] .tabs a.on{color:#fff}
+[data-theme=light] .sh-in{background:var(--bg)}
+[data-theme=light] #sheet{background:#0008}
+.stats div,.big div{background:var(--alt)}.av,.tg{background:var(--chip)}
+svg text{fill:var(--mu)}
+body{-webkit-text-size-adjust:100%;font-variant-numeric:tabular-nums}
+header{border-bottom:3px solid var(--ac);margin-bottom:6px;padding-bottom:10px;max-width:none}
+header>div:first-child{max-width:1200px}
+h1{background:linear-gradient(90deg,var(--tx),var(--ac));-webkit-background-clip:text;background-clip:text;color:transparent}
+.tabs{overflow-x:auto;white-space:nowrap;scrollbar-width:none}.tabs::-webkit-scrollbar{display:none}
+:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
+button,a,select,input{touch-action:manipulation}
+.theme-btn{position:fixed;right:14px;bottom:14px;width:48px;height:48px;border-radius:50%;border:1px solid var(--line);background:var(--card);font-size:20px;z-index:20;box-shadow:0 4px 14px #0005}
+.sh-in{animation:up .22s ease-out}@keyframes up{from{transform:translateY(24px);opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+footer a,.doc a{color:var(--ac)}
+.doc{max-width:760px;margin:auto;padding:8px 16px 40px;line-height:1.6}
+.doc h2{font-size:20px;margin:24px 0 6px}.doc code{background:var(--chip);padding:2px 6px;border-radius:6px;font-size:14px}
+.doc pre{background:var(--chip);padding:12px;border-radius:12px;overflow-x:auto;font-size:13px}
+.doc li{margin:4px 0}
+@media (min-width:1000px){.grid{grid-template-columns:repeat(3,1fr)}}
+.av{position:relative;overflow:hidden}
+.av img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;background:var(--chip)}
+.tl{width:38px;height:38px;object-fit:contain;flex:none;margin-left:auto}
+.tl.xs{width:18px;height:18px;vertical-align:middle;margin:0 4px 0 0}
+.tl.md{width:30px;height:30px;vertical-align:middle;margin:0 8px 0 0}

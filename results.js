@@ -6,12 +6,12 @@ function sc(g){const n=String(g.score).split('-').map(Number);if(n.length<2||n.s
 let ALL=[];
 function draw(f){
   const rows=ALL.filter(r=>!f||r.result===f);
-  $('#list').innerHTML=rows.map(r=>`<div class="rc ${esc(r.result)}"><div class="m">${fd(r.date)} · ${esc(r.team)}</div>
+  $('#list').innerHTML=rows.map(r=>`<div class="rc ${esc(r.result)}"><div class="m">${teamLogo(r.team,'tl xs')}${fd(r.date)} · ${esc(r.team)}</div>
   <div class="sc"><span class="${r.result==='W'?'w':'l'}">${esc(r.result||'?')}</span> ${sc(r)} ${r.home?'prieš':'@'} ${esc(r.opp||'?')}</div>
   <div class="who">${r.pl.map(p=>`<div><b>${esc(p.name)}</b> ${p.pts} PTS · ${p.reb} REB · ${p.ast} AST · ${p.min} min</div>`).join('')}</div></div>`).join('')||'<p class="empty">Duomenų dar nėra</p>';
 }
 (async()=>{
-  const pl=(await load('data/players.json'))?.players||[];
+  await mediaReady;const pl=(await load('data/players.json'))?.players||[];
   const files=await Promise.all(pl.map(p=>load(`data/games/${p.id}.json`)));
   const map={};
   pl.forEach((p,i)=>(files[i]||[]).forEach(g=>{
