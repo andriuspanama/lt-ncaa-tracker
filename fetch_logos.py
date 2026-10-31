@@ -1,0 +1,44 @@
+"""Suranda komandų logotipus per Wikipedia/Wikimedia API ir įrašo nuorodas + licencijas į data/teams.json.
+Nieko neatsisiunčia – tik išsaugo nuorodas. Paleisti: python fetch_logos.py"""
+import json, time, requests
+API = "https://en.wikipedia.org/w/api.php"
+H = {"User-Agent": "lt-ncaa-tracker/1.0 (https://github.com/andriuspanama/lt-ncaa-tracker; fan stats project)"}
+# Wikipedia straipsnių pavadinimai (jei komandos čia nėra, bandoma ieškoti pagal pavadinimą)
+TITLES = {
+ "Arizona Wildcats":"Arizona Wildcats","Arizona State Sun Devils":"Arizona State Sun Devils","Florida Gators":"Florida Gators",
+ "VMI Keydets":"VMI Keydets","Clemson Tigers":"Clemson Tigers","Stephen F. Austin":"Stephen F. Austin Lumberjacks",
+ "Utah Valley":"Utah Valley Wolverines","UT Martin":"UT Martin Skyhawks","South Carolina":"South Carolina Gamecocks",
+ "Buffalo":"Buffalo Bulls","Boise State":"Boise State Broncos","Campbell":"Campbell Fighting Camels","South Dakota":"South Dakota Coyotes",
+ "Quinnipiac":"Quinnipiac Bobcats","UMBC":"UMBC Retrievers","California":"California Golden Bears","Rhode Island":"Rhode Island Rams",
+ "FIU":"FIU Panthers","Kansas City":"Kansas City Roos","Northern Kentucky":"Northern Kentucky Norse","Saint Mary's":"Saint Mary's Gaels",
+ "Longwood":"Longwood Lancers","Western Michigan":"Western Michigan Broncos","Portland State":"Portland State Vikings","Texas":"Texas Longhorns",
+ "UT Arlington":"UT Arlington Mavericks","Mercer":"Mercer Bears","New Mexico":"New Mexico Lobos","Iowa State":"Iowa State Cyclones",
+ "Lipscomb":"Lipscomb Bisons","Georgia State":"Georgia State Panthers","California Baptist":"California Baptist Lancers",
+ "Wright State Raiders":"Wright State Raiders","Northern Illinois Huskies":"Northern Illinois Huskies"}
+def api(**p):
+    r = requests.get(API, params={"format": "json", "formatversion": 2, **p}, headers=H, timeout=30)
+    r.raise_for_status(); time.sleep(1)  # mandagiai: 1 užklausa/s
+    return r.json()
+def page_image(title):
+    pg = api(action="query", titles=title, redirects=1, prop="pageimages", piprop="original|name")["query"]["pages"][0]
+    return None if pg.get("missing") or "original" not in pg else (pg["pageimage"], pg["original"]["source"])
+def logo(team):
+    title = TITLES.get(team, team)
+    hit = page_image(title)
+    if not hit:  # atsarginė paieška
+        res = api(action="query", list="search", srsearch=f"{team} athletics", srlimit=1)["query"]["search"]
+        hit = page_image(res[0]["title"]) if res else None
+    if not hit: return None
+    fn, url = hit
+    info = (api(action="query", titles="File:" + fn, prop="imageinfo", iiprop="url|extmetadata")["query"]["pages"][0].get("imageinfo") or [{}])[0]
+    md = info.get("extmetadata", {}); lic = (md.get("LicenseShortName") or {}).get("value")
+    free = bool(lic) and any(lic.lower().startswith(x) for x in ("cc", "public domain", "pd"))
+    return {"logo_url": url, "file_page": info.get("descriptionurl"), "license": lic or "nežinoma", "free_to_reuse": free}
+if __name__ == "__main__":
+    teams = sorted({p["team"] for p in json.load(open("data/players.json", encoding="utf-8"))["players"]})
+    out = {}
+    for t in teams:
+        try: out[t] = logo(t) or {"logo_url": None, "license": "nerasta"}
+        except Exception as e: out[t] = {"logo_url": None, "license": f"klaida: {e}"}
+        print(t, "->", out[t].get("license"))
+    json.dump(out, open("data/teams.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
