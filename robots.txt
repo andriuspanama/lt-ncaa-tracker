@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://andriuspanama.github.io/lt-ncaa-tracker/sitemap.xml
