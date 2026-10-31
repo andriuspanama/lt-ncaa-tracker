@@ -73,4 +73,5 @@ async function openProfile(p){
   document.querySelectorAll('#period button').forEach(b=>b.onclick=()=>{S.period=b.dataset.p;
     document.querySelectorAll('#period button').forEach(x=>x.classList.toggle('on',x===b));render()});
   render();
+  const h=decodeURIComponent(location.hash.slice(1)),hp=S.players.find(p=>p.id===h);if(hp)openProfile(hp);
 })();
