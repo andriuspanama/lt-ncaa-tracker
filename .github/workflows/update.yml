@@ -17,8 +17,6 @@ jobs:
       - run: python resolve_ids.py
       - run: python update.py
       - name: Išsaugoti pakeitimus
-            - run: python fetch_logos.py
-        continue-on-error: true
         run: |
           git config user.name "github-actions"
           git config user.email "actions@users.noreply.github.com"
