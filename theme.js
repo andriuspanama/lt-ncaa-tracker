@@ -1,4 +1,12 @@
 (function(){
+  var NAV=[['index.html','Žaidėjai'],['games.html','Rungtynės'],['charts.html','Lyderiai'],['insights.html','Įžvalgos'],['metodika.html','Apie projektą']];
+  document.addEventListener('DOMContentLoaded',function(){
+    var t=document.querySelector('.tabs');if(!t)return;
+    var f=location.pathname.split('/').pop()||'index.html';
+    if(/\/players\//.test(location.pathname))f='index.html';if(f==='results.html')f='games.html';
+    t.innerHTML=NAV.map(function(n){return '<a href="'+n[0]+'"'+(n[0]===f?' class="on"':'')+'>'+n[1]+'</a>'}).join('');
+  });
+
   var k='ltncaa-theme',t=null;
   try{t=localStorage.getItem(k)}catch(e){}
   if(!t)t=window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';

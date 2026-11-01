@@ -62,7 +62,7 @@ function demo(players){let seed=11;const R=()=>(seed=(seed*16807)%2147483647)/21
   players.forEach(p=>{const big=p.height_cm>=203,sk=R();o[p.id]=days.map((d,i)=>{const mn=Math.round(12+R()*24),fga=Math.round(mn*(.3+R()*.3)),fgm=Math.round(fga*(.35+R()*.3));
     return {event_id:p.team+i,date:d,opponent:opp[(i+p.height_cm)%6],home:i%2===0,result:R()>.4?'W':'L',score:'78-71',min:mn,pts:Math.round(fgm*2+R()*8*sk),reb:Math.round(mn/6*(big?1.6:.7)*R()*2),ast:Math.round(R()*(big?3:6)),stl:Math.round(R()*1.8),blk:Math.round(R()*(big?2:.7)),to:Math.round(R()*3),pf:Math.round(R()*4),fgm,fga,tpm:Math.round(R()*3),tpa:5,ftm:Math.round(R()*3),fta:Math.round(R()*4)}})});return o}
 const av=p=>avatar(p,'sm');
-const lk=p=>`<a href="index.html#${encodeURIComponent(p.id)}">${esc(p.name)}</a>`;
+const lk=p=>`<a href="players/${encodeURIComponent(p.id)}.html">${esc(p.name)}</a>`;
 function fill(){
   const games=S.demo?demo(S.players):S.real,dates=Object.values(games).flat().map(g=>g.date),sel=$('#key');
   const keys=[...new Set(dates.map(d=>S.per==='week'?monday(d):d.slice(0,7)))].sort().reverse();

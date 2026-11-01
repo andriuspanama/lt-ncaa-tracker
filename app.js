@@ -20,7 +20,7 @@ function render(){
     return `<article class="pl" data-id="${esc(p.id)}"><div class="top">${avatar(p)}
     <div><div class="nm">${esc(p.name)}</div><div class="mt">${esc(p.team)} · ${esc(p.conference)}</div>
     <div class="mt">${p.height_cm} cm (${ftin(p.height_cm)}) · ${esc(p.position)}</div></div>${teamLogo(p.team)}</div>${row}</article>`}).join('')||'<p class="empty">Nieko nerasta</p>';
-  document.querySelectorAll('.pl').forEach(el=>el.onclick=()=>openProfile(S.players.find(p=>p.id===el.dataset.id)));
+  document.querySelectorAll('.pl').forEach(el=>el.onclick=()=>{location.href='players/'+el.dataset.id+'.html'});
   leaders(list);
 }
 function leaders(list){

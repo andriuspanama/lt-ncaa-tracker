@@ -27,3 +27,12 @@ footer a,.doc a{color:var(--ac)}
 .tl{width:38px;height:38px;object-fit:contain;flex:none;margin-left:auto}
 .tl.xs{width:18px;height:18px;vertical-align:middle;margin:0 4px 0 0}
 .tl.md{width:30px;height:30px;vertical-align:middle;margin:0 8px 0 0}
+.pf{max-width:1200px;margin:auto;padding:8px 16px 32px}
+.pf .hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.pf .who{text-align:center}.pf .who .av{width:128px;height:128px;margin:6px auto;font-size:34px;border-width:4px}
+.pf .who h2{margin:8px 0 2px;font-size:26px}.pf .who .tl{margin:0 auto 6px;display:block;width:48px;height:48px}
+.pf .imp{font-size:42px;font-weight:800;color:var(--ac);line-height:1}.pf .imp small{display:block;font-size:11px;color:var(--mu);letter-spacing:1px;font-weight:600}
+.pf .big{grid-template-columns:repeat(5,1fr)}
+.sw{display:inline-block;margin:2px 4px 0 0;font-size:12px;color:var(--mu)}
+.dayh{font-size:13px;letter-spacing:1px;color:var(--mu);font-weight:700;margin:16px 0 6px;text-transform:uppercase}
+.rk{font-size:11px;font-weight:700;color:#000;background:var(--ac);border-radius:8px;padding:1px 6px;margin-left:4px}
