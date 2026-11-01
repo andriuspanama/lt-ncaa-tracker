@@ -705,6 +705,21 @@
       "verified": false,
       "notes": "Gali būti ESPN sąraše kaip Ernestas Valauskas. Šaltinis: Dartmouth Athletics (6'4\", Šiauliai).",
       "roster_status": "active"
-    }
+    },
+    {
+  "id": "ernas-valauskas",
+  "name": "Ernas Valauskas",
+  "espn_id": null,
+  "height_cm": 193,
+  "position": "SG/PG",
+  "team": "Dartmouth Big Green",
+  "conference": "Ivy League",
+  "class_year": "Freshman",
+  "birth_year": null,
+  "photo": null,
+  "status": "citizenship_user_confirmed",
+  "verified": false,
+  "notes": "ESPN sąraše gali būti Ernestas Valauskas."
+}
   ]
 }
