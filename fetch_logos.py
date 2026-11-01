@@ -23,20 +23,20 @@ def page_image(title):
     pg = api(action="query", titles=title, redirects=1, prop="pageimages", piprop="original|name")["query"]["pages"][0]
     return None if pg.get("missing") or "original" not in pg else (pg["pageimage"], pg["original"]["source"])
 import re
-BAD = ("wordmark","word_mark","big_12","big 12","conference","mountain_west","icon","flag","commons-logo","edit-","question","wikiquote","ambox","symbol_support","stub","map","stadium","arena","mascot","uniform")
+BAD = ("wordmark","word_mark","big_12","big 12","_colors","_conference","conference","sun_belt","mw_logo","sec_logo","acc_logo","mountain_west","icon","flag","commons-logo","edit-","question","wikiquote","ambox","symbol_support","stub","map","stadium","arena","mascot","uniform","cap_","baseball","football","womens","_wbb")
 STOP = {"the","of","university","state","college"}
 def score(fn, title):
     n = fn.lower().replace(" ", "_")
     if not n.endswith((".svg", ".png")) or "logo" not in n: return -99
     sc = 3 + (1 if n.endswith(".svg") else 0)
-    toks = [t for t in re.split(r"\W+", title.lower()) if t and t not in STOP]
+    toks = [t for t in re.split(r"\W+", title.lower()) if len(t) > 2 and t not in STOP]
     sc += 2 * sum(t in n for t in toks)
     sc -= 5 * sum(b in n for b in BAD)
     return sc
 def best_image(title):
-    j = api(action="query", titles=title, redirects=1, prop="images", imlimit=60)["query"]["pages"][0]
+    j = api(action="query", titles=title, redirects=1, prop="images", imlimit=500)["query"]["pages"][0]
     cands = [(score(i["title"][5:], title), i["title"][5:]) for i in j.get("images", [])]
-    cands = [c for c in cands if c[0] >= 6]
+    cands = [c for c in cands if c[0] >= 5]
     return max(cands)[1] if cands else None
 def file_info(fn):
     info = (api(action="query", titles="File:" + fn, prop="imageinfo", iiprop="url|extmetadata")["query"]["pages"][0].get("imageinfo") or [{}])[0]
@@ -44,15 +44,8 @@ def file_info(fn):
     free = bool(lic) and any(lic.lower().startswith(x) for x in ("cc", "public domain", "pd"))
     return {"logo_url": info.get("url"), "file_page": info.get("descriptionurl"), "license": lic or "nežinoma", "free_to_reuse": free}
 def logo(team):
-    title = TITLES.get(team, team)
-    fn = best_image(title)
-    if not fn:  # atsarginė paieška pagal pavadinimą
-        res = api(action="query", list="search", srsearch=f"{team} athletics", srlimit=1)["query"]["search"]
-        if res: title = res[0]["title"]; fn = best_image(title)
-    if not fn:
-        hit = page_image(title)  # paskutinė išeitis – straipsnio pagrindinis paveikslėlis
-        fn = hit[0] if hit else None
-    return file_info(fn) if fn else None
+    fn = best_image(TITLES.get(team, team))
+    return file_info(fn) if fn else None  # geriau nerasta nei neteisinga komanda
 if __name__ == "__main__":
     teams = sorted({p["team"] for p in json.load(open("data/players.json", encoding="utf-8"))["players"]})
     out = {}
