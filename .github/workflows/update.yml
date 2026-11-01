@@ -18,6 +18,8 @@ jobs:
       - run: python update.py
       - run: python fetch_logos.py
         continue-on-error: true
+      - run: python fetch_photos.py
+        continue-on-error: true
       - name: Išsaugoti pakeitimus
         run: |
           git config user.name "github-actions"
