@@ -707,19 +707,20 @@
       "roster_status": "active"
     },
     {
-  "id": "ernas-valauskas",
-  "name": "Ernas Valauskas",
-  "espn_id": null,
-  "height_cm": 193,
-  "position": "SG/PG",
-  "team": "Dartmouth Big Green",
-  "conference": "Ivy League",
-  "class_year": "Freshman",
-  "birth_year": null,
-  "photo": null,
-  "status": "citizenship_user_confirmed",
-  "verified": false,
-  "notes": "ESPN sąraše gali būti Ernestas Valauskas."
-}
+      "id": "ernas-valauskas",
+      "name": "Ernas Valauskas",
+      "espn_id": "5460683",
+      "height_cm": 193,
+      "position": "SG/PG",
+      "team": "Dartmouth Big Green",
+      "conference": "Ivy League",
+      "class_year": "Freshman",
+      "birth_year": null,
+      "photo": null,
+      "status": "citizenship_user_confirmed",
+      "verified": false,
+      "notes": "ESPN sąraše gali būti Ernestas Valauskas.",
+      "roster_status": "active"
+    }
   ]
 }
