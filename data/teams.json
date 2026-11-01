@@ -1,180 +1,206 @@
 {
   "Arizona State Sun Devils": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Big_12_logo_in_ASU_colors.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    "file_page": "https://commons.wikimedia.org/wiki/File:Big_12_logo_in_ASU_colors.svg",
-    "license": "Public domain",
-    "free_to_reuse": true
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/0/0a/Arizona_State_Sun_Devils_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:Arizona_State_Sun_Devils_logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "Arizona Wildcats": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Arizona_Wildcats_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Arizona_Wildcats_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
     "file_page": "https://commons.wikimedia.org/wiki/File:Arizona_Wildcats_logo.svg",
     "license": "Public domain",
     "free_to_reuse": true
   },
   "Boise State": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Boise_State_Broncos_wordmark.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    "file_page": "https://commons.wikimedia.org/wiki/File:Boise_State_Broncos_wordmark.svg",
-    "license": "Public domain",
-    "free_to_reuse": true
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/9/94/Primary_Boise_State_Broncos_Athletics_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:Primary_Boise_State_Broncos_Athletics_Logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "Buffalo": {
-    "logo_url": null,
-    "license": "nerasta"
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/5/5e/Buffalo_Bulls_Athletic_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:Buffalo_Bulls_Athletic_Logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "California": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/California_Golden_Bears_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/California_Golden_Bears_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
     "file_page": "https://commons.wikimedia.org/wiki/File:California_Golden_Bears_logo.svg",
     "license": "Public domain",
     "free_to_reuse": true
   },
   "California Baptist": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/California_Baptist_Lancers_wordmark.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    "file_page": "https://commons.wikimedia.org/wiki/File:California_Baptist_Lancers_wordmark.svg",
-    "license": "Public domain",
-    "free_to_reuse": true
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/e/e8/California_Baptist_University_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:California_Baptist_University_logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "Campbell": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Camel_fighting_camels_wordmark.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    "file_page": "https://commons.wikimedia.org/wiki/File:Camel_fighting_camels_wordmark.png",
-    "license": "Public domain",
-    "free_to_reuse": true
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/8/84/Campbell_Fighting_Camels_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:Campbell_Fighting_Camels_logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "Clemson Tigers": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Clemson_Tigers_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Clemson_Tigers_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
     "file_page": "https://commons.wikimedia.org/wiki/File:Clemson_Tigers_logo.svg",
     "license": "Public domain",
     "free_to_reuse": true
   },
   "FIU": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/FIU_primary_Panther_head_logo_adopted_2022.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    "file_page": "https://commons.wikimedia.org/wiki/File:FIU_primary_Panther_head_logo_adopted_2022.png",
-    "license": "CC BY-SA 4.0",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/CUSA_logo_in_FIU_Panthers_colors.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://commons.wikimedia.org/wiki/File:CUSA_logo_in_FIU_Panthers_colors.svg",
+    "license": "Public domain",
     "free_to_reuse": true
   },
   "Florida Gators": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/SEC_logo_in_Florida_colors.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    "file_page": "https://commons.wikimedia.org/wiki/File:SEC_logo_in_Florida_colors.svg",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Florida_Gators_script_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Florida_Gators_script_logo.svg",
     "license": "Public domain",
     "free_to_reuse": true
   },
   "Georgia State": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sun_Belt_Conference_2020_logo_in_Georgia_State_colors.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    "file_page": "https://commons.wikimedia.org/wiki/File:Sun_Belt_Conference_2020_logo_in_Georgia_State_colors.svg",
-    "license": "Public domain",
-    "free_to_reuse": true
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/3/3b/Georgia_State_Athletics_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:Georgia_State_Athletics_logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "Iowa State": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Iowa_State_Cyclones_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Iowa_State_Cyclones_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
     "file_page": "https://commons.wikimedia.org/wiki/File:Iowa_State_Cyclones_logo.svg",
     "license": "Public domain",
     "free_to_reuse": true
   },
   "Kansas City": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Kansas_City_Athletics_Cap_Logo_%281965_to_1967%29.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    "file_page": "https://commons.wikimedia.org/wiki/File:Kansas_City_Athletics_Cap_Logo_(1965_to_1967).svg",
-    "license": "Public domain",
-    "free_to_reuse": true
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/7/75/Kansas_City_Roos_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:Kansas_City_Roos_logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "Lipscomb": {
-    "logo_url": null,
-    "license": "nerasta"
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/9/99/Lipscomb_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:Lipscomb_Logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "Longwood": {
-    "logo_url": null,
-    "license": "nerasta"
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/5/5f/Longwood_Lancers_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:Longwood_Lancers_logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "Mercer": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Mercer_Bears_wordmark.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    "file_page": "https://commons.wikimedia.org/wiki/File:Mercer_Bears_wordmark.svg",
-    "license": "Public domain",
-    "free_to_reuse": true
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/f/fa/Mercer_Bears_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:Mercer_Bears_logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "New Mexico": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/MW_logo_in_New_Mexico_colors.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    "file_page": "https://commons.wikimedia.org/wiki/File:MW_logo_in_New_Mexico_colors.svg",
-    "license": "Public domain",
-    "free_to_reuse": true
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/4/45/New_Mexico_Lobos_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:New_Mexico_Lobos_logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "Northern Illinois Huskies": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Northern_Illinois_Huskies_wordmark.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    "file_page": "https://commons.wikimedia.org/wiki/File:Northern_Illinois_Huskies_wordmark.svg",
-    "license": "Public domain",
-    "free_to_reuse": true
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/8/87/Northern_Illinois_Huskies_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:Northern_Illinois_Huskies_logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "Northern Kentucky": {
-    "logo_url": null,
-    "license": "nerasta"
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/4/45/Northern_Kentucky_Norse_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:Northern_Kentucky_Norse_logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "Portland State": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Portland_State_Vikings_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Portland_State_Vikings_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
     "file_page": "https://commons.wikimedia.org/wiki/File:Portland_State_Vikings_logo.svg",
     "license": "Public domain",
     "free_to_reuse": true
   },
   "Quinnipiac": {
-    "logo_url": null,
-    "license": "nerasta"
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/2/2c/Quinnipiac_Bobcats_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:Quinnipiac_Bobcats_logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "Rhode Island": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/University_of_Rhode_Island_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    "file_page": "https://commons.wikimedia.org/wiki/File:University_of_Rhode_Island_logo.svg",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Rhode_Island_Rams_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Rhode_Island_Rams_logo.svg",
     "license": "Public domain",
     "free_to_reuse": true
   },
   "Saint Mary's": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Saint_Mary%27s_College_Gaels_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Saint_Mary%27s_College_Gaels_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
     "file_page": "https://commons.wikimedia.org/wiki/File:Saint_Mary%27s_College_Gaels_logo.svg",
     "license": "Public domain",
     "free_to_reuse": true
   },
   "South Carolina": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/South_Carolina_Gamecocks_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/South_Carolina_Gamecocks_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
     "file_page": "https://commons.wikimedia.org/wiki/File:South_Carolina_Gamecocks_logo.svg",
     "license": "Public domain",
     "free_to_reuse": true
   },
   "South Dakota": {
-    "logo_url": null,
-    "license": "nerasta"
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/a/ae/South_Dakota_Coyotes_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:South_Dakota_Coyotes_logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "Stephen F. Austin": {
-    "logo_url": null,
-    "license": "nerasta"
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/a/a3/Stephen_austin_athletics_logo_2020.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:Stephen_austin_athletics_logo_2020.png",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "Texas": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Texas_Longhorns_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Texas_Longhorns_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
     "file_page": "https://commons.wikimedia.org/wiki/File:Texas_Longhorns_logo.svg",
     "license": "Public domain",
     "free_to_reuse": true
   },
   "UMBC": {
-    "logo_url": null,
-    "license": "nerasta"
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/c/cc/UMBC_Retrievers_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:UMBC_Retrievers_logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "UT Arlington": {
-    "logo_url": null,
-    "license": "nerasta"
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/3/35/UT_Arlington_Mavericks_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:UT_Arlington_Mavericks_logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   },
   "UT Martin": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Utmartin_wordmark_2007.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    "file_page": "https://commons.wikimedia.org/wiki/File:Utmartin_wordmark_2007.png",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/2/2c/UT_Martin_Skyhawks_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:UT_Martin_Skyhawks_logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
+  },
+  "Utah Valley": {
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/c/c8/Utah_Valley_Wolverines_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:Utah_Valley_Wolverines_logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
+  },
+  "VMI Keydets": {
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/SoCon_logo_in_VMI_colors.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://commons.wikimedia.org/wiki/File:SoCon_logo_in_VMI_colors.svg",
     "license": "Public domain",
     "free_to_reuse": true
   },
-  "Utah Valley": {
-    "logo_url": null,
-    "license": "nerasta"
-  },
-  "VMI Keydets": {
-    "logo_url": null,
-    "license": "nerasta"
-  },
   "Western Michigan": {
-    "logo_url": null,
-    "license": "nerasta"
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/MAC_logo_in_Western_Michigan_colors.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://commons.wikimedia.org/wiki/File:MAC_logo_in_Western_Michigan_colors.svg",
+    "license": "Public domain",
+    "free_to_reuse": true
   },
   "Wright State Raiders": {
-    "logo_url": null,
-    "license": "nerasta"
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/c/c2/Wright_State_Raiders_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:Wright_State_Raiders_logo.svg",
+    "license": "Fair use",
+    "free_to_reuse": false
   }
 }
