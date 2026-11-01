@@ -30,8 +30,8 @@
     "free_to_reuse": true
   },
   "California Baptist": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/en/e/e8/California_Baptist_University_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-    "file_page": "https://en.wikipedia.org/wiki/File:California_Baptist_University_logo.svg",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/3/3f/Cbu_lancers_logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://en.wikipedia.org/wiki/File:Cbu_lancers_logo.png",
     "license": "Fair use",
     "free_to_reuse": false
   },
@@ -47,9 +47,15 @@
     "license": "Public domain",
     "free_to_reuse": true
   },
+  "Dartmouth Big Green": {
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Dartmouth_College_Big_Green_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Dartmouth_College_Big_Green_logo.svg",
+    "license": "Public domain",
+    "free_to_reuse": true
+  },
   "FIU": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/CUSA_logo_in_FIU_Panthers_colors.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-    "file_page": "https://commons.wikimedia.org/wiki/File:CUSA_logo_in_FIU_Panthers_colors.svg",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Florida_International_University_FIU_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Florida_International_University_FIU_logo.svg",
     "license": "Public domain",
     "free_to_reuse": true
   },
@@ -78,10 +84,8 @@
     "free_to_reuse": false
   },
   "Lipscomb": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/en/9/99/Lipscomb_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-    "file_page": "https://en.wikipedia.org/wiki/File:Lipscomb_Logo.svg",
-    "license": "Fair use",
-    "free_to_reuse": false
+    "logo_url": null,
+    "license": "nerasta"
   },
   "Longwood": {
     "logo_url": "https://upload.wikimedia.org/wikipedia/en/5/5f/Longwood_Lancers_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -186,14 +190,12 @@
     "free_to_reuse": false
   },
   "VMI Keydets": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/SoCon_logo_in_VMI_colors.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-    "file_page": "https://commons.wikimedia.org/wiki/File:SoCon_logo_in_VMI_colors.svg",
-    "license": "Public domain",
-    "free_to_reuse": true
+    "logo_url": null,
+    "license": "nerasta"
   },
   "Western Michigan": {
-    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/MAC_logo_in_Western_Michigan_colors.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-    "file_page": "https://commons.wikimedia.org/wiki/File:MAC_logo_in_Western_Michigan_colors.svg",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Western_michigan_logo_2021.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Western_michigan_logo_2021.png",
     "license": "Public domain",
     "free_to_reuse": true
   },
