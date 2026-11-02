@@ -12,16 +12,16 @@ function up(){
   let day='',h='';
   rows.forEach(g=>{const d=lt(g.date,{weekday:'long',day:'numeric',month:'long'});if(d!==day){day=d;h+=`<div class="dayh">${esc(d)}</div>`}
     const ltp=S.players.filter(p=>p.team===g.team&&p.roster_status!=='not_found');
-    h+=`<div class="rc"><div class="m">${teamLogo(g.team,'tl xs')}${esc(g.team)} · ${g.home?'namuose':'išvykoje'}</div>
-    <div class="sc">${lt(g.date,{hour:'2-digit',minute:'2-digit'})} · ${g.home?'prieš':'@'} ${esc(g.opponent)}${rk(g.opp_rank)}</div>
+    h+=`<div class="rc"><div class="m">${teamLogo(g.team,'tl xs')}${esc(g.team)}${confChip(g.team)} · ${g.home?'namuose':'išvykoje'}</div>
+    <div class="sc">${lt(g.date,{hour:'2-digit',minute:'2-digit'})} · ${g.home?'prieš':'@'} ${esc(g.opponent)}${oppChip(g.opponent)||rk(g.opp_rank)}</div>
     <div class="who">${ltp.map(p=>`<a href="players/${p.id}.html" style="color:var(--ac);text-decoration:none">${esc(p.name)}</a>`).join(' · ')}</div></div>`});
   return h;
 }
 function res(){
   const rows=S.res.filter(r=>!S.f||r.result===S.f);
   if(!rows.length)return '<p class="empty">Duomenų dar nėra</p>';
-  return rows.map(r=>`<div class="rc ${esc(r.result)}"><div class="m">${teamLogo(r.team,'tl xs')}${fd(r.date)} · ${esc(r.team)}</div>
-  <div class="sc"><span class="${r.result==='W'?'w':'l'}">${esc(r.result||'?')}</span> ${sc(r)} ${r.home?'prieš':'@'} ${esc(r.opp||'?')}${rk(r.rank)}</div>
+  return rows.map(r=>`<div class="rc ${esc(r.result)}"><div class="m">${teamLogo(r.team,'tl xs')}${fd(r.date)} · ${esc(r.team)}${confChip(r.team)}</div>
+  <div class="sc"><span class="${r.result==='W'?'w':'l'}">${esc(r.result||'?')}</span> ${sc(r)} ${r.home?'prieš':'@'} ${esc(r.opp||'?')}${oppChip(r.opp)||rk(r.rank)}</div>
   <div class="mt">Žaidė lietuvių: ${r.pl.length} · kartu pelnė ${r.pl.reduce((t,p)=>t+p.pts,0)} tšk. <button class="bx" data-e="${esc(r.eid)}">Boxscore</button></div>
   <div class="who">${r.pl.map(p=>`<div><a href="players/${p.id}.html" style="color:var(--ac);text-decoration:none"><b>${esc(p.name)}</b></a> ${p.pts} PTS · ${p.reb} REB · ${p.ast} AST · ${p.min} min</div>`).join('')}</div></div>`).join('');
 }

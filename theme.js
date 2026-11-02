@@ -1,10 +1,11 @@
 (function(){
-  var NAV=[['index.html','Žaidėjai'],['games.html','Rungtynės'],['charts.html','Lyderiai'],['insights.html','Įžvalgos'],['metodika.html','Apie projektą']];
+  var IC={p:'<circle cx="12" cy="8" r="3.5"/><path d="M5 20c0-4 3-6 7-6s7 2 7 6"/>',g:'<rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/>',l:'<path d="M5 20V11M12 20V5M19 20v-7"/>',i:'<path d="M5 5h11v14H5zM16 9h3v8a2 2 0 0 1-2 2M8 9h5M8 13h5"/>',a:'<circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/>'};
+  var NAV=[['index.html','Žaidėjai','p'],['games.html','Rungtynės','g'],['charts.html','Lyderiai','l'],['insights.html','Įžvalgos','i'],['metodika.html','Apie projektą','a']];
   document.addEventListener('DOMContentLoaded',function(){
     var t=document.querySelector('.tabs');if(!t)return;
     var f=location.pathname.split('/').pop()||'index.html';
     if(/\/players\//.test(location.pathname))f='index.html';if(f==='results.html')f='games.html';
-    t.innerHTML=NAV.map(function(n){return '<a href="'+n[0]+'"'+(n[0]===f?' class="on"':'')+'>'+n[1]+'</a>'}).join('');
+    t.innerHTML=NAV.map(function(n){return '<a href="'+n[0]+'"'+(n[0]===f?' class="on"':'')+'><svg viewBox="0 0 24 24" aria-hidden="true">'+IC[n[2]]+'</svg><span>'+n[1]+'</span></a>'}).join('');
   });
 
   var k='ltncaa-theme',t=null;
@@ -26,7 +27,7 @@
   document.addEventListener('DOMContentLoaded',function(){
     var b=document.createElement('a');b.className='brand';b.href='index.html';b.setAttribute('aria-label','LT Players Tracker');
     b.innerHTML='<span class="lg">'+ball+'</span><i></i><span class="wm"><b>LT PLAYERS</b><span>TRACKER</span></span>';
-    document.body.insertBefore(b,document.body.firstChild);
+    var top=document.createElement('div');top.className='topbar';top.appendChild(b);var tb=document.querySelector('.tabs');if(tb)top.appendChild(tb);document.body.insertBefore(top,document.body.firstChild);
     var lg=b.querySelector('.lg');
     var put=function(src,chip,next){var im=new Image();im.className='bl';im.alt='NCAA';im.onload=function(){lg.innerHTML='';lg.appendChild(im);lg.className=chip?'lg chip':'lg own'};im.onerror=next;im.src=src};
     var wiki=function(){fetch('data/teams.json').then(function(r){return r.json()}).then(function(j){

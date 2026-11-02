@@ -26,3 +26,9 @@ body.paper{background:var(--bg);color:var(--tx)}
 .paper .seg button.on,.paper .tabs a.on{background:var(--tx);color:var(--bg);border-color:var(--tx)}
 .paper .demo{background:var(--chip);border-color:var(--tx);color:var(--tx)}
 @media (max-width:480px){.paper h1{font-size:36px}.paper .ins h3{font-size:22px}}
+.paper .doc h2{font-size:28px;font-weight:800;border-top:1px solid var(--line);padding-top:24px;margin:34px 0 10px}
+.paper .doc h2:first-of-type{border-top:0;padding-top:6px}
+.paper .doc p,.paper .doc li{font-size:16.5px;line-height:1.8;max-width:64ch}
+.paper .doc code,.paper .doc pre{background:var(--chip);color:var(--tx)}
+.paper .doc .lead{font-size:20px;line-height:1.7;font-family:"Playfair Display",Georgia,serif;font-style:italic;font-weight:500}
+.paper .cf{margin:0 6px 0 0}

@@ -1,4 +1,5 @@
 const $=s=>document.querySelector(s);
+const cf=p=>(window.ctxInfo&&ctxInfo(p.team)&&ctxInfo(p.team).conf)||p.conference;
 const S={players:[],stats:null,period:'season',cat:'pts'};
 const CATS=[['pts','Taškai'],['reb','Atkovoti'],['ast','Perdavimai'],['stl','Perimti'],['blk','Blokai']];
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -11,14 +12,14 @@ const st=(p)=>S.stats?.periods?.[S.period]?.[p.id]||null;
 const val=(s,k)=>s&&s.gp?+(s[k]/s.gp).toFixed(1):null;
 function render(){
   const q=$('#q').value.toLowerCase(),c=$('#conf').value,sort=$('#sort').value;
-  let list=S.players.filter(p=>p.roster_status!=='not_found'&&(!c||p.conference===c)&&(p.name+p.team).toLowerCase().includes(q));
+  let list=S.players.filter(p=>p.roster_status!=='not_found'&&(!c||cf(p)===c)&&(p.name+p.team).toLowerCase().includes(q));
   const key=p=>sort==='name'?p.name:sort==='height'?-p.height_cm:-(val(st(p),sort)??-1);
   list.sort((a,b)=>{const x=key(a),y=key(b);return typeof x==='string'?x.localeCompare(y,'lt'):x-y});
   $('#grid').innerHTML=list.map(p=>{
     const s=st(p);
     const row=s&&s.gp?`<div class="stats">${[['pts','PPG'],['reb','RPG'],['ast','APG'],['stl','SPG']].map(([k,l])=>`<div><b>${val(s,k)}</b><span>${l}</span></div>`).join('')}</div>`:`<div class="empty">Duomenų dar nėra</div>`;
     return `<article class="pl" data-id="${esc(p.id)}"><div class="top">${avatar(p)}
-    <div><div class="nm">${esc(p.name)}</div><div>${ncaaBadges(p.id,2)}</div><div class="mt">${esc(p.team)} · ${esc(p.conference)}</div>
+    <div><div class="nm">${esc(p.name)}</div><div>${ncaaBadges(p.id,2)}</div><div class="mt">${esc(p.team)}${confChip(p.team,p.conference)}</div>
     <div class="mt">${p.height_cm} cm (${ftin(p.height_cm)}) · ${esc(p.position)}</div></div>${teamLogo(p.team)}</div>${row}</article>`}).join('')||'<p class="empty">Nieko nerasta</p>';
   document.querySelectorAll('.pl').forEach(el=>el.onclick=()=>{location.href='players/'+el.dataset.id+'.html'});
   leaders(list);
@@ -68,7 +69,7 @@ async function openProfile(p){
   const [pl,stt]=await Promise.all([load('data/players.json'),load('data/stats.json')]);await mediaReady;
   S.players=pl?.players||[];S.stats=stt;
   $('#upd').textContent=stt?.updated?`Atnaujinta: ${stt.updated}`:'Statistika dar nepradėta';
-  [...new Set(S.players.map(p=>p.conference))].sort().forEach(c=>$('#conf').insertAdjacentHTML('beforeend',`<option>${esc(c)}</option>`));
+  [...new Set(S.players.map(cf))].sort().forEach(c=>$('#conf').insertAdjacentHTML('beforeend',`<option>${esc(c)}</option>`));
   ['q','conf','sort'].forEach(i=>$('#'+i).addEventListener('input',render));
   document.querySelectorAll('#period button').forEach(b=>b.onclick=()=>{S.period=b.dataset.p;
     document.querySelectorAll('#period button').forEach(x=>x.classList.toggle('on',x===b));render()});
