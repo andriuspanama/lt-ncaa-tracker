@@ -27,9 +27,9 @@
   "team": "Northern Kentucky",
   "opponent": "UTEP Miners",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "84",
+  "against": "76",
   "opp_rank": null
  },
  {
@@ -38,7 +38,7 @@
   "team": "UMBC",
   "opponent": "George Mason Patriots",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -961,7 +961,7 @@
   "date": "2026-11-10T03:30Z",
   "team": "UT Arlington",
   "opponent": "Bethesda Flames",
-  "home": true,
+  "home": false,
   "state": "pre",
   "for": null,
   "against": null,
