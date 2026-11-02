@@ -5,9 +5,9 @@
   "team": "Northern Illinois Huskies",
   "opponent": "Grambling Tigers",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "87",
+  "against": "89",
   "opp_rank": null
  },
  {
