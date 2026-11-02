@@ -1,0 +1,1005 @@
+{
+ "updated": "2026-11-02",
+ "teams": {
+  "American University Eagles": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "American University"
+  },
+  "Arizona State Sun Devils": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Arizona State"
+  },
+  "Arizona Wildcats": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Arizona"
+  },
+  "Arkansas Razorbacks": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Arkansas"
+  },
+  "Auburn Tigers": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Auburn"
+  },
+  "Bellarmine Knights": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Bellarmine"
+  },
+  "Boise State Broncos": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Boise State"
+  },
+  "Boston College Eagles": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Boston College"
+  },
+  "Boston University Terriers": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Boston University"
+  },
+  "Bowling Green Falcons": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Bowling Green"
+  },
+  "Bradley Braves": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Bradley"
+  },
+  "Cal Poly Mustangs": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Cal Poly"
+  },
+  "California Golden Bears": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "California"
+  },
+  "Colorado Buffaloes": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Colorado"
+  },
+  "Colorado State Rams": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Colorado State"
+  },
+  "Columbia Lions": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Columbia"
+  },
+  "Cornell Big Red": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Cornell"
+  },
+  "Creighton Bluejays": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Creighton"
+  },
+  "Dartmouth Big Green": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Dartmouth"
+  },
+  "Delaware Blue Hens": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Delaware"
+  },
+  "Duke Blue Devils": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Duke"
+  },
+  "East Carolina Pirates": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "East Carolina"
+  },
+  "Fairleigh Dickinson Knights": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Fairleigh Dickinson"
+  },
+  "Florida A&M Rattlers": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Florida A&M"
+  },
+  "Florida Gators": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Florida"
+  },
+  "Florida State Seminoles": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Florida State"
+  },
+  "George Washington Revolutionaries": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "George Washington"
+  },
+  "Georgetown Hoyas": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Georgetown"
+  },
+  "Georgia Bulldogs": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Georgia"
+  },
+  "Georgia Tech Yellow Jackets": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Georgia Tech"
+  },
+  "Harvard Crimson": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Harvard"
+  },
+  "Hawai'i Rainbow Warriors": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Hawai'i"
+  },
+  "Holy Cross Crusaders": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Holy Cross"
+  },
+  "Howard Bison": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Howard"
+  },
+  "IU Indianapolis Jaguars": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "IU Indianapolis"
+  },
+  "Idaho Vandals": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Idaho"
+  },
+  "Indiana Hoosiers": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Indiana"
+  },
+  "Iowa State Cyclones": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Iowa State"
+  },
+  "Jacksonville State Gamecocks": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Jacksonville State"
+  },
+  "Kansas City Roos": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Kansas City"
+  },
+  "Kentucky Wildcats": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Kentucky"
+  },
+  "LSU Tigers": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "LSU"
+  },
+  "Louisville Cardinals": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Louisville"
+  },
+  "Maryland Terrapins": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Maryland"
+  },
+  "Massachusetts Minutemen": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Massachusetts"
+  },
+  "Miami (OH) RedHawks": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Miami (OH)"
+  },
+  "Michigan State Spartans": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Michigan State"
+  },
+  "Michigan Wolverines": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Michigan"
+  },
+  "Minnesota Golden Gophers": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Minnesota"
+  },
+  "Missouri Tigers": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Missouri"
+  },
+  "Montana Grizzlies": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Montana"
+  },
+  "Montana State Bobcats": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Montana State"
+  },
+  "Mount St. Mary's Mountaineers": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Mount St. Mary's"
+  },
+  "Murray State Racers": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Murray State"
+  },
+  "NC State Wolfpack": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "NC State"
+  },
+  "Nebraska Cornhuskers": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Nebraska"
+  },
+  "New Hampshire Wildcats": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "New Hampshire"
+  },
+  "New Mexico Lobos": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "New Mexico"
+  },
+  "New Mexico State Aggies": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "New Mexico State"
+  },
+  "North Carolina Tar Heels": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "North Carolina"
+  },
+  "North Dakota Fighting Hawks": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "North Dakota"
+  },
+  "Northeastern Huskies": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Northeastern"
+  },
+  "Northern Kentucky Norse": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Northern Kentucky"
+  },
+  "Northwestern Wildcats": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Northwestern"
+  },
+  "Notre Dame Fighting Irish": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Notre Dame"
+  },
+  "Ohio Bobcats": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Ohio"
+  },
+  "Ohio State Buckeyes": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Ohio State"
+  },
+  "Oklahoma Sooners": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Oklahoma"
+  },
+  "Oklahoma State Cowboys": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Oklahoma State"
+  },
+  "Ole Miss Rebels": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Ole Miss"
+  },
+  "Oral Roberts Golden Eagles": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Oral Roberts"
+  },
+  "Oregon State Beavers": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Oregon State"
+  },
+  "Penn State Nittany Lions": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Penn State"
+  },
+  "Pennsylvania Quakers": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Pennsylvania"
+  },
+  "Princeton Tigers": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Princeton"
+  },
+  "Rutgers Scarlet Knights": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Rutgers"
+  },
+  "Sacramento State Hornets": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Sacramento State"
+  },
+  "Saint Louis Billikens": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Saint Louis"
+  },
+  "San Diego State Aztecs": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "San Diego State"
+  },
+  "San José State Spartans": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "San José State"
+  },
+  "South Alabama Jaguars": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "South Alabama"
+  },
+  "South Florida Bulls": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "South Florida"
+  },
+  "Southern Illinois Salukis": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Southern Illinois"
+  },
+  "St. Bonaventure Bonnies": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "St. Bonaventure"
+  },
+  "Stanford Cardinal": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Stanford"
+  },
+  "Stetson Hatters": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Stetson"
+  },
+  "Syracuse Orange": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Syracuse"
+  },
+  "Temple Owls": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Temple"
+  },
+  "Towson Tigers": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Towson"
+  },
+  "Tulsa Golden Hurricane": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Tulsa"
+  },
+  "UAB Blazers": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "UAB"
+  },
+  "UC Riverside Highlanders": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "UC Riverside"
+  },
+  "UC San Diego Tritons": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "UC San Diego"
+  },
+  "UCLA Bruins": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "UCLA"
+  },
+  "UConn Huskies": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "UConn"
+  },
+  "UIC Flames": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "UIC"
+  },
+  "USC Trojans": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "USC"
+  },
+  "Wake Forest Demon Deacons": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Wake Forest"
+  },
+  "Western Kentucky Hilltoppers": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Western Kentucky"
+  },
+  "Yale Bulldogs": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Yale"
+  },
+  "American University": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "American University"
+  },
+  "Arizona State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Arizona State"
+  },
+  "Arizona": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Arizona"
+  },
+  "Arkansas": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Arkansas"
+  },
+  "Auburn": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Auburn"
+  },
+  "Bellarmine": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Bellarmine"
+  },
+  "Boise State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Boise State"
+  },
+  "Boston College": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Boston College"
+  },
+  "Boston University": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Boston University"
+  },
+  "Bowling Green": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Bowling Green"
+  },
+  "Bradley": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Bradley"
+  },
+  "Cal Poly": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Cal Poly"
+  },
+  "California": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "California"
+  },
+  "Colorado": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Colorado"
+  },
+  "Colorado State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Colorado State"
+  },
+  "Columbia": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Columbia"
+  },
+  "Cornell": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Cornell"
+  },
+  "Creighton": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Creighton"
+  },
+  "Dartmouth": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Dartmouth"
+  },
+  "Delaware": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Delaware"
+  },
+  "Duke": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Duke"
+  },
+  "East Carolina": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "East Carolina"
+  },
+  "Fairleigh Dickinson": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Fairleigh Dickinson"
+  },
+  "Florida A&M": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Florida A&M"
+  },
+  "Florida": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Florida"
+  },
+  "Florida State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Florida State"
+  },
+  "George Washington": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "George Washington"
+  },
+  "Georgetown": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Georgetown"
+  },
+  "Georgia": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Georgia"
+  },
+  "Georgia Tech": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Georgia Tech"
+  },
+  "Harvard": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Harvard"
+  },
+  "Hawai'i": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Hawai'i"
+  },
+  "Holy Cross": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Holy Cross"
+  },
+  "Howard": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Howard"
+  },
+  "IU Indianapolis": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "IU Indianapolis"
+  },
+  "Idaho": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Idaho"
+  },
+  "Indiana": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Indiana"
+  },
+  "Iowa State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Iowa State"
+  },
+  "Jacksonville State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Jacksonville State"
+  },
+  "Kansas City": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Kansas City"
+  },
+  "Kentucky": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Kentucky"
+  },
+  "LSU": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "LSU"
+  },
+  "Louisville": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Louisville"
+  },
+  "Maryland": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Maryland"
+  },
+  "Massachusetts": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Massachusetts"
+  },
+  "Miami (OH)": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Miami (OH)"
+  },
+  "Michigan State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Michigan State"
+  },
+  "Michigan": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Michigan"
+  },
+  "Minnesota": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Minnesota"
+  },
+  "Missouri": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Missouri"
+  },
+  "Montana": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Montana"
+  },
+  "Montana State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Montana State"
+  },
+  "Mount St. Mary's": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Mount St. Mary's"
+  },
+  "Murray State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Murray State"
+  },
+  "NC State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "NC State"
+  },
+  "Nebraska": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Nebraska"
+  },
+  "New Hampshire": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "New Hampshire"
+  },
+  "New Mexico": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "New Mexico"
+  },
+  "New Mexico State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "New Mexico State"
+  },
+  "North Carolina": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "North Carolina"
+  },
+  "North Dakota": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "North Dakota"
+  },
+  "Northeastern": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Northeastern"
+  },
+  "Northern Kentucky": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Northern Kentucky"
+  },
+  "Northwestern": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Northwestern"
+  },
+  "Notre Dame": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Notre Dame"
+  },
+  "Ohio": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Ohio"
+  },
+  "Ohio State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Ohio State"
+  },
+  "Oklahoma": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Oklahoma"
+  },
+  "Oklahoma State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Oklahoma State"
+  },
+  "Ole Miss": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Ole Miss"
+  },
+  "Oral Roberts": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Oral Roberts"
+  },
+  "Oregon State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Oregon State"
+  },
+  "Penn State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Penn State"
+  },
+  "Pennsylvania": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Pennsylvania"
+  },
+  "Princeton": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Princeton"
+  },
+  "Rutgers": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Rutgers"
+  },
+  "Sacramento State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Sacramento State"
+  },
+  "Saint Louis": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Saint Louis"
+  },
+  "San Diego State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "San Diego State"
+  },
+  "San José State": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "San José State"
+  },
+  "South Alabama": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "South Alabama"
+  },
+  "South Florida": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "South Florida"
+  },
+  "Southern Illinois": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Southern Illinois"
+  },
+  "St. Bonaventure": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "St. Bonaventure"
+  },
+  "Stanford": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Stanford"
+  },
+  "Stetson": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Stetson"
+  },
+  "Syracuse": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Syracuse"
+  },
+  "Temple": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Temple"
+  },
+  "Towson": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Towson"
+  },
+  "Tulsa": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Tulsa"
+  },
+  "UAB": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "UAB"
+  },
+  "UC Riverside": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "UC Riverside"
+  },
+  "UC San Diego": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "UC San Diego"
+  },
+  "UCLA": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "UCLA"
+  },
+  "UConn": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "UConn"
+  },
+  "UIC": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "UIC"
+  },
+  "USC": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "USC"
+  },
+  "Wake Forest": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Wake Forest"
+  },
+  "Western Kentucky": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Western Kentucky"
+  },
+  "Yale": {
+   "conf": "WCC",
+   "tier": "B",
+   "location": "Yale"
+  }
+ }
+}

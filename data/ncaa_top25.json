@@ -2,117 +2,13 @@
  "updated": "2026-11-02",
  "players": {},
  "debug": {
-  "ppg": [
-   [
-    "Cameron McRae",
-    36.0
-   ],
-   [
-    "Mario Williams Jr",
-    35.0
-   ],
-   [
-    "Corey Thompson",
-    34.0
-   ]
-  ],
-  "rpg": [
-   [
-    "Devon Brown",
-    19.0
-   ],
-   [
-    "Jack Haynes",
-    14.0
-   ],
-   [
-    "Evin Eversole",
-    13.0
-   ]
-  ],
-  "apg": [
-   [
-    "Jeremy Fears Jr.",
-    9.3714285
-   ],
-   [
-    "Matt Houde",
-    9.0
-   ],
-   [
-    "Braden Smith",
-    8.846154
-   ]
-  ],
-  "spg": [
-   [
-    "Darrius Welch",
-    8.0
-   ],
-   [
-    "Devin Barksdale",
-    6.0
-   ],
-   [
-    "David Elliott IV",
-    5.0
-   ]
-  ],
-  "bpg": [
-   [
-    "Emilek Jallow",
-    7.0
-   ],
-   [
-    "James Barlow",
-    4.0
-   ],
-   [
-    "Nikos Gerokostas",
-    4.0
-   ]
-  ],
-  "fgp": [
-   [
-    "Kyle Kober",
-    100.0
-   ],
-   [
-    "Chuks Ezeonu",
-    100.0
-   ],
-   [
-    "Braylon Diggs",
-    100.0
-   ]
-  ],
-  "tpp": [
-   [
-    "Kyle Kober",
-    100.0
-   ],
-   [
-    "Toate Sika",
-    100.0
-   ],
-   [
-    "Gavin Carter",
-    100.0
-   ]
-  ],
-  "ftp": [
-   [
-    "Eric Blackwell",
-    100.0
-   ],
-   [
-    "Terrin Dickey",
-    100.0
-   ],
-   [
-    "Jackson Mayes",
-    100.0
-   ]
-  ]
+  "ppg": [],
+  "rpg": [],
+  "apg": [],
+  "spg": [],
+  "bpg": [],
+  "fgp": [],
+  "tpp": [],
+  "ftp": []
  }
 }
