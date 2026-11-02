@@ -14,7 +14,7 @@ TITLES = {
  "Longwood":"Longwood Lancers","Western Michigan":"Western Michigan Broncos","Portland State":"Portland State Vikings","Texas":"Texas Longhorns",
  "UT Arlington":"UT Arlington Mavericks","Mercer":"Mercer Bears","New Mexico":"New Mexico Lobos","Iowa State":"Iowa State Cyclones",
  "Lipscomb":"Lipscomb Bisons","Georgia State":"Georgia State Panthers","California Baptist":"California Baptist Lancers",
- "Wright State Raiders":"Wright State Raiders","Northern Illinois Huskies":"Northern Illinois Huskies"}
+ "NCAA":"NCAA","Wright State Raiders":"Wright State Raiders","Northern Illinois Huskies":"Northern Illinois Huskies"}
 def api(**p):
     r = requests.get(API, params={"format": "json", "formatversion": 2, **p}, headers=H, timeout=30)
     r.raise_for_status(); time.sleep(1)  # mandagiai: 1 užklausa/s
@@ -47,7 +47,7 @@ def logo(team):
     fn = best_image(TITLES.get(team, team))
     return file_info(fn) if fn else None  # geriau nerasta nei neteisinga komanda
 if __name__ == "__main__":
-    teams = sorted({p["team"] for p in json.load(open("data/players.json", encoding="utf-8"))["players"]})
+    teams = sorted({p["team"] for p in json.load(open("data/players.json", encoding="utf-8"))["players"]} | {"NCAA"})
     out = {}
     for t in teams:
         try: out[t] = logo(t) or {"logo_url": None, "license": "nerasta"}
