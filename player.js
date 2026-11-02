@@ -33,6 +33,7 @@ else(async()=>{
     <div class="big">${[['PPG',pa('ppg')],['RPG',pa('rpg')],['APG',pa('apg')],['SPG',pa('spg')],['BPG',pa('bpg')]].map(([l,v])=>`<div><b>${v}</b><span>${l}</span></div>`).join('')}</div>
     <div class="big">${[['MPG',pa('mpg')],['FG%',pc1(a.fg)],['3P%',pc1(a.tp)],['FT%',pc1(a.ft)],['RUNGT.',a.gp]].map(([l,v])=>`<div><b>${v}</b><span>${l}</span></div>`).join('')}</div></section>
     <section class="card"><h2>PROCENTILIAI TARP LIETUVIŲ</h2><p class="sub">Palyginimas su kitais lietuviais NCAA (ne su visais D1)</p>${radar(vals)}</section></div>
+    ${ncaaEntries(id).length?`<section class="card"><h2>NCAA TOP 25</h2><p class="sub">Kategorijos, kuriose patenka tarp visų D1 žaidėjų</p><div class="hl">${ncaaEntries(id).slice().sort((x,y)=>x.rank-y.rank).map(x=>`<div><b>#${x.rank}</b> · ${esc(ncaaExplain(x))}</div>`).join('')}</div></section>`:''}
     <section class="card"><h2>FORMA</h2><p class="sub">Paskutinių ${Math.min(10,g.length)} rungtynių taškai</p>${form(g)}</section>
     <section class="card"><h2>SEZONO PASIEKIMAI</h2><div class="hl">${[['pts','PTS'],['reb','REB'],['ast','AST']].map(([k,l])=>{const x=best(k);return `<div><b>${x[k]} ${l}</b> · ${x.home?'prieš':'@'} ${esc(x.opponent)} · ${fd(x.date)}</div>`}).join('')}</div></section>
     <section class="card"><h2>RUNGTYNIŲ ŽURNALAS</h2><div class="tw"><table><tr><th>Data</th><th>Varžovas</th><th></th><th>MIN</th><th>PTS</th><th>REB</th><th>AST</th><th>FG</th><th>3P</th></tr>

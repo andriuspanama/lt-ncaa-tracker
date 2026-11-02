@@ -19,7 +19,7 @@ function table(players,games,per){
     const g=(games[p.id]||[]).filter(x=>x.date>=a&&x.date<=b);if(!g.length)return null;
     const s=k=>g.reduce((t,x)=>t+x[k],0),n=g.length;
     return {p,gp:n,min:s('min'),mpg:s('min')/n,ppg:s('pts')/n,reb:s('reb')/n,ast:s('ast')/n,stl:s('stl')/n,blk:s('blk')/n,
-      imp:g.reduce((t,x)=>t+GS(x),0)/n,fga:s('fga'),pps:s('fga')+0.44*s('fta')?s('pts')/(s('fga')+0.44*s('fta')):0};
+      imp:g.reduce((t,x)=>t+GS(x),0)/n,fga:s('fga'),fgm:s('fgm'),tpa:s('tpa'),tpm:s('tpm'),fta:s('fta'),ftm:s('ftm'),fgp:s('fga')?100*s('fgm')/s('fga'):0,tpp:s('tpa')?100*s('tpm')/s('tpa'):0,ftp:s('fta')?100*s('ftm')/s('fta'):0,pps:s('fga')+0.44*s('fta')?s('pts')/(s('fga')+0.44*s('fta')):0};
   }).filter(Boolean);
 }
 if(typeof document==='undefined'){module.exports={GS,span,table};}
@@ -35,10 +35,10 @@ function demoGames(players){
   return out;
 }
 const av=p=>avatar(p,'sm');
-function list(rows,key,fmt,title,sub,minGP){
+function list(rows,key,fmt,title,sub,minGP,cat){
   const r=rows.slice().sort((a,b)=>b[key]-a[key]).slice(0,minGP||10),mx=Math.max(...r.map(x=>x[key]),1);
   return `<section class="card"><h2>${title}</h2><p class="sub">${sub}</p>`+(r.length?r.map((x,i)=>`<div class="rowc"><span class="mt">${i+1}</span>${av(x.p)}
-  <div><div class="nm">${esc(x.p.name)}</div><div class="mt">${teamLogo(x.p.team,'tl xs')}${esc(x.p.team)} · ${x.gp} rung.</div><div class="bar2"><i style="width:${Math.max(0,x[key])/mx*100}%"></i></div></div><span class="v">${fmt(x[key])}</span></div>`).join(''):'<p class="empty">Duomenų dar nėra</p>')+`<div class="src">LT NCAA Tracker</div></section>`;
+  <div><div class="nm">${esc(x.p.name)}${S.per==='season'&&!S.demo&&cat?ncaaBadge(x.p.id,cat):''}</div><div class="mt">${teamLogo(x.p.team,'tl xs')}${esc(x.p.team)} · ${x.gp} rung.</div><div class="bar2"><i style="width:${Math.max(0,x[key])/mx*100}%"></i></div></div><span class="v">${fmt(x[key])}</span></div>`).join(''):'<p class="empty">Duomenų dar nėra</p>')+`<div class="src">LT NCAA Tracker</div></section>`;
 }
 function scatter(rows){
   if(!rows.length)return `<section class="card"><h2>MINUTĖS VS TAŠKAI</h2><p class="empty">Duomenų dar nėra</p></section>`;
@@ -54,11 +54,14 @@ async function draw(){
   const all=table(S.players,games,S.per),per={week:'Turas',month:'Mėnuo',season:'Sezonas'}[S.per];
   $('#note').innerHTML=S.demo?'<div class="demo">DEMO: sugeneruoti bandomieji skaičiai, ne tikra statistika.</div>':(all.length?'':'<p class="empty">Duomenų dar nėra. Pabandyk „Demo“.</p>');
   const hot=all.filter(r=>r.fga>=(S.demo?5:10));
-  const cats=[['ppg','TAŠKAI'],['reb','ATKOVOTI'],['ast','PERDAVIMAI'],['stl','PERIMTI'],['blk','BLOKAI']];
+  const cats=[['ppg','TAŠKAI'],['reb','ATKOVOTI'],['ast','PERDAVIMAI'],['stl','PERIMTI'],['blk','BLOKAI'],['fgp','METIMŲ TAIKLUMAS (FG%)'],['tpp','TRITAŠKIŲ TAIKLUMAS (3P%)'],['ftp','BAUDŲ TAIKLUMAS (FT%)']];
+  const NK={ppg:'ppg',reb:'rpg',ast:'apg',stl:'spg',blk:'bpg',fgp:'fgp',tpp:'tpp',ftp:'ftp'},AT={fgp:['fga','metimų'],tpp:['tpa','tritaškių'],ftp:['fta','baudų']};
+  const MA={week:{fga:8,tpa:4,fta:4},month:{fga:20,tpa:10,fta:8},season:{fga:40,tpa:20,fta:15}},mi=S.demo?{fga:5,tpa:2,fta:2}:MA[S.per];
   $('#cards').innerHTML=list(rows,'imp',v=>v.toFixed(1),'TOP 10 · IMPACT',`${per} · Game Score vidurkis · min. ${S.demo?10:MINS[S.per]} min`)
    +list(hot,'pps',v=>v.toFixed(2),'HOT HANDS',`${per} · taškai per metimą`,5)
    +scatter(all)
-   +cats.map(([k,t])=>list(all,k,v=>v.toFixed(1),'LYDERIAI · '+t,`${per} · vidurkis per rungtynes`,3)).join('');
+   +cats.map(([k,t])=>{const q=AT[k],rr=q?all.filter(r=>r[q[0]]>=mi[q[0]]):all;return list(rr,k,q?v=>v.toFixed(1)+'%':v=>v.toFixed(1),'LYDERIAI · '+t,q?`${per} · min. ${mi[q[0]]} ${q[1]}`:`${per} · vidurkis per rungtynes`,3,NK[k])}).join('')
+   +(S.per==='season'&&!S.demo?'<p class="src" style="grid-column:1/-1">Geltonas ženkliukas „NCAA #N“ – žaidėjas patenka į visų NCAA D1 top 25 toje kategorijoje. Palieskite jį, kad pamatytumėte paaiškinimą.</p>':'');
 }
 (async()=>{
   await mediaReady;S.players=(await load('data/players.json'))?.players||[];

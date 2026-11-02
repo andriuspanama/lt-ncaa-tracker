@@ -18,7 +18,7 @@ function render(){
     const s=st(p);
     const row=s&&s.gp?`<div class="stats">${[['pts','PPG'],['reb','RPG'],['ast','APG'],['stl','SPG']].map(([k,l])=>`<div><b>${val(s,k)}</b><span>${l}</span></div>`).join('')}</div>`:`<div class="empty">Duomenų dar nėra</div>`;
     return `<article class="pl" data-id="${esc(p.id)}"><div class="top">${avatar(p)}
-    <div><div class="nm">${esc(p.name)}</div><div class="mt">${esc(p.team)} · ${esc(p.conference)}</div>
+    <div><div class="nm">${esc(p.name)}</div><div>${ncaaBadges(p.id,2)}</div><div class="mt">${esc(p.team)} · ${esc(p.conference)}</div>
     <div class="mt">${p.height_cm} cm (${ftin(p.height_cm)}) · ${esc(p.position)}</div></div>${teamLogo(p.team)}</div>${row}</article>`}).join('')||'<p class="empty">Nieko nerasta</p>';
   document.querySelectorAll('.pl').forEach(el=>el.onclick=()=>{location.href='players/'+el.dataset.id+'.html'});
   leaders(list);
@@ -30,7 +30,7 @@ function leaders(list){
   $('#leaders').innerHTML=`<h2>LYDERIAI</h2><p class="sub">${per} · vidurkis per rungtynes</p>
   <div class="chips">${CATS.map(([k,l])=>`<button data-c="${k}" class="${k===S.cat?'on':''}">${l}</button>`).join('')}</div>
   ${rows.length?rows.map((r,i)=>`<div class="lrow"><span class="mt">${i+1}</span>${avatar(r.p,'sm')}
-  <div><div class="nm">${esc(r.p.name)}</div><div class="mt">${esc(r.p.team)}</div><div class="bar2"><i style="width:${r.v/max*100}%"></i></div></div><b class="v">${r.v}</b></div>`).join(''):'<p class="empty">Duomenų dar nėra</p>'}`;
+  <div><div class="nm">${esc(r.p.name)}${S.period==='season'?ncaaBadge(r.p.id,{pts:'ppg',reb:'rpg',ast:'apg',stl:'spg',blk:'bpg'}[S.cat]):''}</div><div class="mt">${esc(r.p.team)}</div><div class="bar2"><i style="width:${r.v/max*100}%"></i></div></div><b class="v">${r.v}</b></div>`).join(''):'<p class="empty">Duomenų dar nėra</p>'}`;
   document.querySelectorAll('#leaders [data-c]').forEach(b=>b.onclick=()=>{S.cat=b.dataset.c;render()});
 }
 /* ---------- PROFILIS ---------- */

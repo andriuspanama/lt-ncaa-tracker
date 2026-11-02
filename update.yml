@@ -22,6 +22,8 @@ jobs:
         continue-on-error: true
       - run: python fetch_schedule.py
         continue-on-error: true
+      - run: python fetch_ncaa_top25.py
+        continue-on-error: true
       - run: python build_pages.py
       - name: Išsaugoti pakeitimus
         run: |

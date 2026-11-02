@@ -2,9 +2,25 @@
 window.TEAMS={};
 window.PHOTOS={};
 var jl=function(u){return fetch(u,{cache:'no-store'}).then(function(r){return r.ok?r.json():{}}).catch(function(){return {}})};
-window.mediaReady=Promise.all([jl('data/teams.json'),jl('data/photos.json')]).then(function(r){window.TEAMS=r[0];window.PHOTOS=r[1]});
+window.NCAA={players:{}};
+window.mediaReady=Promise.all([jl('data/teams.json'),jl('data/photos.json'),jl('data/ncaa_top25.json')]).then(function(r){window.TEAMS=r[0];window.PHOTOS=r[1];window.NCAA=r[2]&&r[2].players?r[2]:{players:{}}});
 (function(){
   var e=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
+
+  var SH={ppg:'PPG',rpg:'RPG',apg:'APG',spg:'SPG',bpg:'BPG',fgp:'FG%',tpp:'3P%',ftp:'FT%'};
+  var fmt=function(x){return /p$/.test(x.cat)&&x.cat!=='ppg'&&x.cat!=='rpg'&&x.cat!=='apg'&&x.cat!=='spg'&&x.cat!=='bpg'?Number(x.value).toFixed(1)+'%':Number(x.value).toFixed(1)};
+  var expl=function(x){return x.label+': '+fmt(x)+'. Tai '+x.rank+' vieta tarp visų NCAA Division I žaidėjų (ESPN kvalifikuotų žaidėjų sąraše). Sezono duomenys'+(window.NCAA.updated?', atnaujinta '+window.NCAA.updated:'')+'.'};
+  var one=function(x,short){return '<button class="nb" data-t="'+e(expl(x))+'">NCAA #'+x.rank+(short?' · '+SH[x.cat]:'')+'</button>'};
+  window.ncaaEntries=function(pid){return (window.NCAA.players||{})[pid]||[]};
+  window.ncaaBadge=function(pid,cat){var x=window.ncaaEntries(pid).filter(function(y){return y.cat===cat})[0];return x?one(x,false):''};
+  window.ncaaBadges=function(pid,max){return window.ncaaEntries(pid).slice().sort(function(a,b){return a.rank-b.rank}).slice(0,max||2).map(function(x){return one(x,true)}).join('')};
+  window.ncaaExplain=expl;
+  document.addEventListener('click',function(ev){
+    var b=ev.target.closest&&ev.target.closest('.nb'),old=document.querySelector('.pop');if(old)old.remove();
+    if(!b)return;ev.preventDefault();ev.stopPropagation();
+    var d=document.createElement('div');d.className='pop';d.innerHTML='<b>NCAA top 25</b><p>'+b.dataset.t+'</p><small>Palieskite bet kur, kad uždarytumėte</small>';document.body.appendChild(d);
+    setTimeout(function(){document.addEventListener('click',function c(){d.remove();document.removeEventListener('click',c)},{once:true})},0);
+  },true);
   window.teamLogo=function(team,cls){
     var t=window.TEAMS[team];if(!t||!t.logo_url)return '';
     var src=t.file_page&&t.file_page.indexOf('/wiki/File:')>-1?t.file_page.replace('/wiki/File:','/wiki/Special:FilePath/')+'?width=120':t.logo_url;
