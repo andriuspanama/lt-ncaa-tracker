@@ -34,3 +34,43 @@ window.mediaReady=Promise.all([jl('data/teams.json'),jl('data/photos.json'),jl('
     return '<div class="av '+(cls||'')+'" style="--ring:'+ring+'"><span>'+e(ini)+'</span>'+(h?'<img src="'+e(h)+'" alt="" loading="lazy" onerror="this.remove()">':'')+'</div>';
   };
 })();
+
+/* Boxscore pagal pareikalavimą (nieko nesaugoma): ESPN summary → lentelė; nepavykus – nuoroda į ESPN */
+(function(){
+  var e=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
+  var KEEP=['MIN','PTS','REB','AST','STL','BLK','TO','FG','3PT','FT'];
+  window.boxHTML=function(j,ids){
+    var out='';
+    ((j.boxscore&&j.boxscore.players)||[]).forEach(function(t){
+      var st=(t.statistics||[])[0];if(!st)return;
+      var idx=KEEP.map(function(k){return (st.labels||[]).indexOf(k)});
+      var cells=function(a){return idx.map(function(i){return '<td>'+e(i>-1&&a[i]!=null?a[i]:'–')+'</td>'}).join('')};
+      out+='<div class="sec">'+e((t.team&&t.team.displayName)||'')+'</div><div class="tw"><table><tr><th>Žaidėjas</th>'+KEEP.map(function(k){return '<th>'+k+'</th>'}).join('')+'</tr>';
+      (st.athletes||[]).forEach(function(a){
+        if(a.didNotPlay||!a.stats||!a.stats.length)return;
+        var lt=ids.indexOf(String(a.athlete&&a.athlete.id))>-1;
+        out+='<tr'+(lt?' class="lt"':'')+'><td>'+e(a.athlete&&a.athlete.displayName)+(lt?' ★':'')+'</td>'+cells(a.stats)+'</tr>';
+      });
+      if(st.totals)out+='<tr class="tot"><td>Komanda</td>'+cells(st.totals)+'</tr>';
+      out+='</table></div>';
+    });
+    return out||'<p class="empty">Boxscore dar nepasiekiamas</p>';
+  };
+  window.openBox=function(eid){
+    var sh=document.getElementById('sheet');if(!sh){sh=document.createElement('div');sh.id='sheet';document.body.appendChild(sh)}
+    sh.hidden=false;document.body.style.overflow='hidden';
+    var close=function(){sh.hidden=true;document.body.style.overflow=''};
+    sh.onclick=function(ev){if(ev.target===sh)close()};
+    var link='https://www.espn.com/mens-college-basketball/boxscore/_/gameId/'+encodeURIComponent(eid);
+    var a='<a href="'+link+'" target="_blank" rel="noopener" style="color:var(--ac)">Atidaryti ESPN puslapyje ↗</a>';
+    sh.innerHTML='<div class="sh-in"><button class="x">✕</button><h2>BOXSCORE</h2><p class="sub">★ – lietuviai · '+a+'</p><div id="bxb" class="empty">Kraunama…</div></div>';
+    sh.querySelector('.x').onclick=close;
+    var b=sh.querySelector('#bxb');
+    fetch('https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event='+encodeURIComponent(eid))
+      .then(function(r){if(!r.ok)throw 0;return r.json()})
+      .then(function(j){return fetch('data/players.json').then(function(r){return r.json()}).catch(function(){return {players:[]}}).then(function(pj){
+        b.className='';b.innerHTML=window.boxHTML(j,(pj.players||[]).map(function(p){return String(p.espn_id||'')}))})})
+      .catch(function(){b.innerHTML='Nepavyko užkrauti čia. '+a});
+  };
+  document.addEventListener('click',function(ev){var t=ev.target.closest&&ev.target.closest('.bx');if(t){ev.preventDefault();ev.stopPropagation();window.openBox(t.dataset.e)}},true);
+})();

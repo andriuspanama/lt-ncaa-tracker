@@ -22,7 +22,7 @@ function res(){
   if(!rows.length)return '<p class="empty">Duomenų dar nėra</p>';
   return rows.map(r=>`<div class="rc ${esc(r.result)}"><div class="m">${teamLogo(r.team,'tl xs')}${fd(r.date)} · ${esc(r.team)}</div>
   <div class="sc"><span class="${r.result==='W'?'w':'l'}">${esc(r.result||'?')}</span> ${sc(r)} ${r.home?'prieš':'@'} ${esc(r.opp||'?')}${rk(r.rank)}</div>
-  <div class="mt">Žaidė lietuvių: ${r.pl.length} · kartu pelnė ${r.pl.reduce((t,p)=>t+p.pts,0)} tšk.</div>
+  <div class="mt">Žaidė lietuvių: ${r.pl.length} · kartu pelnė ${r.pl.reduce((t,p)=>t+p.pts,0)} tšk. <button class="bx" data-e="${esc(r.eid)}">Boxscore</button></div>
   <div class="who">${r.pl.map(p=>`<div><a href="players/${p.id}.html" style="color:var(--ac);text-decoration:none"><b>${esc(p.name)}</b></a> ${p.pts} PTS · ${p.reb} REB · ${p.ast} AST · ${p.min} min</div>`).join('')}</div></div>`).join('');
 }
 const draw=()=>{$('#f').hidden=S.m!=='res';$('#list').innerHTML=S.m==='up'?up():res()};
@@ -32,7 +32,7 @@ const draw=()=>{$('#f').hidden=S.m!=='res';$('#list').innerHTML=S.m==='up'?up():
   const files=await Promise.all(S.players.map(p=>load(`data/games/${p.id}.json`)));
   const rank={},map={};S.sched.forEach(g=>rank[g.event_id+'|'+g.team]=g.opp_rank);
   S.players.forEach((p,i)=>(files[i]||[]).forEach(g=>{const k=g.event_id+'|'+p.team;
-    map[k]=map[k]||{date:g.date,team:p.team,opp:g.opponent,home:g.home,result:g.result,score:g.score,rank:rank[k],pl:[]};
+    map[k]=map[k]||{eid:g.event_id,date:g.date,team:p.team,opp:g.opponent,home:g.home,result:g.result,score:g.score,rank:rank[k],pl:[]};
     map[k].pl.push({id:p.id,name:p.name,pts:g.pts,reb:g.reb,ast:g.ast,min:g.min})}));
   S.res=Object.values(map).sort((a,b)=>b.date.localeCompare(a.date));
   const on=(sel,fn)=>document.querySelectorAll(sel+' button').forEach(b=>b.onclick=()=>{document.querySelectorAll(sel+' button').forEach(x=>x.classList.toggle('on',x===b));fn(b);draw()});
