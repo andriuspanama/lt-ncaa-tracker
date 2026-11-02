@@ -99,6 +99,12 @@
     "license": "Fair use",
     "free_to_reuse": false
   },
+  "NCAA": {
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/NCAA_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file_page": "https://commons.wikimedia.org/wiki/File:NCAA_logo.svg",
+    "license": "Public domain",
+    "free_to_reuse": true
+  },
   "New Mexico": {
     "logo_url": "https://upload.wikimedia.org/wikipedia/en/4/45/New_Mexico_Lobos_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
     "file_page": "https://en.wikipedia.org/wiki/File:New_Mexico_Lobos_logo.svg",
