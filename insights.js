@@ -12,13 +12,26 @@ const fd=d=>D(d).toLocaleDateString('lt-LT',{month:'short',day:'numeric'});
 const line=g=>`${g.pts} tšk., ${g.reb} atk., ${g.ast} rez. perdavimų`;
 const vs=g=>`${g.home?'prieš':'išvykoje prieš'} ${g.opponent}`;
 function sc(g){const n=String(g.score).split('-').map(Number);if(n.length<2||n.some(isNaN))return '';const h=Math.max(...n),l=Math.min(...n);return g.result==='L'?`${l}–${h}`:`${h}–${l}`}
+const avg=(a,k)=>a.length?a.reduce((t,x)=>t+x[k],0)/a.length:null;
+const hm=iso=>new Date(iso).toLocaleString('lt-LT',{timeZone:'Europe/Vilnius',month:'long',day:'numeric',hour:'2-digit',minute:'2-digit'});
+function body(p,g,prior,sched){
+  const s=[];
+  s.push(`Aikštėje praleido ${g.min} min.: ${g.fgm}/${g.fga} metimų iš žaidimo${g.tpa?`, ${g.tpm}/${g.tpa} už trijų taškų linijos`:''}${g.fta?`, ${g.ftm}/${g.fta} baudų`:''}. Perimti kamuoliai: ${g.stl}, blokai: ${g.blk}, kamuolių praradimai: ${g.to}.`);
+  if(prior.length>=2){const ap=avg(prior,'pts'),d=g.pts-ap;s.push(`Tai ${Math.abs(d).toFixed(1)} tšk. ${d>=0?'daugiau':'mažiau'} nei jo sezono vidurkis iki šių rungtynių (${ap.toFixed(1)} tšk.).`)}
+  let n=1;for(let i=prior.length-1;i>=0&&prior[i].pts>=15;i--)n++;
+  if(g.pts>=15&&n>=3)s.push(`Jau ${n} rungtynes iš eilės jis pelnė 15 ar daugiau taškų.`);
+  if(g.result)s.push(`${p.team} ${g.result==='W'?'laimėjo':'pralaimėjo'} rezultatu ${sc(g)}.`);
+  const nx=(sched||[]).filter(x=>x.team===p.team&&x.date>g.date+'T23:59').sort((a,b)=>a.date.localeCompare(b.date))[0];
+  if(nx)s.push(`Kitos rungtynės – ${hm(nx.date)} (Lietuvos laiku) ${nx.home?'prieš':'išvykoje prieš'} ${nx.opponent}.`);
+  return s.join(' ');
+}
 const MINS={week:20,month:40};
-function build(per,key,players,games,top25=[],awards=[],minOverride){
+function build(per,key,players,games,top25=[],awards=[],minOverride,x={}){
   const [a,b]=rangeOf(per,key),G=[],items=[];
   for(const p of players){const all=games[p.id]||[];for(const g of all)if(g.date>=a&&g.date<=b)G.push({p,g,prior:all.filter(x=>x.date<g.date)})}
   for(const {p,g,prior} of G){
     const n=p.name,t=p.team,cats=[g.pts,g.reb,g.ast,g.stl,g.blk].filter(v=>v>=10).length,W=g.result==='W';
-    const add=(type,score,text)=>items.push({type,score,date:g.date,p,text});
+    const add=(type,score,text)=>items.push({type,score,date:g.date,p,text,body:body(p,g,prior,x.sched)});
     if(!prior.length)add('debiutas',55,`${n} (${t}) debiutavo sezone ${vs(g)}: ${line(g)}.`);
     if(cats>=3)add('stat',90,`${n} (${t}) surinko triple-double: ${line(g)} ${vs(g)}.`);
     else if(cats===2)add('stat',60,`${n} (${t}) užfiksavo double-double (${line(g)}) ${vs(g)}.`);
@@ -29,7 +42,7 @@ function build(per,key,players,games,top25=[],awards=[],minOverride){
     else if(W&&g.pts>=20)add('pergalė',40,`${n} pelnė ${g.pts} taškų ir vedė ${t} į pergalę ${vs(g)} (${sc(g)}).`);
   }
   const byId=Object.fromEntries(players.map(p=>[p.id,p]));
-  for(const x of awards)if(x.date>=a&&x.date<=b&&byId[x.player])items.push({type:'apdovanojimas',score:100,date:x.date,p:byId[x.player],text:`🏆 ${byId[x.player].name}: ${x.text}`});
+  for(const w of awards)if(w.date>=a&&w.date<=b&&byId[w.player])items.push({type:'apdovanojimas',score:100,date:w.date,p:byId[w.player],text:`${byId[w.player].name}: ${w.text}`,body:''});
   items.sort((x,y)=>y.score-x.score);
   /* Top 10 */
   const rows=players.map(p=>{const g=G.filter(r=>r.p===p).map(r=>r.g);if(!g.length)return null;const s=k=>g.reduce((t,x)=>t+x[k],0),n=g.length;
@@ -50,12 +63,12 @@ function build(per,key,players,games,top25=[],awards=[],minOverride){
         return e.length&&n.length?{p,d:n.reduce((t,x)=>t+GS(x),0)/n.length-e.reduce((t,x)=>t+GS(x),0)/e.length}:null}).filter(Boolean).sort((x,y)=>y.d-x.d);
       if(ch.length>1)sum.push(`Formą pagerino ${ch[0].p.name} (+${ch[0].d.toFixed(1)}), o labiausiai nukrito ${ch.at(-1).p.name} (${ch.at(-1).d.toFixed(1)}).`)}
   }
-  return {sum,top,items:items.slice(0,12),range:G.length?[G.map(r=>r.g.date).sort()[0],G.map(r=>r.g.date).sort().at(-1)]:[a,a]};
+  return {sum,top,notes:(x.notes||[]).filter(n=>n.date>=a&&n.date<=b),items:items.slice(0,12),range:G.length?[G.map(r=>r.g.date).sort()[0],G.map(r=>r.g.date).sort().at(-1)]:[a,a]};
 }
 if(typeof document==='undefined'){module.exports={build,gen,GS};}
 else{
 const $=s=>document.querySelector(s);
-const S={per:'week',demo:false,players:[],real:{},top25:[],awards:[]};
+const S={per:'week',demo:false,players:[],real:{},top25:[],awards:[],sched:[],notes:[]};
 async function load(p){try{const r=await fetch(p,{cache:'no-store'});if(!r.ok)throw 0;return await r.json()}catch(e){return null}}
 function demo(players){let seed=11;const R=()=>(seed=(seed*16807)%2147483647)/2147483647,o={};
   const days=['2026-11-03','2026-11-06','2026-11-10','2026-11-14','2026-11-18','2026-11-22'],opp=['Duke Blue Devils','Kansas Jayhawks','Gonzaga Bulldogs','Ohio Bobcats','Utah Utes','Baylor Bears'];
@@ -70,15 +83,16 @@ function fill(){
 function draw(){
   const games=S.demo?demo(S.players):S.real,key=$('#key').value,out=$('#out');
   if(!/^\d{4}/.test(key)){out.innerHTML='<p class="empty">Duomenų dar nėra. Pabandyk „Demo“.</p>';return}
-  const r=build(S.per,key,S.players,games,S.demo?['Duke Blue Devils','Kansas Jayhawks']:S.top25,S.demo?[]:S.awards,S.demo?10:undefined);
-  out.innerHTML=(S.demo?'<div class="demo">DEMO: bandomieji skaičiai, ne tikra statistika.</div>':'')+
+  const nt=S.demo?[{date:key.length===7?key+'-01':key,title:'Redakcijos komentaras (demo)',text:'Čia atsiranda tavo paties parašytas tekstas iš data/notes.json: kelios pastraipos apie savaitę, kontekstas, kas nustebino.'}]:S.notes;
+  const r=build(S.per,key,S.players,games,S.demo?['Duke Blue Devils','Kansas Jayhawks']:S.top25,S.demo?[]:S.awards,S.demo?10:undefined,{sched:S.demo?[]:S.sched,notes:nt});
+  out.innerHTML=(S.demo?'<div class="demo">DEMO: bandomieji skaičiai, ne tikra statistika.</div>':'')+r.notes.map(n=>`<aside class="note"><div class="kick">Redakcijos komentaras · ${fd(n.date)}</div>${n.title?`<h3>${esc(n.title)}</h3>`:''}<p>${esc(n.text)}</p></aside>`).join('')+
    `<section class="card sum"><h2>${S.per==='week'?'SAVAITĖS APŽVALGA':'MĖNESIO APŽVALGA'}</h2><p class="sub">${fd(r.range[0])} – ${fd(r.range[1])}</p>${r.sum.map(s=>`<p>${esc(s)}</p>`).join('')||'<p class="empty">Duomenų dar nėra</p>'}</section>`+
    `<section class="card"><h2>TOP 10</h2><p class="sub">Impact Score vidurkis</p>${r.top.map((x,i)=>`<div class="rowc"><span class="mt">${i+1}</span>${av(x.p)}<div><div class="nm">${lk(x.p)}</div><div class="mt">${teamLogo(x.p.team,'tl xs')}${esc(x.p.team)} · ${x.ppg.toFixed(1)} tšk. · ${x.reb.toFixed(1)} atk. · ${x.ast.toFixed(1)} perd. · ${x.gp} rung.</div></div><span class="v">${x.imp.toFixed(1)}</span></div>`).join('')||'<p class="empty">Duomenų dar nėra</p>'}</section>`+
-   `<h2 style="margin:16px 0 8px">PERLIUKAI</h2>`+(r.items.map(i=>`<div class="ins"><span class="tg ${i.type}">${i.type.toUpperCase()}</span><span class="mt">${fd(i.date)} · ${lk(i.p)}</span><p>${esc(i.text)}</p></div>`).join('')||'<p class="empty">Perliukų šiame laikotarpyje dar nėra</p>');
+   `<h2 style="margin:16px 0 8px">PERLIUKAI</h2>`+(r.items.map(i=>`<article class="ins"><div class="kick">${esc(i.type)} · ${fd(i.date)} · ${lk(i.p)}</div><h3>${esc(i.text)}</h3>${i.body?`<p>${esc(i.body)}</p>`:''}</article>`).join('')||'<p class="empty">Perliukų šiame laikotarpyje dar nėra</p>');
 }
 (async()=>{
   await mediaReady;S.players=(await load('data/players.json'))?.players||[];NM=(await load('data/names.json'))||{};
-  S.top25=(await load('data/rankings.json'))?.top25||[];S.awards=(await load('data/awards.json'))||[];
+  S.top25=(await load('data/rankings.json'))?.top25||[];S.awards=(await load('data/awards.json'))||[];S.sched=(await load('data/schedule.json'))||[];S.notes=(await load('data/notes.json'))||[];document.body.classList.add('paper');
   await Promise.all(S.players.map(async p=>{const g=await load(`data/games/${p.id}.json`);if(g)S.real[p.id]=g}));
   S.demo=new URLSearchParams(location.search).has('demo');
   const on=(sel,fn)=>document.querySelectorAll(sel+' button').forEach(b=>b.onclick=()=>{document.querySelectorAll(sel+' button').forEach(x=>x.classList.toggle('on',x===b));fn(b)});
