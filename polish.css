@@ -42,6 +42,41 @@ footer a,.doc a{color:var(--ac)}
 .bx{background:var(--chip);color:var(--tx);border:1px solid var(--line);border-radius:10px;font-size:12px;font-weight:700;padding:4px 10px;min-height:32px;margin-left:6px}
 tr.lt td{color:var(--ac);font-weight:700}tr.tot td{border-top:2px solid var(--line);font-weight:700}
 
+/* ===== Dizainas v2: Euroleague +/- stiliaus paletė ir šriftai ===== */
+:root:not([data-theme=light]){--bg:#05070a;--card:#0d1117;--line:#1c232c;--tx:#f4f6f8;--mu:#7d8793;--gr:#2dd4a0;--rd:#f0524f;--alt:#090d12;--chip:#161c24}
+body{font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+h1,h2,.nm,.sec,.dayh,.tabs a,.seg button,.rk,.big b,.imp{font-family:"Barlow Condensed","Arial Narrow",Inter,sans-serif}
+h1{background:none;-webkit-text-fill-color:currentColor;color:var(--tx);font-weight:800;letter-spacing:.06em;font-size:32px}
+header{border-bottom:1px solid var(--line)}
+.card h2,.sec{font-size:22px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.sec{font-size:15px;color:var(--mu);margin-top:18px}
+.card{border-radius:14px;background:linear-gradient(180deg,#0f141b,var(--card))}
+[data-theme=light] .card{background:var(--card)}
+.nm{font-weight:700;font-size:19px;letter-spacing:.02em}
+.tabs a,.seg button{text-transform:uppercase;letter-spacing:.08em;font-weight:700}
+.av{border-color:#2b333e!important}
+.big b,.rowc .v,.lrow b.v,.imp{font-weight:700}
+.brand{display:flex;align-items:center;gap:14px;padding:12px 16px 4px;max-width:1200px;margin:auto;text-decoration:none;color:var(--tx)}
+.brand .lg{background:#fff;color:#111;border-radius:10px;padding:5px 9px;display:flex;align-items:center;min-height:38px}
+.brand .bl{height:28px;width:auto;max-width:90px;object-fit:contain}
+.brand i{width:1px;height:30px;background:var(--line)}
+.wm{font-family:"Barlow Condensed","Arial Narrow",sans-serif;text-transform:uppercase;line-height:1;position:relative;padding-bottom:7px;white-space:nowrap}
+.wm b{font-weight:800;font-size:26px;letter-spacing:.05em}
+.wm span{font-weight:500;font-size:26px;letter-spacing:.24em;color:var(--mu);margin-left:9px}
+.wm::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;border-radius:2px;background:linear-gradient(90deg,#fdb913 33.3%,#006a44 33.3% 66.6%,#c1272d 66.6%)}
+@media (max-width:480px){.wm b,.wm span{font-size:20px}.wm span{letter-spacing:.14em}}
+.st{display:grid;grid-template-columns:44px 1fr 74px;gap:10px;align-items:center;padding:5px 0;font-size:13px}
+.st .l{color:var(--mu);font-weight:600}.st .tr{position:relative;height:2px;background:var(--line)}
+.st .tr i{position:absolute;top:-6px;width:14px;height:14px;border-radius:50%;margin-left:-7px;border:2px solid var(--bg)}
+.st .r{text-align:right;color:var(--tx);font-weight:600;font-variant-numeric:tabular-nums}
+
+/* NCAA logotipas: be baltos plokštelės, jei yra tavo permatomas failas */
+.brand .lg{background:none;padding:0;border-radius:0;color:var(--tx);min-height:0}
+.brand .lg.own .bl{height:40px;max-width:100px;width:auto}
+.brand .lg.chip{background:#fff;color:#111;border-radius:10px;padding:5px 9px}
+.brand .lg.chip .bl{height:32px;max-width:96px}
+@media (max-width:480px){.brand .lg.own .bl{height:32px;max-width:80px}}
+
 /* ===== Navigacija: viršuje (planšetė gulsčiai) / apačioje su ikonomis (telefonas, planšetė stačiai) ===== */
 .topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;max-width:1200px;margin:auto;padding:0 16px;flex-wrap:wrap}
 .topbar .brand{margin:0;padding:12px 0 4px;max-width:none}
@@ -64,3 +99,9 @@ tr.lt td{color:var(--ac);font-weight:700}tr.tot td{border-top:2px solid var(--li
 [data-theme=light] .cf.t-A{color:#0f8a68}[data-theme=light] .cf.t-B{color:#1d6fd1}[data-theme=light] .cf.t-C{color:#8a6d00}
 .rk{margin-left:6px;vertical-align:middle}
 .tier-list{display:grid;gap:8px;margin:12px 0}.tier-list div{display:flex;gap:12px;align-items:baseline}
+
+/* apsauga nuo išsitempimo mažuose ekranuose */
+html,body{max-width:100%;overflow-x:hidden}
+img{max-width:100%}
+.brand .bl{height:40px;width:auto;max-width:96px}
+@media (max-width:899px){.brand .bl{height:32px!important;max-width:80px}.wm b,.wm span{font-size:19px}.wm span{letter-spacing:.14em}.brand{gap:10px}}

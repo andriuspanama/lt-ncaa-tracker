@@ -29,7 +29,7 @@
     b.innerHTML='<span class="lg">'+ball+'</span><i></i><span class="wm"><b>LT PLAYERS</b><span>TRACKER</span></span>';
     var top=document.createElement('div');top.className='topbar';top.appendChild(b);var tb=document.querySelector('.tabs');if(tb)top.appendChild(tb);document.body.insertBefore(top,document.body.firstChild);
     var lg=b.querySelector('.lg');
-    var put=function(src,chip,next){var im=new Image();im.className='bl';im.alt='NCAA';im.onload=function(){lg.innerHTML='';lg.appendChild(im);lg.className=chip?'lg chip':'lg own'};im.onerror=next;im.src=src};
+    var put=function(src,chip,next){var im=new Image();im.className='bl';im.alt='NCAA';im.style.cssText='height:'+(chip?'32':'40')+'px;width:auto;max-width:96px;display:block';im.onload=function(){lg.innerHTML='';lg.appendChild(im);lg.className=chip?'lg chip':'lg own'};im.onerror=next;im.src=src};
     var wiki=function(){fetch('data/teams.json').then(function(r){return r.json()}).then(function(j){
       var t=j.NCAA;if(!t||!t.logo_url)return;
       put(t.file_page&&t.file_page.indexOf('/wiki/File:')>-1?t.file_page.replace('/wiki/File:','/wiki/Special:FilePath/')+'?width=240':t.logo_url,true,function(){});

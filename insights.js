@@ -37,20 +37,20 @@ function build(per,key,players,games,top25=[],awards=[],minOverride,x={}){
   for(const p of players){const all=games[p.id]||[];for(const g of all)if(g.date>=a&&g.date<=b)G.push({p,g,prior:all.filter(x=>x.date<g.date)})}
   for(const {p,g,prior} of G){
     const n=p.name,t=p.team,cats=[g.pts,g.reb,g.ast,g.stl,g.blk].filter(v=>v>=10).length,W=g.result==='W';
-    const add=(type,score,text)=>items.push({type,score,date:g.date,p,text,tag:TAG[score],body:body(p,g,prior,x.sched)});
-    if(!prior.length)add('debiutas',55,`${n} (${t}) debiutavo sezone ${vs(g)}: ${line(g)}.`);
-    if(cats>=3)add('stat',90,`${n} (${t}) surinko triple-double: ${line(g)} ${vs(g)}.`);
-    else if(cats===2)add('stat',60,`${n} (${t}) užfiksavo double-double (${line(g)}) ${vs(g)}.`);
-    if(prior.length>=2&&g.pts>=15&&g.pts>Math.max(...prior.map(x=>x.pts)))add('stat',70,`${n} pasiekė sezono rekordą – ${g.pts} taškų ${vs(g)}.`);
-    if(g.fga>=6&&g.fgm/g.fga>=0.7)add('stat',50,`${n} metė ${g.fgm} iš ${g.fga} (${Math.round(100*g.fgm/g.fga)}%) ${vs(g)}.`);
-    if(g.tpm>=5)add('stat',52,`${n} pataikė ${g.tpm} tritaškius ${vs(g)}.`);
+    const ln=n.split(' ').slice(-1)[0],add=(type,score,text,head)=>items.push({type,score,date:g.date,p,text,head,tag:TAG[score],body:body(p,g,prior,x.sched)});
+    if(!prior.length)add('debiutas',55,`${n} (${t}) debiutavo sezone ${vs(g)}: ${line(g)}.`,`${ln} debiutavo: ${g.pts} tšk.`);
+    if(cats>=3)add('stat',90,`${n} (${t}) surinko triple-double: ${line(g)} ${vs(g)}.`,`${ln} – triple-double`);
+    else if(cats===2)add('stat',60,`${n} (${t}) užfiksavo double-double (${line(g)}) ${vs(g)}.`,`${ln} – double-double`);
+    if(prior.length>=2&&g.pts>=15&&g.pts>Math.max(...prior.map(x=>x.pts)))add('stat',70,`${n} pasiekė sezono rekordą – ${g.pts} taškų ${vs(g)}.`,`Sezono rekordas: ${ln} – ${g.pts} tšk.`);
+    if(g.fga>=6&&g.fgm/g.fga>=0.7)add('stat',50,`${n} metė ${g.fgm} iš ${g.fga} (${Math.round(100*g.fgm/g.fga)}%) ${vs(g)}.`,`Beveik be klaidų: ${ln} metė ${g.fgm}/${g.fga}`);
+    if(g.tpm>=5)add('stat',52,`${n} pataikė ${g.tpm} tritaškius ${vs(g)}.`,`${ln} – ${g.tpm} ${pw(g.tpm,'tritaškiai','tritaškių')}`);
     const oi=info(g.opponent)||{};
-    if(W&&(top25.includes(g.opponent)||oi.rank))add('pergalė',85,`${n} padėjo ${t} laimėti prieš Top 25 komandą ${g.opponent} (${sc(g)}): ${line(g)}.`);
-    else if(W&&oi.tier==='A'&&g.pts>=12)add('pergalė',65,`${n} (${t}) prisidėjo prie pergalės prieš elitinės konferencijos komandą ${g.opponent} (${sc(g)}): ${line(g)}.`);
-    else if(W&&g.pts>=20)add('pergalė',40,`${n} pelnė ${g.pts} taškų ir vedė ${t} į pergalę ${vs(g)} (${sc(g)}).`);
+    if(W&&(top25.includes(g.opponent)||oi.rank))add('pergalė',85,`${n} padėjo ${t} laimėti prieš Top 25 komandą ${g.opponent} (${sc(g)}): ${line(g)}.`,`Top 25 komanda nugalėta: ${ln} – ${g.pts} tšk.`);
+    else if(W&&oi.tier==='A'&&g.pts>=12)add('pergalė',65,`${n} (${t}) prisidėjo prie pergalės prieš elitinės konferencijos komandą ${g.opponent} (${sc(g)}): ${line(g)}.`,`Pergalė prieš elitą: ${ln} – ${g.pts} tšk.`);
+    else if(W&&g.pts>=20)add('pergalė',40,`${n} pelnė ${g.pts} taškų ir vedė ${t} į pergalę ${vs(g)} (${sc(g)}).`,`${ln} – ${g.pts} tšk. ir pergalė`);
   }
   const byId=Object.fromEntries(players.map(p=>[p.id,p]));
-  for(const w of awards)if(w.date>=a&&w.date<=b&&byId[w.player])items.push({type:'apdovanojimas',score:100,date:w.date,p:byId[w.player],text:`${byId[w.player].name}: ${w.text}`,body:''});
+  for(const w of awards)if(w.date>=a&&w.date<=b&&byId[w.player])items.push({type:'apdovanojimas',score:100,date:w.date,p:byId[w.player],text:`${byId[w.player].name}: ${w.text}`,head:`Pagerbimas: ${byId[w.player].name.split(' ').slice(-1)[0]}`,body:''});
   items.sort((x,y)=>y.score-x.score);
   /* Top 10 */
   const rows=players.map(p=>{const g=G.filter(r=>r.p===p).map(r=>r.g);if(!g.length)return null;const s=k=>g.reduce((t,x)=>t+x[k],0),n=g.length;
@@ -106,7 +106,7 @@ function draw(){
   out.innerHTML=(S.demo?'<div class="demo">DEMO: bandomieji skaičiai, ne tikra statistika.</div>':'')+r.notes.map(n=>`<aside class="note"><div class="kick">Redakcijos komentaras · ${fd(n.date)}</div>${n.title?`<h3>${esc(n.title)}</h3>`:''}<p>${esc(n.text)}</p></aside>`).join('')+
    `<section class="card sum"><h2>${S.per==='week'?'SAVAITĖS APŽVALGA':'MĖNESIO APŽVALGA'}</h2><p class="sub">${fd(r.range[0])} – ${fd(r.range[1])}</p>${r.sum.map(s=>`<p>${esc(s)}</p>`).join('')||'<p class="empty">Duomenų dar nėra</p>'}</section>`+
    `<section class="card"><h2>TOP 10</h2><p class="sub">Impact Score vidurkis</p>${r.top.map((x,i)=>`<div class="rowc"><span class="mt">${i+1}</span>${av(x.p)}<div><div class="nm">${lk(x.p)}</div><div class="mt">${teamLogo(x.p.team,'tl xs')}${esc(x.p.team)}${confChip(x.p.team)} · ${x.ppg.toFixed(1)} tšk. · ${x.reb.toFixed(1)} atk. · ${x.ast.toFixed(1)} perd. · ${x.gp} rung.</div></div><span class="v">${x.imp.toFixed(1)}</span></div>`).join('')||'<p class="empty">Duomenų dar nėra</p>'}</section>`+
-   `<h2 style="margin:16px 0 8px">PERLIUKAI</h2>`+(r.items.map(i=>`<article class="ins"><div class="kick">${esc(i.type)} · ${fd(i.date)} · ${lk(i.p)}</div><h3>${esc(i.text)}</h3>${i.body?`<p>${esc(i.body)}</p>`:''}</article>`).join('')||'<p class="empty">Perliukų šiame laikotarpyje dar nėra</p>');
+   `<h2 style="margin:16px 0 8px">PERLIUKAI</h2>`+(r.items.map(i=>`<article class="ins"><div class="kick">${esc(i.type)} · ${fd(i.date)} · ${lk(i.p)}</div><h3>${esc(i.head||i.text)}</h3><p>${esc(i.head&&i.type!=='apdovanojimas'?i.text+' '+i.body:i.text)}</p></article>`).join('')||'<p class="empty">Perliukų šiame laikotarpyje dar nėra</p>');
 }
 (async()=>{
   await mediaReady;S.players=(await load('data/players.json'))?.players||[];NM=(await load('data/names.json'))||{};

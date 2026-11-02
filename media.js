@@ -4,7 +4,7 @@ window.PHOTOS={};
 var jl=function(u){return fetch(u,{cache:'no-store'}).then(function(r){return r.ok?r.json():{}}).catch(function(){return {}})};
 window.NCAA={players:{}};
 window.CTX={teams:{},ap:{}};
-window.mediaReady=Promise.all([jl('data/teams.json'),jl('data/photos.json'),jl('data/ncaa_top25.json'),jl('data/conferences.json'),jl('data/rankings.json')]).then(function(r){window.TEAMS=r[0];window.PHOTOS=r[1];window.NCAA=r[2]&&r[2].players?r[2]:{players:{}};window.CTX={teams:(r[3]&&r[3].teams)||{},ap:(r[4]&&r[4].ap)||{}}});
+window.mediaReady=Promise.all([jl('data/teams.json'),jl('data/photos.json'),jl('data/ncaa_top25.json'),jl('data/conferences.json'),jl('data/rankings.json')]).then(function(r){window.TEAMS=r[0];window.PHOTOS=r[1];window.NCAA=r[2]&&r[2].players?r[2]:{players:{}};var tm=(r[3]&&r[3].teams)||{},cs={};Object.keys(tm).forEach(function(k){cs[tm[k].conf]=1});window.CTX={teams:Object.keys(cs).length>=3?tm:{},ap:(r[4]&&r[4].ap)||{}}});
 (function(){
   var e=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
 
@@ -23,11 +23,7 @@ window.mediaReady=Promise.all([jl('data/teams.json'),jl('data/photos.json'),jl('
     setTimeout(function(){document.addEventListener('click',function c(){d.remove();document.removeEventListener('click',c)},{once:true})},0);
   },true);
   var TT={A:'A lygis – elitinės konferencijos',B:'B lygis – stiprios konferencijos',C:'C lygis – vidutinės konferencijos',D:'D lygis – žemesnio lygio konferencijos'};
-  window.ctxInfo=function(name){
-    if(!name)return null;var t=window.CTX.teams,k=name;
-    if(!t[k]){var c=Object.keys(t).filter(function(x){return x.indexOf(name+' ')===0});k=c.length===1?c[0]:null}
-    var i=k?t[k]:null,r=window.CTX.ap[k||name]||null;
-    return (i||r)?{conf:i&&i.conf,tier:i&&i.tier,rank:r}:null};
+  window.ctxInfo=function(name){if(!name)return null;var i=window.CTX.teams[name]||null,r=window.CTX.ap[name]||null;return (i||r)?{conf:i&&i.conf,tier:i&&i.tier,rank:r}:null};
   window.confChip=function(team,fb){var i=window.ctxInfo(team),c=(i&&i.conf)||fb;if(!c)return '';var t=i&&i.tier;
     return '<span class="cf'+(t?' t-'+t:'')+'"'+(t?' title="'+TT[t]+'"':'')+'>'+e(c)+(t?' · '+t:'')+'</span>'};
   window.oppChip=function(name){var i=window.ctxInfo(name);if(!i)return '';
