@@ -27,10 +27,13 @@
     var b=document.createElement('a');b.className='brand';b.href='index.html';b.setAttribute('aria-label','LT Players Tracker');
     b.innerHTML='<span class="lg">'+ball+'</span><i></i><span class="wm"><b>LT PLAYERS</b><span>TRACKER</span></span>';
     document.body.insertBefore(b,document.body.firstChild);
-    fetch('data/teams.json').then(function(r){return r.json()}).then(function(j){
+    var lg=b.querySelector('.lg');
+    var put=function(src,chip,next){var im=new Image();im.className='bl';im.alt='NCAA';im.onload=function(){lg.innerHTML='';lg.appendChild(im);lg.className=chip?'lg chip':'lg own'};im.onerror=next;im.src=src};
+    var wiki=function(){fetch('data/teams.json').then(function(r){return r.json()}).then(function(j){
       var t=j.NCAA;if(!t||!t.logo_url)return;
-      var src=t.file_page&&t.file_page.indexOf('/wiki/File:')>-1?t.file_page.replace('/wiki/File:','/wiki/Special:FilePath/')+'?width=200':t.logo_url;
-      var im=new Image();im.className='bl';im.alt='NCAA';im.onload=function(){b.querySelector('.lg').innerHTML='';b.querySelector('.lg').appendChild(im)};im.src=src;
-    }).catch(function(){});
+      put(t.file_page&&t.file_page.indexOf('/wiki/File:')>-1?t.file_page.replace('/wiki/File:','/wiki/Special:FilePath/')+'?width=240':t.logo_url,true,function(){});
+    }).catch(function(){})};
+    /* Pirmenybė – tavo failas repozitorijos šaknyje: ncaa-logo.svg arba ncaa-logo.png (permatomu fonu) */
+    put('ncaa-logo.svg',false,function(){put('ncaa-logo.png',false,wiki)});
   });
 })();
