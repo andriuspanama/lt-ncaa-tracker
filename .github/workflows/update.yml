@@ -1,7 +1,11 @@
 name: Atnaujinti duomenis
 on:
   schedule:
-    - cron: "30 3,6,9,12,16 * * *"
+    - cron: "30 3 * * *"
+    - cron: "30 6 * * *"
+    - cron: "30 9 * * *"
+    - cron: "30 12 * * *"
+    - cron: "30 16 * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -15,9 +19,9 @@ jobs:
           python-version: "3.12"
       - run: pip install requests
       - run: python resolve_ids.py
-      - run: python update.py
       - run: python fetch_schedule.py
         continue-on-error: true
+      - run: python update.py
       - run: python fetch_ncaa_top25.py
         continue-on-error: true
       - run: python fetch_logos.py
