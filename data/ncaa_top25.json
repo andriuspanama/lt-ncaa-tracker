@@ -2,13 +2,117 @@
  "updated": "2026-11-03",
  "players": {},
  "debug": {
-  "ppg": [],
-  "rpg": [],
-  "apg": [],
-  "spg": [],
-  "bpg": [],
-  "fgp": [],
-  "tpp": [],
-  "ftp": []
+  "ppg": [
+   [
+    "Zander Carter",
+    21.0
+   ],
+   [
+    "Tyler Perkins",
+    18.0
+   ],
+   [
+    "Braeden Smith",
+    16.0
+   ]
+  ],
+  "rpg": [
+   [
+    "Devin Royal",
+    8.0
+   ],
+   [
+    "Brady Koehler",
+    8.0
+   ],
+   [
+    "Cam'Ron Fletcher",
+    7.0
+   ]
+  ],
+  "apg": [
+   [
+    "Elijah Crawford",
+    5.0
+   ],
+   [
+    "Logan Duncomb",
+    4.0
+   ],
+   [
+    "Eli Sancomb",
+    4.0
+   ]
+  ],
+  "spg": [
+   [
+    "Braeden Smith",
+    4.0
+   ],
+   [
+    "Zander Carter",
+    4.0
+   ],
+   [
+    "Logan Imes",
+    3.0
+   ]
+  ],
+  "bpg": [
+   [
+    "Dillon Claussen",
+    6.0
+   ],
+   [
+    "Kwame Evans Jr.",
+    2.0
+   ],
+   [
+    "Braden Hausen",
+    2.0
+   ]
+  ],
+  "fgp": [
+   [
+    "Trey Pearson",
+    71.42857313156128
+   ],
+   [
+    "Zander Carter",
+    64.28571343421936
+   ],
+   [
+    "Curtis Williams Jr.",
+    55.55555820465088
+   ]
+  ],
+  "tpp": [
+   [
+    "Zander Carter",
+    60.00000238418579
+   ],
+   [
+    "Tyler Perkins",
+    45.45454680919647
+   ],
+   [
+    "Jake Fiegen",
+    42.85714328289032
+   ]
+  ],
+  "ftp": [
+   [
+    "Elijah Crawford",
+    100.0
+   ],
+   [
+    "Ethan Roberts",
+    100.0
+   ],
+   [
+    "Eli Sancomb",
+    100.0
+   ]
+  ]
  }
 }
