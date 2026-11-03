@@ -1,6 +1,6 @@
 """Parsisiunčia kiekvieno žaidėjo rungtynių žurnalą (ESPN), išsaugo data/games/<id>.json ir PATS apskaičiuoja agregatus data/stats.json."""
 import json, os, time, datetime as dt
-from common import get
+from common import get, norm
 G = "https://site.web.api.espn.com/apis/common/v3/sports/basketball/mens-college-basketball/athletes/{}/gamelog"
 SEASON = 2027  # ESPN sezonas = baigimosi metai (2026–27 -> 2027)
 
@@ -55,22 +55,67 @@ def build(all_games):
     per = {k: {pid: a for pid, gs in all_games.items() if (a := aggregate(gs, *r))} for k, r in rng.items()}
     return {"updated": dt.date.today().isoformat(), "week_range": list(rng["week"]), "month": last.strftime("%Y-%m"), "periods": per}
 
+SUMMARY = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary"
+def fuzzy(a, b):
+    a, b = norm(a).split(), norm(b).split()
+    return bool(a and b) and (a == b or (a[-1] == b[-1] and a[0][0] == b[0][0]))
+def box_rows(j):
+    """ESPN summary → [(athlete_id, vardas, komanda, {etiketė: reikšmė})]"""
+    out = []
+    for t in (j.get("boxscore") or {}).get("players", []):
+        tm = (t.get("team") or {}).get("displayName")
+        for st in t.get("statistics", []):
+            labels = st.get("labels", [])
+            for a in st.get("athletes", []):
+                if a.get("didNotPlay") or not a.get("stats"): continue
+                at = a.get("athlete") or {}
+                out.append((str(at.get("id")), at.get("displayName") or "", tm, dict(zip(labels, a["stats"]))))
+    return out
+def game_from_row(row, m):
+    fgm, fga = pair(row.get("FG")); tpm, tpa = pair(row.get("3PT")); ftm, fta = pair(row.get("FT"))
+    return {"event_id": m["event_id"], "date": m["date"], "opponent": m["opponent"], "home": m["home"], "result": m["result"], "score": m["score"],
+            "min": num(row.get("MIN")), "pts": num(row.get("PTS")), "reb": num(row.get("REB")), "ast": num(row.get("AST")), "stl": num(row.get("STL")),
+            "blk": num(row.get("BLK")), "to": num(row.get("TO")), "pf": num(row.get("PF")), "fgm": fgm, "fga": fga, "tpm": tpm, "tpa": tpa, "ftm": ftm, "fta": fta}
+def meta_of(s):
+    f, a = num(s.get("for")), num(s.get("against"))
+    return {"event_id": s["event_id"], "date": us_date(s.get("date") or ""), "opponent": s.get("opponent"), "home": bool(s.get("home")),
+            "result": "W" if f > a else "L" if f < a else None, "score": f"{f}-{a}"}
+def load(path, default):
+    try: return json.load(open(path, encoding="utf-8"))
+    except Exception: return default
+
 if __name__ == "__main__":
     os.makedirs("data/games", exist_ok=True)
-    players = json.load(open("data/players.json", encoding="utf-8"))["players"]
+    players = load("data/players.json", {"players": []})["players"]
+    sched = load("data/schedule.json", []); done = set(load("data/box_done.json", []))
+    pby = {}
+    for p in players: pby.setdefault(p["team"], []).append(p)
+    ev = {}
+    for s in sched:
+        if s.get("state") == "post" and s.get("team") in pby and s.get("event_id"): ev.setdefault(s["event_id"], {})[s["team"]] = s
+    todo = [e for e in ev if e not in done]
+    print("Tvarkaraštyje baigtų rungtynių (mūsų komandos):", len(ev), "| naujų boxscore apdoroti:", len(todo))
+    games = {p["id"]: load(f'data/games/{p["id"]}.json', []) for p in players}
+    found = 0
+    for e in todo:
+        try: j = get(SUMMARY, event=e)
+        except Exception as ex: print("KLAIDA boxscore", e, str(ex)[:70]); continue
+        rows = box_rows(j)
+        if not rows: print("Boxscore dar tuščias:", e); continue
+        for team, s in ev[e].items():
+            m = meta_of(s)
+            mine = [r for r in rows if r[2] != m["opponent"]]  # tik savo komandos žaidėjai
+            for p in pby[team]:
+                r = next((x for x in mine if p.get("espn_id") and x[0] == str(p["espn_id"])), None) or next((x for x in mine if fuzzy(p["name"], x[1])), None)
+                if not r or num(r[3].get("MIN")) <= 0 or any(g["event_id"] == e for g in games[p["id"]]): continue
+                games[p["id"]].append(game_from_row(r[3], m)); found += 1
+                print("OK", p["name"], "|", team, "prieš" if m["home"] else "@", m["opponent"], "|", r[3].get("PTS"), "tšk.", r[3].get("REB"), "atk.", r[3].get("AST"), "perd.")
+        done.add(e)
     all_games = {}
-    for p in players:
-        if not p.get("espn_id") or p.get("roster_status") == "not_found": continue
-        path = f'data/games/{p["id"]}.json'
-        games, err = None, None
-        for i in range(3):  # ESPN kartais grąžina laikiną 500
-            try: games = parse_gamelog(get(G.format(p["espn_id"]), season=SEASON)); break
-            except Exception as e: err = e; time.sleep(2 * (i + 1))
-        if games is None:
-            print("Praleista (ESPN klaida, tikėtina, dar nėra rungtynių):", p["name"], str(err)[:70])
-            if os.path.exists(path): all_games[p["id"]] = json.load(open(path, encoding="utf-8"))  # paliekam ankstesnius duomenis
-            continue
-        all_games[p["id"]] = games
-        json.dump(games, open(f'data/games/{p["id"]}.json', "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    for pid, g in games.items():
+        if g:
+            g.sort(key=lambda x: x["date"]); all_games[pid] = g
+            json.dump(g, open(f"data/games/{pid}.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump(sorted(done), open("data/box_done.json", "w", encoding="utf-8"))
     json.dump(build(all_games), open("data/stats.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print("Baigta:", len(all_games), "žaidėjų")
+    print("Baigta: rasta naujų žaidėjų įrašų:", found, "| žaidėjų su rungtynėmis:", len(all_games))

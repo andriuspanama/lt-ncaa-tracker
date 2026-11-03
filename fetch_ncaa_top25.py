@@ -33,7 +33,12 @@ if __name__ == "__main__":
             print("KLAIDA", code, e); continue
         out["debug"][code] = [(n, v) for _, n, v in rows[:3]]
         print(code, "-> gauta:", len(rows), "| pirmi:", out["debug"][code])
-        if not rows: print("   atsakymo raktai:", list(j.keys()), "| pirmas žaidėjas:", list((j.get("athletes") or [{}])[0].keys()))
+        if not rows:
+            print("   atsakymo raktai:", list(j.keys()), "| pagination:", j.get("pagination"))
+            try:  # diagnostika: ar endpointas veikia be kvalifikacijos (tik žurnalui, į svetainę nerašoma)
+                jj = get(URL, region="us", lang="en", contentorigin="espn", isqualified="false", page=1, limit=50, sort=f"{key}:desc", season=SEASON, seasontype=2)
+                rr = top25(jj, key); print("   be kvalifikacijos gauta:", len(rr), [(n, v) for _, n, v in rr[:3]])
+            except Exception as e: print("   diagnostikos klaida:", str(e)[:80])
         for i, (eid, name, v) in enumerate(rows, 1):
             pid = by_id.get(eid)
             if pid: out["players"].setdefault(pid, []).append({"cat": code, "label": label, "value": v, "rank": i}); print("   LIETUVIS TOP 25:", name, code, i, v)
