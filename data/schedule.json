@@ -38,9 +38,9 @@
   "team": "UMBC",
   "opponent": "George Mason Patriots",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "54",
+  "against": "82",
   "opp_rank": null
  },
  {
@@ -49,9 +49,9 @@
   "team": "Florida Gators",
   "opponent": "Miami Hurricanes",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "in",
+  "for": "46",
+  "against": "36",
   "opp_rank": 14
  },
  {
@@ -60,9 +60,9 @@
   "team": "Georgia State",
   "opponent": "Bowling Green Falcons",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "in",
+  "for": "34",
+  "against": "34",
   "opp_rank": null
  },
  {
@@ -71,9 +71,9 @@
   "team": "South Dakota",
   "opponent": "Mount Marty Lancers",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "in",
+  "for": "44",
+  "against": "29",
   "opp_rank": null
  },
  {
@@ -82,9 +82,9 @@
   "team": "VMI Keydets",
   "opponent": "Virginia Lynchburg Dragons",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "in",
+  "for": "60",
+  "against": "31",
   "opp_rank": null
  },
  {
@@ -104,7 +104,7 @@
   "team": "Clemson Tigers",
   "opponent": "Stetson Hatters",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -126,7 +126,7 @@
   "team": "Iowa State",
   "opponent": "Memphis Tigers",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -137,7 +137,7 @@
   "team": "Quinnipiac",
   "opponent": "Michigan State Spartans",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": 6
@@ -148,7 +148,7 @@
   "team": "Western Michigan",
   "opponent": "Old Dominion Monarchs",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
