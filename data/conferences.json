@@ -4,3492 +4,4888 @@
   "Abilene Christian Wildcats": {
    "conf": "UAC",
    "tier": "D",
-   "location": "Abilene Christian"
+   "location": "Abilene Christian",
+   "color": "592d82",
+   "alt": "b1b3b3"
   },
   "Air Force Falcons": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "Air Force"
+   "location": "Air Force",
+   "color": "003594",
+   "alt": "ffffff"
   },
   "Akron Zips": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Akron"
+   "location": "Akron",
+   "color": "041e42",
+   "alt": "c5b783"
   },
   "Alabama A&M Bulldogs": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Alabama A&M"
+   "location": "Alabama A&M",
+   "color": "790000",
+   "alt": "ffffff"
   },
   "Alabama Crimson Tide": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Alabama"
+   "location": "Alabama",
+   "color": "9e1b32",
+   "alt": "ffffff"
   },
   "Alabama State Hornets": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Alabama State"
+   "location": "Alabama State",
+   "color": "e9a900",
+   "alt": "0a0a0a"
   },
   "Alcorn State Braves": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Alcorn State"
+   "location": "Alcorn State",
+   "color": "4b0058",
+   "alt": "46166a"
   },
   "American University Eagles": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "American University"
+   "location": "American University",
+   "color": "c41130",
+   "alt": "c8102e"
   },
   "App State Mountaineers": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "App State"
+   "location": "App State",
+   "color": "000000",
+   "alt": "ffcd00"
   },
   "Arizona State Sun Devils": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Arizona State"
+   "location": "Arizona State",
+   "color": "ffc627",
+   "alt": "8c1d40"
   },
   "Arizona Wildcats": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Arizona"
+   "location": "Arizona",
+   "color": "cc0033",
+   "alt": "003366"
   },
   "Arkansas Razorbacks": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Arkansas"
+   "location": "Arkansas",
+   "color": "a32136",
+   "alt": "ffffff"
   },
   "Arkansas State Red Wolves": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Arkansas State"
+   "location": "Arkansas State",
+   "color": "cc092f",
+   "alt": "000000"
   },
   "Arkansas-Pine Bluff Golden Lions": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Arkansas-Pine Bluff"
+   "location": "Arkansas-Pine Bluff",
+   "color": "e0aa0f",
+   "alt": "eaaa00"
   },
   "Army Black Knights": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Army"
+   "location": "Army",
+   "color": "000000",
+   "alt": "d3bc8d"
   },
   "Auburn Tigers": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Auburn"
+   "location": "Auburn",
+   "color": "002b5c",
+   "alt": "f26522"
   },
   "Austin Peay Governors": {
    "conf": "UAC",
    "tier": "D",
-   "location": "Austin Peay"
+   "location": "Austin Peay",
+   "color": "8e0b0b",
+   "alt": null
   },
   "BYU Cougars": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "BYU"
+   "location": "BYU",
+   "color": "0047ba",
+   "alt": "002e5d"
   },
   "Ball State Cardinals": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Ball State"
+   "location": "Ball State",
+   "color": "ba0c2f",
+   "alt": "ffffff"
   },
   "Baylor Bears": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Baylor"
+   "location": "Baylor",
+   "color": "154734",
+   "alt": "ffb81c"
   },
   "Bellarmine Knights": {
    "conf": "Atlantic Sun",
    "tier": "D",
-   "location": "Bellarmine"
+   "location": "Bellarmine",
+   "color": "000000",
+   "alt": null
   },
   "Belmont Bruins": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Belmont"
+   "location": "Belmont",
+   "color": "182142",
+   "alt": "c9262d"
   },
   "Bethune-Cookman Wildcats": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Bethune-Cookman"
+   "location": "Bethune-Cookman",
+   "color": "7b1831",
+   "alt": "e9aa12"
   },
   "Binghamton Bearcats": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "Binghamton"
+   "location": "Binghamton",
+   "color": "00614A",
+   "alt": "f0f0f0"
   },
   "Boise State Broncos": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "Boise State"
+   "location": "Boise State",
+   "color": "0033a0",
+   "alt": "d64309"
   },
   "Boston College Eagles": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Boston College"
+   "location": "Boston College",
+   "color": "8c2232",
+   "alt": "dbcca6"
   },
   "Boston University Terriers": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Boston University"
+   "location": "Boston University",
+   "color": "cc0000",
+   "alt": "ffffff"
   },
   "Bowling Green Falcons": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Bowling Green"
+   "location": "Bowling Green",
+   "color": "fd5000",
+   "alt": "4f2c1d"
   },
   "Bradley Braves": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Bradley"
+   "location": "Bradley",
+   "color": "b70002",
+   "alt": "c0c0c0"
   },
   "Brown Bears": {
    "conf": "Ivy",
    "tier": "C",
-   "location": "Brown"
+   "location": "Brown",
+   "color": "411e09",
+   "alt": "949300"
   },
   "Bryant Bulldogs": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "Bryant"
+   "location": "Bryant",
+   "color": "000000",
+   "alt": "9f8343"
   },
   "Bucknell Bison": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Bucknell"
+   "location": "Bucknell",
+   "color": "000060",
+   "alt": "00316e"
   },
   "Buffalo Bulls": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Buffalo"
+   "location": "Buffalo",
+   "color": "005bbb",
+   "alt": "ffffff"
   },
   "Butler Bulldogs": {
    "conf": "Big East",
    "tier": "A",
-   "location": "Butler"
+   "location": "Butler",
+   "color": "0d1361",
+   "alt": "00a3e0"
   },
   "Cal Poly Mustangs": {
    "conf": "Big West",
    "tier": "C",
-   "location": "Cal Poly"
+   "location": "Cal Poly",
+   "color": "1E4D2B",
+   "alt": "eed897"
   },
   "Cal State Bakersfield Roadrunners": {
    "conf": "Big West",
    "tier": "C",
-   "location": "Cal State Bakersfield"
+   "location": "Cal State Bakersfield",
+   "color": "003BAB",
+   "alt": null
   },
   "Cal State Fullerton Titans": {
    "conf": "Big West",
    "tier": "C",
-   "location": "Cal State Fullerton"
+   "location": "Cal State Fullerton",
+   "color": "003767",
+   "alt": "ff8300"
   },
   "Cal State Northridge Matadors": {
    "conf": "Big West",
    "tier": "C",
-   "location": "Cal State Northridge"
+   "location": "Cal State Northridge",
+   "color": "b50000",
+   "alt": null
   },
   "California Baptist Lancers": {
    "conf": "Big West",
    "tier": "C",
-   "location": "California Baptist"
+   "location": "California Baptist",
+   "color": "000080",
+   "alt": null
   },
   "California Golden Bears": {
    "conf": "ACC",
    "tier": "A",
-   "location": "California"
+   "location": "California",
+   "color": "041e42",
+   "alt": "ffc72c"
   },
   "Campbell Fighting Camels": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Campbell"
+   "location": "Campbell",
+   "color": "000000",
+   "alt": null
   },
   "Canisius Golden Griffins": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Canisius"
+   "location": "Canisius",
+   "color": "004a81",
+   "alt": "dda50f"
   },
   "Central Arkansas Bears": {
    "conf": "UAC",
    "tier": "D",
-   "location": "Central Arkansas"
+   "location": "Central Arkansas",
+   "color": "a7a9ac",
+   "alt": "8e959a"
   },
   "Central Connecticut Blue Devils": {
    "conf": "NEC",
    "tier": "D",
-   "location": "Central Connecticut"
+   "location": "Central Connecticut",
+   "color": "1B49A2",
+   "alt": "d1d5d8"
   },
   "Central Michigan Chippewas": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Central Michigan"
+   "location": "Central Michigan",
+   "color": "4c0027",
+   "alt": "fbab18"
   },
   "Charleston Cougars": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Charleston"
+   "location": "Charleston",
+   "color": "7a2531",
+   "alt": "9e8959"
   },
   "Charleston Southern Buccaneers": {
    "conf": "Big South",
    "tier": "D",
-   "location": "Charleston Southern"
+   "location": "Charleston Southern",
+   "color": "2e3192",
+   "alt": "ded090"
   },
   "Chattanooga Mocs": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "Chattanooga"
+   "location": "Chattanooga",
+   "color": "00386b",
+   "alt": "dca71d"
   },
   "Chicago State Cougars": {
    "conf": "NEC",
    "tier": "D",
-   "location": "Chicago State"
+   "location": "Chicago State",
+   "color": "006700",
+   "alt": null
   },
   "Cincinnati Bearcats": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Cincinnati"
+   "location": "Cincinnati",
+   "color": "000000",
+   "alt": "e00122"
   },
   "Clemson Tigers": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Clemson"
+   "location": "Clemson",
+   "color": "f56600",
+   "alt": "ffffff"
   },
   "Cleveland State Vikings": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Cleveland State"
+   "location": "Cleveland State",
+   "color": "006633",
+   "alt": "231f20"
   },
   "Coastal Carolina Chanticleers": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Coastal Carolina"
+   "location": "Coastal Carolina",
+   "color": "006f71",
+   "alt": "a27752"
   },
   "Colgate Raiders": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Colgate"
+   "location": "Colgate",
+   "color": "821019",
+   "alt": "ffffff"
   },
   "Colorado Buffaloes": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Colorado"
+   "location": "Colorado",
+   "color": "cfb87c",
+   "alt": "000000"
   },
   "Colorado State Rams": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "Colorado State"
+   "location": "Colorado State",
+   "color": "004c23",
+   "alt": "c8c372"
   },
   "Columbia Lions": {
    "conf": "Ivy",
    "tier": "C",
-   "location": "Columbia"
+   "location": "Columbia",
+   "color": "7ba4db",
+   "alt": "183863"
   },
   "Coppin State Eagles": {
    "conf": "MEAC",
    "tier": "D",
-   "location": "Coppin State"
+   "location": "Coppin State",
+   "color": "2e3192",
+   "alt": "ffd204"
   },
   "Cornell Big Red": {
    "conf": "Ivy",
    "tier": "C",
-   "location": "Cornell"
+   "location": "Cornell",
+   "color": "b31b1b",
+   "alt": "ffffff"
   },
   "Creighton Bluejays": {
    "conf": "Big East",
    "tier": "A",
-   "location": "Creighton"
+   "location": "Creighton",
+   "color": "005ca9",
+   "alt": "6cadde"
   },
   "Dartmouth Big Green": {
    "conf": "Ivy",
    "tier": "C",
-   "location": "Dartmouth"
+   "location": "Dartmouth",
+   "color": "005730",
+   "alt": "000000"
   },
   "Davidson Wildcats": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Davidson"
+   "location": "Davidson",
+   "color": "000000",
+   "alt": "e51837"
   },
   "Dayton Flyers": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Dayton"
+   "location": "Dayton",
+   "color": "004B8D",
+   "alt": "ffffff"
   },
   "DePaul Blue Demons": {
    "conf": "Big East",
    "tier": "A",
-   "location": "DePaul"
+   "location": "DePaul",
+   "color": "2d649c",
+   "alt": "ce1125"
   },
   "Delaware Blue Hens": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Delaware"
+   "location": "Delaware",
+   "color": "00539f",
+   "alt": "ffd200"
   },
   "Delaware State Hornets": {
    "conf": "MEAC",
    "tier": "D",
-   "location": "Delaware State"
+   "location": "Delaware State",
+   "color": "009cdb",
+   "alt": "d51c28"
   },
   "Denver Pioneers": {
    "conf": "WCC",
    "tier": "B",
-   "location": "Denver"
+   "location": "Denver",
+   "color": "98002e",
+   "alt": "a8996e"
   },
   "Detroit Mercy Titans": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Detroit Mercy"
+   "location": "Detroit Mercy",
+   "color": "165b9e",
+   "alt": "d31733"
   },
   "Drake Bulldogs": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Drake"
+   "location": "Drake",
+   "color": "005596",
+   "alt": "bec0c2"
   },
   "Drexel Dragons": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Drexel"
+   "location": "Drexel",
+   "color": "020260",
+   "alt": "ffd65a"
   },
   "Duke Blue Devils": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Duke"
+   "location": "Duke",
+   "color": "00539b",
+   "alt": "ffffff"
   },
   "Duquesne Dukes": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Duquesne"
+   "location": "Duquesne",
+   "color": "002D62",
+   "alt": "b90b2e"
   },
   "East Tennessee State Buccaneers": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "East Tennessee State"
+   "location": "East Tennessee State",
+   "color": "002d61",
+   "alt": "ffc423"
   },
   "East Texas A&M Lions": {
    "conf": "Southland",
    "tier": "D",
-   "location": "East Texas A&M"
+   "location": "East Texas A&M",
+   "color": "000000",
+   "alt": null
   },
   "Eastern Illinois Panthers": {
    "conf": "OVC",
    "tier": "D",
-   "location": "Eastern Illinois"
+   "location": "Eastern Illinois",
+   "color": "000000",
+   "alt": "bebab9"
   },
   "Eastern Kentucky Colonels": {
    "conf": "UAC",
    "tier": "D",
-   "location": "Eastern Kentucky"
+   "location": "Eastern Kentucky",
+   "color": "660819",
+   "alt": "f0f0f0"
   },
   "Eastern Michigan Eagles": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Eastern Michigan"
+   "location": "Eastern Michigan",
+   "color": "006938",
+   "alt": "ffffff"
   },
   "Eastern Washington Eagles": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Eastern Washington"
+   "location": "Eastern Washington",
+   "color": "a10022",
+   "alt": "abb4bc"
   },
   "Elon Phoenix": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Elon"
+   "location": "Elon",
+   "color": "020303",
+   "alt": "b59a57"
   },
   "Evansville Purple Aces": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Evansville"
+   "location": "Evansville",
+   "color": "663399",
+   "alt": "ef6f00"
   },
   "Fairfield Stags": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Fairfield"
+   "location": "Fairfield",
+   "color": "000000",
+   "alt": "ebebeb"
   },
   "Fairleigh Dickinson Knights": {
    "conf": "NEC",
    "tier": "D",
-   "location": "Fairleigh Dickinson"
+   "location": "Fairleigh Dickinson",
+   "color": "72293c",
+   "alt": "28334a"
   },
   "Florida A&M Rattlers": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Florida A&M"
+   "location": "Florida A&M",
+   "color": "F89728",
+   "alt": "00843d"
   },
   "Florida Gators": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Florida"
+   "location": "Florida",
+   "color": "0021a5",
+   "alt": "fa4616"
   },
   "Florida Gulf Coast Eagles": {
    "conf": "Atlantic Sun",
    "tier": "D",
-   "location": "Florida Gulf Coast"
+   "location": "Florida Gulf Coast",
+   "color": "00885a",
+   "alt": "076c3b"
   },
   "Florida International Panthers": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Florida International"
+   "location": "Florida International",
+   "color": "091f3f",
+   "alt": "c3993f"
   },
   "Florida State Seminoles": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Florida State"
+   "location": "Florida State",
+   "color": "782f40",
+   "alt": "ceb888"
   },
   "Fordham Rams": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Fordham"
+   "location": "Fordham",
+   "color": "830032",
+   "alt": "909090"
   },
   "Fresno State Bulldogs": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "Fresno State"
+   "location": "Fresno State",
+   "color": "b1102b",
+   "alt": "13284c"
   },
   "Furman Paladins": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "Furman"
+   "location": "Furman",
+   "color": "582c83",
+   "alt": "ffffff"
   },
   "Gardner-Webb Runnin' Bulldogs": {
    "conf": "Big South",
    "tier": "D",
-   "location": "Gardner-Webb"
+   "location": "Gardner-Webb",
+   "color": "c12535",
+   "alt": "909090"
   },
   "George Mason Patriots": {
    "conf": "A-10",
    "tier": "B",
-   "location": "George Mason"
+   "location": "George Mason",
+   "color": "016600",
+   "alt": "ecb010"
   },
   "George Washington Revolutionaries": {
    "conf": "A-10",
    "tier": "B",
-   "location": "George Washington"
+   "location": "George Washington",
+   "color": "002843",
+   "alt": "e8d2a1"
   },
   "Georgetown Hoyas": {
    "conf": "Big East",
    "tier": "A",
-   "location": "Georgetown"
+   "location": "Georgetown",
+   "color": "110E42",
+   "alt": "001c58"
   },
   "Georgia Bulldogs": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Georgia"
+   "location": "Georgia",
+   "color": "ba0c2f",
+   "alt": "2c2a29"
   },
   "Georgia Southern Eagles": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Georgia Southern"
+   "location": "Georgia Southern",
+   "color": "041e42",
+   "alt": "a3aaae"
   },
   "Georgia State Panthers": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Georgia State"
+   "location": "Georgia State",
+   "color": "0039a6",
+   "alt": "ffffff"
   },
   "Georgia Tech Yellow Jackets": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Georgia Tech"
+   "location": "Georgia Tech",
+   "color": "b3a369",
+   "alt": "ffffff"
   },
   "Gonzaga Bulldogs": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "Gonzaga"
+   "location": "Gonzaga",
+   "color": "041e42",
+   "alt": "c8102e"
   },
   "Grambling Tigers": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Grambling"
+   "location": "Grambling",
+   "color": "ee8601",
+   "alt": "ffd10a"
   },
   "Grand Canyon Lopes": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "Grand Canyon"
+   "location": "Grand Canyon",
+   "color": "522398",
+   "alt": "ffffff"
   },
   "Green Bay Phoenix": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Green Bay"
+   "location": "Green Bay",
+   "color": "006633",
+   "alt": "ffffff"
   },
   "Hampton Pirates": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Hampton"
+   "location": "Hampton",
+   "color": "0067AC",
+   "alt": null
   },
   "Harvard Crimson": {
    "conf": "Ivy",
    "tier": "C",
-   "location": "Harvard"
+   "location": "Harvard",
+   "color": "990000",
+   "alt": "dbdbdb"
   },
   "Hawai'i Rainbow Warriors": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "Hawai'i"
+   "location": "Hawai'i",
+   "color": "005737",
+   "alt": "000000"
   },
   "High Point Panthers": {
    "conf": "Big South",
    "tier": "D",
-   "location": "High Point"
+   "location": "High Point",
+   "color": "330072",
+   "alt": "ffffff"
   },
   "Hofstra Pride": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Hofstra"
+   "location": "Hofstra",
+   "color": "003594",
+   "alt": "ffc72c"
   },
   "Holy Cross Crusaders": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Holy Cross"
+   "location": "Holy Cross",
+   "color": "582c83",
+   "alt": "ffffff"
   },
   "Houston Christian Huskies": {
    "conf": "Southland",
    "tier": "D",
-   "location": "Houston Christian"
+   "location": "Houston Christian",
+   "color": "00539c",
+   "alt": null
   },
   "Houston Cougars": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Houston"
+   "location": "Houston",
+   "color": "c8102e",
+   "alt": "ffffff"
   },
   "Howard Bison": {
    "conf": "MEAC",
    "tier": "D",
-   "location": "Howard"
+   "location": "Howard",
+   "color": "003a63",
+   "alt": "e51937"
   },
   "IU Indianapolis Jaguars": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "IU Indianapolis"
+   "location": "IU Indianapolis",
+   "color": "A81F30",
+   "alt": "d59f0f"
   },
   "Idaho State Bengals": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Idaho State"
+   "location": "Idaho State",
+   "color": "ef8c00",
+   "alt": "e9a126"
   },
   "Idaho Vandals": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Idaho"
+   "location": "Idaho",
+   "color": "000000",
+   "alt": "8c6e4a"
   },
   "Illinois Fighting Illini": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Illinois"
+   "location": "Illinois",
+   "color": "ff5f05",
+   "alt": "13294b"
   },
   "Illinois State Redbirds": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Illinois State"
+   "location": "Illinois State",
+   "color": "CE1126",
+   "alt": "ffe716"
   },
   "Incarnate Word Cardinals": {
    "conf": "Southland",
    "tier": "D",
-   "location": "Incarnate Word"
+   "location": "Incarnate Word",
+   "color": "000000",
+   "alt": "080808"
   },
   "Indiana Hoosiers": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Indiana"
+   "location": "Indiana",
+   "color": "970310",
+   "alt": "ffffff"
   },
   "Indiana State Sycamores": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Indiana State"
+   "location": "Indiana State",
+   "color": "00669a",
+   "alt": "f0f0f0"
   },
   "Iona Gaels": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Iona"
+   "location": "Iona",
+   "color": "6f2c3e",
+   "alt": "f0ab00"
   },
   "Iowa Hawkeyes": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Iowa"
+   "location": "Iowa",
+   "color": "231f20",
+   "alt": "fcd116"
   },
   "Iowa State Cyclones": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Iowa State"
+   "location": "Iowa State",
+   "color": "ae192d",
+   "alt": "ffc72a"
   },
   "Jackson State Tigers": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Jackson State"
+   "location": "Jackson State",
+   "color": "123297",
+   "alt": "b5b7ba"
   },
   "Jacksonville Dolphins": {
    "conf": "Atlantic Sun",
    "tier": "D",
-   "location": "Jacksonville"
+   "location": "Jacksonville",
+   "color": "00523e",
+   "alt": null
   },
   "Jacksonville State Gamecocks": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Jacksonville State"
+   "location": "Jacksonville State",
+   "color": "cc0000",
+   "alt": "000000"
   },
   "James Madison Dukes": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "James Madison"
+   "location": "James Madison",
+   "color": "450084",
+   "alt": "cbb677"
   },
   "Kansas City Roos": {
    "conf": "Summit",
    "tier": "C",
-   "location": "Kansas City"
+   "location": "Kansas City",
+   "color": "004b87",
+   "alt": "ffc72c"
   },
   "Kansas Jayhawks": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Kansas"
+   "location": "Kansas",
+   "color": "0051ba",
+   "alt": "e8000d"
   },
   "Kansas State Wildcats": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Kansas State"
+   "location": "Kansas State",
+   "color": "330a57",
+   "alt": "e2e3e4"
   },
   "Kennesaw State Owls": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Kennesaw State"
+   "location": "Kennesaw State",
+   "color": "fdbb30",
+   "alt": "0b1315"
   },
   "Kent State Golden Flashes": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Kent State"
+   "location": "Kent State",
+   "color": "002664",
+   "alt": "eaab00"
   },
   "Kentucky Wildcats": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Kentucky"
+   "location": "Kentucky",
+   "color": "0033a0",
+   "alt": "ffffff"
   },
   "LSU New Orleans Privateers": {
    "conf": "Southland",
    "tier": "D",
-   "location": "LSU New Orleans"
+   "location": "LSU New Orleans",
+   "color": "461d7c",
+   "alt": "fdd023"
   },
   "LSU Tigers": {
    "conf": "SEC",
    "tier": "A",
-   "location": "LSU"
+   "location": "LSU",
+   "color": "461d76",
+   "alt": "fdd023"
   },
   "La Salle Explorers": {
    "conf": "A-10",
    "tier": "B",
-   "location": "La Salle"
+   "location": "La Salle",
+   "color": "003356",
+   "alt": "ffce00"
   },
   "Lafayette Leopards": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Lafayette"
+   "location": "Lafayette",
+   "color": "790000",
+   "alt": "a59474"
   },
   "Lamar Cardinals": {
    "conf": "Southland",
    "tier": "D",
-   "location": "Lamar"
+   "location": "Lamar",
+   "color": "000000",
+   "alt": "ebebeb"
   },
   "Le Moyne Dolphins": {
    "conf": "NEC",
    "tier": "D",
-   "location": "Le Moyne"
+   "location": "Le Moyne",
+   "color": null,
+   "alt": null
   },
   "Lehigh Mountain Hawks": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Lehigh"
+   "location": "Lehigh",
+   "color": "6c2b2a",
+   "alt": "b69e70"
   },
   "Liberty Flames": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Liberty"
+   "location": "Liberty",
+   "color": "0a254e",
+   "alt": "b72025"
   },
   "Lipscomb Bisons": {
    "conf": "Atlantic Sun",
    "tier": "D",
-   "location": "Lipscomb"
+   "location": "Lipscomb",
+   "color": "20366C",
+   "alt": "f6b734"
   },
   "Little Rock Trojans": {
    "conf": "UAC",
    "tier": "D",
-   "location": "Little Rock"
+   "location": "Little Rock",
+   "color": "AD0000",
+   "alt": "898d8f"
   },
   "Long Beach State Beach": {
    "conf": "Big West",
    "tier": "C",
-   "location": "Long Beach State"
+   "location": "Long Beach State",
+   "color": "000000",
+   "alt": "f1f2f3"
   },
   "Long Island University Sharks": {
    "conf": "NEC",
    "tier": "D",
-   "location": "Long Island University"
+   "location": "Long Island University",
+   "color": "50c9f7",
+   "alt": "ffbf00"
   },
   "Longwood Lancers": {
    "conf": "Big South",
    "tier": "D",
-   "location": "Longwood"
+   "location": "Longwood",
+   "color": "003273",
+   "alt": "9ea2a3"
   },
   "Louisiana Ragin' Cajuns": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Louisiana"
+   "location": "Louisiana",
+   "color": "ce181e",
+   "alt": "000000"
   },
   "Louisiana Tech Bulldogs": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Louisiana Tech"
+   "location": "Louisiana Tech",
+   "color": "003087",
+   "alt": "cb333b"
   },
   "Louisville Cardinals": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Louisville"
+   "location": "Louisville",
+   "color": "c9001f",
+   "alt": "ffffff"
   },
   "Loyola Chicago Ramblers": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Loyola Chicago"
+   "location": "Loyola Chicago",
+   "color": "9d1244",
+   "alt": null
   },
   "Loyola Maryland Greyhounds": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Loyola Maryland"
+   "location": "Loyola Maryland",
+   "color": "76a7a0",
+   "alt": "c9cbca"
   },
   "Loyola Marymount Lions": {
    "conf": "WCC",
    "tier": "B",
-   "location": "Loyola Marymount"
+   "location": "Loyola Marymount",
+   "color": "880029",
+   "alt": "00345b"
   },
   "Maine Black Bears": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "Maine"
+   "location": "Maine",
+   "color": "127dbe",
+   "alt": null
   },
   "Manhattan Jaspers": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Manhattan"
+   "location": "Manhattan",
+   "color": "4f8537",
+   "alt": "b5b7ba"
   },
   "Marist Red Foxes": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Marist"
+   "location": "Marist",
+   "color": "e53730",
+   "alt": "f0f0f0"
   },
   "Marquette Golden Eagles": {
    "conf": "Big East",
    "tier": "A",
-   "location": "Marquette"
+   "location": "Marquette",
+   "color": "003366",
+   "alt": "ffcc00"
   },
   "Marshall Thundering Herd": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Marshall"
+   "location": "Marshall",
+   "color": "00b140",
+   "alt": "000000"
   },
   "Maryland Eastern Shore Hawks": {
    "conf": "MEAC",
    "tier": "D",
-   "location": "Maryland Eastern Shore"
+   "location": "Maryland Eastern Shore",
+   "color": "5c2301",
+   "alt": "b5b7ba"
   },
   "Maryland Terrapins": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Maryland"
+   "location": "Maryland",
+   "color": "ce1126",
+   "alt": "ffffff"
   },
   "Massachusetts Minutemen": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Massachusetts"
+   "location": "Massachusetts",
+   "color": "881c1c",
+   "alt": "ffffff"
   },
   "McNeese Cowboys": {
    "conf": "Southland",
    "tier": "D",
-   "location": "McNeese"
+   "location": "McNeese",
+   "color": "00529C",
+   "alt": "ffd204"
   },
   "Mercer Bears": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "Mercer"
+   "location": "Mercer",
+   "color": "ff7f29",
+   "alt": "080808"
   },
   "Mercyhurst Lakers": {
    "conf": "NEC",
    "tier": "D",
-   "location": "Mercyhurst"
+   "location": "Mercyhurst",
+   "color": "000000",
+   "alt": null
   },
   "Merrimack Warriors": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Merrimack"
+   "location": "Merrimack",
+   "color": "2f4f93",
+   "alt": "e8c535"
   },
   "Miami (OH) RedHawks": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Miami (OH)"
+   "location": "Miami (OH)",
+   "color": "c41230",
+   "alt": "ffffff"
   },
   "Miami Hurricanes": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Miami"
+   "location": "Miami",
+   "color": "f47423",
+   "alt": "035131"
   },
   "Michigan State Spartans": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Michigan State"
+   "location": "Michigan State",
+   "color": "173f35",
+   "alt": "ffffff"
   },
   "Michigan Wolverines": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Michigan"
+   "location": "Michigan",
+   "color": "00274c",
+   "alt": "ffcb05"
   },
   "Middle Tennessee Blue Raiders": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Middle Tennessee"
+   "location": "Middle Tennessee",
+   "color": "036eb7",
+   "alt": "ffffff"
   },
   "Milwaukee Panthers": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Milwaukee"
+   "location": "Milwaukee",
+   "color": "000000",
+   "alt": "ffc20e"
   },
   "Minnesota Golden Gophers": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Minnesota"
+   "location": "Minnesota",
+   "color": "5e0a2f",
+   "alt": "fab41c"
   },
   "Mississippi State Bulldogs": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Mississippi State"
+   "location": "Mississippi State",
+   "color": "5d1725",
+   "alt": "c1c6c8"
   },
   "Mississippi Valley State Delta Devils": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Mississippi Valley State"
+   "location": "Mississippi Valley State",
+   "color": "005328",
+   "alt": "cf2d34"
   },
   "Missouri State Bears": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Missouri State"
+   "location": "Missouri State",
+   "color": "5e0009",
+   "alt": "ffffff"
   },
   "Missouri Tigers": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Missouri"
+   "location": "Missouri",
+   "color": "f1b82d",
+   "alt": "000000"
   },
   "Monmouth Hawks": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Monmouth"
+   "location": "Monmouth",
+   "color": "051844",
+   "alt": null
   },
   "Montana Grizzlies": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Montana"
+   "location": "Montana",
+   "color": "751D4A",
+   "alt": "666666"
   },
   "Montana State Bobcats": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Montana State"
+   "location": "Montana State",
+   "color": "00205c",
+   "alt": "bc955c"
   },
   "Morehead State Eagles": {
    "conf": "OVC",
    "tier": "D",
-   "location": "Morehead State"
+   "location": "Morehead State",
+   "color": "094FA3",
+   "alt": "fed91a"
   },
   "Morgan State Bears": {
    "conf": "MEAC",
    "tier": "D",
-   "location": "Morgan State"
+   "location": "Morgan State",
+   "color": "014786",
+   "alt": "f47937"
   },
   "Mount St. Mary's Mountaineers": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Mount St. Mary's"
+   "location": "Mount St. Mary's",
+   "color": "005596",
+   "alt": "ebebeb"
   },
   "Murray State Racers": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Murray State"
+   "location": "Murray State",
+   "color": "002148",
+   "alt": "000e00"
   },
   "NC State Wolfpack": {
    "conf": "ACC",
    "tier": "A",
-   "location": "NC State"
+   "location": "NC State",
+   "color": "cc0000",
+   "alt": "ffffff"
   },
   "NJIT Highlanders": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "NJIT"
+   "location": "NJIT",
+   "color": "EE3024",
+   "alt": "df3e2e"
   },
   "Navy Midshipmen": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Navy"
+   "location": "Navy",
+   "color": "00225b",
+   "alt": "b5a67c"
   },
   "Nebraska Cornhuskers": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Nebraska"
+   "location": "Nebraska",
+   "color": "e31937",
+   "alt": "ffffff"
   },
   "Nevada Wolf Pack": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "Nevada"
+   "location": "Nevada",
+   "color": "041e42",
+   "alt": "8a8d8f"
   },
   "New Hampshire Wildcats": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "New Hampshire"
+   "location": "New Hampshire",
+   "color": "004990",
+   "alt": "c3c4c6"
   },
   "New Haven Chargers": {
    "conf": "NEC",
    "tier": "D",
-   "location": "New Haven"
+   "location": "New Haven",
+   "color": "041e42",
+   "alt": "ffc425"
   },
   "New Mexico Lobos": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "New Mexico"
+   "location": "New Mexico",
+   "color": "ba0c2f",
+   "alt": "a7a8aa"
   },
   "New Mexico State Aggies": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "New Mexico State"
+   "location": "New Mexico State",
+   "color": "7e141b",
+   "alt": "231f20"
   },
   "Niagara Purple Eagles": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Niagara"
+   "location": "Niagara",
+   "color": "69207E",
+   "alt": "f0f0f0"
   },
   "Nicholls Colonels": {
    "conf": "Southland",
    "tier": "D",
-   "location": "Nicholls"
+   "location": "Nicholls",
+   "color": "C41230",
+   "alt": "f0f0f0"
   },
   "Norfolk State Spartans": {
    "conf": "MEAC",
    "tier": "D",
-   "location": "Norfolk State"
+   "location": "Norfolk State",
+   "color": "0c8968",
+   "alt": "fdb813"
   },
   "North Alabama Lions": {
    "conf": "UAC",
    "tier": "D",
-   "location": "North Alabama"
+   "location": "North Alabama",
+   "color": "663399",
+   "alt": null
   },
   "North Carolina A&T Aggies": {
    "conf": "CAA",
    "tier": "C",
-   "location": "North Carolina A&T"
+   "location": "North Carolina A&T",
+   "color": "0505aa",
+   "alt": "004684"
   },
   "North Carolina Central Eagles": {
    "conf": "MEAC",
    "tier": "D",
-   "location": "North Carolina Central"
+   "location": "North Carolina Central",
+   "color": "880023",
+   "alt": "c2c3c0"
   },
   "North Carolina Tar Heels": {
    "conf": "ACC",
    "tier": "A",
-   "location": "North Carolina"
+   "location": "North Carolina",
+   "color": "7bafd4",
+   "alt": "13294b"
   },
   "North Dakota Fighting Hawks": {
    "conf": "Summit",
    "tier": "C",
-   "location": "North Dakota"
+   "location": "North Dakota",
+   "color": "00A26B",
+   "alt": "c2c3c0"
   },
   "North Dakota State Bison": {
    "conf": "Summit",
    "tier": "C",
-   "location": "North Dakota State"
+   "location": "North Dakota State",
+   "color": "01402A",
+   "alt": "ffffff"
   },
   "North Florida Ospreys": {
    "conf": "Atlantic Sun",
    "tier": "D",
-   "location": "North Florida"
+   "location": "North Florida",
+   "color": "004B8D",
+   "alt": "babcbe"
   },
   "Northeastern Huskies": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Northeastern"
+   "location": "Northeastern",
+   "color": "CC0001",
+   "alt": "c2c3c0"
   },
   "Northern Arizona Lumberjacks": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Northern Arizona"
+   "location": "Northern Arizona",
+   "color": "003976",
+   "alt": "1b3069"
   },
   "Northern Colorado Bears": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Northern Colorado"
+   "location": "Northern Colorado",
+   "color": "13558D",
+   "alt": "ffc533"
   },
   "Northern Illinois Huskies": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Northern Illinois"
+   "location": "Northern Illinois",
+   "color": "c8102e",
+   "alt": "000000"
   },
   "Northern Iowa Panthers": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Northern Iowa"
+   "location": "Northern Iowa",
+   "color": "473282",
+   "alt": "ffffff"
   },
   "Northern Kentucky Norse": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Northern Kentucky"
+   "location": "Northern Kentucky",
+   "color": "ffc82e",
+   "alt": "000000"
   },
   "Northwestern State Demons": {
    "conf": "Southland",
    "tier": "D",
-   "location": "Northwestern State"
+   "location": "Northwestern State",
+   "color": "492F91",
+   "alt": "ed6118"
   },
   "Northwestern Wildcats": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Northwestern"
+   "location": "Northwestern",
+   "color": "492f92",
+   "alt": "ffffff"
   },
   "Notre Dame Fighting Irish": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Notre Dame"
+   "location": "Notre Dame",
+   "color": "062340",
+   "alt": "c99700"
   },
   "Oakland Golden Grizzlies": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Oakland"
+   "location": "Oakland",
+   "color": "04091c",
+   "alt": "bc955c"
   },
   "Ohio Bobcats": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Ohio"
+   "location": "Ohio",
+   "color": "154734",
+   "alt": "ffffff"
   },
   "Ohio State Buckeyes": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Ohio State"
+   "location": "Ohio State",
+   "color": "ba0c2f",
+   "alt": "a8adb4"
   },
   "Oklahoma Sooners": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Oklahoma"
+   "location": "Oklahoma",
+   "color": "990000",
+   "alt": "ffffff"
   },
   "Oklahoma State Cowboys": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Oklahoma State"
+   "location": "Oklahoma State",
+   "color": "fe5c00",
+   "alt": "000000"
   },
   "Old Dominion Monarchs": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Old Dominion"
+   "location": "Old Dominion",
+   "color": "003768",
+   "alt": "a1d2f1"
   },
   "Ole Miss Rebels": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Ole Miss"
+   "location": "Ole Miss",
+   "color": "13294b",
+   "alt": "cf142b"
   },
   "Omaha Mavericks": {
    "conf": "Summit",
    "tier": "C",
-   "location": "Omaha"
+   "location": "Omaha",
+   "color": "e3193e",
+   "alt": "474648"
   },
   "Oral Roberts Golden Eagles": {
    "conf": "Summit",
    "tier": "C",
-   "location": "Oral Roberts"
+   "location": "Oral Roberts",
+   "color": "002462",
+   "alt": "dac792"
   },
   "Oregon Ducks": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Oregon"
+   "location": "Oregon",
+   "color": "00934b",
+   "alt": "fff41b"
   },
   "Oregon State Beavers": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "Oregon State"
+   "location": "Oregon State",
+   "color": "dc4405",
+   "alt": "000000"
   },
   "Pacific Tigers": {
    "conf": "WCC",
    "tier": "B",
-   "location": "Pacific"
+   "location": "Pacific",
+   "color": "F47820",
+   "alt": "c2c3c0"
   },
   "Penn State Nittany Lions": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Penn State"
+   "location": "Penn State",
+   "color": "061440",
+   "alt": "ffffff"
   },
   "Pennsylvania Quakers": {
    "conf": "Ivy",
    "tier": "C",
-   "location": "Pennsylvania"
+   "location": "Pennsylvania",
+   "color": "082A74",
+   "alt": "a6163d"
   },
   "Pepperdine Waves": {
    "conf": "WCC",
    "tier": "B",
-   "location": "Pepperdine"
+   "location": "Pepperdine",
+   "color": "003A72",
+   "alt": "dc762f"
   },
   "Pittsburgh Panthers": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Pittsburgh"
+   "location": "Pittsburgh",
+   "color": "003594",
+   "alt": "ffb81c"
   },
   "Portland Pilots": {
    "conf": "WCC",
    "tier": "B",
-   "location": "Portland"
+   "location": "Portland",
+   "color": "330072",
+   "alt": "a8b3ba"
   },
   "Portland State Vikings": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Portland State"
+   "location": "Portland State",
+   "color": "00311e",
+   "alt": "ebebeb"
   },
   "Prairie View A&M Panthers": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Prairie View A&M"
+   "location": "Prairie View A&M",
+   "color": "582c83",
+   "alt": "eaaa00"
   },
   "Presbyterian Blue Hose": {
    "conf": "Big South",
    "tier": "D",
-   "location": "Presbyterian"
+   "location": "Presbyterian",
+   "color": "194896",
+   "alt": "990134"
   },
   "Princeton Tigers": {
    "conf": "Ivy",
    "tier": "C",
-   "location": "Princeton"
+   "location": "Princeton",
+   "color": "000000",
+   "alt": "ff6000"
   },
   "Providence Friars": {
    "conf": "Big East",
    "tier": "A",
-   "location": "Providence"
+   "location": "Providence",
+   "color": "000000",
+   "alt": "a3a19e"
   },
   "Purdue Boilermakers": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Purdue"
+   "location": "Purdue",
+   "color": "ceb888",
+   "alt": "000000"
   },
   "Purdue Fort Wayne Mastodons": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Purdue Fort Wayne"
+   "location": "Purdue Fort Wayne",
+   "color": "cfb991",
+   "alt": "000000"
   },
   "Quinnipiac Bobcats": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Quinnipiac"
+   "location": "Quinnipiac",
+   "color": "041B43",
+   "alt": null
   },
   "Radford Highlanders": {
    "conf": "Big South",
    "tier": "D",
-   "location": "Radford"
+   "location": "Radford",
+   "color": "BC1515",
+   "alt": "c2c3c0"
   },
   "Rhode Island Rams": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Rhode Island"
+   "location": "Rhode Island",
+   "color": "091f3f",
+   "alt": "5ab3e8"
   },
   "Richmond Spiders": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Richmond"
+   "location": "Richmond",
+   "color": "9e0712",
+   "alt": "b90b2e"
   },
   "Rider Broncs": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Rider"
+   "location": "Rider",
+   "color": "a80532",
+   "alt": "ebebeb"
   },
   "Robert Morris Colonials": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Robert Morris"
+   "location": "Robert Morris",
+   "color": "00214D",
+   "alt": "a21d2b"
   },
   "Rutgers Scarlet Knights": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Rutgers"
+   "location": "Rutgers",
+   "color": "ce0e2d",
+   "alt": "ffffff"
   },
   "SE Louisiana Lions": {
    "conf": "Southland",
    "tier": "D",
-   "location": "SE Louisiana"
+   "location": "SE Louisiana",
+   "color": "215732",
+   "alt": "ffc72c"
   },
   "SIU Edwardsville Cougars": {
    "conf": "OVC",
    "tier": "D",
-   "location": "SIU Edwardsville"
+   "location": "SIU Edwardsville",
+   "color": "eb1c23",
+   "alt": "080808"
   },
   "SMU Mustangs": {
    "conf": "ACC",
    "tier": "A",
-   "location": "SMU"
+   "location": "SMU",
+   "color": "a80000",
+   "alt": "0033a1"
   },
   "Sacramento State Hornets": {
    "conf": "Big West",
    "tier": "C",
-   "location": "Sacramento State"
+   "location": "Sacramento State",
+   "color": "00573C",
+   "alt": "cdb97d"
   },
   "Sacred Heart Pioneers": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Sacred Heart"
+   "location": "Sacred Heart",
+   "color": "a40012",
+   "alt": "c29472"
   },
   "Saint Joseph's Hawks": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Saint Joseph's"
+   "location": "Saint Joseph's",
+   "color": "9e1b32",
+   "alt": "6c6f70"
   },
   "Saint Louis Billikens": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Saint Louis"
+   "location": "Saint Louis",
+   "color": "00539C",
+   "alt": "ebebeb"
   },
   "Saint Mary's Gaels": {
    "conf": "WCC",
    "tier": "B",
-   "location": "Saint Mary's"
+   "location": "Saint Mary's",
+   "color": "d80024",
+   "alt": "003057"
   },
   "Saint Peter's Peacocks": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Saint Peter's"
+   "location": "Saint Peter's",
+   "color": "004CC2",
+   "alt": null
   },
   "Sam Houston Bearkats": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Sam Houston"
+   "location": "Sam Houston",
+   "color": "f56423",
+   "alt": "ffffff"
   },
   "Samford Bulldogs": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "Samford"
+   "location": "Samford",
+   "color": "005485",
+   "alt": "bc0023"
   },
   "San Diego State Aztecs": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "San Diego State"
+   "location": "San Diego State",
+   "color": "a6192e",
+   "alt": "000000"
   },
   "San Diego Toreros": {
    "conf": "WCC",
    "tier": "B",
-   "location": "San Diego"
+   "location": "San Diego",
+   "color": "2f99d4",
+   "alt": "2f99d4"
   },
   "San Francisco Dons": {
    "conf": "WCC",
    "tier": "B",
-   "location": "San Francisco"
+   "location": "San Francisco",
+   "color": "005a36",
+   "alt": "ffffff"
   },
   "San José State Spartans": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "San José State"
+   "location": "San José State",
+   "color": "0038a8",
+   "alt": "ffb81a"
   },
   "Santa Clara Broncos": {
    "conf": "WCC",
    "tier": "B",
-   "location": "Santa Clara"
+   "location": "Santa Clara",
+   "color": "690b0b",
+   "alt": "101010"
   },
   "Seattle U Redhawks": {
    "conf": "WCC",
    "tier": "B",
-   "location": "Seattle U"
+   "location": "Seattle U",
+   "color": "BF2E1A",
+   "alt": "c2c3c0"
   },
   "Seton Hall Pirates": {
    "conf": "Big East",
    "tier": "A",
-   "location": "Seton Hall"
+   "location": "Seton Hall",
+   "color": "0857B1",
+   "alt": "8a8d8f"
   },
   "Siena Saints": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Siena"
+   "location": "Siena",
+   "color": "037961",
+   "alt": "eea60f"
   },
   "South Alabama Jaguars": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "South Alabama"
+   "location": "South Alabama",
+   "color": "00205b",
+   "alt": "bf0d3e"
   },
   "South Carolina Gamecocks": {
    "conf": "SEC",
    "tier": "A",
-   "location": "South Carolina"
+   "location": "South Carolina",
+   "color": "73000a",
+   "alt": "000000"
   },
   "South Carolina State Bulldogs": {
    "conf": "MEAC",
    "tier": "D",
-   "location": "South Carolina State"
+   "location": "South Carolina State",
+   "color": "7d1315",
+   "alt": "104897"
   },
   "South Carolina Upstate Spartans": {
    "conf": "Big South",
    "tier": "D",
-   "location": "South Carolina Upstate"
+   "location": "South Carolina Upstate",
+   "color": "008545",
+   "alt": "000000"
   },
   "South Dakota Coyotes": {
    "conf": "Summit",
    "tier": "C",
-   "location": "South Dakota"
+   "location": "South Dakota",
+   "color": "CD1241",
+   "alt": "f0f0f0"
   },
   "South Dakota State Jackrabbits": {
    "conf": "Summit",
    "tier": "C",
-   "location": "South Dakota State"
+   "location": "South Dakota State",
+   "color": "0033a0",
+   "alt": "ffd100"
   },
   "Southeast Missouri State Redhawks": {
    "conf": "OVC",
    "tier": "D",
-   "location": "Southeast Missouri State"
+   "location": "Southeast Missouri State",
+   "color": "c8102e",
+   "alt": "000000"
   },
   "Southern Illinois Salukis": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Southern Illinois"
+   "location": "Southern Illinois",
+   "color": "85283D",
+   "alt": "c2c3c0"
   },
   "Southern Jaguars": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Southern"
+   "location": "Southern",
+   "color": "004B97",
+   "alt": "ffc82d"
   },
   "Southern Miss Golden Eagles": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Southern Miss"
+   "location": "Southern Miss",
+   "color": "ffc72c",
+   "alt": "231f20"
   },
   "Southern Utah Thunderbirds": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Southern Utah"
+   "location": "Southern Utah",
+   "color": "c72026",
+   "alt": "000000"
   },
   "St. Bonaventure Bonnies": {
    "conf": "A-10",
    "tier": "B",
-   "location": "St. Bonaventure"
+   "location": "St. Bonaventure",
+   "color": "70261D",
+   "alt": null
   },
   "St. John's Red Storm": {
    "conf": "Big East",
    "tier": "A",
-   "location": "St. John's"
+   "location": "St. John's",
+   "color": "d10000",
+   "alt": "101010"
   },
   "St. Thomas Tommies": {
    "conf": "Summit",
    "tier": "C",
-   "location": "St. Thomas"
+   "location": "St. Thomas",
+   "color": "000000",
+   "alt": null
   },
   "Stanford Cardinal": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Stanford"
+   "location": "Stanford",
+   "color": "8c1515",
+   "alt": "ffffff"
   },
   "Stephen F. Austin Lumberjacks": {
    "conf": "Southland",
    "tier": "D",
-   "location": "Stephen F. Austin"
+   "location": "Stephen F. Austin",
+   "color": "393996",
+   "alt": "bec0c2"
   },
   "Stetson Hatters": {
    "conf": "Atlantic Sun",
    "tier": "D",
-   "location": "Stetson"
+   "location": "Stetson",
+   "color": "0a5640",
+   "alt": "56854e"
   },
   "Stonehill Skyhawks": {
    "conf": "NEC",
    "tier": "D",
-   "location": "Stonehill"
+   "location": "Stonehill",
+   "color": "000000",
+   "alt": null
   },
   "Stony Brook Seawolves": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Stony Brook"
+   "location": "Stony Brook",
+   "color": "990000",
+   "alt": null
   },
   "Syracuse Orange": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Syracuse"
+   "location": "Syracuse",
+   "color": "000e54",
+   "alt": "ff431b"
   },
   "TCU Horned Frogs": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "TCU"
+   "location": "TCU",
+   "color": "4d1979",
+   "alt": "ffffff"
   },
   "Tarleton State Texans": {
    "conf": "UAC",
    "tier": "D",
-   "location": "Tarleton State"
+   "location": "Tarleton State",
+   "color": "000000",
+   "alt": null
   },
   "Tennessee State Tigers": {
    "conf": "OVC",
    "tier": "D",
-   "location": "Tennessee State"
+   "location": "Tennessee State",
+   "color": "171796",
+   "alt": "f0f0f0"
   },
   "Tennessee Tech Golden Eagles": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "Tennessee Tech"
+   "location": "Tennessee Tech",
+   "color": "5A4099",
+   "alt": "ffde00"
   },
   "Tennessee Volunteers": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Tennessee"
+   "location": "Tennessee",
+   "color": "ff8200",
+   "alt": "ffffff"
   },
   "Texas A&M Aggies": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Texas A&M"
+   "location": "Texas A&M",
+   "color": "500000",
+   "alt": "ffffff"
   },
   "Texas A&M-Corpus Christi Islanders": {
    "conf": "Southland",
    "tier": "D",
-   "location": "Texas A&M-Corpus Christi"
+   "location": "Texas A&M-Corpus Christi",
+   "color": "0067c5",
+   "alt": "007f3e"
   },
   "Texas Longhorns": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Texas"
+   "location": "Texas",
+   "color": "af5c37",
+   "alt": "ffffff"
   },
   "Texas Southern Tigers": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Texas Southern"
+   "location": "Texas Southern",
+   "color": "860038",
+   "alt": "ffffff"
   },
   "Texas State Bobcats": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "Texas State"
+   "location": "Texas State",
+   "color": "501214",
+   "alt": "6a5638"
   },
   "Texas Tech Red Raiders": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Texas Tech"
+   "location": "Texas Tech",
+   "color": "da291c",
+   "alt": "000000"
   },
   "The Citadel Bulldogs": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "The Citadel"
+   "location": "The Citadel",
+   "color": "7badd3",
+   "alt": "002856"
   },
   "Toledo Rockets": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Toledo"
+   "location": "Toledo",
+   "color": "0b2240",
+   "alt": "ffcd00"
   },
   "Towson Tigers": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Towson"
+   "location": "Towson",
+   "color": "FFC229",
+   "alt": null
   },
   "Troy Trojans": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Troy"
+   "location": "Troy",
+   "color": "862633",
+   "alt": "b1b1b1"
   },
   "UAlbany Great Danes": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "UAlbany"
+   "location": "UAlbany",
+   "color": "3D2777",
+   "alt": "ffffff"
   },
   "UC Davis Aggies": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "UC Davis"
+   "location": "UC Davis",
+   "color": "002855",
+   "alt": "c3c4c6"
   },
   "UC Irvine Anteaters": {
    "conf": "Big West",
    "tier": "C",
-   "location": "UC Irvine"
+   "location": "UC Irvine",
+   "color": "002B5C",
+   "alt": "fec52e"
   },
   "UC Riverside Highlanders": {
    "conf": "Big West",
    "tier": "C",
-   "location": "UC Riverside"
+   "location": "UC Riverside",
+   "color": "14234F",
+   "alt": null
   },
   "UC San Diego Tritons": {
    "conf": "Big West",
    "tier": "C",
-   "location": "UC San Diego"
+   "location": "UC San Diego",
+   "color": "000000",
+   "alt": "ffcd00"
   },
   "UC Santa Barbara Gauchos": {
    "conf": "Big West",
    "tier": "C",
-   "location": "UC Santa Barbara"
+   "location": "UC Santa Barbara",
+   "color": "1e1840",
+   "alt": "febc11"
   },
   "UCF Knights": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "UCF"
+   "location": "UCF",
+   "color": "000000",
+   "alt": "b4a169"
   },
   "UCLA Bruins": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "UCLA"
+   "location": "UCLA",
+   "color": "2774ae",
+   "alt": "f2a900"
   },
   "UConn Huskies": {
    "conf": "Big East",
    "tier": "A",
-   "location": "UConn"
+   "location": "UConn",
+   "color": "0c2340",
+   "alt": "a2aaad"
   },
   "UIC Flames": {
    "conf": "MVC",
    "tier": "B",
-   "location": "UIC"
+   "location": "UIC",
+   "color": "001e62",
+   "alt": "d50032"
   },
   "UL Monroe Warhawks": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "UL Monroe"
+   "location": "UL Monroe",
+   "color": "840029",
+   "alt": "fdb913"
   },
   "UMBC Retrievers": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "UMBC"
+   "location": "UMBC",
+   "color": "000000",
+   "alt": "ad860a"
   },
   "UMass Lowell River Hawks": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "UMass Lowell"
+   "location": "UMass Lowell",
+   "color": "00529C",
+   "alt": "cf1f2f"
   },
   "UNC Asheville Bulldogs": {
    "conf": "Big South",
    "tier": "D",
-   "location": "UNC Asheville"
+   "location": "UNC Asheville",
+   "color": "003da5",
+   "alt": "ffffff"
   },
   "UNC Greensboro Spartans": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "UNC Greensboro"
+   "location": "UNC Greensboro",
+   "color": "003559",
+   "alt": "ffd90a"
   },
   "UNC Wilmington Seahawks": {
    "conf": "CAA",
    "tier": "C",
-   "location": "UNC Wilmington"
+   "location": "UNC Wilmington",
+   "color": "00665e",
+   "alt": "ffda00"
   },
   "UNLV Rebels": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "UNLV"
+   "location": "UNLV",
+   "color": "cf0a2c",
+   "alt": "cac8c8"
   },
   "USC Trojans": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "USC"
+   "location": "USC",
+   "color": "9d2235",
+   "alt": "ffc72c"
   },
   "UT Arlington Mavericks": {
    "conf": "UAC",
    "tier": "D",
-   "location": "UT Arlington"
+   "location": "UT Arlington",
+   "color": "004b7c",
+   "alt": "f58024"
   },
   "UT Martin Skyhawks": {
    "conf": "OVC",
    "tier": "D",
-   "location": "UT Martin"
+   "location": "UT Martin",
+   "color": "FF6700",
+   "alt": "102a5c"
   },
   "UT Rio Grande Valley Vaqueros": {
    "conf": "Southland",
    "tier": "D",
-   "location": "UT Rio Grande Valley"
+   "location": "UT Rio Grande Valley",
+   "color": "dc6000",
+   "alt": "e1732d"
   },
   "UTEP Miners": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "UTEP"
+   "location": "UTEP",
+   "color": "ff8200",
+   "alt": "041e42"
   },
   "Utah State Aggies": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "Utah State"
+   "location": "Utah State",
+   "color": "0f2439",
+   "alt": "ffffff"
   },
   "Utah Tech Trailblazers": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Utah Tech"
+   "location": "Utah Tech",
+   "color": "000000",
+   "alt": null
   },
   "Utah Utes": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Utah"
+   "location": "Utah",
+   "color": "be0000",
+   "alt": "ffffff"
   },
   "Utah Valley Wolverines": {
    "conf": "Big West",
    "tier": "C",
-   "location": "Utah Valley"
+   "location": "Utah Valley",
+   "color": "004812",
+   "alt": "e1c736"
   },
   "VCU Rams": {
    "conf": "A-10",
    "tier": "B",
-   "location": "VCU"
+   "location": "VCU",
+   "color": "ffaf00",
+   "alt": "000000"
   },
   "VMI Keydets": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "VMI"
+   "location": "VMI",
+   "color": "ae122a",
+   "alt": "000000"
   },
   "Valparaiso Beacons": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Valparaiso"
+   "location": "Valparaiso",
+   "color": "794500",
+   "alt": null
   },
   "Vanderbilt Commodores": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Vanderbilt"
+   "location": "Vanderbilt",
+   "color": "000000",
+   "alt": "cfae70"
   },
   "Vermont Catamounts": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "Vermont"
+   "location": "Vermont",
+   "color": "154734",
+   "alt": "ffc72c"
   },
   "Villanova Wildcats": {
    "conf": "Big East",
    "tier": "A",
-   "location": "Villanova"
+   "location": "Villanova",
+   "color": "00205b",
+   "alt": "13b5ea"
   },
   "Virginia Cavaliers": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Virginia"
+   "location": "Virginia",
+   "color": "232d4b",
+   "alt": "f84c1e"
   },
   "Virginia Tech Hokies": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Virginia Tech"
+   "location": "Virginia Tech",
+   "color": "6a2c3e",
+   "alt": "cf4520"
   },
   "Wagner Seahawks": {
    "conf": "NEC",
    "tier": "D",
-   "location": "Wagner"
+   "location": "Wagner",
+   "color": "00483A",
+   "alt": "ffffff"
   },
   "Wake Forest Demon Deacons": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Wake Forest"
+   "location": "Wake Forest",
+   "color": "ceb888",
+   "alt": "2c2a29"
   },
   "Washington Huskies": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Washington"
+   "location": "Washington",
+   "color": "33006f",
+   "alt": "e8d3a2"
   },
   "Washington State Cougars": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "Washington State"
+   "location": "Washington State",
+   "color": "a60f2d",
+   "alt": "4d4d4d"
   },
   "Weber State Wildcats": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Weber State"
+   "location": "Weber State",
+   "color": "18005a",
+   "alt": "ebebeb"
   },
   "West Florida Argonauts": {
    "conf": "Atlantic Sun",
    "tier": "D",
-   "location": "West Florida"
+   "location": "West Florida",
+   "color": "087dc2",
+   "alt": "03b186"
   },
   "West Georgia Wolves": {
    "conf": "UAC",
    "tier": "D",
-   "location": "West Georgia"
+   "location": "West Georgia",
+   "color": "0033a1",
+   "alt": "db1a21"
   },
   "West Virginia Mountaineers": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "West Virginia"
+   "location": "West Virginia",
+   "color": "eaaa00",
+   "alt": "002855"
   },
   "Western Carolina Catamounts": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "Western Carolina"
+   "location": "Western Carolina",
+   "color": "492F91",
+   "alt": "bf9e70"
   },
   "Western Illinois Leathernecks": {
    "conf": "OVC",
    "tier": "D",
-   "location": "Western Illinois"
+   "location": "Western Illinois",
+   "color": "4e1e8a",
+   "alt": "ffc90a"
   },
   "Western Kentucky Hilltoppers": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Western Kentucky"
+   "location": "Western Kentucky",
+   "color": "e13a3e",
+   "alt": "ffffff"
   },
   "Western Michigan Broncos": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Western Michigan"
+   "location": "Western Michigan",
+   "color": "532e1f",
+   "alt": "f1c500"
   },
   "William & Mary Tribe": {
    "conf": "CAA",
    "tier": "C",
-   "location": "William & Mary"
+   "location": "William & Mary",
+   "color": "115740",
+   "alt": "f0b323"
   },
   "Winthrop Eagles": {
    "conf": "Big South",
    "tier": "D",
-   "location": "Winthrop"
+   "location": "Winthrop",
+   "color": "9e0b0e",
+   "alt": "fdb41e"
   },
   "Wisconsin Badgers": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Wisconsin"
+   "location": "Wisconsin",
+   "color": "a00000",
+   "alt": "ffffff"
   },
   "Wofford Terriers": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "Wofford"
+   "location": "Wofford",
+   "color": "533B22",
+   "alt": "f0f0f0"
   },
   "Wright State Raiders": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Wright State"
+   "location": "Wright State",
+   "color": "cba052",
+   "alt": "cba052"
   },
   "Wyoming Cowboys": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "Wyoming"
+   "location": "Wyoming",
+   "color": "492f24",
+   "alt": "ffc425"
   },
   "Xavier Musketeers": {
    "conf": "Big East",
    "tier": "A",
-   "location": "Xavier"
+   "location": "Xavier",
+   "color": "21304e",
+   "alt": "a5a7a8"
   },
   "Yale Bulldogs": {
    "conf": "Ivy",
    "tier": "C",
-   "location": "Yale"
+   "location": "Yale",
+   "color": "004a81",
+   "alt": "286dc0"
   },
   "Youngstown State Penguins": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Youngstown State"
+   "location": "Youngstown State",
+   "color": "E51935",
+   "alt": "690717"
   },
   "Abilene Christian": {
    "conf": "UAC",
    "tier": "D",
-   "location": "Abilene Christian"
+   "location": "Abilene Christian",
+   "color": "592d82",
+   "alt": "b1b3b3"
   },
   "Air Force": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "Air Force"
+   "location": "Air Force",
+   "color": "003594",
+   "alt": "ffffff"
   },
   "Akron": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Akron"
+   "location": "Akron",
+   "color": "041e42",
+   "alt": "c5b783"
   },
   "Alabama A&M": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Alabama A&M"
+   "location": "Alabama A&M",
+   "color": "790000",
+   "alt": "ffffff"
   },
   "Alabama": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Alabama"
+   "location": "Alabama",
+   "color": "9e1b32",
+   "alt": "ffffff"
   },
   "Alabama State": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Alabama State"
+   "location": "Alabama State",
+   "color": "e9a900",
+   "alt": "0a0a0a"
   },
   "Alcorn State": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Alcorn State"
+   "location": "Alcorn State",
+   "color": "4b0058",
+   "alt": "46166a"
   },
   "American University": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "American University"
+   "location": "American University",
+   "color": "c41130",
+   "alt": "c8102e"
   },
   "App State": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "App State"
+   "location": "App State",
+   "color": "000000",
+   "alt": "ffcd00"
   },
   "Arizona State": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Arizona State"
+   "location": "Arizona State",
+   "color": "ffc627",
+   "alt": "8c1d40"
   },
   "Arizona": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Arizona"
+   "location": "Arizona",
+   "color": "cc0033",
+   "alt": "003366"
   },
   "Arkansas": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Arkansas"
+   "location": "Arkansas",
+   "color": "a32136",
+   "alt": "ffffff"
   },
   "Arkansas State": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Arkansas State"
+   "location": "Arkansas State",
+   "color": "cc092f",
+   "alt": "000000"
   },
   "Arkansas-Pine Bluff": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Arkansas-Pine Bluff"
+   "location": "Arkansas-Pine Bluff",
+   "color": "e0aa0f",
+   "alt": "eaaa00"
   },
   "Army": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Army"
+   "location": "Army",
+   "color": "000000",
+   "alt": "d3bc8d"
   },
   "Auburn": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Auburn"
+   "location": "Auburn",
+   "color": "002b5c",
+   "alt": "f26522"
   },
   "Austin Peay": {
    "conf": "UAC",
    "tier": "D",
-   "location": "Austin Peay"
+   "location": "Austin Peay",
+   "color": "8e0b0b",
+   "alt": null
   },
   "BYU": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "BYU"
+   "location": "BYU",
+   "color": "0047ba",
+   "alt": "002e5d"
   },
   "Ball State": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Ball State"
+   "location": "Ball State",
+   "color": "ba0c2f",
+   "alt": "ffffff"
   },
   "Baylor": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Baylor"
+   "location": "Baylor",
+   "color": "154734",
+   "alt": "ffb81c"
   },
   "Bellarmine": {
    "conf": "Atlantic Sun",
    "tier": "D",
-   "location": "Bellarmine"
+   "location": "Bellarmine",
+   "color": "000000",
+   "alt": null
   },
   "Belmont": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Belmont"
+   "location": "Belmont",
+   "color": "182142",
+   "alt": "c9262d"
   },
   "Bethune-Cookman": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Bethune-Cookman"
+   "location": "Bethune-Cookman",
+   "color": "7b1831",
+   "alt": "e9aa12"
   },
   "Binghamton": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "Binghamton"
+   "location": "Binghamton",
+   "color": "00614A",
+   "alt": "f0f0f0"
   },
   "Boise State": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "Boise State"
+   "location": "Boise State",
+   "color": "0033a0",
+   "alt": "d64309"
   },
   "Boston College": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Boston College"
+   "location": "Boston College",
+   "color": "8c2232",
+   "alt": "dbcca6"
   },
   "Boston University": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Boston University"
+   "location": "Boston University",
+   "color": "cc0000",
+   "alt": "ffffff"
   },
   "Bowling Green": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Bowling Green"
+   "location": "Bowling Green",
+   "color": "fd5000",
+   "alt": "4f2c1d"
   },
   "Bradley": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Bradley"
+   "location": "Bradley",
+   "color": "b70002",
+   "alt": "c0c0c0"
   },
   "Brown": {
    "conf": "Ivy",
    "tier": "C",
-   "location": "Brown"
+   "location": "Brown",
+   "color": "411e09",
+   "alt": "949300"
   },
   "Bryant": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "Bryant"
+   "location": "Bryant",
+   "color": "000000",
+   "alt": "9f8343"
   },
   "Bucknell": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Bucknell"
+   "location": "Bucknell",
+   "color": "000060",
+   "alt": "00316e"
   },
   "Buffalo": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Buffalo"
+   "location": "Buffalo",
+   "color": "005bbb",
+   "alt": "ffffff"
   },
   "Butler": {
    "conf": "Big East",
    "tier": "A",
-   "location": "Butler"
+   "location": "Butler",
+   "color": "0d1361",
+   "alt": "00a3e0"
   },
   "Cal Poly": {
    "conf": "Big West",
    "tier": "C",
-   "location": "Cal Poly"
+   "location": "Cal Poly",
+   "color": "1E4D2B",
+   "alt": "eed897"
   },
   "Cal State Bakersfield": {
    "conf": "Big West",
    "tier": "C",
-   "location": "Cal State Bakersfield"
+   "location": "Cal State Bakersfield",
+   "color": "003BAB",
+   "alt": null
   },
   "Cal State Fullerton": {
    "conf": "Big West",
    "tier": "C",
-   "location": "Cal State Fullerton"
+   "location": "Cal State Fullerton",
+   "color": "003767",
+   "alt": "ff8300"
   },
   "Cal State Northridge": {
    "conf": "Big West",
    "tier": "C",
-   "location": "Cal State Northridge"
+   "location": "Cal State Northridge",
+   "color": "b50000",
+   "alt": null
   },
   "California Baptist": {
    "conf": "Big West",
    "tier": "C",
-   "location": "California Baptist"
+   "location": "California Baptist",
+   "color": "000080",
+   "alt": null
   },
   "California": {
    "conf": "ACC",
    "tier": "A",
-   "location": "California"
+   "location": "California",
+   "color": "041e42",
+   "alt": "ffc72c"
   },
   "Campbell": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Campbell"
+   "location": "Campbell",
+   "color": "000000",
+   "alt": null
   },
   "Canisius": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Canisius"
+   "location": "Canisius",
+   "color": "004a81",
+   "alt": "dda50f"
   },
   "Central Arkansas": {
    "conf": "UAC",
    "tier": "D",
-   "location": "Central Arkansas"
+   "location": "Central Arkansas",
+   "color": "a7a9ac",
+   "alt": "8e959a"
   },
   "Central Connecticut": {
    "conf": "NEC",
    "tier": "D",
-   "location": "Central Connecticut"
+   "location": "Central Connecticut",
+   "color": "1B49A2",
+   "alt": "d1d5d8"
   },
   "Central Michigan": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Central Michigan"
+   "location": "Central Michigan",
+   "color": "4c0027",
+   "alt": "fbab18"
   },
   "Charleston": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Charleston"
+   "location": "Charleston",
+   "color": "7a2531",
+   "alt": "9e8959"
   },
   "Charleston Southern": {
    "conf": "Big South",
    "tier": "D",
-   "location": "Charleston Southern"
+   "location": "Charleston Southern",
+   "color": "2e3192",
+   "alt": "ded090"
   },
   "Chattanooga": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "Chattanooga"
+   "location": "Chattanooga",
+   "color": "00386b",
+   "alt": "dca71d"
   },
   "Chicago State": {
    "conf": "NEC",
    "tier": "D",
-   "location": "Chicago State"
+   "location": "Chicago State",
+   "color": "006700",
+   "alt": null
   },
   "Cincinnati": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Cincinnati"
+   "location": "Cincinnati",
+   "color": "000000",
+   "alt": "e00122"
   },
   "Clemson": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Clemson"
+   "location": "Clemson",
+   "color": "f56600",
+   "alt": "ffffff"
   },
   "Cleveland State": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Cleveland State"
+   "location": "Cleveland State",
+   "color": "006633",
+   "alt": "231f20"
   },
   "Coastal Carolina": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Coastal Carolina"
+   "location": "Coastal Carolina",
+   "color": "006f71",
+   "alt": "a27752"
   },
   "Colgate": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Colgate"
+   "location": "Colgate",
+   "color": "821019",
+   "alt": "ffffff"
   },
   "Colorado": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Colorado"
+   "location": "Colorado",
+   "color": "cfb87c",
+   "alt": "000000"
   },
   "Colorado State": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "Colorado State"
+   "location": "Colorado State",
+   "color": "004c23",
+   "alt": "c8c372"
   },
   "Columbia": {
    "conf": "Ivy",
    "tier": "C",
-   "location": "Columbia"
+   "location": "Columbia",
+   "color": "7ba4db",
+   "alt": "183863"
   },
   "Coppin State": {
    "conf": "MEAC",
    "tier": "D",
-   "location": "Coppin State"
+   "location": "Coppin State",
+   "color": "2e3192",
+   "alt": "ffd204"
   },
   "Cornell": {
    "conf": "Ivy",
    "tier": "C",
-   "location": "Cornell"
+   "location": "Cornell",
+   "color": "b31b1b",
+   "alt": "ffffff"
   },
   "Creighton": {
    "conf": "Big East",
    "tier": "A",
-   "location": "Creighton"
+   "location": "Creighton",
+   "color": "005ca9",
+   "alt": "6cadde"
   },
   "Dartmouth": {
    "conf": "Ivy",
    "tier": "C",
-   "location": "Dartmouth"
+   "location": "Dartmouth",
+   "color": "005730",
+   "alt": "000000"
   },
   "Davidson": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Davidson"
+   "location": "Davidson",
+   "color": "000000",
+   "alt": "e51837"
   },
   "Dayton": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Dayton"
+   "location": "Dayton",
+   "color": "004B8D",
+   "alt": "ffffff"
   },
   "DePaul": {
    "conf": "Big East",
    "tier": "A",
-   "location": "DePaul"
+   "location": "DePaul",
+   "color": "2d649c",
+   "alt": "ce1125"
   },
   "Delaware": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Delaware"
+   "location": "Delaware",
+   "color": "00539f",
+   "alt": "ffd200"
   },
   "Delaware State": {
    "conf": "MEAC",
    "tier": "D",
-   "location": "Delaware State"
+   "location": "Delaware State",
+   "color": "009cdb",
+   "alt": "d51c28"
   },
   "Denver": {
    "conf": "WCC",
    "tier": "B",
-   "location": "Denver"
+   "location": "Denver",
+   "color": "98002e",
+   "alt": "a8996e"
   },
   "Detroit Mercy": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Detroit Mercy"
+   "location": "Detroit Mercy",
+   "color": "165b9e",
+   "alt": "d31733"
   },
   "Drake": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Drake"
+   "location": "Drake",
+   "color": "005596",
+   "alt": "bec0c2"
   },
   "Drexel": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Drexel"
+   "location": "Drexel",
+   "color": "020260",
+   "alt": "ffd65a"
   },
   "Duke": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Duke"
+   "location": "Duke",
+   "color": "00539b",
+   "alt": "ffffff"
   },
   "Duquesne": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Duquesne"
+   "location": "Duquesne",
+   "color": "002D62",
+   "alt": "b90b2e"
   },
   "East Tennessee State": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "East Tennessee State"
+   "location": "East Tennessee State",
+   "color": "002d61",
+   "alt": "ffc423"
   },
   "East Texas A&M": {
    "conf": "Southland",
    "tier": "D",
-   "location": "East Texas A&M"
+   "location": "East Texas A&M",
+   "color": "000000",
+   "alt": null
   },
   "Eastern Illinois": {
    "conf": "OVC",
    "tier": "D",
-   "location": "Eastern Illinois"
+   "location": "Eastern Illinois",
+   "color": "000000",
+   "alt": "bebab9"
   },
   "Eastern Kentucky": {
    "conf": "UAC",
    "tier": "D",
-   "location": "Eastern Kentucky"
+   "location": "Eastern Kentucky",
+   "color": "660819",
+   "alt": "f0f0f0"
   },
   "Eastern Michigan": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Eastern Michigan"
+   "location": "Eastern Michigan",
+   "color": "006938",
+   "alt": "ffffff"
   },
   "Eastern Washington": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Eastern Washington"
+   "location": "Eastern Washington",
+   "color": "a10022",
+   "alt": "abb4bc"
   },
   "Elon": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Elon"
+   "location": "Elon",
+   "color": "020303",
+   "alt": "b59a57"
   },
   "Evansville": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Evansville"
+   "location": "Evansville",
+   "color": "663399",
+   "alt": "ef6f00"
   },
   "Fairfield": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Fairfield"
+   "location": "Fairfield",
+   "color": "000000",
+   "alt": "ebebeb"
   },
   "Fairleigh Dickinson": {
    "conf": "NEC",
    "tier": "D",
-   "location": "Fairleigh Dickinson"
+   "location": "Fairleigh Dickinson",
+   "color": "72293c",
+   "alt": "28334a"
   },
   "Florida A&M": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Florida A&M"
+   "location": "Florida A&M",
+   "color": "F89728",
+   "alt": "00843d"
   },
   "Florida": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Florida"
+   "location": "Florida",
+   "color": "0021a5",
+   "alt": "fa4616"
   },
   "Florida Gulf Coast": {
    "conf": "Atlantic Sun",
    "tier": "D",
-   "location": "Florida Gulf Coast"
+   "location": "Florida Gulf Coast",
+   "color": "00885a",
+   "alt": "076c3b"
   },
   "Florida International": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Florida International"
+   "location": "Florida International",
+   "color": "091f3f",
+   "alt": "c3993f"
   },
   "Florida State": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Florida State"
+   "location": "Florida State",
+   "color": "782f40",
+   "alt": "ceb888"
   },
   "Fordham": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Fordham"
+   "location": "Fordham",
+   "color": "830032",
+   "alt": "909090"
   },
   "Fresno State": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "Fresno State"
+   "location": "Fresno State",
+   "color": "b1102b",
+   "alt": "13284c"
   },
   "Furman": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "Furman"
+   "location": "Furman",
+   "color": "582c83",
+   "alt": "ffffff"
   },
   "Gardner-Webb": {
    "conf": "Big South",
    "tier": "D",
-   "location": "Gardner-Webb"
+   "location": "Gardner-Webb",
+   "color": "c12535",
+   "alt": "909090"
   },
   "George Mason": {
    "conf": "A-10",
    "tier": "B",
-   "location": "George Mason"
+   "location": "George Mason",
+   "color": "016600",
+   "alt": "ecb010"
   },
   "George Washington": {
    "conf": "A-10",
    "tier": "B",
-   "location": "George Washington"
+   "location": "George Washington",
+   "color": "002843",
+   "alt": "e8d2a1"
   },
   "Georgetown": {
    "conf": "Big East",
    "tier": "A",
-   "location": "Georgetown"
+   "location": "Georgetown",
+   "color": "110E42",
+   "alt": "001c58"
   },
   "Georgia": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Georgia"
+   "location": "Georgia",
+   "color": "ba0c2f",
+   "alt": "2c2a29"
   },
   "Georgia Southern": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Georgia Southern"
+   "location": "Georgia Southern",
+   "color": "041e42",
+   "alt": "a3aaae"
   },
   "Georgia State": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Georgia State"
+   "location": "Georgia State",
+   "color": "0039a6",
+   "alt": "ffffff"
   },
   "Georgia Tech": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Georgia Tech"
+   "location": "Georgia Tech",
+   "color": "b3a369",
+   "alt": "ffffff"
   },
   "Gonzaga": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "Gonzaga"
+   "location": "Gonzaga",
+   "color": "041e42",
+   "alt": "c8102e"
   },
   "Grambling": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Grambling"
+   "location": "Grambling",
+   "color": "ee8601",
+   "alt": "ffd10a"
   },
   "Grand Canyon": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "Grand Canyon"
+   "location": "Grand Canyon",
+   "color": "522398",
+   "alt": "ffffff"
   },
   "Green Bay": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Green Bay"
+   "location": "Green Bay",
+   "color": "006633",
+   "alt": "ffffff"
   },
   "Hampton": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Hampton"
+   "location": "Hampton",
+   "color": "0067AC",
+   "alt": null
   },
   "Harvard": {
    "conf": "Ivy",
    "tier": "C",
-   "location": "Harvard"
+   "location": "Harvard",
+   "color": "990000",
+   "alt": "dbdbdb"
   },
   "Hawai'i": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "Hawai'i"
+   "location": "Hawai'i",
+   "color": "005737",
+   "alt": "000000"
   },
   "High Point": {
    "conf": "Big South",
    "tier": "D",
-   "location": "High Point"
+   "location": "High Point",
+   "color": "330072",
+   "alt": "ffffff"
   },
   "Hofstra": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Hofstra"
+   "location": "Hofstra",
+   "color": "003594",
+   "alt": "ffc72c"
   },
   "Holy Cross": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Holy Cross"
+   "location": "Holy Cross",
+   "color": "582c83",
+   "alt": "ffffff"
   },
   "Houston Christian": {
    "conf": "Southland",
    "tier": "D",
-   "location": "Houston Christian"
+   "location": "Houston Christian",
+   "color": "00539c",
+   "alt": null
   },
   "Houston": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Houston"
+   "location": "Houston",
+   "color": "c8102e",
+   "alt": "ffffff"
   },
   "Howard": {
    "conf": "MEAC",
    "tier": "D",
-   "location": "Howard"
+   "location": "Howard",
+   "color": "003a63",
+   "alt": "e51937"
   },
   "IU Indianapolis": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "IU Indianapolis"
+   "location": "IU Indianapolis",
+   "color": "A81F30",
+   "alt": "d59f0f"
   },
   "Idaho State": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Idaho State"
+   "location": "Idaho State",
+   "color": "ef8c00",
+   "alt": "e9a126"
   },
   "Idaho": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Idaho"
+   "location": "Idaho",
+   "color": "000000",
+   "alt": "8c6e4a"
   },
   "Illinois": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Illinois"
+   "location": "Illinois",
+   "color": "ff5f05",
+   "alt": "13294b"
   },
   "Illinois State": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Illinois State"
+   "location": "Illinois State",
+   "color": "CE1126",
+   "alt": "ffe716"
   },
   "Incarnate Word": {
    "conf": "Southland",
    "tier": "D",
-   "location": "Incarnate Word"
+   "location": "Incarnate Word",
+   "color": "000000",
+   "alt": "080808"
   },
   "Indiana": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Indiana"
+   "location": "Indiana",
+   "color": "970310",
+   "alt": "ffffff"
   },
   "Indiana State": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Indiana State"
+   "location": "Indiana State",
+   "color": "00669a",
+   "alt": "f0f0f0"
   },
   "Iona": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Iona"
+   "location": "Iona",
+   "color": "6f2c3e",
+   "alt": "f0ab00"
   },
   "Iowa": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Iowa"
+   "location": "Iowa",
+   "color": "231f20",
+   "alt": "fcd116"
   },
   "Iowa State": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Iowa State"
+   "location": "Iowa State",
+   "color": "ae192d",
+   "alt": "ffc72a"
   },
   "Jackson State": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Jackson State"
+   "location": "Jackson State",
+   "color": "123297",
+   "alt": "b5b7ba"
   },
   "Jacksonville": {
    "conf": "Atlantic Sun",
    "tier": "D",
-   "location": "Jacksonville"
+   "location": "Jacksonville",
+   "color": "00523e",
+   "alt": null
   },
   "Jacksonville State": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Jacksonville State"
+   "location": "Jacksonville State",
+   "color": "cc0000",
+   "alt": "000000"
   },
   "James Madison": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "James Madison"
+   "location": "James Madison",
+   "color": "450084",
+   "alt": "cbb677"
   },
   "Kansas City": {
    "conf": "Summit",
    "tier": "C",
-   "location": "Kansas City"
+   "location": "Kansas City",
+   "color": "004b87",
+   "alt": "ffc72c"
   },
   "Kansas": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Kansas"
+   "location": "Kansas",
+   "color": "0051ba",
+   "alt": "e8000d"
   },
   "Kansas State": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Kansas State"
+   "location": "Kansas State",
+   "color": "330a57",
+   "alt": "e2e3e4"
   },
   "Kennesaw State": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Kennesaw State"
+   "location": "Kennesaw State",
+   "color": "fdbb30",
+   "alt": "0b1315"
   },
   "Kent State": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Kent State"
+   "location": "Kent State",
+   "color": "002664",
+   "alt": "eaab00"
   },
   "Kentucky": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Kentucky"
+   "location": "Kentucky",
+   "color": "0033a0",
+   "alt": "ffffff"
   },
   "LSU New Orleans": {
    "conf": "Southland",
    "tier": "D",
-   "location": "LSU New Orleans"
+   "location": "LSU New Orleans",
+   "color": "461d7c",
+   "alt": "fdd023"
   },
   "LSU": {
    "conf": "SEC",
    "tier": "A",
-   "location": "LSU"
+   "location": "LSU",
+   "color": "461d76",
+   "alt": "fdd023"
   },
   "La Salle": {
    "conf": "A-10",
    "tier": "B",
-   "location": "La Salle"
+   "location": "La Salle",
+   "color": "003356",
+   "alt": "ffce00"
   },
   "Lafayette": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Lafayette"
+   "location": "Lafayette",
+   "color": "790000",
+   "alt": "a59474"
   },
   "Lamar": {
    "conf": "Southland",
    "tier": "D",
-   "location": "Lamar"
+   "location": "Lamar",
+   "color": "000000",
+   "alt": "ebebeb"
   },
   "Le Moyne": {
    "conf": "NEC",
    "tier": "D",
-   "location": "Le Moyne"
+   "location": "Le Moyne",
+   "color": null,
+   "alt": null
   },
   "Lehigh": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Lehigh"
+   "location": "Lehigh",
+   "color": "6c2b2a",
+   "alt": "b69e70"
   },
   "Liberty": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Liberty"
+   "location": "Liberty",
+   "color": "0a254e",
+   "alt": "b72025"
   },
   "Lipscomb": {
    "conf": "Atlantic Sun",
    "tier": "D",
-   "location": "Lipscomb"
+   "location": "Lipscomb",
+   "color": "20366C",
+   "alt": "f6b734"
   },
   "Little Rock": {
    "conf": "UAC",
    "tier": "D",
-   "location": "Little Rock"
+   "location": "Little Rock",
+   "color": "AD0000",
+   "alt": "898d8f"
   },
   "Long Beach State": {
    "conf": "Big West",
    "tier": "C",
-   "location": "Long Beach State"
+   "location": "Long Beach State",
+   "color": "000000",
+   "alt": "f1f2f3"
   },
   "Long Island University": {
    "conf": "NEC",
    "tier": "D",
-   "location": "Long Island University"
+   "location": "Long Island University",
+   "color": "50c9f7",
+   "alt": "ffbf00"
   },
   "Longwood": {
    "conf": "Big South",
    "tier": "D",
-   "location": "Longwood"
+   "location": "Longwood",
+   "color": "003273",
+   "alt": "9ea2a3"
   },
   "Louisiana": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Louisiana"
+   "location": "Louisiana",
+   "color": "ce181e",
+   "alt": "000000"
   },
   "Louisiana Tech": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Louisiana Tech"
+   "location": "Louisiana Tech",
+   "color": "003087",
+   "alt": "cb333b"
   },
   "Louisville": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Louisville"
+   "location": "Louisville",
+   "color": "c9001f",
+   "alt": "ffffff"
   },
   "Loyola Chicago": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Loyola Chicago"
+   "location": "Loyola Chicago",
+   "color": "9d1244",
+   "alt": null
   },
   "Loyola Maryland": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Loyola Maryland"
+   "location": "Loyola Maryland",
+   "color": "76a7a0",
+   "alt": "c9cbca"
   },
   "Loyola Marymount": {
    "conf": "WCC",
    "tier": "B",
-   "location": "Loyola Marymount"
+   "location": "Loyola Marymount",
+   "color": "880029",
+   "alt": "00345b"
   },
   "Maine": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "Maine"
+   "location": "Maine",
+   "color": "127dbe",
+   "alt": null
   },
   "Manhattan": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Manhattan"
+   "location": "Manhattan",
+   "color": "4f8537",
+   "alt": "b5b7ba"
   },
   "Marist": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Marist"
+   "location": "Marist",
+   "color": "e53730",
+   "alt": "f0f0f0"
   },
   "Marquette": {
    "conf": "Big East",
    "tier": "A",
-   "location": "Marquette"
+   "location": "Marquette",
+   "color": "003366",
+   "alt": "ffcc00"
   },
   "Marshall": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Marshall"
+   "location": "Marshall",
+   "color": "00b140",
+   "alt": "000000"
   },
   "Maryland Eastern Shore": {
    "conf": "MEAC",
    "tier": "D",
-   "location": "Maryland Eastern Shore"
+   "location": "Maryland Eastern Shore",
+   "color": "5c2301",
+   "alt": "b5b7ba"
   },
   "Maryland": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Maryland"
+   "location": "Maryland",
+   "color": "ce1126",
+   "alt": "ffffff"
   },
   "Massachusetts": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Massachusetts"
+   "location": "Massachusetts",
+   "color": "881c1c",
+   "alt": "ffffff"
   },
   "McNeese": {
    "conf": "Southland",
    "tier": "D",
-   "location": "McNeese"
+   "location": "McNeese",
+   "color": "00529C",
+   "alt": "ffd204"
   },
   "Mercer": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "Mercer"
+   "location": "Mercer",
+   "color": "ff7f29",
+   "alt": "080808"
   },
   "Mercyhurst": {
    "conf": "NEC",
    "tier": "D",
-   "location": "Mercyhurst"
+   "location": "Mercyhurst",
+   "color": "000000",
+   "alt": null
   },
   "Merrimack": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Merrimack"
+   "location": "Merrimack",
+   "color": "2f4f93",
+   "alt": "e8c535"
   },
   "Miami (OH)": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Miami (OH)"
+   "location": "Miami (OH)",
+   "color": "c41230",
+   "alt": "ffffff"
   },
   "Miami": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Miami"
+   "location": "Miami",
+   "color": "f47423",
+   "alt": "035131"
   },
   "Michigan State": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Michigan State"
+   "location": "Michigan State",
+   "color": "173f35",
+   "alt": "ffffff"
   },
   "Michigan": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Michigan"
+   "location": "Michigan",
+   "color": "00274c",
+   "alt": "ffcb05"
   },
   "Middle Tennessee": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Middle Tennessee"
+   "location": "Middle Tennessee",
+   "color": "036eb7",
+   "alt": "ffffff"
   },
   "Milwaukee": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Milwaukee"
+   "location": "Milwaukee",
+   "color": "000000",
+   "alt": "ffc20e"
   },
   "Minnesota": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Minnesota"
+   "location": "Minnesota",
+   "color": "5e0a2f",
+   "alt": "fab41c"
   },
   "Mississippi State": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Mississippi State"
+   "location": "Mississippi State",
+   "color": "5d1725",
+   "alt": "c1c6c8"
   },
   "Mississippi Valley State": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Mississippi Valley State"
+   "location": "Mississippi Valley State",
+   "color": "005328",
+   "alt": "cf2d34"
   },
   "Missouri State": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Missouri State"
+   "location": "Missouri State",
+   "color": "5e0009",
+   "alt": "ffffff"
   },
   "Missouri": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Missouri"
+   "location": "Missouri",
+   "color": "f1b82d",
+   "alt": "000000"
   },
   "Monmouth": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Monmouth"
+   "location": "Monmouth",
+   "color": "051844",
+   "alt": null
   },
   "Montana": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Montana"
+   "location": "Montana",
+   "color": "751D4A",
+   "alt": "666666"
   },
   "Montana State": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Montana State"
+   "location": "Montana State",
+   "color": "00205c",
+   "alt": "bc955c"
   },
   "Morehead State": {
    "conf": "OVC",
    "tier": "D",
-   "location": "Morehead State"
+   "location": "Morehead State",
+   "color": "094FA3",
+   "alt": "fed91a"
   },
   "Morgan State": {
    "conf": "MEAC",
    "tier": "D",
-   "location": "Morgan State"
+   "location": "Morgan State",
+   "color": "014786",
+   "alt": "f47937"
   },
   "Mount St. Mary's": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Mount St. Mary's"
+   "location": "Mount St. Mary's",
+   "color": "005596",
+   "alt": "ebebeb"
   },
   "Murray State": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Murray State"
+   "location": "Murray State",
+   "color": "002148",
+   "alt": "000e00"
   },
   "NC State": {
    "conf": "ACC",
    "tier": "A",
-   "location": "NC State"
+   "location": "NC State",
+   "color": "cc0000",
+   "alt": "ffffff"
   },
   "NJIT": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "NJIT"
+   "location": "NJIT",
+   "color": "EE3024",
+   "alt": "df3e2e"
   },
   "Navy": {
    "conf": "Patriot",
    "tier": "D",
-   "location": "Navy"
+   "location": "Navy",
+   "color": "00225b",
+   "alt": "b5a67c"
   },
   "Nebraska": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Nebraska"
+   "location": "Nebraska",
+   "color": "e31937",
+   "alt": "ffffff"
   },
   "Nevada": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "Nevada"
+   "location": "Nevada",
+   "color": "041e42",
+   "alt": "8a8d8f"
   },
   "New Hampshire": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "New Hampshire"
+   "location": "New Hampshire",
+   "color": "004990",
+   "alt": "c3c4c6"
   },
   "New Haven": {
    "conf": "NEC",
    "tier": "D",
-   "location": "New Haven"
+   "location": "New Haven",
+   "color": "041e42",
+   "alt": "ffc425"
   },
   "New Mexico": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "New Mexico"
+   "location": "New Mexico",
+   "color": "ba0c2f",
+   "alt": "a7a8aa"
   },
   "New Mexico State": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "New Mexico State"
+   "location": "New Mexico State",
+   "color": "7e141b",
+   "alt": "231f20"
   },
   "Niagara": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Niagara"
+   "location": "Niagara",
+   "color": "69207E",
+   "alt": "f0f0f0"
   },
   "Nicholls": {
    "conf": "Southland",
    "tier": "D",
-   "location": "Nicholls"
+   "location": "Nicholls",
+   "color": "C41230",
+   "alt": "f0f0f0"
   },
   "Norfolk State": {
    "conf": "MEAC",
    "tier": "D",
-   "location": "Norfolk State"
+   "location": "Norfolk State",
+   "color": "0c8968",
+   "alt": "fdb813"
   },
   "North Alabama": {
    "conf": "UAC",
    "tier": "D",
-   "location": "North Alabama"
+   "location": "North Alabama",
+   "color": "663399",
+   "alt": null
   },
   "North Carolina A&T": {
    "conf": "CAA",
    "tier": "C",
-   "location": "North Carolina A&T"
+   "location": "North Carolina A&T",
+   "color": "0505aa",
+   "alt": "004684"
   },
   "North Carolina Central": {
    "conf": "MEAC",
    "tier": "D",
-   "location": "North Carolina Central"
+   "location": "North Carolina Central",
+   "color": "880023",
+   "alt": "c2c3c0"
   },
   "North Carolina": {
    "conf": "ACC",
    "tier": "A",
-   "location": "North Carolina"
+   "location": "North Carolina",
+   "color": "7bafd4",
+   "alt": "13294b"
   },
   "North Dakota": {
    "conf": "Summit",
    "tier": "C",
-   "location": "North Dakota"
+   "location": "North Dakota",
+   "color": "00A26B",
+   "alt": "c2c3c0"
   },
   "North Dakota State": {
    "conf": "Summit",
    "tier": "C",
-   "location": "North Dakota State"
+   "location": "North Dakota State",
+   "color": "01402A",
+   "alt": "ffffff"
   },
   "North Florida": {
    "conf": "Atlantic Sun",
    "tier": "D",
-   "location": "North Florida"
+   "location": "North Florida",
+   "color": "004B8D",
+   "alt": "babcbe"
   },
   "Northeastern": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Northeastern"
+   "location": "Northeastern",
+   "color": "CC0001",
+   "alt": "c2c3c0"
   },
   "Northern Arizona": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Northern Arizona"
+   "location": "Northern Arizona",
+   "color": "003976",
+   "alt": "1b3069"
   },
   "Northern Colorado": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Northern Colorado"
+   "location": "Northern Colorado",
+   "color": "13558D",
+   "alt": "ffc533"
   },
   "Northern Illinois": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Northern Illinois"
+   "location": "Northern Illinois",
+   "color": "c8102e",
+   "alt": "000000"
   },
   "Northern Iowa": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Northern Iowa"
+   "location": "Northern Iowa",
+   "color": "473282",
+   "alt": "ffffff"
   },
   "Northern Kentucky": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Northern Kentucky"
+   "location": "Northern Kentucky",
+   "color": "ffc82e",
+   "alt": "000000"
   },
   "Northwestern State": {
    "conf": "Southland",
    "tier": "D",
-   "location": "Northwestern State"
+   "location": "Northwestern State",
+   "color": "492F91",
+   "alt": "ed6118"
   },
   "Northwestern": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Northwestern"
+   "location": "Northwestern",
+   "color": "492f92",
+   "alt": "ffffff"
   },
   "Notre Dame": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Notre Dame"
+   "location": "Notre Dame",
+   "color": "062340",
+   "alt": "c99700"
   },
   "Oakland": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Oakland"
+   "location": "Oakland",
+   "color": "04091c",
+   "alt": "bc955c"
   },
   "Ohio": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Ohio"
+   "location": "Ohio",
+   "color": "154734",
+   "alt": "ffffff"
   },
   "Ohio State": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Ohio State"
+   "location": "Ohio State",
+   "color": "ba0c2f",
+   "alt": "a8adb4"
   },
   "Oklahoma": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Oklahoma"
+   "location": "Oklahoma",
+   "color": "990000",
+   "alt": "ffffff"
   },
   "Oklahoma State": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Oklahoma State"
+   "location": "Oklahoma State",
+   "color": "fe5c00",
+   "alt": "000000"
   },
   "Old Dominion": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Old Dominion"
+   "location": "Old Dominion",
+   "color": "003768",
+   "alt": "a1d2f1"
   },
   "Ole Miss": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Ole Miss"
+   "location": "Ole Miss",
+   "color": "13294b",
+   "alt": "cf142b"
   },
   "Omaha": {
    "conf": "Summit",
    "tier": "C",
-   "location": "Omaha"
+   "location": "Omaha",
+   "color": "e3193e",
+   "alt": "474648"
   },
   "Oral Roberts": {
    "conf": "Summit",
    "tier": "C",
-   "location": "Oral Roberts"
+   "location": "Oral Roberts",
+   "color": "002462",
+   "alt": "dac792"
   },
   "Oregon": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Oregon"
+   "location": "Oregon",
+   "color": "00934b",
+   "alt": "fff41b"
   },
   "Oregon State": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "Oregon State"
+   "location": "Oregon State",
+   "color": "dc4405",
+   "alt": "000000"
   },
   "Pacific": {
    "conf": "WCC",
    "tier": "B",
-   "location": "Pacific"
+   "location": "Pacific",
+   "color": "F47820",
+   "alt": "c2c3c0"
   },
   "Penn State": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Penn State"
+   "location": "Penn State",
+   "color": "061440",
+   "alt": "ffffff"
   },
   "Pennsylvania": {
    "conf": "Ivy",
    "tier": "C",
-   "location": "Pennsylvania"
+   "location": "Pennsylvania",
+   "color": "082A74",
+   "alt": "a6163d"
   },
   "Pepperdine": {
    "conf": "WCC",
    "tier": "B",
-   "location": "Pepperdine"
+   "location": "Pepperdine",
+   "color": "003A72",
+   "alt": "dc762f"
   },
   "Pittsburgh": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Pittsburgh"
+   "location": "Pittsburgh",
+   "color": "003594",
+   "alt": "ffb81c"
   },
   "Portland": {
    "conf": "WCC",
    "tier": "B",
-   "location": "Portland"
+   "location": "Portland",
+   "color": "330072",
+   "alt": "a8b3ba"
   },
   "Portland State": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Portland State"
+   "location": "Portland State",
+   "color": "00311e",
+   "alt": "ebebeb"
   },
   "Prairie View A&M": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Prairie View A&M"
+   "location": "Prairie View A&M",
+   "color": "582c83",
+   "alt": "eaaa00"
   },
   "Presbyterian": {
    "conf": "Big South",
    "tier": "D",
-   "location": "Presbyterian"
+   "location": "Presbyterian",
+   "color": "194896",
+   "alt": "990134"
   },
   "Princeton": {
    "conf": "Ivy",
    "tier": "C",
-   "location": "Princeton"
+   "location": "Princeton",
+   "color": "000000",
+   "alt": "ff6000"
   },
   "Providence": {
    "conf": "Big East",
    "tier": "A",
-   "location": "Providence"
+   "location": "Providence",
+   "color": "000000",
+   "alt": "a3a19e"
   },
   "Purdue": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Purdue"
+   "location": "Purdue",
+   "color": "ceb888",
+   "alt": "000000"
   },
   "Purdue Fort Wayne": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Purdue Fort Wayne"
+   "location": "Purdue Fort Wayne",
+   "color": "cfb991",
+   "alt": "000000"
   },
   "Quinnipiac": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Quinnipiac"
+   "location": "Quinnipiac",
+   "color": "041B43",
+   "alt": null
   },
   "Radford": {
    "conf": "Big South",
    "tier": "D",
-   "location": "Radford"
+   "location": "Radford",
+   "color": "BC1515",
+   "alt": "c2c3c0"
   },
   "Rhode Island": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Rhode Island"
+   "location": "Rhode Island",
+   "color": "091f3f",
+   "alt": "5ab3e8"
   },
   "Richmond": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Richmond"
+   "location": "Richmond",
+   "color": "9e0712",
+   "alt": "b90b2e"
   },
   "Rider": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Rider"
+   "location": "Rider",
+   "color": "a80532",
+   "alt": "ebebeb"
   },
   "Robert Morris": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Robert Morris"
+   "location": "Robert Morris",
+   "color": "00214D",
+   "alt": "a21d2b"
   },
   "Rutgers": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Rutgers"
+   "location": "Rutgers",
+   "color": "ce0e2d",
+   "alt": "ffffff"
   },
   "SE Louisiana": {
    "conf": "Southland",
    "tier": "D",
-   "location": "SE Louisiana"
+   "location": "SE Louisiana",
+   "color": "215732",
+   "alt": "ffc72c"
   },
   "SIU Edwardsville": {
    "conf": "OVC",
    "tier": "D",
-   "location": "SIU Edwardsville"
+   "location": "SIU Edwardsville",
+   "color": "eb1c23",
+   "alt": "080808"
   },
   "SMU": {
    "conf": "ACC",
    "tier": "A",
-   "location": "SMU"
+   "location": "SMU",
+   "color": "a80000",
+   "alt": "0033a1"
   },
   "Sacramento State": {
    "conf": "Big West",
    "tier": "C",
-   "location": "Sacramento State"
+   "location": "Sacramento State",
+   "color": "00573C",
+   "alt": "cdb97d"
   },
   "Sacred Heart": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Sacred Heart"
+   "location": "Sacred Heart",
+   "color": "a40012",
+   "alt": "c29472"
   },
   "Saint Joseph's": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Saint Joseph's"
+   "location": "Saint Joseph's",
+   "color": "9e1b32",
+   "alt": "6c6f70"
   },
   "Saint Louis": {
    "conf": "A-10",
    "tier": "B",
-   "location": "Saint Louis"
+   "location": "Saint Louis",
+   "color": "00539C",
+   "alt": "ebebeb"
   },
   "Saint Mary's": {
    "conf": "WCC",
    "tier": "B",
-   "location": "Saint Mary's"
+   "location": "Saint Mary's",
+   "color": "d80024",
+   "alt": "003057"
   },
   "Saint Peter's": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Saint Peter's"
+   "location": "Saint Peter's",
+   "color": "004CC2",
+   "alt": null
   },
   "Sam Houston": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Sam Houston"
+   "location": "Sam Houston",
+   "color": "f56423",
+   "alt": "ffffff"
   },
   "Samford": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "Samford"
+   "location": "Samford",
+   "color": "005485",
+   "alt": "bc0023"
   },
   "San Diego State": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "San Diego State"
+   "location": "San Diego State",
+   "color": "a6192e",
+   "alt": "000000"
   },
   "San Diego": {
    "conf": "WCC",
    "tier": "B",
-   "location": "San Diego"
+   "location": "San Diego",
+   "color": "2f99d4",
+   "alt": "2f99d4"
   },
   "San Francisco": {
    "conf": "WCC",
    "tier": "B",
-   "location": "San Francisco"
+   "location": "San Francisco",
+   "color": "005a36",
+   "alt": "ffffff"
   },
   "San José State": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "San José State"
+   "location": "San José State",
+   "color": "0038a8",
+   "alt": "ffb81a"
   },
   "Santa Clara": {
    "conf": "WCC",
    "tier": "B",
-   "location": "Santa Clara"
+   "location": "Santa Clara",
+   "color": "690b0b",
+   "alt": "101010"
   },
   "Seattle U": {
    "conf": "WCC",
    "tier": "B",
-   "location": "Seattle U"
+   "location": "Seattle U",
+   "color": "BF2E1A",
+   "alt": "c2c3c0"
   },
   "Seton Hall": {
    "conf": "Big East",
    "tier": "A",
-   "location": "Seton Hall"
+   "location": "Seton Hall",
+   "color": "0857B1",
+   "alt": "8a8d8f"
   },
   "Siena": {
    "conf": "Metro",
    "tier": "D",
-   "location": "Siena"
+   "location": "Siena",
+   "color": "037961",
+   "alt": "eea60f"
   },
   "South Alabama": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "South Alabama"
+   "location": "South Alabama",
+   "color": "00205b",
+   "alt": "bf0d3e"
   },
   "South Carolina": {
    "conf": "SEC",
    "tier": "A",
-   "location": "South Carolina"
+   "location": "South Carolina",
+   "color": "73000a",
+   "alt": "000000"
   },
   "South Carolina State": {
    "conf": "MEAC",
    "tier": "D",
-   "location": "South Carolina State"
+   "location": "South Carolina State",
+   "color": "7d1315",
+   "alt": "104897"
   },
   "South Carolina Upstate": {
    "conf": "Big South",
    "tier": "D",
-   "location": "South Carolina Upstate"
+   "location": "South Carolina Upstate",
+   "color": "008545",
+   "alt": "000000"
   },
   "South Dakota": {
    "conf": "Summit",
    "tier": "C",
-   "location": "South Dakota"
+   "location": "South Dakota",
+   "color": "CD1241",
+   "alt": "f0f0f0"
   },
   "South Dakota State": {
    "conf": "Summit",
    "tier": "C",
-   "location": "South Dakota State"
+   "location": "South Dakota State",
+   "color": "0033a0",
+   "alt": "ffd100"
   },
   "Southeast Missouri State": {
    "conf": "OVC",
    "tier": "D",
-   "location": "Southeast Missouri State"
+   "location": "Southeast Missouri State",
+   "color": "c8102e",
+   "alt": "000000"
   },
   "Southern Illinois": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Southern Illinois"
+   "location": "Southern Illinois",
+   "color": "85283D",
+   "alt": "c2c3c0"
   },
   "Southern": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Southern"
+   "location": "Southern",
+   "color": "004B97",
+   "alt": "ffc82d"
   },
   "Southern Miss": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Southern Miss"
+   "location": "Southern Miss",
+   "color": "ffc72c",
+   "alt": "231f20"
   },
   "Southern Utah": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Southern Utah"
+   "location": "Southern Utah",
+   "color": "c72026",
+   "alt": "000000"
   },
   "St. Bonaventure": {
    "conf": "A-10",
    "tier": "B",
-   "location": "St. Bonaventure"
+   "location": "St. Bonaventure",
+   "color": "70261D",
+   "alt": null
   },
   "St. John's": {
    "conf": "Big East",
    "tier": "A",
-   "location": "St. John's"
+   "location": "St. John's",
+   "color": "d10000",
+   "alt": "101010"
   },
   "St. Thomas": {
    "conf": "Summit",
    "tier": "C",
-   "location": "St. Thomas"
+   "location": "St. Thomas",
+   "color": "000000",
+   "alt": null
   },
   "Stanford": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Stanford"
+   "location": "Stanford",
+   "color": "8c1515",
+   "alt": "ffffff"
   },
   "Stephen F. Austin": {
    "conf": "Southland",
    "tier": "D",
-   "location": "Stephen F. Austin"
+   "location": "Stephen F. Austin",
+   "color": "393996",
+   "alt": "bec0c2"
   },
   "Stetson": {
    "conf": "Atlantic Sun",
    "tier": "D",
-   "location": "Stetson"
+   "location": "Stetson",
+   "color": "0a5640",
+   "alt": "56854e"
   },
   "Stonehill": {
    "conf": "NEC",
    "tier": "D",
-   "location": "Stonehill"
+   "location": "Stonehill",
+   "color": "000000",
+   "alt": null
   },
   "Stony Brook": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Stony Brook"
+   "location": "Stony Brook",
+   "color": "990000",
+   "alt": null
   },
   "Syracuse": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Syracuse"
+   "location": "Syracuse",
+   "color": "000e54",
+   "alt": "ff431b"
   },
   "TCU": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "TCU"
+   "location": "TCU",
+   "color": "4d1979",
+   "alt": "ffffff"
   },
   "Tarleton State": {
    "conf": "UAC",
    "tier": "D",
-   "location": "Tarleton State"
+   "location": "Tarleton State",
+   "color": "000000",
+   "alt": null
   },
   "Tennessee State": {
    "conf": "OVC",
    "tier": "D",
-   "location": "Tennessee State"
+   "location": "Tennessee State",
+   "color": "171796",
+   "alt": "f0f0f0"
   },
   "Tennessee Tech": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "Tennessee Tech"
+   "location": "Tennessee Tech",
+   "color": "5A4099",
+   "alt": "ffde00"
   },
   "Tennessee": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Tennessee"
+   "location": "Tennessee",
+   "color": "ff8200",
+   "alt": "ffffff"
   },
   "Texas A&M": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Texas A&M"
+   "location": "Texas A&M",
+   "color": "500000",
+   "alt": "ffffff"
   },
   "Texas A&M-Corpus Christi": {
    "conf": "Southland",
    "tier": "D",
-   "location": "Texas A&M-Corpus Christi"
+   "location": "Texas A&M-Corpus Christi",
+   "color": "0067c5",
+   "alt": "007f3e"
   },
   "Texas": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Texas"
+   "location": "Texas",
+   "color": "af5c37",
+   "alt": "ffffff"
   },
   "Texas Southern": {
    "conf": "SWAC",
    "tier": "C",
-   "location": "Texas Southern"
+   "location": "Texas Southern",
+   "color": "860038",
+   "alt": "ffffff"
   },
   "Texas State": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "Texas State"
+   "location": "Texas State",
+   "color": "501214",
+   "alt": "6a5638"
   },
   "Texas Tech": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Texas Tech"
+   "location": "Texas Tech",
+   "color": "da291c",
+   "alt": "000000"
   },
   "The Citadel": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "The Citadel"
+   "location": "The Citadel",
+   "color": "7badd3",
+   "alt": "002856"
   },
   "Toledo": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Toledo"
+   "location": "Toledo",
+   "color": "0b2240",
+   "alt": "ffcd00"
   },
   "Towson": {
    "conf": "CAA",
    "tier": "C",
-   "location": "Towson"
+   "location": "Towson",
+   "color": "FFC229",
+   "alt": null
   },
   "Troy": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "Troy"
+   "location": "Troy",
+   "color": "862633",
+   "alt": "b1b1b1"
   },
   "UAlbany": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "UAlbany"
+   "location": "UAlbany",
+   "color": "3D2777",
+   "alt": "ffffff"
   },
   "UC Davis": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "UC Davis"
+   "location": "UC Davis",
+   "color": "002855",
+   "alt": "c3c4c6"
   },
   "UC Irvine": {
    "conf": "Big West",
    "tier": "C",
-   "location": "UC Irvine"
+   "location": "UC Irvine",
+   "color": "002B5C",
+   "alt": "fec52e"
   },
   "UC Riverside": {
    "conf": "Big West",
    "tier": "C",
-   "location": "UC Riverside"
+   "location": "UC Riverside",
+   "color": "14234F",
+   "alt": null
   },
   "UC San Diego": {
    "conf": "Big West",
    "tier": "C",
-   "location": "UC San Diego"
+   "location": "UC San Diego",
+   "color": "000000",
+   "alt": "ffcd00"
   },
   "UC Santa Barbara": {
    "conf": "Big West",
    "tier": "C",
-   "location": "UC Santa Barbara"
+   "location": "UC Santa Barbara",
+   "color": "1e1840",
+   "alt": "febc11"
   },
   "UCF": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "UCF"
+   "location": "UCF",
+   "color": "000000",
+   "alt": "b4a169"
   },
   "UCLA": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "UCLA"
+   "location": "UCLA",
+   "color": "2774ae",
+   "alt": "f2a900"
   },
   "UConn": {
    "conf": "Big East",
    "tier": "A",
-   "location": "UConn"
+   "location": "UConn",
+   "color": "0c2340",
+   "alt": "a2aaad"
   },
   "UIC": {
    "conf": "MVC",
    "tier": "B",
-   "location": "UIC"
+   "location": "UIC",
+   "color": "001e62",
+   "alt": "d50032"
   },
   "UL Monroe": {
    "conf": "Sun Belt",
    "tier": "C",
-   "location": "UL Monroe"
+   "location": "UL Monroe",
+   "color": "840029",
+   "alt": "fdb913"
   },
   "UMBC": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "UMBC"
+   "location": "UMBC",
+   "color": "000000",
+   "alt": "ad860a"
   },
   "UMass Lowell": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "UMass Lowell"
+   "location": "UMass Lowell",
+   "color": "00529C",
+   "alt": "cf1f2f"
   },
   "UNC Asheville": {
    "conf": "Big South",
    "tier": "D",
-   "location": "UNC Asheville"
+   "location": "UNC Asheville",
+   "color": "003da5",
+   "alt": "ffffff"
   },
   "UNC Greensboro": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "UNC Greensboro"
+   "location": "UNC Greensboro",
+   "color": "003559",
+   "alt": "ffd90a"
   },
   "UNC Wilmington": {
    "conf": "CAA",
    "tier": "C",
-   "location": "UNC Wilmington"
+   "location": "UNC Wilmington",
+   "color": "00665e",
+   "alt": "ffda00"
   },
   "UNLV": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "UNLV"
+   "location": "UNLV",
+   "color": "cf0a2c",
+   "alt": "cac8c8"
   },
   "USC": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "USC"
+   "location": "USC",
+   "color": "9d2235",
+   "alt": "ffc72c"
   },
   "UT Arlington": {
    "conf": "UAC",
    "tier": "D",
-   "location": "UT Arlington"
+   "location": "UT Arlington",
+   "color": "004b7c",
+   "alt": "f58024"
   },
   "UT Martin": {
    "conf": "OVC",
    "tier": "D",
-   "location": "UT Martin"
+   "location": "UT Martin",
+   "color": "FF6700",
+   "alt": "102a5c"
   },
   "UT Rio Grande Valley": {
    "conf": "Southland",
    "tier": "D",
-   "location": "UT Rio Grande Valley"
+   "location": "UT Rio Grande Valley",
+   "color": "dc6000",
+   "alt": "e1732d"
   },
   "UTEP": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "UTEP"
+   "location": "UTEP",
+   "color": "ff8200",
+   "alt": "041e42"
   },
   "Utah State": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "Utah State"
+   "location": "Utah State",
+   "color": "0f2439",
+   "alt": "ffffff"
   },
   "Utah Tech": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Utah Tech"
+   "location": "Utah Tech",
+   "color": "000000",
+   "alt": null
   },
   "Utah": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "Utah"
+   "location": "Utah",
+   "color": "be0000",
+   "alt": "ffffff"
   },
   "Utah Valley": {
    "conf": "Big West",
    "tier": "C",
-   "location": "Utah Valley"
+   "location": "Utah Valley",
+   "color": "004812",
+   "alt": "e1c736"
   },
   "VCU": {
    "conf": "A-10",
    "tier": "B",
-   "location": "VCU"
+   "location": "VCU",
+   "color": "ffaf00",
+   "alt": "000000"
   },
   "VMI": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "VMI"
+   "location": "VMI",
+   "color": "ae122a",
+   "alt": "000000"
   },
   "Valparaiso": {
    "conf": "MVC",
    "tier": "B",
-   "location": "Valparaiso"
+   "location": "Valparaiso",
+   "color": "794500",
+   "alt": null
   },
   "Vanderbilt": {
    "conf": "SEC",
    "tier": "A",
-   "location": "Vanderbilt"
+   "location": "Vanderbilt",
+   "color": "000000",
+   "alt": "cfae70"
   },
   "Vermont": {
    "conf": "Am. East",
    "tier": "D",
-   "location": "Vermont"
+   "location": "Vermont",
+   "color": "154734",
+   "alt": "ffc72c"
   },
   "Villanova": {
    "conf": "Big East",
    "tier": "A",
-   "location": "Villanova"
+   "location": "Villanova",
+   "color": "00205b",
+   "alt": "13b5ea"
   },
   "Virginia": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Virginia"
+   "location": "Virginia",
+   "color": "232d4b",
+   "alt": "f84c1e"
   },
   "Virginia Tech": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Virginia Tech"
+   "location": "Virginia Tech",
+   "color": "6a2c3e",
+   "alt": "cf4520"
   },
   "Wagner": {
    "conf": "NEC",
    "tier": "D",
-   "location": "Wagner"
+   "location": "Wagner",
+   "color": "00483A",
+   "alt": "ffffff"
   },
   "Wake Forest": {
    "conf": "ACC",
    "tier": "A",
-   "location": "Wake Forest"
+   "location": "Wake Forest",
+   "color": "ceb888",
+   "alt": "2c2a29"
   },
   "Washington": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Washington"
+   "location": "Washington",
+   "color": "33006f",
+   "alt": "e8d3a2"
   },
   "Washington State": {
    "conf": "Pac-12",
    "tier": "B",
-   "location": "Washington State"
+   "location": "Washington State",
+   "color": "a60f2d",
+   "alt": "4d4d4d"
   },
   "Weber State": {
    "conf": "Big Sky",
    "tier": "D",
-   "location": "Weber State"
+   "location": "Weber State",
+   "color": "18005a",
+   "alt": "ebebeb"
   },
   "West Florida": {
    "conf": "Atlantic Sun",
    "tier": "D",
-   "location": "West Florida"
+   "location": "West Florida",
+   "color": "087dc2",
+   "alt": "03b186"
   },
   "West Georgia": {
    "conf": "UAC",
    "tier": "D",
-   "location": "West Georgia"
+   "location": "West Georgia",
+   "color": "0033a1",
+   "alt": "db1a21"
   },
   "West Virginia": {
    "conf": "Big 12",
    "tier": "A",
-   "location": "West Virginia"
+   "location": "West Virginia",
+   "color": "eaaa00",
+   "alt": "002855"
   },
   "Western Carolina": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "Western Carolina"
+   "location": "Western Carolina",
+   "color": "492F91",
+   "alt": "bf9e70"
   },
   "Western Illinois": {
    "conf": "OVC",
    "tier": "D",
-   "location": "Western Illinois"
+   "location": "Western Illinois",
+   "color": "4e1e8a",
+   "alt": "ffc90a"
   },
   "Western Kentucky": {
    "conf": "CUSA",
    "tier": "C",
-   "location": "Western Kentucky"
+   "location": "Western Kentucky",
+   "color": "e13a3e",
+   "alt": "ffffff"
   },
   "Western Michigan": {
    "conf": "MAC",
    "tier": "B",
-   "location": "Western Michigan"
+   "location": "Western Michigan",
+   "color": "532e1f",
+   "alt": "f1c500"
   },
   "William & Mary": {
    "conf": "CAA",
    "tier": "C",
-   "location": "William & Mary"
+   "location": "William & Mary",
+   "color": "115740",
+   "alt": "f0b323"
   },
   "Winthrop": {
    "conf": "Big South",
    "tier": "D",
-   "location": "Winthrop"
+   "location": "Winthrop",
+   "color": "9e0b0e",
+   "alt": "fdb41e"
   },
   "Wisconsin": {
    "conf": "Big Ten",
    "tier": "A",
-   "location": "Wisconsin"
+   "location": "Wisconsin",
+   "color": "a00000",
+   "alt": "ffffff"
   },
   "Wofford": {
    "conf": "SoCon",
    "tier": "D",
-   "location": "Wofford"
+   "location": "Wofford",
+   "color": "533B22",
+   "alt": "f0f0f0"
   },
   "Wright State": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Wright State"
+   "location": "Wright State",
+   "color": "cba052",
+   "alt": "cba052"
   },
   "Wyoming": {
    "conf": "Mountain West",
    "tier": "B",
-   "location": "Wyoming"
+   "location": "Wyoming",
+   "color": "492f24",
+   "alt": "ffc425"
   },
   "Xavier": {
    "conf": "Big East",
    "tier": "A",
-   "location": "Xavier"
+   "location": "Xavier",
+   "color": "21304e",
+   "alt": "a5a7a8"
   },
   "Yale": {
    "conf": "Ivy",
    "tier": "C",
-   "location": "Yale"
+   "location": "Yale",
+   "color": "004a81",
+   "alt": "286dc0"
   },
   "Youngstown State": {
    "conf": "Horizon",
    "tier": "C",
-   "location": "Youngstown State"
+   "location": "Youngstown State",
+   "color": "E51935",
+   "alt": "690717"
   }
  }
 }

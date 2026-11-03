@@ -11,6 +11,10 @@
     "license": "Public domain",
     "free_to_reuse": true
   },
+  "BYU": {
+    "logo_url": null,
+    "license": "nerasta"
+  },
   "Boise State": {
     "logo_url": "https://upload.wikimedia.org/wikipedia/en/9/94/Primary_Boise_State_Broncos_Athletics_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
     "file_page": "https://en.wikipedia.org/wiki/File:Primary_Boise_State_Broncos_Athletics_Logo.svg",
