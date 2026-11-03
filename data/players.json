@@ -325,18 +325,18 @@
     {
       "id": "gvidas-gicevicius",
       "name": "Gvidas Gicevičius",
-      "espn_id": null,
+      "espn_id": "5312337",
       "height_cm": 203,
       "position": "F",
       "team": "FIU",
       "conference": "Conference USA",
-      "class_year": null,
+      "class_year": "Senior",
       "birth_year": null,
       "photo": null,
       "status": "working_list",
       "verified": false,
       "notes": "",
-      "roster_status": "team_not_found"
+      "roster_status": "active"
     },
     {
       "id": "nojus-indrusaitis",

@@ -50,8 +50,8 @@
   "opponent": "Miami Hurricanes",
   "home": true,
   "state": "in",
-  "for": "46",
-  "against": "36",
+  "for": null,
+  "against": null,
   "opp_rank": 14
  },
  {
@@ -61,8 +61,8 @@
   "opponent": "Bowling Green Falcons",
   "home": true,
   "state": "in",
-  "for": "34",
-  "against": "34",
+  "for": null,
+  "against": null,
   "opp_rank": null
  },
  {
@@ -71,9 +71,9 @@
   "team": "South Dakota",
   "opponent": "Mount Marty Lancers",
   "home": true,
-  "state": "in",
-  "for": "44",
-  "against": "29",
+  "state": "post",
+  "for": "95",
+  "against": "57",
   "opp_rank": null
  },
  {
@@ -82,9 +82,9 @@
   "team": "VMI Keydets",
   "opponent": "Virginia Lynchburg Dragons",
   "home": true,
-  "state": "in",
-  "for": "60",
-  "against": "31",
+  "state": "post",
+  "for": "115",
+  "against": "83",
   "opp_rank": null
  },
  {
@@ -93,9 +93,9 @@
   "team": "Buffalo",
   "opponent": "Marshall Thundering Herd",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "in",
+  "for": "24",
+  "against": "45",
   "opp_rank": null
  },
  {
@@ -115,7 +115,18 @@
   "team": "Dartmouth Big Green",
   "opponent": "Marist Red Foxes",
   "home": false,
-  "state": "pre",
+  "state": "in",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401928357",
+  "date": "2026-11-03T00:00Z",
+  "team": "FIU",
+  "opponent": "New College Mighty Banyans",
+  "home": true,
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -127,8 +138,8 @@
   "opponent": "Memphis Tigers",
   "home": true,
   "state": "in",
-  "for": null,
-  "against": null,
+  "for": "39",
+  "against": "40",
   "opp_rank": null
  },
  {
@@ -149,8 +160,8 @@
   "opponent": "Old Dominion Monarchs",
   "home": false,
   "state": "in",
-  "for": null,
-  "against": null,
+  "for": "24",
+  "against": "30",
   "opp_rank": null
  },
  {
@@ -159,9 +170,9 @@
   "team": "Wright State Raiders",
   "opponent": "Air Force Falcons",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "in",
+  "for": "60",
+  "against": "31",
   "opp_rank": null
  },
  {
@@ -170,7 +181,7 @@
   "team": "Campbell",
   "opponent": "NC State Wolfpack",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -181,7 +192,7 @@
   "team": "Lipscomb",
   "opponent": "Southeast Missouri State Redhawks",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -192,7 +203,7 @@
   "team": "Longwood",
   "opponent": "Pfeiffer Falcons",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -203,7 +214,7 @@
   "team": "Stephen F. Austin",
   "opponent": "Lyon Scots",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -214,7 +225,7 @@
   "team": "California",
   "opponent": "Adams State Grizzlies",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -225,7 +236,7 @@
   "team": "Kansas City",
   "opponent": "Creighton Bluejays",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -236,7 +247,7 @@
   "team": "UT Arlington",
   "opponent": "UNT Dallas Trailblazers",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -565,6 +576,17 @@
   "date": "2026-11-06T03:30Z",
   "team": "Arizona Wildcats",
   "opponent": "Cal Poly Mustangs",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401922248",
+  "date": "2026-11-06T22:00Z",
+  "team": "FIU",
+  "opponent": "West Florida Argonauts",
   "home": true,
   "state": "pre",
   "for": null,
@@ -1331,6 +1353,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401922211",
+  "date": "2026-11-14T00:00Z",
+  "team": "FIU",
+  "opponent": "Florida Gulf Coast Eagles",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401906772",
   "date": "2026-11-14T00:00Z",
   "team": "Florida Gators",
@@ -1742,6 +1775,17 @@
   "date": "2026-11-17T23:30Z",
   "team": "Lipscomb",
   "opponent": "Purdue Boilermakers",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401919018",
+  "date": "2026-11-18T00:30Z",
+  "team": "FIU",
+  "opponent": "UAB Blazers",
   "home": false,
   "state": "pre",
   "for": null,
@@ -2255,6 +2299,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401924266",
+  "date": "2026-11-23T18:00Z",
+  "team": "FIU",
+  "opponent": "Long Beach State Beach",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401928830",
   "date": "2026-11-23T18:30Z",
   "team": "Wright State Raiders",
@@ -2337,6 +2392,17 @@
   "team": "Wright State Raiders",
   "opponent": "St. Bonaventure Bonnies",
   "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401928358",
+  "date": "2026-11-24T18:00Z",
+  "team": "FIU",
+  "opponent": "Southern Utah Thunderbirds",
+  "home": true,
   "state": "pre",
   "for": null,
   "against": null,
@@ -2523,6 +2589,17 @@
   "date": "2026-11-25T19:00Z",
   "team": "Western Michigan",
   "opponent": "Grace Christian Tigers",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401928359",
+  "date": "2026-11-25T20:30Z",
+  "team": "FIU",
+  "opponent": "Arkansas State Red Wolves",
   "home": true,
   "state": "pre",
   "for": null,
@@ -3080,6 +3157,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401923264",
+  "date": "2026-12-03T00:00Z",
+  "team": "FIU",
+  "opponent": "Florida Atlantic Owls",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401920743",
   "date": "2026-12-03T00:00Z",
   "team": "Longwood",
@@ -3371,6 +3459,17 @@
   "team": "New Mexico",
   "opponent": "New Mexico State Aggies",
   "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401920881",
+  "date": "2026-12-05T20:00Z",
+  "team": "FIU",
+  "opponent": "Jacksonville Dolphins",
+  "home": false,
   "state": "pre",
   "for": null,
   "against": null,
@@ -4070,6 +4169,17 @@
   "opp_rank": 14
  },
  {
+  "event_id": "401909549",
+  "date": "2026-12-12T23:00Z",
+  "team": "FIU",
+  "opponent": "Xavier Musketeers",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401917568",
   "date": "2026-12-12T23:30Z",
   "team": "New Mexico",
@@ -4261,6 +4371,17 @@
   "date": "2026-12-16T23:30Z",
   "team": "UT Martin",
   "opponent": "Penn State Nittany Lions",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401921758",
+  "date": "2026-12-17T00:00Z",
+  "team": "FIU",
+  "opponent": "UCF Knights",
   "home": false,
   "state": "pre",
   "for": null,
@@ -4609,6 +4730,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401926760",
+  "date": "2026-12-20T19:00Z",
+  "team": "FIU",
+  "opponent": "Lehigh Mountain Hawks",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401918062",
   "date": "2026-12-20T20:00Z",
   "team": "California",
@@ -4668,6 +4800,17 @@
   "date": "2026-12-21T18:00Z",
   "team": "UT Arlington",
   "opponent": "Arlington Baptist Patriots",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401932195",
+  "date": "2026-12-21T19:00Z",
+  "team": "FIU",
+  "opponent": "Trinity College of Jacksonville Eagles",
   "home": true,
   "state": "pre",
   "for": null,
@@ -5313,6 +5456,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401905603",
+  "date": "2026-12-31T21:00Z",
+  "team": "FIU",
+  "opponent": "New Mexico State Aggies",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401913429",
   "date": "2026-12-31T21:00Z",
   "team": "Portland State",
@@ -5472,6 +5626,17 @@
   "team": "Kansas City",
   "opponent": "Spurgeon Knights",
   "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401905608",
+  "date": "2027-01-02T20:30Z",
+  "team": "FIU",
+  "opponent": "Sam Houston Bearkats",
+  "home": false,
   "state": "pre",
   "for": null,
   "against": null,
@@ -6017,6 +6182,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401905613",
+  "date": "2027-01-08T02:00Z",
+  "team": "FIU",
+  "opponent": "Liberty Flames",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401919231",
   "date": "2027-01-08T02:00Z",
   "team": "Northern Illinois Huskies",
@@ -6175,6 +6351,17 @@
   "date": "2027-01-09T19:00Z",
   "team": "Dartmouth Big Green",
   "opponent": "Cornell Big Red",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401905616",
+  "date": "2027-01-09T19:00Z",
+  "team": "FIU",
+  "opponent": "Delaware Blue Hens",
   "home": true,
   "state": "pre",
   "for": null,
@@ -6875,6 +7062,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401905626",
+  "date": "2027-01-16T19:00Z",
+  "team": "FIU",
+  "opponent": "Missouri State Bears",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401902335",
   "date": "2027-01-16T19:00Z",
   "team": "Florida Gators",
@@ -7425,6 +7623,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401905631",
+  "date": "2027-01-22T00:30Z",
+  "team": "FIU",
+  "opponent": "Middle Tennessee Blue Raiders",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401917426",
   "date": "2027-01-22T01:00Z",
   "team": "California Baptist",
@@ -7726,6 +7935,17 @@
   "date": "2027-01-23T23:00Z",
   "team": "UT Arlington",
   "opponent": "North Alabama Lions",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401905635",
+  "date": "2027-01-24T00:00Z",
+  "team": "FIU",
+  "opponent": "Western Kentucky Hilltoppers",
   "home": false,
   "state": "pre",
   "for": null,
@@ -8085,6 +8305,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401905640",
+  "date": "2027-01-29T00:00Z",
+  "team": "FIU",
+  "opponent": "Jacksonville State Gamecocks",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401912015",
   "date": "2027-01-29T00:00Z",
   "team": "Georgia State",
@@ -8310,6 +8541,17 @@
   "team": "Boise State",
   "opponent": "Texas State Bobcats",
   "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401905644",
+  "date": "2027-01-30T20:00Z",
+  "team": "FIU",
+  "opponent": "Kennesaw State Owls",
+  "home": true,
   "state": "pre",
   "for": null,
   "against": null,
@@ -8767,6 +9009,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401905648",
+  "date": "2027-02-05T00:00Z",
+  "team": "FIU",
+  "opponent": "Delaware Blue Hens",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401919279",
   "date": "2027-02-05T00:00Z",
   "team": "Northern Kentucky",
@@ -9079,6 +9332,17 @@
   "date": "2027-02-06T22:30Z",
   "team": "UT Arlington",
   "opponent": "Austin Peay Governors",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401905653",
+  "date": "2027-02-06T23:00Z",
+  "team": "FIU",
+  "opponent": "Liberty Flames",
   "home": false,
   "state": "pre",
   "for": null,
@@ -9691,6 +9955,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401905662",
+  "date": "2027-02-13T20:00Z",
+  "team": "FIU",
+  "opponent": "Missouri State Bears",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401905736",
   "date": "2027-02-13T20:00Z",
   "team": "Kansas City",
@@ -10131,6 +10406,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401905667",
+  "date": "2027-02-19T00:00Z",
+  "team": "FIU",
+  "opponent": "Western Kentucky Hilltoppers",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401919301",
   "date": "2027-02-19T00:00Z",
   "team": "Northern Kentucky",
@@ -10322,6 +10608,17 @@
   "date": "2027-02-20T19:00Z",
   "team": "Dartmouth Big Green",
   "opponent": "Columbia Lions",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401905671",
+  "date": "2027-02-20T19:00Z",
+  "team": "FIU",
+  "opponent": "Middle Tennessee Blue Raiders",
   "home": true,
   "state": "pre",
   "for": null,
@@ -10857,6 +11154,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401905676",
+  "date": "2027-02-26T00:00Z",
+  "team": "FIU",
+  "opponent": "Jacksonville State Gamecocks",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401924097",
   "date": "2027-02-26T00:00Z",
   "team": "Longwood",
@@ -11026,6 +11334,17 @@
   "date": "2027-02-27T19:00Z",
   "team": "Campbell",
   "opponent": "North Carolina A&T Aggies",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401905680",
+  "date": "2027-02-27T19:00Z",
+  "team": "FIU",
+  "opponent": "Kennesaw State Owls",
   "home": false,
   "state": "pre",
   "for": null,
@@ -11462,6 +11781,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401905684",
+  "date": "2027-03-05T00:00Z",
+  "team": "FIU",
+  "opponent": "Sam Houston Bearkats",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401917497",
   "date": "2027-03-05T03:00Z",
   "team": "California Baptist",
@@ -11555,6 +11885,17 @@
   "team": "Dartmouth Big Green",
   "opponent": "Cornell Big Red",
   "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401905689",
+  "date": "2027-03-06T19:00Z",
+  "team": "FIU",
+  "opponent": "New Mexico State Aggies",
+  "home": true,
   "state": "pre",
   "for": null,
   "against": null,
