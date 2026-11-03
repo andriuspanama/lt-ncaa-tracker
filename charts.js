@@ -61,8 +61,8 @@ function demoGames(players){
 const av=p=>avatar(p,'sm');
 function list(rows,key,fmt,title,sub,minGP,cat,vis,share=false){
   const r=rows.slice().sort((a,b)=>b[key]-a[key]).slice(0,minGP||10),mx=Math.max(...r.map(x=>x[key]),1),vs=vis||r.length;
-  return `<section class="card"><h2>${title}</h2><p class="sub">${sub}</p>`+(r.length?r.map((x,i)=>`<div class="rowc clk${i>=vs?' more':''}${share?' share-row':''}" data-href="players/${esc(x.p.id)}.html"><span class="mt">${i+1}</span>${av(x.p)}
-  <div><div class="nm"><a class="plk" href="players/${esc(x.p.id)}.html">${esc(x.p.name)}</a>${S.per==='season'&&!S.demo&&cat?ncaaBadge(x.p.id,cat):''}</div><div class="mt">${teamLogo(x.p.team,'tl xs')}${esc(x.p.team)}${confChip(x.p.team)} · ${x.gp} rung.</div><div class="bar2"><i style="width:${Math.max(0,x[key])/mx*100}%"></i></div></div>${share?`<button class="share-card-btn" type="button" data-share-player="${esc(x.p.id)}" aria-label="Dalintis ${esc(x.p.name)} kortele">Dalintis</button>`:''}<span class="v">${fmt(x[key])}</span></div>`).join(''):'<p class="empty">Duomenų dar nėra</p>')+(r.length>vs?`<button class="xp" type="button" data-l="Rodyti top ${r.length} ▾">Rodyti top ${r.length} ▾</button>`:'')+`<div class="src">LT NCAA Tracker</div></section>`;
+  return `<section class="card"><h2>${title}</h2><p class="sub">${sub}</p>`+(r.length?r.map((x,i)=>`<div class="rowc clk${i>=vs?' more':''}${share?' share-row':''}" data-href="players/${esc(x.p.id)}.html" data-share-value="${esc(fmt(x[key]))}" data-share-gp="${x.gp}"><span class="mt">${i+1}</span>${av(x.p)}
+  <div><div class="nm"><a class="plk" href="players/${esc(x.p.id)}.html">${esc(x.p.name)}</a>${S.per==='season'&&!S.demo&&cat?ncaaBadge(x.p.id,cat):''}</div><div class="mt">${teamLogo(x.p.team,'tl xs')}${esc(x.p.team)}${confChip(x.p.team)} · ${x.gp} rung.</div><div class="bar2"><i style="width:${Math.max(0,x[key])/mx*100}%"></i></div></div>${share?`<button class="share-card-btn" type="button" data-share-player="${esc(x.p.id)}" aria-label="Dalintis ${esc(x.p.name)} kortele">Dalintis</button>`:''}<span class="v">${fmt(x[key])}</span></div>`).join(''):'<p class="empty">Duomenų dar nėra</p>')+(r.length?`<button class="share-card-btn share-action" type="button" data-share-leaders="${esc(title)}">Dalintis Top 10 kortele</button>`:'')+(r.length>vs?`<button class="xp" type="button" data-l="Rodyti top ${r.length} ▾">Rodyti top ${r.length} ▾</button>`:'')+`<div class="src">LT NCAA Tracker</div></section>`;
 }
 async function draw(){
   const games=S.demo?demoGames(S.players):S.real,rows=table(S.players,games,S.per).filter(r=>r.min>=(S.demo?10:MINS[S.per]));
@@ -87,7 +87,18 @@ async function draw(){
       if(!r)return;
       const stats=[['Taškai','ppg'],['Atkovoti','reb'],['Perdavimai','ast'],['Perimti','stl'],['Blokai','blk'],['Minutės','mpg'],['FG%','fgp'],['3P%','tpp']].map(([label,key])=>({label,value:key==='fgp'||key==='tpp'?r[key].toFixed(1)+'%':r[key].toFixed(1)}));
       share.disabled=true;
-      window.shareStatsCard({type:'player',period:S.per,player:p,stats,demo:S.demo}).catch(()=>{}).finally(()=>{share.disabled=false});
+      window.shareStatsCard({type:'player',period:S.per,player:p,stats,impact:r.imp,demo:S.demo}).catch(()=>{}).finally(()=>{share.disabled=false});
+      return;
+    }
+    const leaders=e.target.closest&&e.target.closest('[data-share-leaders]');
+    if(leaders){
+      e.preventDefault();e.stopPropagation();
+      const card=leaders.closest('.card'),stats=[...card.querySelectorAll('.rowc[data-href]')].map((row,i)=>{
+        const id=row.dataset.href.match(/players\/([^/]+)\.html$/)?.[1],p=S.players.find(x=>x.id===id);
+        return p?{rank:i+1,name:p.name,team:p.team,value:row.dataset.shareValue,gp:row.dataset.shareGp}:null;
+      }).filter(Boolean);
+      leaders.disabled=true;
+      window.shareStatsCard({type:'leaders',title:leaders.dataset.shareLeaders,period:S.per,stats,demo:S.demo}).catch(()=>{}).finally(()=>{leaders.disabled=false});
       return;
     }
     const x=e.target.closest&&e.target.closest('.xp');

@@ -34,7 +34,8 @@ else(async()=>{
   const best=k=>g.reduce((m,x)=>x[k]>m[k]?x:m);
   pf.innerHTML=`<div class="hero">${head}<div class="imp" style="margin:10px 0">${a.imp.toFixed(1)}<small>IMPACT SCORE</small></div>
     <div class="big">${[['PPG',pa('ppg')],['RPG',pa('rpg')],['APG',pa('apg')],['SPG',pa('spg')],['BPG',pa('bpg')]].map(([l,v])=>`<div><b>${v}</b><span>${l}</span></div>`).join('')}</div>
-    <div class="big">${[['MPG',pa('mpg')],['FG%',pc1(a.fg)],['3P%',pc1(a.tp)],['FT%',pc1(a.ft)],['RUNGT.',a.gp]].map(([l,v])=>`<div><b>${v}</b><span>${l}</span></div>`).join('')}</div></section>
+    <div class="big">${[['MPG',pa('mpg')],['FG%',pc1(a.fg)],['3P%',pc1(a.tp)],['FT%',pc1(a.ft)],['RUNGT.',a.gp]].map(([l,v])=>`<div><b>${v}</b><span>${l}</span></div>`).join('')}</div>
+    <button class="share-card-btn share-action profile-share" type="button">Dalintis statistika</button></section>
     <section class="card"><h2>PROCENTILIAI TARP LIETUVIŲ</h2><p class="sub">Palyginimas su kitais lietuviais NCAA (ne su visais D1)</p>${radar(vals)}<div class="sec">VIETA TARP LIETUVIŲ</div>${strips(all,a)}</section></div>
     ${ncaaEntries(id).length?`<section class="card"><h2>NCAA TOP 25</h2><p class="sub">Kategorijos, kuriose patenka tarp visų D1 žaidėjų</p><div class="hl">${ncaaEntries(id).slice().sort((x,y)=>x.rank-y.rank).map(x=>`<div><b>#${x.rank}</b> · ${esc(ncaaExplain(x))}</div>`).join('')}</div></section>`:''}
     <section class="card"><h2>FORMA</h2><p class="sub">Paskutinių ${Math.min(10,g.length)} rungtynių taškai</p>${form(g)}</section>
@@ -42,4 +43,10 @@ else(async()=>{
     <section class="card"><h2>RUNGTYNIŲ ŽURNALAS</h2><div class="tw"><table><tr><th>Data</th><th>Varžovas</th><th></th><th>MIN</th><th>PTS</th><th>REB</th><th>AST</th><th>FG</th><th>3P</th></tr>
     ${[...g].reverse().map(x=>`<tr><td>${fd(x.date)} <button class="bx" data-e="${esc(x.event_id)}">Box</button></td><td>${x.home?'vs':'@'} ${esc(x.opponent)}${oppChip(x.opponent)}</td><td class="${x.result==='W'?'w':'l'}">${esc(x.result||'?')} ${sc(x)}</td><td>${x.min}</td><td>${x.pts}</td><td>${x.reb}</td><td>${x.ast}</td><td>${x.fgm}/${x.fga}</td><td>${x.tpm}/${x.tpa}</td></tr>`).join('')}</table></div></section>
     <section class="card"><h2>KARJERA</h2><p class="empty">Ankstesnių sezonų duomenų kol kas nerenkame.</p></section>`;
+  const share=pf.querySelector('.profile-share');
+  share.onclick=()=>{
+    share.disabled=true;
+    const stats=[['PPG',pa('ppg')],['RPG',pa('rpg')],['APG',pa('apg')],['SPG',pa('spg')],['BPG',pa('bpg')],['MPG',pa('mpg')],['FG%',pc1(a.fg)],['3P%',pc1(a.tp)],['FT%',pc1(a.ft)],['RUNGT.',a.gp]].map(([label,value])=>({label,value}));
+    window.shareStatsCard({type:'player',period:'season',player:p,stats,impact:a.imp}).catch(()=>{}).finally(()=>{share.disabled=false});
+  };
 })();

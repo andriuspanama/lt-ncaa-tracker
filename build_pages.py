@@ -23,6 +23,7 @@ T = '''<!doctype html>
 <main id="pf" class="pf"><p class="empty">Kraunama…</p></main>
 <footer><a href="index.html">← Visi žaidėjai</a> · Neoficialus projektas, nesusijęs su NCAA ar ESPN.</footer>
 <script src="media.js"></script>
+<script src="share.js"></script>
 <script src="player.js"></script>
 </body>
 </html>
