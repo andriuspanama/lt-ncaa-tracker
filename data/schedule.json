@@ -49,9 +49,9 @@
   "team": "Florida Gators",
   "opponent": "Miami Hurricanes",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "77",
+  "against": "67",
   "opp_rank": 14
  },
  {
@@ -60,9 +60,9 @@
   "team": "Georgia State",
   "opponent": "Bowling Green Falcons",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "73",
+  "against": "76",
   "opp_rank": null
  },
  {
@@ -93,9 +93,9 @@
   "team": "Buffalo",
   "opponent": "Marshall Thundering Herd",
   "home": false,
-  "state": "in",
-  "for": "24",
-  "against": "45",
+  "state": "post",
+  "for": "65",
+  "against": "92",
   "opp_rank": null
  },
  {
@@ -104,9 +104,9 @@
   "team": "Clemson Tigers",
   "opponent": "Stetson Hatters",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "85",
+  "against": "72",
   "opp_rank": null
  },
  {
@@ -115,9 +115,9 @@
   "team": "Dartmouth Big Green",
   "opponent": "Marist Red Foxes",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "69",
+  "against": "62",
   "opp_rank": null
  },
  {
@@ -126,9 +126,9 @@
   "team": "FIU",
   "opponent": "New College Mighty Banyans",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "101",
+  "against": "58",
   "opp_rank": null
  },
  {
@@ -137,9 +137,9 @@
   "team": "Iowa State",
   "opponent": "Memphis Tigers",
   "home": true,
-  "state": "in",
-  "for": "39",
-  "against": "40",
+  "state": "post",
+  "for": "76",
+  "against": "80",
   "opp_rank": null
  },
  {
@@ -148,9 +148,9 @@
   "team": "Quinnipiac",
   "opponent": "Michigan State Spartans",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "59",
+  "against": "96",
   "opp_rank": 6
  },
  {
@@ -159,9 +159,9 @@
   "team": "Western Michigan",
   "opponent": "Old Dominion Monarchs",
   "home": false,
-  "state": "in",
-  "for": "24",
-  "against": "30",
+  "state": "post",
+  "for": "49",
+  "against": "61",
   "opp_rank": null
  },
  {
@@ -170,9 +170,9 @@
   "team": "Wright State Raiders",
   "opponent": "Air Force Falcons",
   "home": true,
-  "state": "in",
-  "for": "60",
-  "against": "31",
+  "state": "post",
+  "for": "102",
+  "against": "71",
   "opp_rank": null
  },
  {
@@ -181,9 +181,9 @@
   "team": "Campbell",
   "opponent": "NC State Wolfpack",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "64",
+  "against": "83",
   "opp_rank": null
  },
  {
@@ -192,9 +192,9 @@
   "team": "Lipscomb",
   "opponent": "Southeast Missouri State Redhawks",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "79",
+  "against": "86",
   "opp_rank": null
  },
  {
@@ -203,9 +203,9 @@
   "team": "Longwood",
   "opponent": "Pfeiffer Falcons",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "123",
+  "against": "67",
   "opp_rank": null
  },
  {
@@ -214,9 +214,9 @@
   "team": "Stephen F. Austin",
   "opponent": "Lyon Scots",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "120",
+  "against": "61",
   "opp_rank": null
  },
  {
@@ -225,9 +225,9 @@
   "team": "California",
   "opponent": "Adams State Grizzlies",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "115",
+  "against": "86",
   "opp_rank": null
  },
  {
@@ -236,9 +236,9 @@
   "team": "Kansas City",
   "opponent": "Creighton Bluejays",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "61",
+  "against": "76",
   "opp_rank": null
  },
  {
@@ -247,9 +247,9 @@
   "team": "UT Arlington",
   "opponent": "UNT Dallas Trailblazers",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "89",
+  "against": "56",
   "opp_rank": null
  },
  {
@@ -258,9 +258,9 @@
   "team": "UT Martin",
   "opponent": "Tulane Green Wave",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "98",
+  "against": "100",
   "opp_rank": null
  },
  {
@@ -269,9 +269,9 @@
   "team": "Utah Valley",
   "opponent": "Western Colorado Mountaineers",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "84",
+  "against": "63",
   "opp_rank": null
  },
  {
@@ -280,9 +280,9 @@
   "team": "New Mexico",
   "opponent": "Utah Tech Trailblazers",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "100",
+  "against": "60",
   "opp_rank": null
  },
  {
@@ -291,9 +291,9 @@
   "team": "Texas",
   "opponent": "Chicago State Cougars",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "109",
+  "against": "59",
   "opp_rank": null
  },
  {
@@ -302,9 +302,9 @@
   "team": "Arizona State Sun Devils",
   "opponent": "East Tennessee State Buccaneers",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "75",
+  "against": "65",
   "opp_rank": null
  },
  {
@@ -313,9 +313,9 @@
   "team": "Arizona Wildcats",
   "opponent": "UCLA Bruins",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "75",
+  "against": "84",
   "opp_rank": 22
  },
  {
@@ -324,9 +324,9 @@
   "team": "Saint Mary's",
   "opponent": "Illinois State Redbirds",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "90",
+  "against": "85",
   "opp_rank": null
  },
  {
