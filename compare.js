@@ -58,7 +58,13 @@ else(async()=>{
     const [ca,cb]=pickColors(ia,ib,dark),cs=c=>`rgb(${c})`,r=rowsData(agg(ga),agg(gb));
     const side=(p,c,rt)=>`<div class="side${rt?' r':''}" style="--sc:${cs(c)}">${avatar(p)}<div><div class="nm">${esc(p.name)}</div><div class="mt">${teamLogo(p.team,'tl xs')}${esc(p.team)}${confChip(p.team,p.conference)}</div><div class="mt">${(rt?gb:ga).length} rung.</div></div></div>`;
     out.innerHTML=`<section class="card"><div class="ch">${side(A,ca,0)}${side(B,cb,1)}</div>`+r.map(x=>`<div class="cr"><div class="cv${x.lead<0?' lead':''}"><b>${x.a}</b><small>${x.sa}</small></div><div class="cl">${x.l}</div><div class="cv r${x.lead>0?' lead':''}"><b>${x.b}</b><small>${x.sb}</small></div></div>
-      <div class="cb"><i class="${x.lead<0?'lead':''}" style="flex:${x.fa};background:${cs(ca)}"></i><i class="${x.lead>0?'lead':''}" style="flex:${x.fb};background:${cs(cb)}"></i></div>`).join('')+`<p class="src" style="margin-top:18px">Ryškesnė juosta – geresnė reikšmė (kamuolių praradimuose – mažesnė). Spalvos – klubų.</p></section>`;
+      <div class="cb"><i class="${x.lead<0?'lead':''}" style="flex:${x.fa};background:${cs(ca)}"></i><i class="${x.lead>0?'lead':''}" style="flex:${x.fb};background:${cs(cb)}"></i></div>`).join('')+`<p class="src" style="margin-top:18px">Ryškesnė juosta – geresnė reikšmė (kamuolių praradimuose – mažesnė). Spalvos – klubų.</p><button class="share-card-btn share-action" type="button">Dalintis palyginimo kortele</button></section>`;
+    const share=out.querySelector('.share-action');
+    share.onclick=()=>{
+      share.disabled=true;
+      const stats=r.map(x=>({label:x.l,left:x.a,right:x.b,leftSize:x.fa,rightSize:x.fb}));
+      window.shareStatsCard({type:'comparison',period:S.per,players:[A,B],stats,demo:S.demo}).catch(()=>{}).finally(()=>{share.disabled=false});
+    };
   }
   await mediaReady;
   S.players=(await load('data/players.json'))?.players||[];

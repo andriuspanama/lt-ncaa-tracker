@@ -1,15 +1,15 @@
 """Ieško žaidėjų nuotraukų keliuose šaltiniuose ir įrašo nuorodas į data/photos.json.
-Eilė: 1) ESPN  2) Wikipedia (lt, en)  3) komandos oficiali svetainė (rosterio puslapis).
+Eilė: 1) komandos oficiali svetainė (rosterio puslapis)  2) ESPN  3) Wikipedia (lt, en).
 Naudojimas: python fetch_photos.py"""
 import json, re, time, unicodedata, requests
 from urllib.parse import urljoin, unquote
 H = {"User-Agent": "lt-ncaa-tracker/1.0 (https://github.com/andriuspanama/lt-ncaa-tracker; fan stats project)"}
 ESPN = "https://site.web.api.espn.com/apis/common/v3/sports/basketball/mens-college-basketball/athletes/{}"
 ESPN_IMG = "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/{}.png"
-SITES = {"Arizona Wildcats":"arizonawildcats.com","Arizona State Sun Devils":"thesundevils.com","Florida Gators":"floridagators.com",
- "VMI Keydets":"vmikeydets.com","Clemson Tigers":"clemsontigers.com","Stephen F. Austin":"sfajacks.com","Utah Valley":"uvuathletics.com",
+SITES = {"Arizona Wildcats":"arizonawildcats.com","Arizona State Sun Devils":"thesundevils.com","Florida Gators":"floridagators.com","BYU":"byucougars.com",
+ "VMI Keydets":"vmikeydets.com","Clemson Tigers":"clemsontigers.com","Stephen F. Austin":"sfajacks.com","Utah Valley":"gouvu.com",
  "UT Martin":"utmsports.com","South Carolina":"gamecocksonline.com","Buffalo":"ubbulls.com","Boise State":"broncosports.com",
- "Campbell":"gocamels.com","South Dakota":"goyotes.com","Quinnipiac":"quinnipiacbobcats.com","UMBC":"umbcretrievers.com",
+ "Campbell":"gocamels.com","South Dakota":"goyotes.com","Quinnipiac":"gobobcats.com","UMBC":"umbcretrievers.com",
  "California":"calbears.com","Rhode Island":"gorhody.com","FIU":"fiusports.com","Kansas City":"kcroos.com","Northern Kentucky":"nkunorse.com",
  "Saint Mary's":"smcgaels.com","Longwood":"longwoodlancers.com","Western Michigan":"wmubroncos.com","Portland State":"goviks.com",
  "Texas":"texassports.com","UT Arlington":"utamavs.com","Mercer":"mercerbears.com","New Mexico":"golobos.com","Iowa State":"cyclones.com",
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     except Exception: out = {}
     for p in players:
         if out.get(p["id"], {}).get("url"): continue
-        for name, fn in (("ESPN", espn), ("Wikipedia", wiki), ("komandos svetainė", site)):
+        for name, fn in (("komandos svetainė", site), ("ESPN", espn), ("Wikipedia", wiki)):
             try: u = fn(p)
             except Exception: u = None
             if u: out[p["id"]] = {"url": u, "source": name}; print("OK", p["name"], name); break

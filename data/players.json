@@ -227,6 +227,23 @@
       "roster_status": "active"
     },
     {
+      "id": "dovydas-buika",
+      "name": "Dovydas Buika",
+      "espn_id": "5455682",
+      "height_cm": 198,
+      "position": "F",
+      "team": "BYU",
+      "conference": "Big 12",
+      "class_year": "Freshman",
+      "birth_year": null,
+      "photo": null,
+      "status": "working_list",
+      "verified": true,
+      "notes": "",
+      "roster_status": "active",
+      "jersey": "24"
+    },
+    {
       "id": "emilis-butkus",
       "name": "Emilis Butkus",
       "espn_id": "5107162",
@@ -273,6 +290,23 @@
       "verified": false,
       "notes": "",
       "roster_status": "active"
+    },
+    {
+      "id": "nedas-raupelis",
+      "name": "Nedas Raupelis",
+      "espn_id": "5458225",
+      "height_cm": 208,
+      "position": "F",
+      "team": "Rhode Island",
+      "conference": "A-10",
+      "class_year": "Sophomore",
+      "birth_year": null,
+      "photo": null,
+      "status": "working_list",
+      "verified": true,
+      "notes": "",
+      "roster_status": "active",
+      "jersey": "9"
     },
     {
       "id": "regimantas-ciunys",
@@ -452,19 +486,20 @@
     },
     {
       "id": "gantas-krizanauskas",
-      "name": "Gantas Krizanauskas",
+      "name": "Gantas Križanauskas",
       "espn_id": null,
       "height_cm": 193,
-      "position": "PG",
+      "position": "G",
       "team": "Portland State",
       "conference": "Big Sky",
-      "class_year": null,
+      "class_year": "Freshman",
       "birth_year": null,
       "photo": null,
       "status": "working_list",
-      "verified": false,
+      "verified": true,
       "notes": "",
-      "roster_status": "not_found"
+      "roster_status": "active",
+      "jersey": "22"
     },
     {
       "id": "kajus-kublickas",

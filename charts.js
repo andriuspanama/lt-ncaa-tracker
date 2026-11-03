@@ -59,10 +59,10 @@ function demoGames(players){
   return out;
 }
 const av=p=>avatar(p,'sm');
-function list(rows,key,fmt,title,sub,minGP,cat,vis){
+function list(rows,key,fmt,title,sub,minGP,cat,vis,share=false){
   const r=rows.slice().sort((a,b)=>b[key]-a[key]).slice(0,minGP||10),mx=Math.max(...r.map(x=>x[key]),1),vs=vis||r.length;
-  return `<section class="card"><h2>${title}</h2><p class="sub">${sub}</p>`+(r.length?r.map((x,i)=>`<div class="rowc clk${i>=vs?' more':''}" data-href="players/${esc(x.p.id)}.html"><span class="mt">${i+1}</span>${av(x.p)}
-  <div><div class="nm"><a class="plk" href="players/${esc(x.p.id)}.html">${esc(x.p.name)}</a>${S.per==='season'&&!S.demo&&cat?ncaaBadge(x.p.id,cat):''}</div><div class="mt">${teamLogo(x.p.team,'tl xs')}${esc(x.p.team)}${confChip(x.p.team)} · ${x.gp} rung.</div><div class="bar2"><i style="width:${Math.max(0,x[key])/mx*100}%"></i></div></div><span class="v">${fmt(x[key])}</span></div>`).join(''):'<p class="empty">Duomenų dar nėra</p>')+(r.length>vs?`<button class="xp" type="button" data-l="Rodyti top ${r.length} ▾">Rodyti top ${r.length} ▾</button>`:'')+`<div class="src">LT NCAA Tracker</div></section>`;
+  return `<section class="card"><h2>${title}</h2><p class="sub">${sub}</p>`+(r.length?r.map((x,i)=>`<div class="rowc clk${i>=vs?' more':''}${share?' share-row':''}" data-href="players/${esc(x.p.id)}.html"><span class="mt">${i+1}</span>${av(x.p)}
+  <div><div class="nm"><a class="plk" href="players/${esc(x.p.id)}.html">${esc(x.p.name)}</a>${S.per==='season'&&!S.demo&&cat?ncaaBadge(x.p.id,cat):''}</div><div class="mt">${teamLogo(x.p.team,'tl xs')}${esc(x.p.team)}${confChip(x.p.team)} · ${x.gp} rung.</div><div class="bar2"><i style="width:${Math.max(0,x[key])/mx*100}%"></i></div></div>${share?`<button class="share-card-btn" type="button" data-share-player="${esc(x.p.id)}" aria-label="Dalintis ${esc(x.p.name)} kortele">Dalintis</button>`:''}<span class="v">${fmt(x[key])}</span></div>`).join(''):'<p class="empty">Duomenų dar nėra</p>')+(r.length>vs?`<button class="xp" type="button" data-l="Rodyti top ${r.length} ▾">Rodyti top ${r.length} ▾</button>`:'')+`<div class="src">LT NCAA Tracker</div></section>`;
 }
 async function draw(){
   const games=S.demo?demoGames(S.players):S.real,rows=table(S.players,games,S.per).filter(r=>r.min>=(S.demo?10:MINS[S.per]));
@@ -72,7 +72,7 @@ async function draw(){
   const cats=[['ppg','TAŠKAI'],['reb','ATKOVOTI'],['ast','PERDAVIMAI'],['stl','PERIMTI'],['blk','BLOKAI'],['fgp','METIMŲ TAIKLUMAS (FG%)'],['tpp','TRITAŠKIŲ TAIKLUMAS (3P%)'],['ftp','BAUDŲ TAIKLUMAS (FT%)']];
   const NK={ppg:'ppg',reb:'rpg',ast:'apg',stl:'spg',blk:'bpg',fgp:'fgp',tpp:'tpp',ftp:'ftp'},AT={fgp:['fga','metimų'],tpp:['tpa','tritaškių'],ftp:['fta','baudų']};
   const MA={week:{fga:8,tpa:4,fta:4},month:{fga:20,tpa:10,fta:8},season:{fga:40,tpa:20,fta:15}},mi=S.demo?{fga:5,tpa:2,fta:2}:MA[S.per];
-  $('#cards').innerHTML=list(rows,'imp',v=>v.toFixed(1),'TOP 10 · IMPACT',`${per} · Game Score vidurkis · min. ${S.demo?10:MINS[S.per]} min`)
+  $('#cards').innerHTML=list(rows,'imp',v=>v.toFixed(1),'TOP 10 · IMPACT',`${per} · Game Score vidurkis · min. ${S.demo?10:MINS[S.per]} min`,undefined,undefined,undefined,true)
    +list(hot,'pps',v=>v.toFixed(2),'HOT HANDS',`${per} · taškai per metimą`,10,undefined,5)
    +scatter(all)
    +cats.map(([k,t])=>{const q=AT[k],rr=q?all.filter(r=>r[q[0]]>=mi[q[0]]):all;return list(rr,k,q?v=>v.toFixed(1)+'%':v=>v.toFixed(1),'LYDERIAI · '+t,q?`${per} · min. ${mi[q[0]]} ${q[1]}`:`${per} · vidurkis per rungtynes`,10,NK[k],3)}).join('')
@@ -80,6 +80,16 @@ async function draw(){
 }
 (async()=>{
   document.addEventListener('click',e=>{
+    const share=e.target.closest&&e.target.closest('[data-share-player]');
+    if(share){
+      e.preventDefault();e.stopPropagation();
+      const p=S.players.find(x=>x.id===share.dataset.sharePlayer),games=S.demo?demoGames(S.players):S.real,r=p&&table(S.players,games,S.per).find(x=>x.p.id===p.id);
+      if(!r)return;
+      const stats=[['Taškai','ppg'],['Atkovoti','reb'],['Perdavimai','ast'],['Perimti','stl'],['Blokai','blk'],['Minutės','mpg'],['FG%','fgp'],['3P%','tpp']].map(([label,key])=>({label,value:key==='fgp'||key==='tpp'?r[key].toFixed(1)+'%':r[key].toFixed(1)}));
+      share.disabled=true;
+      window.shareStatsCard({type:'player',period:S.per,player:p,stats,demo:S.demo}).catch(()=>{}).finally(()=>{share.disabled=false});
+      return;
+    }
     const x=e.target.closest&&e.target.closest('.xp');
     if(x){const c=x.closest('.card');c.classList.toggle('open');x.textContent=c.classList.contains('open')?'Rodyti mažiau ▴':x.dataset.l;return}
     if(e.target.closest&&e.target.closest('.nb,a,button'))return;
