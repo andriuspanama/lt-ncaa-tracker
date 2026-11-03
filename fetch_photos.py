@@ -38,10 +38,24 @@ def wiki(p):
             if "original" in pg and ("basketball" in txt or "krepš" in txt): return pg["original"]["source"]
         except Exception: pass
     return None
+def hit(last, text):
+    """Pavardė su diakritikais svetainių nuorodose dažnai praranda raidę (kri-anauskas), todėl leidžiam 'tarpą'."""
+    return last in text or bool(re.search(re.escape(last[:3]) + ".{0,3}" + re.escape(last[-6:]), text))
+def og_image(html):
+    for pat in (r'<meta[^>]+property=["\']og:image["\'][^>]*content=["\']([^"\']+)', r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*property=["\']og:image["\']'):
+        m = re.search(pat, html, flags=re.I)
+        if m: return m.group(1).replace("&amp;", "&")
+def player_page_img(html, last, base):
+    for href in dict.fromkeys(re.findall(r'href=["\']([^"\']*roster[^"\']*)["\']', html, flags=re.I)):
+        parts = [x for x in href.split("?")[0].split("/") if x]
+        if len(parts) >= 4 and hit(last, norm(unquote(href))):
+            try: u = og_image(get(urljoin(base, href)).text)
+            except Exception: continue
+            if u and is_image(urljoin(base, u)): return urljoin(base, u)
 def find_img(html, last, base):
     for tag in re.findall(r"<img[^>]+>", html, flags=re.I):
         t = norm(unquote(tag))
-        if last in t and "logo" not in t:
+        if hit(last, t) and "logo" not in t:
             for attr in ("data-src", "src"):
                 m = re.search(attr + r'=["\']([^"\']+)', tag)
                 if m and not m.group(1).startswith("data:"): return urljoin(base, m.group(1).replace("&amp;", "&"))
@@ -56,6 +70,8 @@ def site(p):
         except Exception: continue
         u = find_img(html, last, f"https://{d}/")
         if u and is_image(u): return u
+        u = player_page_img(html, last, f"https://{d}/")
+        if u: return u
     return None
 if __name__ == "__main__":
     players = json.load(open("data/players.json", encoding="utf-8"))["players"]

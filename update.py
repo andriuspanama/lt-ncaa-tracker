@@ -1,5 +1,5 @@
 """Parsisiunčia kiekvieno žaidėjo rungtynių žurnalą (ESPN), išsaugo data/games/<id>.json ir PATS apskaičiuoja agregatus data/stats.json."""
-import json, os, datetime as dt
+import json, os, time, datetime as dt
 from common import get
 G = "https://site.web.api.espn.com/apis/common/v3/sports/basketball/mens-college-basketball/athletes/{}/gamelog"
 SEASON = 2027  # ESPN sezonas = baigimosi metai (2026–27 -> 2027)
@@ -61,10 +61,15 @@ if __name__ == "__main__":
     all_games = {}
     for p in players:
         if not p.get("espn_id") or p.get("roster_status") == "not_found": continue
-        try:
-            games = parse_gamelog(get(G.format(p["espn_id"]), season=SEASON))
-        except Exception as e:
-            print("KLAIDA", p["name"], e); continue
+        path = f'data/games/{p["id"]}.json'
+        games, err = None, None
+        for i in range(3):  # ESPN kartais grąžina laikiną 500
+            try: games = parse_gamelog(get(G.format(p["espn_id"]), season=SEASON)); break
+            except Exception as e: err = e; time.sleep(2 * (i + 1))
+        if games is None:
+            print("Praleista (ESPN klaida, tikėtina, dar nėra rungtynių):", p["name"], str(err)[:70])
+            if os.path.exists(path): all_games[p["id"]] = json.load(open(path, encoding="utf-8"))  # paliekam ankstesnius duomenis
+            continue
         all_games[p["id"]] = games
         json.dump(games, open(f'data/games/{p["id"]}.json', "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(build(all_games), open("data/stats.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)

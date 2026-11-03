@@ -8,8 +8,9 @@ todo = [p for p in data["players"] if not p.get("espn_id")]
 if not todo:
     raise SystemExit("Visi ID jau yra.")
 teams = [t["team"] for t in get(f"{B}/teams", limit=500)["sports"][0]["leagues"][0]["teams"]]
+ALIAS = {"FIU": "Florida International"}  # ESPN naudoja pilną pavadinimą
 def find_team(name):
-    n = norm(name)
+    n = norm(ALIAS.get(name, name))
     hits = [t for t in teams if norm(t.get("displayName")) == n]
     hits = hits or [t for t in teams if norm(t.get("location")) == n]
     hits = hits or [t for t in teams if norm(t.get("displayName")).startswith(n + " ")]

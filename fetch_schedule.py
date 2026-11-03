@@ -3,6 +3,7 @@ import json
 from common import get, norm
 B = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball"
 SEASON = 2027
+ALIAS = {"FIU": "Florida International"}
 def score(c):
     s = c.get("score"); return s.get("displayValue") if isinstance(s, dict) else s
 def parse(j, team, tid):
@@ -20,7 +21,7 @@ if __name__ == "__main__":
     teams = sorted({p["team"] for p in json.load(open("data/players.json", encoding="utf-8"))["players"]})
     all_t = [t["team"] for t in get(f"{B}/teams", limit=500)["sports"][0]["leagues"][0]["teams"]]
     def find(n):
-        n = norm(n); h = [t for t in all_t if norm(t.get("displayName")) == n] or [t for t in all_t if norm(t.get("location")) == n] or [t for t in all_t if norm(t.get("displayName")).startswith(n + " ")]
+        n = norm(ALIAS.get(n, n)); h = [t for t in all_t if norm(t.get("displayName")) == n] or [t for t in all_t if norm(t.get("location")) == n] or [t for t in all_t if norm(t.get("displayName")).startswith(n + " ")]
         return h[0] if len(h) == 1 else None
     out = []
     for name in teams:

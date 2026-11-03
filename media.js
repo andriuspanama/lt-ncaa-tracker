@@ -23,7 +23,7 @@ window.mediaReady=Promise.all([jl('data/teams.json'),jl('data/photos.json'),jl('
     setTimeout(function(){document.addEventListener('click',function c(){d.remove();document.removeEventListener('click',c)},{once:true})},0);
   },true);
   var TT={A:'A lygis – elitinės konferencijos',B:'B lygis – stiprios konferencijos',C:'C lygis – vidutinės konferencijos',D:'D lygis – žemesnio lygio konferencijos'};
-  window.ctxInfo=function(name){if(!name)return null;var i=window.CTX.teams[name]||null,r=window.CTX.ap[name]||null;return (i||r)?{conf:i&&i.conf,tier:i&&i.tier,rank:r}:null};
+  window.ctxInfo=function(name){if(!name)return null;name=({'FIU':'Florida International'})[name]||name;var i=window.CTX.teams[name]||null,r=window.CTX.ap[name]||null;return (i||r)?{conf:i&&i.conf,tier:i&&i.tier,rank:r}:null};
   window.confChip=function(team,fb){var i=window.ctxInfo(team),c=(i&&i.conf)||fb;if(!c)return '';var t=i&&i.tier;
     return '<span class="cf'+(t?' t-'+t:'')+'"'+(t?' title="'+TT[t]+'"':'')+'>'+e(c)+(t?' · '+t:'')+'</span>'};
   window.oppChip=function(name){var i=window.ctxInfo(name);if(!i)return '';
