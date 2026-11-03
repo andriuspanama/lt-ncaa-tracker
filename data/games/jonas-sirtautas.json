@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401910994",
+  "date": "2026-11-02",
+  "opponent": "Bowling Green Falcons",
+  "home": true,
+  "result": "L",
+  "score": "73-76",
+  "min": 7,
+  "pts": 0,
+  "reb": 3,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 0,
+  "fgm": 0,
+  "fga": 1,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
+ }
+]

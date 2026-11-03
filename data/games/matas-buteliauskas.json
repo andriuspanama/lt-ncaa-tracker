@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401910995",
+  "date": "2026-11-02",
+  "opponent": "Marshall Thundering Herd",
+  "home": false,
+  "result": "L",
+  "score": "65-92",
+  "min": 10,
+  "pts": 3,
+  "reb": 0,
+  "ast": 0,
+  "stl": 0,
+  "blk": 1,
+  "to": 0,
+  "pf": 1,
+  "fgm": 1,
+  "fga": 4,
+  "tpm": 1,
+  "tpa": 3,
+  "ftm": 0,
+  "fta": 0
+ }
+]

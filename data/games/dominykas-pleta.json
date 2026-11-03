@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401909771",
+  "date": "2026-11-02",
+  "opponent": "Memphis Tigers",
+  "home": true,
+  "result": "L",
+  "score": "76-80",
+  "min": 12,
+  "pts": 15,
+  "reb": 3,
+  "ast": 1,
+  "stl": 0,
+  "blk": 0,
+  "to": 2,
+  "pf": 3,
+  "fgm": 7,
+  "fga": 8,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 1,
+  "fta": 2
+ }
+]

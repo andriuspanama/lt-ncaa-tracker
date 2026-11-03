@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401921731",
+  "date": "2026-11-02",
+  "opponent": "East Tennessee State Buccaneers",
+  "home": true,
+  "result": "W",
+  "score": "75-65",
+  "min": 40,
+  "pts": 21,
+  "reb": 9,
+  "ast": 3,
+  "stl": 0,
+  "blk": 0,
+  "to": 5,
+  "pf": 4,
+  "fgm": 5,
+  "fga": 13,
+  "tpm": 0,
+  "tpa": 5,
+  "ftm": 11,
+  "fta": 12
+ }
+]

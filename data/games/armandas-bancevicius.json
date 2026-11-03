@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401919001",
+  "date": "2026-11-02",
+  "opponent": "Tulane Green Wave",
+  "home": false,
+  "result": "L",
+  "score": "98-100",
+  "min": 18,
+  "pts": 6,
+  "reb": 3,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 4,
+  "fgm": 2,
+  "fga": 6,
+  "tpm": 0,
+  "tpa": 3,
+  "ftm": 2,
+  "fta": 4
+ }
+]

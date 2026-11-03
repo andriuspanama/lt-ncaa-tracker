@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401920231",
+  "date": "2026-11-02",
+  "opponent": "Marist Red Foxes",
+  "home": false,
+  "result": "W",
+  "score": "69-62",
+  "min": 17,
+  "pts": 7,
+  "reb": 3,
+  "ast": 1,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 1,
+  "fgm": 2,
+  "fga": 7,
+  "tpm": 0,
+  "tpa": 2,
+  "ftm": 3,
+  "fta": 4
+ }
+]

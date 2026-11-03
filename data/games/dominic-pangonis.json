@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401911333",
+  "date": "2026-11-02",
+  "opponent": "Air Force Falcons",
+  "home": true,
+  "result": "W",
+  "score": "102-71",
+  "min": 32,
+  "pts": 30,
+  "reb": 4,
+  "ast": 4,
+  "stl": 3,
+  "blk": 0,
+  "to": 0,
+  "pf": 2,
+  "fgm": 9,
+  "fga": 10,
+  "tpm": 6,
+  "tpa": 7,
+  "ftm": 6,
+  "fta": 7
+ }
+]

@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401924856",
+  "date": "2026-11-02",
+  "opponent": "Michigan State Spartans",
+  "home": false,
+  "result": "L",
+  "score": "59-96",
+  "min": 19,
+  "pts": 6,
+  "reb": 3,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 1,
+  "fgm": 2,
+  "fga": 7,
+  "tpm": 2,
+  "tpa": 5,
+  "ftm": 0,
+  "fta": 0
+ }
+]

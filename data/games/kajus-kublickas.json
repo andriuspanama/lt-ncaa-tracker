@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401929404",
+  "date": "2026-11-02",
+  "opponent": "Mount Marty Lancers",
+  "home": true,
+  "result": "W",
+  "score": "95-57",
+  "min": 18,
+  "pts": 14,
+  "reb": 1,
+  "ast": 2,
+  "stl": 0,
+  "blk": 0,
+  "to": 2,
+  "pf": 3,
+  "fgm": 4,
+  "fga": 6,
+  "tpm": 2,
+  "tpa": 3,
+  "ftm": 4,
+  "fta": 6
+ }
+]

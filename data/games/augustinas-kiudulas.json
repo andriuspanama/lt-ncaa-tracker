@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401910997",
+  "date": "2026-11-02",
+  "opponent": "Old Dominion Monarchs",
+  "home": false,
+  "result": "L",
+  "score": "49-61",
+  "min": 26,
+  "pts": 12,
+  "reb": 5,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 8,
+  "pf": 2,
+  "fgm": 4,
+  "fga": 10,
+  "tpm": 2,
+  "tpa": 3,
+  "ftm": 2,
+  "fta": 5
+ }
+]

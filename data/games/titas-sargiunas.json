@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401920701",
+  "date": "2026-11-02",
+  "opponent": "Southeast Missouri State Redhawks",
+  "home": false,
+  "result": "L",
+  "score": "79-86",
+  "min": 31,
+  "pts": 12,
+  "reb": 2,
+  "ast": 2,
+  "stl": 0,
+  "blk": 0,
+  "to": 3,
+  "pf": 3,
+  "fgm": 3,
+  "fga": 10,
+  "tpm": 2,
+  "tpa": 6,
+  "ftm": 4,
+  "fta": 4
+ }
+]

@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401909738",
+  "date": "2026-11-02",
+  "opponent": "UCLA Bruins",
+  "home": false,
+  "result": "L",
+  "score": "75-84",
+  "min": 6,
+  "pts": 0,
+  "reb": 2,
+  "ast": 1,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 1,
+  "fgm": 0,
+  "fga": 0,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
+ }
+]

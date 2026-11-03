@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401917507",
+  "date": "2026-11-02",
+  "opponent": "Illinois State Redbirds",
+  "home": true,
+  "result": "W",
+  "score": "90-85",
+  "min": 38,
+  "pts": 20,
+  "reb": 11,
+  "ast": 3,
+  "stl": 1,
+  "blk": 0,
+  "to": 4,
+  "pf": 3,
+  "fgm": 8,
+  "fga": 14,
+  "tpm": 1,
+  "tpa": 3,
+  "ftm": 3,
+  "fta": 5
+ }
+]
