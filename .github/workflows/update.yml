@@ -1,7 +1,7 @@
 name: Atnaujinti duomenis
 on:
   schedule:
-    - cron: "0 6,12 * * *"
+    - cron: "30 3,6,9,12,16 * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -16,15 +16,18 @@ jobs:
       - run: pip install requests
       - run: python resolve_ids.py
       - run: python update.py
-      - run: python fetch_logos.py
-        continue-on-error: true
-      - run: python fetch_photos.py
-        continue-on-error: true
       - run: python fetch_schedule.py
         continue-on-error: true
       - run: python fetch_ncaa_top25.py
         continue-on-error: true
+      - run: python fetch_logos.py
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 6 * * *'
+        continue-on-error: true
+      - run: python fetch_photos.py
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 6 * * *'
+        continue-on-error: true
       - run: python fetch_context.py
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 6 * * *'
         continue-on-error: true
       - run: python build_pages.py
       - name: Išsaugoti pakeitimus
