@@ -275,6 +275,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401916313",
+  "date": "2026-11-03T02:00Z",
+  "team": "BYU",
+  "opponent": "Ohio State Buckeyes",
+  "home": true,
+  "state": "post",
+  "for": "94",
+  "against": "83",
+  "opp_rank": null
+ },
+ {
   "event_id": "401924894",
   "date": "2026-11-03T02:00Z",
   "team": "New Mexico",
@@ -664,6 +675,17 @@
   "date": "2026-11-07T02:00Z",
   "team": "Arizona State Sun Devils",
   "opponent": "Northern Colorado Bears",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401921739",
+  "date": "2026-11-07T02:00Z",
+  "team": "BYU",
+  "opponent": "Omaha Mavericks",
   "home": true,
   "state": "pre",
   "for": null,
@@ -1122,6 +1144,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401921740",
+  "date": "2026-11-11T02:00Z",
+  "team": "BYU",
+  "opponent": "Queens University Royals",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401929180",
   "date": "2026-11-11T02:00Z",
   "team": "Georgia State",
@@ -1325,6 +1358,17 @@
   "team": "Western Michigan",
   "opponent": "Purdue Fort Wayne Mastodons",
   "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401921741",
+  "date": "2026-11-13T02:00Z",
+  "team": "BYU",
+  "opponent": "Montana State Bobcats",
+  "home": true,
   "state": "pre",
   "for": null,
   "against": null,
@@ -1936,6 +1980,17 @@
   "opp_rank": 4
  },
  {
+  "event_id": "401921742",
+  "date": "2026-11-19T02:00Z",
+  "team": "BYU",
+  "opponent": "Northern Colorado Bears",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401911021",
   "date": "2026-11-20T00:00Z",
   "team": "Buffalo",
@@ -2336,6 +2391,17 @@
   "date": "2026-11-23T21:00Z",
   "team": "Georgia State",
   "opponent": "Tulane Green Wave",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401921708",
+  "date": "2026-11-23T22:00Z",
+  "team": "BYU",
+  "opponent": "Washington Huskies",
   "home": true,
   "state": "pre",
   "for": null,
@@ -3498,6 +3564,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401920738",
+  "date": "2026-12-05T21:00Z",
+  "team": "BYU",
+  "opponent": "Northwestern Wildcats",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401917382",
   "date": "2026-12-05T21:00Z",
   "team": "Utah Valley",
@@ -3872,6 +3949,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401921743",
+  "date": "2026-12-10T03:00Z",
+  "team": "BYU",
+  "opponent": "Utah State Aggies",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401917564",
   "date": "2026-12-10T03:00Z",
   "team": "Saint Mary's",
@@ -4125,6 +4213,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401920162",
+  "date": "2026-12-12T21:30Z",
+  "team": "BYU",
+  "opponent": "Cal State Fullerton Titans",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401918079",
   "date": "2026-12-12T21:30Z",
   "team": "Clemson Tigers",
@@ -4295,6 +4394,17 @@
   "team": "Northern Kentucky",
   "opponent": "East Tennessee State Buccaneers",
   "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401921744",
+  "date": "2026-12-16T02:00Z",
+  "team": "BYU",
+  "opponent": "Weber State Wildcats",
+  "home": true,
   "state": "pre",
   "for": null,
   "against": null,
@@ -4719,6 +4829,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401921677",
+  "date": "2026-12-20T03:00Z",
+  "team": "BYU",
+  "opponent": "San Diego State Aztecs",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401920243",
   "date": "2026-12-20T19:00Z",
   "team": "Dartmouth Big Green",
@@ -5076,6 +5197,17 @@
   "team": "UMBC",
   "opponent": "Grand Canyon Lopes",
   "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401921745",
+  "date": "2026-12-23T02:00Z",
+  "team": "BYU",
+  "opponent": "La Salle Explorers",
+  "home": true,
   "state": "pre",
   "for": null,
   "against": null,
@@ -5808,6 +5940,17 @@
   "opp_rank": 25
  },
  {
+  "event_id": "401922770",
+  "date": "2027-01-03T03:00Z",
+  "team": "BYU",
+  "opponent": "Arizona State Sun Devils",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401917595",
   "date": "2027-01-03T03:00Z",
   "team": "Saint Mary's",
@@ -6105,6 +6248,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401922783",
+  "date": "2027-01-07T03:30Z",
+  "team": "BYU",
+  "opponent": "Cincinnati Bearcats",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401913276",
   "date": "2027-01-07T23:00Z",
   "team": "UMBC",
@@ -6323,6 +6477,17 @@
   "for": null,
   "against": null,
   "opp_rank": null
+ },
+ {
+  "event_id": "401922788",
+  "date": "2027-01-09T18:00Z",
+  "team": "BYU",
+  "opponent": "Kansas Jayhawks",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": 17
  },
  {
   "event_id": "401927233",
@@ -6708,6 +6873,17 @@
   "for": null,
   "against": null,
   "opp_rank": 25
+ },
+ {
+  "event_id": "401922794",
+  "date": "2027-01-13T04:00Z",
+  "team": "BYU",
+  "opponent": "Arizona Wildcats",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": 5
  },
  {
   "event_id": "401924902",
@@ -7282,6 +7458,17 @@
   "opp_rank": 19
  },
  {
+  "event_id": "401922808",
+  "date": "2027-01-17T03:00Z",
+  "team": "BYU",
+  "opponent": "Utah Utes",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401917418",
   "date": "2027-01-17T03:00Z",
   "team": "California Baptist",
@@ -7535,6 +7722,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401922814",
+  "date": "2027-01-21T02:00Z",
+  "team": "BYU",
+  "opponent": "Iowa State Cyclones",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": 18
+ },
+ {
   "event_id": "401927771",
   "date": "2027-01-21T02:00Z",
   "team": "Boise State",
@@ -7770,6 +7968,17 @@
   "date": "2027-01-23T18:00Z",
   "team": "UMBC",
   "opponent": "UMass Lowell River Hawks",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401922822",
+  "date": "2027-01-23T19:00Z",
+  "team": "BYU",
+  "opponent": "West Virginia Mountaineers",
   "home": true,
   "state": "pre",
   "for": null,
@@ -8140,6 +8349,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401922825",
+  "date": "2027-01-28T00:00Z",
+  "team": "BYU",
+  "opponent": "TCU Horned Frogs",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401918164",
   "date": "2027-01-28T00:00Z",
   "team": "Clemson Tigers",
@@ -8490,6 +8710,17 @@
   "for": null,
   "against": null,
   "opp_rank": null
+ },
+ {
+  "event_id": "401922695",
+  "date": "2027-01-30T19:00Z",
+  "team": "BYU",
+  "opponent": "Houston Cougars",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": 10
  },
  {
   "event_id": "401924067",
@@ -8859,6 +9090,17 @@
   "date": "2027-02-03T00:00Z",
   "team": "Western Michigan",
   "opponent": "Akron Zips",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401922701",
+  "date": "2027-02-03T01:00Z",
+  "team": "BYU",
+  "opponent": "Baylor Bears",
   "home": true,
   "state": "pre",
   "for": null,
@@ -9410,6 +9652,17 @@
   "team": "Arizona State Sun Devils",
   "opponent": "TCU Horned Frogs",
   "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401922706",
+  "date": "2027-02-07T02:30Z",
+  "team": "BYU",
+  "opponent": "Utah Utes",
+  "home": false,
   "state": "pre",
   "for": null,
   "against": null,
@@ -9999,6 +10252,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401922723",
+  "date": "2027-02-13T20:30Z",
+  "team": "BYU",
+  "opponent": "Kansas State Wildcats",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401927799",
   "date": "2027-02-13T21:00Z",
   "team": "Boise State",
@@ -10351,6 +10615,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401922733",
+  "date": "2027-02-18T02:00Z",
+  "team": "BYU",
+  "opponent": "Colorado Buffaloes",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401902406",
   "date": "2027-02-18T02:00Z",
   "team": "Texas",
@@ -10598,6 +10873,17 @@
   "team": "VMI Keydets",
   "opponent": "The Citadel Bulldogs",
   "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401922738",
+  "date": "2027-02-20T19:00Z",
+  "team": "BYU",
+  "opponent": "TCU Horned Frogs",
+  "home": true,
   "state": "pre",
   "for": null,
   "against": null,
@@ -10932,6 +11218,17 @@
   "for": null,
   "against": null,
   "opp_rank": 25
+ },
+ {
+  "event_id": "401920526",
+  "date": "2027-02-23T02:00Z",
+  "team": "BYU",
+  "opponent": "Arizona Wildcats",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": 5
  },
  {
   "event_id": "401912058",
@@ -11284,6 +11581,17 @@
   "for": null,
   "against": null,
   "opp_rank": 8
+ },
+ {
+  "event_id": "401922751",
+  "date": "2027-02-27T17:00Z",
+  "team": "BYU",
+  "opponent": "UCF Knights",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
  },
  {
   "event_id": "401911924",
@@ -11715,6 +12023,17 @@
   "opp_rank": 1
  },
  {
+  "event_id": "401922757",
+  "date": "2027-03-03T02:00Z",
+  "team": "BYU",
+  "opponent": "Oklahoma State Cowboys",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401924906",
   "date": "2027-03-03T03:00Z",
   "team": "New Mexico",
@@ -11834,6 +12153,17 @@
   "for": null,
   "against": null,
   "opp_rank": null
+ },
+ {
+  "event_id": "401921746",
+  "date": "2027-03-06T02:00Z",
+  "team": "BYU",
+  "opponent": "Texas Tech Red Raiders",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": 19
  },
  {
   "event_id": "401902444",
