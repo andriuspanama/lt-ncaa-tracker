@@ -20,7 +20,18 @@ function form(g){const l=g.slice(-10),mx=Math.max(...l.map(x=>x.pts),10),w=300/l
   return `<svg viewBox="0 0 300 110" width="100%">${l.map((x,i)=>{const h=x.pts/mx*80;return `<rect x="${i*w+4}" y="${90-h}" width="${w-8}" height="${h}" rx="3" fill="${x.result==='W'?'#22c55e':x.result==='L'?'#ef4444':'#8b95a3'}"/><text x="${i*w+w/2}" y="${86-h}" text-anchor="middle" font-size="10">${x.pts}</text><text x="${i*w+w/2}" y="104" text-anchor="middle" font-size="9">${fd(x.date).replace(/ /g,'')}</text>`}).join('')}</svg>`}
 function sc(g){const n=String(g.score).split('-').map(Number);if(n.length<2||n.some(isNaN))return '';const h=Math.max(...n),l=Math.min(...n);return g.result==='L'?`${l}–${h}`:`${h}–${l}`}
 const ftin=cm=>{const i=Math.round(cm/2.54);return `${Math.floor(i/12)}'${i%12}"`};
-if(typeof document==='undefined'){module.exports={agg,pct,GS,strips};}
+const D0=d=>new Date(d+'T12:00:00'),iso0=d=>d.toISOString().slice(0,10);
+function spanP(per,dates){if(per==='season'||!dates.length)return ['0000','9999'];const l=D0(dates.slice().sort().at(-1));
+  if(per==='month')return [iso0(new Date(l.getFullYear(),l.getMonth(),1,12)),iso0(l)];
+  const m=new Date(l);m.setDate(l.getDate()-((l.getDay()+6)%7));const e=new Date(m);e.setDate(m.getDate()+6);return [iso0(m),iso0(e)]}
+const f1p=v=>v==null?'–':v.toFixed(1),pc0=v=>v==null?'–':v.toFixed(1)+'%';
+function shareData(p,g,all,per){
+  const [a,b]=spanP(per,all),sel=g.filter(x=>x.date>=a&&x.date<=b);if(!sel.length)return null;const z=agg(sel);
+  const best=sel.reduce((m,x)=>x.pts>m.pts?x:m);
+  return {type:'player',period:per,player:p,impact:z.imp,form:sel.map(x=>({pts:x.pts,result:x.result})),
+    best:`Daugiausia: ${best.pts} tšk. ${best.home?'prieš':'@'} ${best.opponent}`,
+    stats:[['Taškai',f1p(z.ppg)],['Atkovoti',f1p(z.rpg)],['Perdavimai',f1p(z.apg)],['Perimti',f1p(z.spg)],['Blokai',f1p(z.bpg)],['Minutės',f1p(z.mpg)],['FG%',pc0(z.fg)],['3P%',pc0(z.tp)],['FT%',pc0(z.ft)]].map(([label,value])=>({label,value}))}}
+if(typeof document==='undefined'){module.exports={agg,pct,GS,strips,shareData};}
 else(async()=>{
   const $=s=>document.querySelector(s),load=async p=>{try{const r=await fetch(p,{cache:'no-store'});if(!r.ok)throw 0;return await r.json()}catch(e){return null}};
   await mediaReady;
@@ -36,10 +47,17 @@ else(async()=>{
     <div class="big">${[['PPG',pa('ppg')],['RPG',pa('rpg')],['APG',pa('apg')],['SPG',pa('spg')],['BPG',pa('bpg')]].map(([l,v])=>`<div><b>${v}</b><span>${l}</span></div>`).join('')}</div>
     <div class="big">${[['MPG',pa('mpg')],['FG%',pc1(a.fg)],['3P%',pc1(a.tp)],['FT%',pc1(a.ft)],['RUNGT.',a.gp]].map(([l,v])=>`<div><b>${v}</b><span>${l}</span></div>`).join('')}</div></section>
     <section class="card"><h2>PALYGINIMAS SU LIETUVIAIS</h2><p class="sub">Kaip žaidėjas atrodo tarp kitų lietuvių NCAA (ne tarp visų D1 žaidėjų)</p>${radar(vals)}<div class="sec">VIETA TARP LIETUVIŲ</div>${strips(all,a)}</section></div>
+    <section class="card sharecard"><h2>DALINTIS KORTELE</h2><p class="sub">Sukurk PNG kortelę su ${esc(p.name)} statistika</p>
+      <div class="seg" id="shper"><button data-p="week">Savaitė</button><button data-p="month">Mėnuo</button><button data-p="season" class="on">Sezonas</button></div>
+      <button class="share-card-btn share-action share-big" id="shbtn" type="button">Sukurti ir dalintis kortele</button></section>
     ${ncaaEntries(id).length?`<section class="card"><h2>NCAA TOP 25</h2><p class="sub">Kategorijos, kuriose patenka tarp visų D1 žaidėjų</p><div class="hl">${ncaaEntries(id).slice().sort((x,y)=>x.rank-y.rank).map(x=>`<div><b>#${x.rank}</b> · ${esc(ncaaExplain(x))}</div>`).join('')}</div></section>`:''}
     <section class="card"><h2>FORMA</h2><p class="sub">Paskutinių ${Math.min(10,g.length)} rungtynių taškai</p>${form(g)}</section>
     <section class="card"><h2>SEZONO PASIEKIMAI</h2><div class="hl">${[['pts','PTS'],['reb','REB'],['ast','AST']].map(([k,l])=>{const x=best(k);return `<div><b>${x[k]} ${l}</b> · ${x.home?'prieš':'@'} ${esc(x.opponent)} · ${fd(x.date)}</div>`}).join('')}</div></section>
     <section class="card"><h2>RUNGTYNIŲ ŽURNALAS</h2><div class="tw"><table><tr><th>Data</th><th>Varžovas</th><th></th><th>MIN</th><th>PTS</th><th>REB</th><th>AST</th><th>FG</th><th>3P</th></tr>
     ${[...g].reverse().map(x=>`<tr><td>${fd(x.date)} <button class="bx" data-e="${esc(x.event_id)}">Box</button></td><td>${x.home?'vs':'@'} ${esc(x.opponent)}${oppChip(x.opponent)}</td><td class="${x.result==='W'?'w':'l'}">${esc(x.result||'?')} ${sc(x)}</td><td>${x.min}</td><td>${x.pts}</td><td>${x.reb}</td><td>${x.ast}</td><td>${x.fgm}/${x.fga}</td><td>${x.tpm}/${x.tpa}</td></tr>`).join('')}</table></div></section>
     <section class="card"><h2>KARJERA</h2><p class="empty">Ankstesnių sezonų duomenų kol kas nerenkame.</p></section>`;
+  let per='season';const allDates=Object.values(games).flat().map(x=>x.date);
+  document.querySelectorAll('#shper button').forEach(b=>b.onclick=()=>{per=b.dataset.p;document.querySelectorAll('#shper button').forEach(x=>x.classList.toggle('on',x===b))});
+  const btn=$('#shbtn');if(btn)btn.onclick=async()=>{const d=shareData(p,g,allDates,per);if(!d){btn.textContent='Šiuo laikotarpiu žaidėjas nežaidė';setTimeout(()=>btn.textContent='Sukurti ir dalintis kortele',2500);return}
+    btn.disabled=true;try{await window.shareStatsCard(d)}catch(e){}btn.disabled=false};
 })();

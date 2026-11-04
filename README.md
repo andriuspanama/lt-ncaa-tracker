@@ -5,8 +5,9 @@ Neoficialus Lietuvos krepšininkų NCAA Division I sekiklis (statinė svetainė,
 ## Failai (visi repozitorijos šaknyje)
 - Puslapiai: `index.html`, `results.html`, `charts.html`, `insights.html`, `metodika.html`, `404.html`
 - Kodas: `app.js`, `results.js`, `charts.js`, `insights.js`, `theme.js`
-- Stiliai: `style.css`, `extra.css`, `polish.css`
-- Duomenų skriptai: `common.py`, `resolve_ids.py`, `update.py`
+- Stiliai: `style.css`, `extra.css`, `polish.css`, `modern.css` (naujas dizainas), `insights.css` (žurnalo stilius)
+- Kortelės: `share.js` (žaidėjo, Top 10 ir palyginimo PNG kortelės)
+- Duomenų skriptai: `common.py`, `resolve_ids.py`, `update.py`, `build_ticker.py`, `fetch_gamephotos.py`
 - SEO: `robots.txt`, `sitemap.xml`
 - `.github/workflows/update.yml` – duomenų atnaujinimas
 - `data/` – `players.json`, `stats.json`, `games/` (kuria Action), neprivalomi: `awards.json`, `rankings.json`, `names.json`
@@ -23,6 +24,12 @@ Neoficialus Lietuvos krepšininkų NCAA Division I sekiklis (statinė svetainė,
 - `data/awards.json`: `[{"date":"2026-11-10","player":"motiejus-krivas","text":"Big 12 savaitės žaidėjas"}]`
 - `data/rankings.json`: `{"top25":["Duke Blue Devils"]}` (pavadinimai kaip ESPN)
 - `data/names.json`: `{"Vardas Pavardė":"Vardo Pavardės"}` – linksnių pataisoms
+
+## Vardai su ESPN klaidomis
+`data/players.json` → žaidėjui pridėk `"aliases": ["Gantas Krianauskas"]` – kodas ieškos ir pagal šį vardą. Norėdamas, kad jau apdorotos rungtynės būtų perskaitytos iš naujo, įrašyk žaidėjo `id` į `data/rematch.json` (po paleidimo failas išsivalo pats).
+
+## Nuotraukos Įžvalgose
+`fetch_gamephotos.py` ieško ESPN rungtynių nuotraukų su žaidėjo vardu parašuose ir saugo tik nuorodas (`data/gamephotos.json`). Nuotraukos nesaugomos svetainėje, rodomos tiesiogiai iš ESPN su nuoroda į šaltinį.
 
 ## Ribojimai
 Nėra oficialaus NCAA API; naudojami viešieji ESPN endpointai, jie gali pasikeisti. Logotipai ir nuotraukos nenaudojami. Duomenys gali vėluoti.

@@ -22,19 +22,41 @@
 })();
 
 (function(){
-  var l=document.createElement('link');l.rel='stylesheet';l.href='https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap';document.head.appendChild(l);
+  var l=document.createElement('link');l.rel='stylesheet';l.href='https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap';document.head.appendChild(l);
   var ball='<svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2v20M5 5c4 4 4 10 0 14M19 5c-4 4-4 10 0 14"/></svg>';
   document.addEventListener('DOMContentLoaded',function(){
     var b=document.createElement('a');b.className='brand';b.href='index.html';b.setAttribute('aria-label','LT Players Tracker');
     b.innerHTML='<span class="lg">'+ball+'</span><i></i><span class="wm"><b>LT PLAYERS</b><span>TRACKER</span></span>';
     var top=document.createElement('div');top.className='topbar';top.appendChild(b);var tb=document.querySelector('.tabs');if(tb)top.appendChild(tb);document.body.insertBefore(top,document.body.firstChild);
     var lg=b.querySelector('.lg');
-    var put=function(src,chip,next){var im=new Image();im.className='bl';im.alt='NCAA';im.style.cssText='height:'+(chip?'32':'40')+'px;width:auto;max-width:96px;display:block';im.onload=function(){lg.innerHTML='';lg.appendChild(im);lg.className=chip?'lg chip':'lg own'};im.onerror=next;im.src=src};
+    var put=function(src,chip,next){var im=new Image();im.className='bl';im.alt='NCAA';im.style.cssText='height:'+(chip?'44':'64')+'px;width:auto;max-width:120px;display:block';im.onload=function(){lg.innerHTML='';lg.appendChild(im);lg.className=chip?'lg chip':'lg own';if(!chip)window.__ncaaLogo=src};im.onerror=next;im.src=src};
     var wiki=function(){fetch('data/teams.json').then(function(r){return r.json()}).then(function(j){
       var t=j.NCAA;if(!t||!t.logo_url)return;
       put(t.file_page&&t.file_page.indexOf('/wiki/File:')>-1?t.file_page.replace('/wiki/File:','/wiki/Special:FilePath/')+'?width=240':t.logo_url,true,function(){});
     }).catch(function(){})};
     /* Pirmenybė – tavo failas repozitorijos šaknyje: ncaa-logo.svg arba ncaa-logo.png (permatomu fonu) */
     put('ncaa-logo.svg',false,function(){put('ncaa-logo.png',false,wiki)});
+  });
+})();
+
+/* slinkimo juosta + naujausių pasirodymų juosta */
+(function(){
+  document.addEventListener('DOMContentLoaded',function(){
+    var pr=document.createElement('div');pr.className='progress';document.body.appendChild(pr);
+    var on=function(){var h=document.documentElement,m=h.scrollHeight-h.clientHeight;pr.style.width=(m>0?100*h.scrollTop/m:0)+'%'};
+    window.addEventListener('scroll',on,{passive:true});on();
+    var top=document.querySelector('.topbar');if(!top)return;
+    var base=/\/players\//.test(location.pathname)?'../':'';
+    fetch(base+'data/ticker.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).then(function(j){
+      if(!j||!j.items||!j.items.length)return;
+      var e=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
+      var sh=function(n){return n.split(' ').slice(-1)[0]};
+      var one=j.items.map(function(x){
+        var extra=[x.reb>=5?x.reb+' atk.':'',x.ast>=4?x.ast+' perd.':''].filter(Boolean).join(', ');
+        return '<a href="'+base+'players/'+e(x.id)+'.html"><b>'+e(sh(x.name))+' '+x.pts+' tšk.</b><span class="'+(x.res==='W'?'w':x.res==='L'?'l':'')+'">'+e(x.res||'')+'</span><em>'+(x.home?'prieš':'@')+' '+e(x.opp)+(extra?' · '+e(extra):'')+'</em></a>'}).join('');
+      var d=document.createElement('div');d.className='ticker';
+      d.innerHTML='<div class="ticker-in"><span class="ticker-lab">NAUJAUSI</span><div class="ticker-run">'+one+one+'</div></div>';
+      top.parentNode.insertBefore(d,top.nextSibling);
+    }).catch(function(){});
   });
 })();

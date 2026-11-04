@@ -1,6 +1,6 @@
 """Parsisiunčia kiekvieno žaidėjo rungtynių žurnalą (ESPN), išsaugo data/games/<id>.json ir PATS apskaičiuoja agregatus data/stats.json."""
 import json, os, time, datetime as dt
-from common import get, norm
+from common import get, norm, same_person
 G = "https://site.web.api.espn.com/apis/common/v3/sports/basketball/mens-college-basketball/athletes/{}/gamelog"
 SEASON = 2027  # ESPN sezonas = baigimosi metai (2026–27 -> 2027)
 
@@ -93,7 +93,9 @@ if __name__ == "__main__":
     ev = {}
     for s in sched:
         if s.get("state") == "post" and s.get("team") in pby and s.get("event_id"): ev.setdefault(s["event_id"], {})[s["team"]] = s
-    todo = [e for e in ev if e not in done]
+    rematch = set(load("data/rematch.json", []))  # žaidėjai, kurių jau apdorotas rungtynes reikia perskaityti iš naujo (pvz. pataisytas vardas)
+    redo = {e for e, d in ev.items() for team in d if any(p["id"] in rematch for p in pby[team])}
+    todo = [e for e in ev if e not in done or e in redo]
     print("Tvarkaraštyje baigtų rungtynių (mūsų komandos):", len(ev), "| naujų boxscore apdoroti:", len(todo))
     games = {p["id"]: load(f'data/games/{p["id"]}.json', []) for p in players}
     found, learned = 0, {}
@@ -108,7 +110,7 @@ if __name__ == "__main__":
             for p in pby[team]:
                 r = next((x for x in mine if p.get("espn_id") and x[0] == str(p["espn_id"])), None)
                 if r is None:
-                    r = next((x for x in mine if fuzzy(p["name"], x[1])), None)
+                    r = next((x for x in mine if same_person(p, x[1])), None)
                     if r is not None and not p.get("espn_id"): learned[p["id"]] = r[0]
                 if not r or num(r[3].get("MIN")) <= 0 or any(g["event_id"] == e for g in games[p["id"]]): continue
                 games[p["id"]].append(game_from_row(r[3], m)); found += 1
@@ -120,6 +122,7 @@ if __name__ == "__main__":
             g.sort(key=lambda x: x["date"]); all_games[pid] = g
             json.dump(g, open(f"data/games/{pid}.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(sorted(done), open("data/box_done.json", "w", encoding="utf-8"))
+    if rematch: json.dump([], open("data/rematch.json", "w", encoding="utf-8")); print("Perskaityta iš naujo žaidėjams:", sorted(rematch))
     if learned:  # žaidėjas rastas boxscore pagal vardą – įsimenam jo ESPN ID (nuotraukai, rosteriui)
         full = load("data/players.json", {"players": []})
         for q in full["players"]:

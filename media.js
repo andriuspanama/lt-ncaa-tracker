@@ -33,10 +33,14 @@ window.mediaReady=Promise.all([jl('data/teams.json'),jl('data/photos.json'),jl('
     var src=t.file_page&&t.file_page.indexOf('/wiki/File:')>-1?t.file_page.replace('/wiki/File:','/wiki/Special:FilePath/')+'?width=120':t.logo_url;
     return '<img class="'+(cls||'tl')+'" src="'+e(src)+'" alt="'+e(team)+'" loading="lazy" onerror="this.remove()">';
   };
+  window.teamColor=function(team){var i=window.ctxInfo&&window.ctxInfo(team),h=i&&i.color;
+    if(!/^[0-9a-f]{6}$/i.test(h||''))return '#27a7e6';var c=[0,2,4].map(function(k){return parseInt(h.substr(k,2),16)}),L=(0.2126*c[0]+0.7152*c[1]+0.0722*c[2])/255;
+    if(L<0.42){var t=(0.42-L)*1.6+0.12;c=c.map(function(v){return Math.round(v+(255-v)*t)})}
+    return 'rgb('+c.join(',')+')'};
   var big=function(u){return u?u.replace('width=100&height=100','width=300&height=300').replace('?width=80&','?width=300&'):u};
   window.avatar=function(p,cls){
     var h=big((window.PHOTOS[p.id]&&window.PHOTOS[p.id].url)||p.photo)||(p.espn_id?'https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/'+p.espn_id+'.png':'');
-    var ring='hsl('+(Array.from(p.team).reduce(function(a,c){return a+c.charCodeAt(0)*7},0)%360)+' 70% 55%)';
+    var ring=window.teamColor(p.team);
     var ini=p.name.split(' ').map(function(w){return w[0]}).slice(0,2).join('');
     return '<div class="av '+(cls||'')+'" style="--ring:'+ring+'"><span>'+e(ini)+'</span>'+(h?'<img src="'+e(h)+'" alt="" loading="lazy" onerror="this.remove()">':'')+'</div>';
   };

@@ -15,7 +15,7 @@ T = '''<!doctype html>
 <meta property="og:type" content="profile"><meta property="og:locale" content="lt_LT">
 <meta property="og:title" content="{name} · LT NCAA Tracker"><meta property="og:description" content="{name} ({team}) – statistika ir rungtynės."><meta property="og:url" content="{base}/players/{id}.html">
 <script src="theme.js"></script>
-<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="extra.css"><link rel="stylesheet" href="polish.css">
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="extra.css"><link rel="stylesheet" href="polish.css"><link rel="stylesheet" href="modern.css">
 </head>
 <body data-id="{id}">
 <header><div><h1>{name_up}</h1><p class="sub">{team} · {conf}</p></div></header>

@@ -41,7 +41,7 @@ function build(per,key,players,games,top25=[],awards=[],minOverride,x={}){
   for(const {p,g,prior} of G){
     const n=p.name,t=p.team,cats=[g.pts,g.reb,g.ast,g.stl,g.blk].filter(v=>v>=10).length,W=g.result==='W',k=p.id+g.date,ln=n.split(' ').slice(-1)[0],oi=info(g.opponent)||{};
     const bp=prior.length>=3?avg(prior,'pts'):null,bm=prior.length>=3?avg(prior,'min'):null,core=g.min>=15&&(g.pts>=10||g.reb>=8||g.ast>=6||GS(g)>=10),tp=pw(g.pts,'taškus','taškų','tašką'),c=[];
-    const add=(type,score,text,head,alt)=>c.push({type,score,date:g.date,p,text:text.replace(/\.\.+/g,'.'),head,alt,tag:TAG[score],rk:score+GS(g)/100});
+    const add=(type,score,text,head,alt)=>c.push({type,score,date:g.date,eid:g.event_id,p,text:text.replace(/\.\.+/g,'.'),head,alt,tag:TAG[score],rk:score+GS(g)/100});
     /* 1) Debiutas – tik jei duomenys apima sezono pradžią (kitaip tai ne debiutas, o tiesiog pirmas įrašas) */
     if(!prior.length&&g.min>=5&&D(g.date)-D(e0)<=10*864e5)add('debiutas',55,`${n} (${t}) debiutavo sezone ${vs(g)}: ${line(g)}.`,`${ln} debiutavo: ${g.pts} tšk.`,'debiutavo sezone');
     /* 2) Statistiniai pasiekimai */
@@ -106,7 +106,7 @@ function build(per,key,players,games,top25=[],awards=[],minOverride,x={}){
 if(typeof document==='undefined'){module.exports={build,gen,GS};}
 else{
 const $=s=>document.querySelector(s);
-const S={per:'week',demo:false,players:[],real:{},top25:[],awards:[],sched:[],notes:[]};
+const S={per:'week',demo:false,players:[],real:{},top25:[],awards:[],sched:[],notes:[],photos:{photos:{}}};
 async function load(p){try{const r=await fetch(p,{cache:'no-store'});if(!r.ok)throw 0;return await r.json()}catch(e){return null}}
 function demo(players){let seed=11;const R=()=>(seed=(seed*16807)%2147483647)/2147483647,o={};
   const days=['2026-11-03','2026-11-06','2026-11-10','2026-11-14','2026-11-18','2026-11-22'],opp=['Duke Blue Devils','Kansas Jayhawks','Gonzaga Bulldogs','Ohio Bobcats','Utah Utes','Baylor Bears'];
@@ -123,14 +123,25 @@ function draw(){
   if(!/^\d{4}/.test(key)){out.innerHTML='<p class="empty">Duomenų dar nėra. Pabandyk „Demo“.</p>';return}
   const nt=S.demo?[{date:key.length===7?key+'-01':key,title:'Redakcijos komentaras (demo)',text:'Čia atsiranda tavo paties parašytas tekstas iš data/notes.json: kelios pastraipos apie savaitę, kontekstas, kas nustebino.'}]:S.notes;
   const r=build(S.per,key,S.players,games,S.demo?['Duke Blue Devils','Kansas Jayhawks']:S.top25,S.demo?[]:S.awards,S.demo?10:undefined,{sched:S.demo?[]:S.sched,notes:nt,info:S.demo?(n=>({'Duke Blue Devils':{rank:5,conf:'ACC',tier:'A'},'Kansas Jayhawks':{rank:12,conf:'Big 12',tier:'A'},'Gonzaga Bulldogs':{conf:'WCC',tier:'B'},'Ohio Bobcats':{conf:'MAC',tier:'C'}}[n]||null)):window.ctxInfo});
-  out.innerHTML=(S.demo?'<div class="demo">DEMO: bandomieji skaičiai, ne tikra statistika.</div>':'')+r.notes.map(n=>`<aside class="note"><div class="kick">Redakcijos komentaras · ${fd(n.date)}</div>${n.title?`<h3>${esc(n.title)}</h3>`:''}<p>${esc(n.text)}</p></aside>`).join('')+
-   `<section class="card sum"><h2>${S.per==='week'?'SAVAITĖS APŽVALGA':'MĖNESIO APŽVALGA'}</h2><p class="sub">${fd(r.range[0])} – ${fd(r.range[1])}</p>${r.sum.map(s=>`<p>${esc(s)}</p>`).join('')||'<p class="empty">Duomenų dar nėra</p>'}</section>`+
-   `<section class="card"><h2>TOP 10</h2><p class="sub">Impact Score vidurkis</p>${r.top.map((x,i)=>`<div class="rowc"><span class="mt">${i+1}</span>${av(x.p)}<div><div class="nm">${lk(x.p)}</div><div class="mt">${teamLogo(x.p.team,'tl xs')}${esc(x.p.team)}${confChip(x.p.team)} · ${x.ppg.toFixed(1)} tšk. · ${x.reb.toFixed(1)} atk. · ${x.ast.toFixed(1)} perd. · ${x.gp} rung.</div></div><span class="v">${x.imp.toFixed(1)}</span></div>`).join('')||'<p class="empty">Duomenų dar nėra</p>'}</section>`+
-   `<h2 style="margin:16px 0 8px">PERLIUKAI</h2>`+(r.items.map(i=>`<article class="ins"><div class="kick">${esc(i.type)} · ${fd(i.date)} · ${lk(i.p)}</div><h3>${esc(i.head||i.text)}</h3><p>${esc(i.head&&i.type!=='apdovanojimas'?i.text+' '+i.body:i.text)}</p></article>`).join('')||'<p class="empty">Perliukų šiame laikotarpyje dar nėra</p>');
+  const items=r.items,per=S.per==='week'?'savaitės':'mėnesio',nf=v=>v.toFixed(1).replace('.',',');
+  const DEMO_IMG="data:image/svg+xml;utf8,"+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b6675"/><stop offset="1" stop-color="#1b222c"/></linearGradient></defs><rect width="800" height="500" fill="url(#g)"/><circle cx="520" cy="190" r="70" fill="#9aa5b4" opacity=".55"/><path d="M330 500c10-130 70-200 190-200s180 70 190 200z" fill="#9aa5b4" opacity=".5"/><circle cx="170" cy="330" r="46" fill="none" stroke="#c9d1db" stroke-width="5" opacity=".6"/></svg>');
+  const photoOf=(i,k)=>{if(S.demo)return k<2?{url:DEMO_IMG,caption:'Demo nuotrauka: čia atsiras ESPN nuotrauka, kurioje matomas lietuvis.',credit:'Demo'}:null;
+    return ((S.photos.photos||{})[i.eid]||[]).find(x=>x.player===i.p.id)||null};
+  const fig=(ph,cls)=>ph?`<figure class="ph ${cls||''}"><div class="im"><img src="${esc(ph.url)}" alt="${esc(ph.caption||'')}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()"></div><figcaption><span>${esc((ph.caption||'').replace(/\s+/g,' ').slice(0,150))}</span><i>Foto: ${esc(ph.credit||'ESPN')}${ph.link?` · <a href="${esc(ph.link)}" target="_blank" rel="noopener">ESPN ↗</a>`:''}</i></figcaption></figure>`:'';
+  const story=(i,k,big)=>{const body=i.head&&i.type!=='apdovanojimas'?i.text+' '+i.body:i.text;
+    return `<article class="story${big?' lead':''}">${fig(photoOf(i,k),big?'wide':'')}<div class="kick">${esc(i.type)} · ${fd(i.date)} · ${lk(i.p)}</div><h3>${esc(i.head||i.text)}</h3><p>${esc(body)}</p></article>`};
+  const cover=items[0],rest=items.slice(1);
+  $('#issue').textContent=r.items.length||r.sum.length?`${fd(r.range[0])} – ${fd(r.range[1])}`:'2026–27 sezonas';
+  out.innerHTML=(S.demo?'<div class="demo">DEMO: bandomieji skaičiai, ne tikra statistika.</div>':'')+
+   (cover?`<section class="cover">${story(cover,0,true)}</section>`:'')+
+   r.notes.map(n=>`<aside class="note"><div class="kick">Redakcijos komentaras · ${fd(n.date)}</div>${n.title?`<h3>${esc(n.title)}</h3>`:''}<p>${esc(n.text)}</p></aside>`).join('')+
+   `<section class="review"><h2 class="sech">${S.per==='week'?'Savaitės apžvalga':'Mėnesio apžvalga'}</h2><div class="cols">${r.sum.map(t=>`<p>${esc(t)}</p>`).join('')||'<p class="empty">Duomenų dar nėra</p>'}</div></section>`+
+   `<section class="board"><h2 class="sech">Dešimtukas</h2><p class="deck">Geriausi ${per} žaidėjai pagal Impact Score vidurkį</p><ol>${r.top.map((x,i)=>`<li><span class="n">${i+1}</span><div class="who">${lk(x.p)}<small>${teamLogo(x.p.team,'tl xs')}${esc(x.p.team)}${confChip(x.p.team)}</small></div><div class="stl">${nf(x.ppg)} <i>tšk.</i> · ${nf(x.reb)} <i>atk.</i> · ${nf(x.ast)} <i>perd.</i> · ${x.gp} <i>rung.</i></div><span class="imp">${nf(x.imp)}</span></li>`).join('')||'<li class="empty">Duomenų dar nėra</li>'}</ol></section>`+
+   `<h2 class="sech">Perliukai</h2>`+(rest.length?`<div class="stories">${rest.map((i,k)=>story(i,k+1,false)).join('')}</div>`:'<p class="empty">Perliukų šiame laikotarpyje dar nėra</p>');
 }
 (async()=>{
   await mediaReady;S.players=(await load('data/players.json'))?.players||[];NM=(await load('data/names.json'))||{};
-  S.top25=(await load('data/rankings.json'))?.top25||[];S.awards=(await load('data/awards.json'))||[];S.sched=(await load('data/schedule.json'))||[];S.notes=(await load('data/notes.json'))||[];document.body.classList.add('paper');
+  S.top25=(await load('data/rankings.json'))?.top25||[];S.awards=(await load('data/awards.json'))||[];S.sched=(await load('data/schedule.json'))||[];S.notes=(await load('data/notes.json'))||[];S.photos=(await load('data/gamephotos.json'))||{photos:{}};document.body.classList.add('paper');
   await Promise.all(S.players.map(async p=>{const g=await load(`data/games/${p.id}.json`);if(g)S.real[p.id]=g}));
   S.demo=new URLSearchParams(location.search).has('demo');
   const on=(sel,fn)=>document.querySelectorAll(sel+' button').forEach(b=>b.onclick=()=>{document.querySelectorAll(sel+' button').forEach(x=>x.classList.toggle('on',x===b));fn(b)});

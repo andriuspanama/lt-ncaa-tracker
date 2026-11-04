@@ -1,6 +1,6 @@
 """Suranda ESPN ID ir rosterio statusą žaidėjams, kuriems espn_id dar tuščias. Nieko neperrašo, kas jau užpildyta."""
 import json
-from common import get, norm
+from common import get, norm, same_person
 B = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball"
 PATH = "data/players.json"
 data = json.load(open(PATH, encoding="utf-8"))
@@ -23,10 +23,8 @@ for p in todo:
     if t["id"] not in roster_cache:
         r = get(f"{B}/teams/{t['id']}/roster").get("athletes", [])
         roster_cache[t["id"]] = [a for x in r for a in (x.get("items") or [x])]
-    last = norm(p["name"]).split()[-1]
-    first = norm(p["name"])[0]
     full = [a for a in roster_cache[t["id"]] if norm(a.get("fullName")) == norm(p["name"])]
-    part = [a for a in roster_cache[t["id"]] if norm(a.get("fullName")).split()[-1:] == [last] and norm(a.get("fullName"))[:1] == first]
+    part = [a for a in roster_cache[t["id"]] if same_person(p, a.get("fullName"))]  # aliases + rašybos klaidos
     a = (full or part or [None])[0]
     if not a:
         p["roster_status"] = "not_found"; print("NERASTAS ROSTERYJE:", p["name"], p["team"]); continue

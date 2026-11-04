@@ -1,0 +1,94 @@
+/* ===== Dizainas v3: „stiklo“ kortelės, NCAA mėlyna + oranžinė, Space Grotesk, naujienų juosta ===== */
+:root{--bl:#27a7e6;--bl2:#0b6fb0;--glass:rgba(255,255,255,.045);--glass2:rgba(255,255,255,.018);--edge:rgba(255,255,255,.09);--disp:"Space Grotesk","Inter",system-ui,sans-serif}
+:root:not([data-theme=light]){--bg:#050811;--card:#0c121d;--line:#1a2332;--alt:#0a0f18;--chip:#151d2b;--mu:#8590a2}
+[data-theme=light]{--bg:#eef3f9;--card:#ffffff;--line:#d9e2ee;--alt:#f0f5fb;--chip:#e5edf6;--glass:rgba(255,255,255,.75);--glass2:rgba(255,255,255,.55);--edge:rgba(16,40,80,.1);--bl:#0a85c7}
+
+/* fonas: lengvas „aurora“ švytėjimas */
+body{background:var(--bg)}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:radial-gradient(900px 480px at 88% -8%,rgba(39,167,230,.20),transparent 62%),radial-gradient(760px 420px at -6% 8%,rgba(255,122,26,.13),transparent 60%),radial-gradient(700px 520px at 50% 118%,rgba(39,167,230,.10),transparent 60%)}
+[data-theme=light] body::before{background:radial-gradient(900px 480px at 88% -8%,rgba(39,167,230,.18),transparent 62%),radial-gradient(760px 420px at -6% 8%,rgba(255,122,26,.10),transparent 60%)}
+
+/* šriftai: antraštėms – Space Grotesk, skaičiams lieka Barlow Condensed */
+h1,h2,.card h2,.sec,.dayh,.nm,.tabs a,.seg button,.chips button{font-family:var(--disp)}
+h1{font-weight:700;letter-spacing:.02em;font-size:34px;background:linear-gradient(95deg,var(--tx) 30%,var(--bl));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+.card h2,.sec{font-size:15px;font-weight:600;letter-spacing:.14em}
+.nm{font-size:17px;font-weight:600;letter-spacing:0}
+.tabs a,.seg button{font-size:13px;font-weight:600;letter-spacing:.06em}
+header{border-bottom:0;position:relative}
+header::after{content:"";display:block;height:1px;margin-top:12px;background:linear-gradient(90deg,var(--bl),rgba(255,122,26,.7) 40%,transparent 85%)}
+
+/* stiklo kortelės */
+.card,.pl,.sh-in{background:linear-gradient(180deg,var(--glass),var(--glass2));border:1px solid var(--edge);border-radius:18px;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+[data-theme=light] .card,[data-theme=light] .pl{background:var(--card);box-shadow:0 1px 2px rgba(20,50,90,.05),0 8px 24px rgba(20,50,90,.06)}
+.sh-in{background:var(--bg)}
+.pl{position:relative;overflow:hidden;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease;padding:16px 14px 14px}
+.pl::before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:linear-gradient(90deg,var(--tc,var(--bl)),transparent 85%)}
+.pl::after{content:"";position:absolute;right:-40px;top:-40px;width:140px;height:140px;border-radius:50%;background:radial-gradient(circle,var(--tc,var(--bl)),transparent 68%);opacity:.14;pointer-events:none}
+@media (hover:hover){.pl:hover{transform:translateY(-3px);border-color:var(--tc,var(--bl));box-shadow:0 14px 34px -14px var(--tc,var(--bl))}}
+.stats{gap:8px}.stats div{border-radius:12px;background:var(--glass);border:1px solid var(--edge)}
+.stats b,.big b{font-family:"Barlow Condensed",sans-serif;font-size:22px;font-weight:700}
+.big div{background:var(--glass);border:1px solid var(--edge);border-radius:14px}
+.big b{color:var(--bl)}
+.av{border-width:2px!important;border-color:var(--ring,var(--bl))!important;box-shadow:0 0 0 3px rgba(255,255,255,.04),0 6px 18px -8px var(--ring,var(--bl))}
+
+/* navigacija */
+.tabs a{border-radius:999px;border-color:var(--edge);background:var(--glass)}
+.tabs a.on{background:linear-gradient(135deg,var(--bl),var(--bl2));border-color:transparent;color:#fff}
+[data-theme=light] .tabs a.on,[data-theme=light] .seg button.on{color:#fff}
+.seg{border-radius:999px;border-color:var(--edge);background:var(--glass)}
+.seg button.on{background:linear-gradient(135deg,var(--ac),#ff9d4a);color:#1a0c00;border-radius:999px}
+.chips button{border-radius:999px;border-color:var(--edge)}
+.chips button.on{background:rgba(39,167,230,.14);border-color:var(--bl);color:var(--bl)}
+.bar input,.bar select,select.big-sel,.cmpsel select{border-radius:14px;border-color:var(--edge);background:var(--glass)}
+@media (max-width:899px){
+  .topbar .tabs{background:color-mix(in srgb,var(--card) 86%,transparent);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-top:1px solid var(--edge);border-radius:22px 22px 0 0}
+  .topbar .tabs a{border-radius:14px;background:none;border:0}
+  .topbar .tabs a.on{background:rgba(39,167,230,.16);color:var(--bl)}
+}
+
+/* didesnis NCAA logotipas */
+.brand{gap:16px;padding-top:14px}
+.brand .lg.own .bl{height:68px!important;max-width:120px!important;filter:drop-shadow(0 6px 14px rgba(39,167,230,.35))}
+.brand .lg.chip .bl{height:48px!important;max-width:120px!important}
+.brand i{height:48px;background:linear-gradient(var(--bl),var(--ac));width:2px;border-radius:2px;opacity:.8}
+.wm b{font-size:32px}.wm span{font-size:32px}
+@media (max-width:899px){
+  .brand .lg.own .bl{height:54px!important;max-width:96px!important}
+  .brand .lg.chip .bl{height:40px!important}
+  .brand i{height:38px}.brand{gap:10px}.wm b,.wm span{font-size:19px}.wm span{letter-spacing:.08em;margin-left:6px}
+  .topbar .tabs{grid-template-columns:repeat(6,1fr)}
+  .theme-btn{top:auto!important;bottom:calc(86px + env(safe-area-inset-bottom));right:12px!important;width:42px!important;height:42px!important}
+}
+
+/* naujienų juosta (data/ticker.json) */
+.ticker{max-width:1200px;margin:10px auto 0;padding:0 16px}
+.ticker-in{position:relative;overflow:hidden;border:1px solid var(--edge);border-radius:999px;background:var(--glass);display:flex;align-items:center}
+.ticker-lab{flex:none;padding:8px 14px;font:700 11px/1 var(--disp);letter-spacing:.16em;color:#fff;background:linear-gradient(135deg,var(--ac),#ff9d4a);color:#1a0c00;position:relative;z-index:1;display:flex;gap:6px;align-items:center}
+.ticker-lab::before{content:"";width:7px;height:7px;border-radius:50%;background:#1a0c00;animation:pulse 1.6s infinite}
+.ticker-run{display:flex;gap:34px;white-space:nowrap;padding:0 24px;animation:tick 70s linear infinite;will-change:transform}
+.ticker-in:hover .ticker-run{animation-play-state:paused}
+.ticker-run a{color:var(--tx);text-decoration:none;font-size:14px;display:inline-flex;gap:8px;align-items:baseline}
+.ticker-run b{font-family:"Barlow Condensed",sans-serif;font-size:17px;letter-spacing:.02em}
+.ticker-run .w{color:var(--gr)}.ticker-run .l{color:var(--rd)}.ticker-run em{font-style:normal;color:var(--mu);font-size:12px}
+@keyframes tick{to{transform:translateX(-50%)}}@keyframes pulse{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.ticker-run{animation:none;overflow-x:auto}.ticker-lab::before{animation:none}}
+
+/* slinkimo juosta ir įėjimo animacijos */
+.progress{position:fixed;left:0;top:0;height:3px;width:0;z-index:60;background:linear-gradient(90deg,var(--bl),var(--ac));box-shadow:0 0 12px var(--bl)}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}}
+.grid>.pl,.cg>.card,main>.card,.ins{animation:rise .5s cubic-bezier(.2,.7,.2,1) both}
+.grid>.pl:nth-child(2),.cg>.card:nth-child(2){animation-delay:.04s}.grid>.pl:nth-child(3),.cg>.card:nth-child(3){animation-delay:.08s}
+.grid>.pl:nth-child(4),.cg>.card:nth-child(4){animation-delay:.12s}.grid>.pl:nth-child(5),.cg>.card:nth-child(5){animation-delay:.16s}
+.grid>.pl:nth-child(6),.cg>.card:nth-child(6){animation-delay:.2s}.grid>.pl:nth-child(n+7){animation-delay:.24s}
+
+/* dalinimosi kortelės valdikliai */
+.sharecard .seg{display:inline-flex;margin:4px 0 6px}
+.share-big{min-height:48px;padding:0 18px;font-size:15px;border-radius:999px;background:linear-gradient(135deg,var(--bl),var(--bl2));border:0;color:#fff;margin:14px 0 0}
+.share-card-btn{border-radius:999px;border-color:var(--edge)}
+
+/* lyderių eilutės, rodikliai */
+.rowc .v,.lrow b.v{font-family:"Barlow Condensed",sans-serif;font-size:23px;color:var(--ac)}
+.lrow .bar2 i,.bar2 i{background:linear-gradient(90deg,var(--bl),var(--ac))}
+.pf .who{background:radial-gradient(circle at 50% 0,rgba(39,167,230,.18),transparent 62%)}
+.pf .imp{background:linear-gradient(135deg,var(--ac),#ffb36b);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
