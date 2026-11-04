@@ -346,9 +346,9 @@
   "team": "Rhode Island",
   "opponent": "Holy Cross Crusaders",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "103",
+  "against": "59",
   "opp_rank": null
  },
  {
@@ -357,9 +357,9 @@
   "team": "South Carolina",
   "opponent": "Stetson Hatters",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "81",
+  "against": "55",
   "opp_rank": null
  },
  {
@@ -368,9 +368,9 @@
   "team": "Lipscomb",
   "opponent": "Iowa Hawkeyes",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "54",
+  "against": "76",
   "opp_rank": null
  },
  {
@@ -379,9 +379,9 @@
   "team": "California Baptist",
   "opponent": "North Florida Ospreys",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "63",
+  "against": "71",
   "opp_rank": null
  },
  {
@@ -390,9 +390,9 @@
   "team": "Portland State",
   "opponent": "Lewis & Clark River Otters",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "111",
+  "against": "59",
   "opp_rank": null
  },
  {

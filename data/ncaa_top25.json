@@ -1,116 +1,153 @@
 {
- "updated": "2026-11-03",
- "players": {},
+ "updated": "2026-11-04",
+ "players": {
+  "dominic-pangonis": [
+   {
+    "cat": "ppg",
+    "label": "Taškai per rungtynes",
+    "value": 30.0,
+    "rank": 10
+   },
+   {
+    "cat": "fgp",
+    "label": "Metimų iš žaidimo taiklumas (FG%)",
+    "value": 89.99999761581421,
+    "rank": 25
+   },
+   {
+    "cat": "tpp",
+    "label": "Tritaškių taiklumas (3P%)",
+    "value": 85.71428656578064,
+    "rank": 14
+   }
+  ],
+  "motiejus-krivas": [
+   {
+    "cat": "bpg",
+    "label": "Blokai per rungtynes",
+    "value": 6.0,
+    "rank": 2
+   }
+  ],
+  "matas-vokietaitis": [
+   {
+    "cat": "fgp",
+    "label": "Metimų iš žaidimo taiklumas (FG%)",
+    "value": 100.0,
+    "rank": 14
+   }
+  ]
+ },
  "debug": {
   "ppg": [
    [
-    "Zander Carter",
-    21.0
+    "Dior Johnson",
+    41.0
    ],
    [
-    "Tyler Perkins",
-    18.0
+    "Krystian Lewis",
+    40.0
    ],
    [
-    "Braeden Smith",
-    16.0
+    "Ivan Kharchenkov",
+    38.0
    ]
   ],
   "rpg": [
    [
-    "Devin Royal",
-    8.0
+    "Antoine Lorick III",
+    15.0
    ],
    [
-    "Brady Koehler",
-    8.0
+    "Ivan Juric",
+    15.0
    ],
    [
-    "Cam'Ron Fletcher",
-    7.0
+    "Nolan Winter",
+    14.0
    ]
   ],
   "apg": [
    [
-    "Elijah Crawford",
-    5.0
+    "Jake West",
+    12.0
    ],
    [
-    "Logan Duncomb",
-    4.0
+    "Jeremy Fears Jr.",
+    11.0
    ],
    [
-    "Eli Sancomb",
-    4.0
+    "DeShawn Harris-Smith",
+    11.0
    ]
   ],
   "spg": [
    [
-    "Braeden Smith",
-    4.0
+    "Miles Byrd",
+    7.0
    ],
    [
-    "Zander Carter",
-    4.0
+    "Cruz Davis",
+    6.0
    ],
    [
-    "Logan Imes",
-    3.0
+    "Donovan Oday",
+    6.0
    ]
   ],
   "bpg": [
    [
-    "Dillon Claussen",
+    "Abdullah Ahmed",
+    7.0
+   ],
+   [
+    "Motiejus Krivas",
     6.0
    ],
    [
-    "Kwame Evans Jr.",
-    2.0
-   ],
-   [
-    "Braden Hausen",
-    2.0
+    "Noah Lewis",
+    6.0
    ]
   ],
   "fgp": [
    [
-    "Trey Pearson",
-    71.42857313156128
+    "Ven-Allen Lubin",
+    100.0
    ],
    [
-    "Zander Carter",
-    64.28571343421936
+    "Kaleb Glenn",
+    100.0
    ],
    [
-    "Curtis Williams Jr.",
-    55.55555820465088
+    "Jakai Newton",
+    100.0
    ]
   ],
   "tpp": [
    [
-    "Zander Carter",
-    60.00000238418579
+    "Dior Johnson",
+    100.0
    ],
    [
-    "Tyler Perkins",
-    45.45454680919647
+    "Ven-Allen Lubin",
+    100.0
    ],
    [
-    "Jake Fiegen",
-    42.85714328289032
+    "Markus Burton",
+    100.0
    ]
   ],
   "ftp": [
    [
-    "Elijah Crawford",
+    "Isaiah Brown",
     100.0
    ],
    [
-    "Ethan Roberts",
+    "Brandon Weston",
     100.0
    ],
    [
-    "Eli Sancomb",
+    "Chance Westry",
     100.0
    ]
   ]

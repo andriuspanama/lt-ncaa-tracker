@@ -20,5 +20,27 @@
   "tpa": 6,
   "ftm": 4,
   "fta": 4
+ },
+ {
+  "event_id": "401920702",
+  "date": "2026-11-03",
+  "opponent": "Iowa Hawkeyes",
+  "home": false,
+  "result": "L",
+  "score": "54-76",
+  "min": 18,
+  "pts": 6,
+  "reb": 3,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 5,
+  "pf": 2,
+  "fgm": 2,
+  "fga": 7,
+  "tpm": 0,
+  "tpa": 4,
+  "ftm": 2,
+  "fta": 2
  }
 ]
