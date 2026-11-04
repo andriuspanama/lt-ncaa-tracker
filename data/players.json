@@ -487,8 +487,10 @@
     {
       "id": "gantas-krizanauskas",
       "name": "Gantas Križanauskas",
-      "aliases": ["Gantas Krianauskas"],
-      "espn_id": null,
+      "aliases": [
+        "Gantas Krianauskas"
+      ],
+      "espn_id": "5455858",
       "height_cm": 193,
       "position": "G",
       "team": "Portland State",
@@ -499,7 +501,7 @@
       "status": "working_list",
       "verified": true,
       "notes": "",
-      "roster_status": "not_found",
+      "roster_status": "active",
       "jersey": "22"
     },
     {

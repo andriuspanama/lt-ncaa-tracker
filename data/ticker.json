@@ -130,6 +130,22 @@
    "gs": 13.5
   },
   {
+   "id": "gantas-krizanauskas",
+   "name": "Gantas Križanauskas",
+   "team": "Portland State",
+   "date": "2026-11-03",
+   "opp": "Lewis & Clark River Otters",
+   "home": true,
+   "res": "W",
+   "score": "111-59",
+   "pts": 6,
+   "reb": 4,
+   "ast": 8,
+   "stl": 0,
+   "blk": 0,
+   "gs": 11.2
+  },
+  {
    "id": "dominykas-pleta",
    "name": "Dominykas Pleta",
    "team": "Iowa State",
@@ -144,22 +160,6 @@
    "stl": 0,
    "blk": 0,
    "gs": 10.8
-  },
-  {
-   "id": "gediminas-alisas",
-   "name": "Gediminas Alisas",
-   "team": "Stephen F. Austin",
-   "date": "2026-11-02",
-   "opp": "Lyon Scots",
-   "home": true,
-   "res": "W",
-   "score": "120-61",
-   "pts": 9,
-   "reb": 10,
-   "ast": 2,
-   "stl": 0,
-   "blk": 0,
-   "gs": 10.6
   }
  ]
 }

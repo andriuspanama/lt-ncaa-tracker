@@ -1,0 +1,24 @@
+[
+ {
+  "event_id": "401925914",
+  "date": "2026-11-03",
+  "opponent": "Lewis & Clark River Otters",
+  "home": true,
+  "result": "W",
+  "score": "111-59",
+  "min": 21,
+  "pts": 6,
+  "reb": 4,
+  "ast": 8,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 0,
+  "fgm": 1,
+  "fga": 2,
+  "tpm": 1,
+  "tpa": 2,
+  "ftm": 3,
+  "fta": 4
+ }
+]

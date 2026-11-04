@@ -425,6 +425,25 @@
     "tp_pct": 0.0,
     "ft_pct": 50.0
    },
+   "gantas-krizanauskas": {
+    "gp": 1,
+    "min": 21,
+    "pts": 6,
+    "reb": 4,
+    "ast": 8,
+    "stl": 0,
+    "blk": 0,
+    "to": 1,
+    "fgm": 1,
+    "fga": 2,
+    "tpm": 1,
+    "tpa": 2,
+    "ftm": 3,
+    "fta": 4,
+    "fg_pct": 50.0,
+    "tp_pct": 50.0,
+    "ft_pct": 75.0
+   },
    "kajus-kublickas": {
     "gp": 1,
     "min": 18,
@@ -1073,6 +1092,25 @@
     "tp_pct": 0.0,
     "ft_pct": 50.0
    },
+   "gantas-krizanauskas": {
+    "gp": 1,
+    "min": 21,
+    "pts": 6,
+    "reb": 4,
+    "ast": 8,
+    "stl": 0,
+    "blk": 0,
+    "to": 1,
+    "fgm": 1,
+    "fga": 2,
+    "tpm": 1,
+    "tpa": 2,
+    "ftm": 3,
+    "fta": 4,
+    "fg_pct": 50.0,
+    "tp_pct": 50.0,
+    "ft_pct": 75.0
+   },
    "kajus-kublickas": {
     "gp": 1,
     "min": 18,
@@ -1720,6 +1758,25 @@
     "fg_pct": 66.7,
     "tp_pct": 0.0,
     "ft_pct": 50.0
+   },
+   "gantas-krizanauskas": {
+    "gp": 1,
+    "min": 21,
+    "pts": 6,
+    "reb": 4,
+    "ast": 8,
+    "stl": 0,
+    "blk": 0,
+    "to": 1,
+    "fgm": 1,
+    "fga": 2,
+    "tpm": 1,
+    "tpa": 2,
+    "ftm": 3,
+    "fta": 4,
+    "fg_pct": 50.0,
+    "tp_pct": 50.0,
+    "ft_pct": 75.0
    },
    "kajus-kublickas": {
     "gp": 1,
