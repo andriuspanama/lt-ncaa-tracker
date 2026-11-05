@@ -22,6 +22,7 @@ jobs:
           python-version: "3.12"
       - run: pip install requests
       - run: python resolve_ids.py
+        continue-on-error: true
       - run: python fetch_schedule.py
         continue-on-error: true
       - run: python update.py
