@@ -92,3 +92,44 @@ header::after{content:"";display:block;height:1px;margin-top:12px;background:lin
 .lrow .bar2 i,.bar2 i{background:linear-gradient(90deg,var(--bl),var(--ac))}
 .pf .who{background:radial-gradient(circle at 50% 0,rgba(39,167,230,.18),transparent 62%)}
 .pf .imp{background:linear-gradient(135deg,var(--ac),#ffb36b);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+
+/* ===== Pataisos: ilgi vardai, palyginimas mažuose ekranuose, išskleidžiami sąrašai ===== */
+/* 1fr = minmax(auto,1fr) leisdavo ilgam tekstui išplėsti stulpelį ir „pabėgti“ iš kortelės */
+.grid{grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
+@media (min-width:1000px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.pl{min-width:0}
+.pl .top{min-width:0}
+.pl .top>div:not(.av){min-width:0;flex:1 1 0}
+.pl .nm,.pl .mt{overflow-wrap:anywhere;word-break:normal;line-height:1.2}
+.pl .nm{font-size:clamp(15px,1.25vw + 8px,18px)}
+.pl .mt .cf{white-space:normal}
+.pl .top .tl{width:34px;height:34px}
+
+/* išskleidžiami pasirinkimai (žaidėjas, komanda, konferencija, rūšiavimas): solidus fonas ir spalva, kad matytųsi ir kompiuteryje */
+:root:not([data-theme=light]){color-scheme:dark}
+[data-theme=light]{color-scheme:light}
+select,select option,select optgroup{color:var(--tx)}
+select option,select optgroup{background-color:var(--card)}
+select{background-color:var(--card)}
+.bar input,.bar select,select.big-sel,.cmpsel select{background-color:var(--card);background-image:none}
+.bar select,.cmpsel select,select.big-sel{appearance:auto}
+
+/* palyginimas: viskas mažėja tolygiai, nieko nenukerta */
+.ch{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.ch .side{min-width:0}
+.ch .side>div:not(.av){min-width:0;flex:1 1 0}
+.ch .nm{font-size:clamp(13px,4vw,18px);overflow-wrap:anywhere}
+.ch .mt{font-size:clamp(11px,3vw,13px);overflow-wrap:anywhere}
+.ch .side .av{width:clamp(36px,12vw,52px);height:clamp(36px,12vw,52px);font-size:clamp(12px,3.6vw,16px)}
+.cr .cv b{font-size:clamp(16px,5.4vw,22px)}
+.cr .cv small{font-size:clamp(10px,3vw,13px)}
+.cr .cl{font-size:clamp(11px,3.4vw,15px);overflow-wrap:anywhere}
+.cr{grid-template-columns:minmax(0,1fr) minmax(0,auto) minmax(0,1fr)}
+@media (max-width:480px){
+  .ch .side,.ch .side.r{flex-direction:column;text-align:center;gap:6px;align-items:center}
+  .ch .side .tl.xs{display:none}
+  .ch .side .cf{display:none}
+}
+.cmpsel{grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)}
+.cmpsel select{min-width:0;text-overflow:ellipsis}
+@media (max-width:420px){.topbar .tabs a{font-size:9.5px;letter-spacing:0;padding-left:2px;padding-right:2px}.topbar .tabs a svg{width:20px;height:20px}}

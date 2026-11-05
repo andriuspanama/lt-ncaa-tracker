@@ -146,8 +146,12 @@
     const canvas=await makeCard(data),blob=await new Promise(r=>canvas.toBlob(r,'image/png'));
     if(!blob)throw new Error('Nepavyko sukurti PNG kortelės');
     const name=data.type==='player'?'lt-ncaa-'+data.player.id+'.png':'lt-ncaa-kortele.png',file=new File([blob],name,{type:'image/png'});
-    if(navigator.share&&navigator.canShare&&navigator.canShare({files:[file]})){
-      await navigator.share({title:'LT NCAA Tracker',text:data.type==='comparison'?'Žaidėjų palyginimas':data.type==='player'?data.player.name+' · statistika':'Lietuviai NCAA',files:[file]});return 'shared'}
+    /* OS dalinimosi langas tik jutikliniuose įrenginiuose; kompiuteryje – tiesioginis atsisiuntimas.
+       Jei dalinimasis nepavyksta (pvz. baigėsi paspaudimo „leidimas“, kol buvo kuriama kortelė) – atsisiunčiam. */
+    const touch=window.matchMedia&&matchMedia('(pointer:coarse)').matches;
+    if(touch&&navigator.share&&navigator.canShare&&navigator.canShare({files:[file]})){
+      try{await navigator.share({title:'LT NCAA Tracker',text:data.type==='comparison'?'Žaidėjų palyginimas':data.type==='player'?data.player.name+' · statistika':'Lietuviai NCAA',files:[file]});return 'shared'}
+      catch(e){if(e&&e.name==='AbortError')return 'cancelled'}}
     const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);return 'downloaded';
   };
   window.renderStatsCard=makeCard; /* testavimui / peržiūrai */
