@@ -20,5 +20,27 @@
   "tpa": 5,
   "ftm": 3,
   "fta": 4
+ },
+ {
+  "event_id": "401918052",
+  "date": "2026-11-04",
+  "opponent": "Radford Highlanders",
+  "home": true,
+  "result": "W",
+  "score": "84-70",
+  "min": 32,
+  "pts": 30,
+  "reb": 5,
+  "ast": 2,
+  "stl": 2,
+  "blk": 0,
+  "to": 3,
+  "pf": 0,
+  "fgm": 10,
+  "fga": 15,
+  "tpm": 6,
+  "tpa": 10,
+  "ftm": 4,
+  "fta": 5
  }
 ]

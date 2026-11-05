@@ -20,5 +20,27 @@
   "tpa": 6,
   "ftm": 2,
   "fta": 2
+ },
+ {
+  "event_id": "401928811",
+  "date": "2026-11-04",
+  "opponent": "South Dakota Coyotes",
+  "home": false,
+  "result": "W",
+  "score": "102-94",
+  "min": 17,
+  "pts": 3,
+  "reb": 2,
+  "ast": 0,
+  "stl": 0,
+  "blk": 1,
+  "to": 1,
+  "pf": 2,
+  "fgm": 1,
+  "fga": 1,
+  "tpm": 1,
+  "tpa": 1,
+  "ftm": 0,
+  "fta": 0
  }
 ]

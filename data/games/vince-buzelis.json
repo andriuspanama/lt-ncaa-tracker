@@ -20,5 +20,27 @@
   "tpa": 0,
   "ftm": 6,
   "fta": 8
+ },
+ {
+  "event_id": "401928811",
+  "date": "2026-11-04",
+  "opponent": "Northern Kentucky Norse",
+  "home": true,
+  "result": "L",
+  "score": "94-102",
+  "min": 32,
+  "pts": 20,
+  "reb": 2,
+  "ast": 2,
+  "stl": 2,
+  "blk": 0,
+  "to": 1,
+  "pf": 4,
+  "fgm": 8,
+  "fga": 12,
+  "tpm": 1,
+  "tpa": 2,
+  "ftm": 3,
+  "fta": 4
  }
 ]

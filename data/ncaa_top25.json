@@ -1,24 +1,18 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "players": {
   "dominic-pangonis": [
    {
     "cat": "ppg",
     "label": "Taškai per rungtynes",
     "value": 30.0,
-    "rank": 10
-   },
-   {
-    "cat": "fgp",
-    "label": "Metimų iš žaidimo taiklumas (FG%)",
-    "value": 89.99999761581421,
-    "rank": 25
+    "rank": 11
    },
    {
     "cat": "tpp",
     "label": "Tritaškių taiklumas (3P%)",
     "value": 85.71428656578064,
-    "rank": 14
+    "rank": 13
    }
   ],
   "motiejus-krivas": [
@@ -34,7 +28,7 @@
     "cat": "fgp",
     "label": "Metimų iš žaidimo taiklumas (FG%)",
     "value": 100.0,
-    "rank": 14
+    "rank": 16
    }
   ]
  },
@@ -55,16 +49,16 @@
   ],
   "rpg": [
    [
+    "DeWayne Brown II",
+    17.0
+   ],
+   [
     "Antoine Lorick III",
     15.0
    ],
    [
     "Ivan Juric",
     15.0
-   ],
-   [
-    "Nolan Winter",
-    14.0
    ]
   ],
   "apg": [
@@ -83,16 +77,16 @@
   ],
   "spg": [
    [
+    "Ben Hammond",
+    7.0
+   ],
+   [
     "Miles Byrd",
     7.0
    ],
    [
-    "Cruz Davis",
-    6.0
-   ],
-   [
-    "Donovan Oday",
-    6.0
+    "Alex Wilkins",
+    7.0
    ]
   ],
   "bpg": [

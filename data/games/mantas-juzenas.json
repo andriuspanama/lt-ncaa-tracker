@@ -20,5 +20,27 @@
   "tpa": 3,
   "ftm": 3,
   "fta": 5
+ },
+ {
+  "event_id": "401917512",
+  "date": "2026-11-04",
+  "opponent": "North Dakota State Bison",
+  "home": true,
+  "result": "W",
+  "score": "105-64",
+  "min": 29,
+  "pts": 9,
+  "reb": 11,
+  "ast": 7,
+  "stl": 0,
+  "blk": 1,
+  "to": 1,
+  "pf": 1,
+  "fgm": 2,
+  "fga": 7,
+  "tpm": 2,
+  "tpa": 5,
+  "ftm": 3,
+  "fta": 4
  }
 ]

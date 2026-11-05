@@ -401,9 +401,9 @@
   "team": "Dartmouth Big Green",
   "opponent": "Framingham State Rams",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "107",
+  "against": "50",
   "opp_rank": null
  },
  {
@@ -412,9 +412,9 @@
   "team": "Longwood",
   "opponent": "Saint Joseph's Hawks",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "73",
+  "against": "82",
   "opp_rank": null
  },
  {
@@ -423,9 +423,9 @@
   "team": "Northern Kentucky",
   "opponent": "South Dakota Coyotes",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "102",
+  "against": "94",
   "opp_rank": null
  },
  {
@@ -434,9 +434,9 @@
   "team": "South Dakota",
   "opponent": "Northern Kentucky Norse",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "94",
+  "against": "102",
   "opp_rank": null
  },
  {
@@ -445,9 +445,9 @@
   "team": "Boise State",
   "opponent": "West Coast Baptist Eagles",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "132",
+  "against": "53",
   "opp_rank": null
  },
  {
@@ -456,9 +456,9 @@
   "team": "California",
   "opponent": "Radford Highlanders",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "84",
+  "against": "70",
   "opp_rank": null
  },
  {
@@ -467,9 +467,9 @@
   "team": "Saint Mary's",
   "opponent": "North Dakota State Bison",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "105",
+  "against": "64",
   "opp_rank": null
  },
  {

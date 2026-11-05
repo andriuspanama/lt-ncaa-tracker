@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401929171",
+  "date": "2026-11-04",
+  "opponent": "West Coast Baptist Eagles",
+  "home": true,
+  "result": "W",
+  "score": "132-53",
+  "min": 17,
+  "pts": 18,
+  "reb": 9,
+  "ast": 2,
+  "stl": 0,
+  "blk": 0,
+  "to": 2,
+  "pf": 1,
+  "fgm": 7,
+  "fga": 10,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 4,
+  "fta": 9
+ }
+]
