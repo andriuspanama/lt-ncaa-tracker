@@ -599,7 +599,7 @@
   "team": "FIU",
   "opponent": "West Florida Argonauts",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -5479,7 +5479,7 @@
  },
  {
   "event_id": "401911836",
-  "date": "2026-12-30T23:30Z",
+  "date": "2026-12-30T23:00Z",
   "team": "VMI Keydets",
   "opponent": "Furman Paladins",
   "home": true,
