@@ -20,5 +20,27 @@
   "tpa": 3,
   "ftm": 2,
   "fta": 5
+ },
+ {
+  "event_id": "401928849",
+  "date": "2026-11-05",
+  "opponent": "Kalamazoo Hornets",
+  "home": true,
+  "result": "W",
+  "score": "99-52",
+  "min": 13,
+  "pts": 11,
+  "reb": 4,
+  "ast": 2,
+  "stl": 1,
+  "blk": 2,
+  "to": 0,
+  "pf": 2,
+  "fgm": 5,
+  "fga": 7,
+  "tpm": 1,
+  "tpa": 2,
+  "ftm": 0,
+  "fta": 0
  }
 ]

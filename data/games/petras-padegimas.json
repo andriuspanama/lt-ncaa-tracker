@@ -20,5 +20,27 @@
   "tpa": 0,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401920377",
+  "date": "2026-11-05",
+  "opponent": "Virginia Tech Hokies",
+  "home": false,
+  "result": "L",
+  "score": "67-96",
+  "min": 9,
+  "pts": 0,
+  "reb": 5,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 0,
+  "fgm": 0,
+  "fga": 0,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
  }
 ]

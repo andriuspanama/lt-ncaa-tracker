@@ -20,5 +20,27 @@
   "tpa": 0,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401906864",
+  "date": "2026-11-05",
+  "opponent": "Gardner-Webb Runnin' Bulldogs",
+  "home": true,
+  "result": "W",
+  "score": "98-50",
+  "min": 3,
+  "pts": 0,
+  "reb": 0,
+  "ast": 1,
+  "stl": 1,
+  "blk": 0,
+  "to": 1,
+  "pf": 1,
+  "fgm": 0,
+  "fga": 0,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
  }
 ]

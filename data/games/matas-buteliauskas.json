@@ -20,5 +20,27 @@
   "tpa": 3,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401909706",
+  "date": "2026-11-05",
+  "opponent": "Pittsburgh Panthers",
+  "home": false,
+  "result": "L",
+  "score": "61-80",
+  "min": 12,
+  "pts": 3,
+  "reb": 1,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 1,
+  "fgm": 1,
+  "fga": 3,
+  "tpm": 1,
+  "tpa": 3,
+  "ftm": 0,
+  "fta": 0
  }
 ]

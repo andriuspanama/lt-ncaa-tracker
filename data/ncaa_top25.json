@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "players": {
   "dominic-pangonis": [
    {
@@ -12,7 +12,7 @@
     "cat": "tpp",
     "label": "Tritaškių taiklumas (3P%)",
     "value": 85.71428656578064,
-    "rank": 13
+    "rank": 10
    }
   ],
   "motiejus-krivas": [
@@ -21,14 +21,6 @@
     "label": "Blokai per rungtynes",
     "value": 6.0,
     "rank": 2
-   }
-  ],
-  "matas-vokietaitis": [
-   {
-    "cat": "fgp",
-    "label": "Metimų iš žaidimo taiklumas (FG%)",
-    "value": 100.0,
-    "rank": 16
    }
   ]
  },
@@ -109,11 +101,11 @@
     100.0
    ],
    [
-    "Kaleb Glenn",
+    "Robert Vaihola",
     100.0
    ],
    [
-    "Jakai Newton",
+    "Imanuel Zorgvol",
     100.0
    ]
   ],
@@ -127,7 +119,7 @@
     100.0
    ],
    [
-    "Markus Burton",
+    "Joe Hurlburt",
     100.0
    ]
   ],

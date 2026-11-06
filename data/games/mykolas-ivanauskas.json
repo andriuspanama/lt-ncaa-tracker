@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401920913",
+  "date": "2026-11-05",
+  "opponent": "Tulsa Golden Hurricane",
+  "home": false,
+  "result": "L",
+  "score": "75-94",
+  "min": 16,
+  "pts": 12,
+  "reb": 3,
+  "ast": 0,
+  "stl": 0,
+  "blk": 2,
+  "to": 3,
+  "pf": 3,
+  "fgm": 5,
+  "fga": 7,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 2,
+  "fta": 2
+ }
+]

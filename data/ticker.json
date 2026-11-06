@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "items": [
+  {
+   "id": "motiejus-krivas",
+   "name": "Motiejus Krivas",
+   "team": "Arizona Wildcats",
+   "date": "2026-11-05",
+   "opp": "Cal Poly Mustangs",
+   "home": true,
+   "res": "W",
+   "score": "104-84",
+   "pts": 30,
+   "reb": 8,
+   "ast": 1,
+   "stl": 1,
+   "blk": 2,
+   "gs": 27.0
+  },
   {
    "id": "nojus-indrusaitis",
    "name": "Nojus Indrušaitis",
@@ -82,20 +98,20 @@
    "gs": 14.2
   },
   {
-   "id": "matas-deniusas",
-   "name": "Matas Deniušas",
-   "team": "Rhode Island",
-   "date": "2026-11-03",
-   "opp": "Holy Cross Crusaders",
+   "id": "matas-vokietaitis",
+   "name": "Matas Vokietaitis",
+   "team": "Texas",
+   "date": "2026-11-05",
+   "opp": "Gardner-Webb Runnin' Bulldogs",
    "home": true,
    "res": "W",
-   "score": "103-59",
-   "pts": 13,
-   "reb": 8,
+   "score": "98-50",
+   "pts": 16,
+   "reb": 7,
    "ast": 0,
-   "stl": 1,
-   "blk": 0,
-   "gs": 13.9
+   "stl": 0,
+   "blk": 1,
+   "gs": 13.6
   },
   {
    "id": "kajus-kublickas",
@@ -114,52 +130,36 @@
    "gs": 13.2
   },
   {
-   "id": "gantas-krizanauskas",
-   "name": "Gantas Križanauskas",
-   "team": "Portland State",
-   "date": "2026-11-03",
-   "opp": "Lewis & Clark River Otters",
+   "id": "augustinas-kiudulas",
+   "name": "Augustinas Kiudulas",
+   "team": "Western Michigan",
+   "date": "2026-11-05",
+   "opp": "Kalamazoo Hornets",
    "home": true,
    "res": "W",
-   "score": "111-59",
-   "pts": 6,
-   "reb": 4,
-   "ast": 8,
-   "stl": 0,
-   "blk": 0,
-   "gs": 11.2
-  },
-  {
-   "id": "nedas-raupelis",
-   "name": "Nedas Raupelis",
-   "team": "Rhode Island",
-   "date": "2026-11-03",
-   "opp": "Holy Cross Crusaders",
-   "home": true,
-   "res": "W",
-   "score": "103-59",
-   "pts": 9,
-   "reb": 5,
-   "ast": 1,
-   "stl": 0,
-   "blk": 0,
-   "gs": 10.2
-  },
-  {
-   "id": "alex-bieliauskas",
-   "name": "Alex Bieliauskas",
-   "team": "South Carolina",
-   "date": "2026-11-03",
-   "opp": "Stetson Hatters",
-   "home": true,
-   "res": "W",
-   "score": "81-55",
-   "pts": 10,
+   "score": "99-52",
+   "pts": 11,
    "reb": 4,
    "ast": 2,
+   "stl": 1,
+   "blk": 2,
+   "gs": 13.1
+  },
+  {
+   "id": "mykolas-ivanauskas",
+   "name": "Mykolas Ivanauskas",
+   "team": "Northern Illinois Huskies",
+   "date": "2026-11-05",
+   "opp": "Tulsa Golden Hurricane",
+   "home": false,
+   "res": "L",
+   "score": "75-94",
+   "pts": 12,
+   "reb": 3,
+   "ast": 0,
    "stl": 0,
-   "blk": 0,
-   "gs": 7.0
+   "blk": 2,
+   "gs": 7.8
   }
  ]
 }

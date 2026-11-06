@@ -478,9 +478,9 @@
   "team": "Buffalo",
   "opponent": "Pittsburgh Panthers",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "61",
+  "against": "80",
   "opp_rank": null
  },
  {
@@ -489,9 +489,9 @@
   "team": "Georgia State",
   "opponent": "Charlotte 49ers",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "67",
+  "against": "77",
   "opp_rank": null
  },
  {
@@ -500,9 +500,9 @@
   "team": "Mercer",
   "opponent": "Virginia Tech Hokies",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "67",
+  "against": "96",
   "opp_rank": null
  },
  {
@@ -511,9 +511,9 @@
   "team": "Quinnipiac",
   "opponent": "Bryant Bulldogs",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "66",
+  "against": "56",
   "opp_rank": null
  },
  {
@@ -522,9 +522,9 @@
   "team": "UMBC",
   "opponent": "Marist Red Foxes",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "80",
+  "against": "88",
   "opp_rank": null
  },
  {
@@ -533,9 +533,9 @@
   "team": "Western Michigan",
   "opponent": "Kalamazoo Hornets",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "99",
+  "against": "52",
   "opp_rank": null
  },
  {
@@ -544,9 +544,9 @@
   "team": "Florida Gators",
   "opponent": "Jacksonville Dolphins",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "88",
+  "against": "57",
   "opp_rank": null
  },
  {
@@ -555,9 +555,9 @@
   "team": "Northern Illinois Huskies",
   "opponent": "Tulsa Golden Hurricane",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "75",
+  "against": "94",
   "opp_rank": null
  },
  {
@@ -566,9 +566,9 @@
   "team": "Texas",
   "opponent": "Gardner-Webb Runnin' Bulldogs",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "98",
+  "against": "50",
   "opp_rank": null
  },
  {
@@ -577,9 +577,9 @@
   "team": "VMI Keydets",
   "opponent": "SMU Mustangs",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "70",
+  "against": "95",
   "opp_rank": null
  },
  {
@@ -588,9 +588,9 @@
   "team": "Arizona Wildcats",
   "opponent": "Cal Poly Mustangs",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "104",
+  "against": "84",
   "opp_rank": null
  },
  {
@@ -705,7 +705,7 @@
  },
  {
   "event_id": "401929356",
-  "date": "2026-11-07T03:30Z",
+  "date": "2026-11-07T02:30Z",
   "team": "UT Arlington",
   "opponent": "Portland Pilots",
   "home": false,
