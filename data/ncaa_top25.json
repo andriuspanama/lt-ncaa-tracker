@@ -19,8 +19,8 @@
    {
     "cat": "bpg",
     "label": "Blokai per rungtynes",
-    "value": 6.0,
-    "rank": 2
+    "value": 4.0,
+    "rank": 12
    }
   ]
  },
@@ -45,12 +45,12 @@
     17.0
    ],
    [
-    "Antoine Lorick III",
-    15.0
+    "William Berg",
+    16.0
    ],
    [
-    "Ivan Juric",
-    15.0
+    "Jerquarius Stanback",
+    16.0
    ]
   ],
   "apg": [
@@ -59,19 +59,15 @@
     12.0
    ],
    [
-    "Jeremy Fears Jr.",
+    "DeShawn Harris-Smith",
     11.0
    ],
    [
-    "DeShawn Harris-Smith",
+    "Cian Medley",
     11.0
    ]
   ],
   "spg": [
-   [
-    "Ben Hammond",
-    7.0
-   ],
    [
     "Miles Byrd",
     7.0
@@ -79,6 +75,10 @@
    [
     "Alex Wilkins",
     7.0
+   ],
+   [
+    "Ben Hammond",
+    6.0
    ]
   ],
   "bpg": [
@@ -87,7 +87,7 @@
     7.0
    ],
    [
-    "Motiejus Krivas",
+    "Sean Logan",
     6.0
    ],
    [
