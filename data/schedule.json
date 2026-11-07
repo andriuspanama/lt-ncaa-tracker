@@ -720,9 +720,9 @@
   "team": "Georgia State",
   "opponent": "Andrew Fighting Tigers",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "in",
+  "for": "48",
+  "against": "32",
   "opp_rank": null
  },
  {
