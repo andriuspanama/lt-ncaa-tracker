@@ -1,18 +1,20 @@
 {
  "updated": "2026-11-07",
  "players": {
-  "dominic-pangonis": [
+  "paulius-murauskas": [
    {
     "cat": "ppg",
     "label": "Taškai per rungtynes",
-    "value": 30.0,
-    "rank": 7
-   },
+    "value": 27.0,
+    "rank": 13
+   }
+  ],
+  "gantas-krizanauskas": [
    {
-    "cat": "tpp",
-    "label": "Tritaškių taiklumas (3P%)",
-    "value": 85.71428656578064,
-    "rank": 10
+    "cat": "apg",
+    "label": "Rezultatyvūs perdavimai per rungtynes",
+    "value": 8.0,
+    "rank": 22
    }
   ],
   "motiejus-krivas": [
@@ -20,6 +22,22 @@
     "cat": "bpg",
     "label": "Blokai per rungtynes",
     "value": 4.0,
+    "rank": 9
+   }
+  ],
+  "matas-vokietaitis": [
+   {
+    "cat": "fgp",
+    "label": "Metimų iš žaidimo taiklumas (FG%)",
+    "value": 88.23529481887817,
+    "rank": 21
+   }
+  ],
+  "dominic-pangonis": [
+   {
+    "cat": "tpp",
+    "label": "Tritaškių taiklumas (3P%)",
+    "value": 80.0000011920929,
     "rank": 12
    }
   ]
@@ -28,15 +46,15 @@
   "ppg": [
    [
     "Dior Johnson",
-    41.0
+    34.5
    ],
    [
-    "Robert Wright III",
-    35.0
+    "Keshawn Fisher",
+    32.0
    ],
    [
-    "Mohammad Habhab",
-    34.0
+    "Sebastian Mack",
+    31.0
    ]
   ],
   "rpg": [
@@ -55,16 +73,16 @@
   ],
   "apg": [
    [
-    "Jake West",
-    12.0
-   ],
-   [
-    "DeShawn Harris-Smith",
-    11.0
-   ],
-   [
     "Cian Medley",
     11.0
+   ],
+   [
+    "Bryce Quinet",
+    11.0
+   ],
+   [
+    "Jeremy Fears Jr.",
+    10.0
    ]
   ],
   "spg": [
@@ -73,67 +91,67 @@
     7.0
    ],
    [
-    "Alex Wilkins",
-    7.0
+    "Ben Hammond",
+    6.0
    ],
    [
-    "Ben Hammond",
+    "Tayden Owens",
     6.0
    ]
   ],
   "bpg": [
    [
-    "Abdullah Ahmed",
-    7.0
-   ],
-   [
     "Sean Logan",
     6.0
    ],
    [
-    "Noah Lewis",
+    "Josh Hayes",
+    6.0
+   ],
+   [
+    "Dillon Claussen",
     6.0
    ]
   ],
   "fgp": [
    [
-    "Ven-Allen Lubin",
-    100.0
-   ],
-   [
     "Robert Vaihola",
     100.0
    ],
    [
-    "Imanuel Zorgvol",
+    "Pharaoh Compton",
+    100.0
+   ],
+   [
+    "Jaion Pitt",
     100.0
    ]
   ],
   "tpp": [
    [
-    "Dior Johnson",
-    100.0
-   ],
-   [
-    "Ven-Allen Lubin",
-    100.0
-   ],
-   [
     "Joe Hurlburt",
+    100.0
+   ],
+   [
+    "Jackson Paveletzke",
+    100.0
+   ],
+   [
+    "Trevaun Clark",
     100.0
    ]
   ],
   "ftp": [
    [
-    "Isaiah Brown",
+    "Rodney Rice",
     100.0
    ],
    [
-    "Brandon Weston",
+    "Jahnathan Lamothe",
     100.0
    ],
    [
-    "Chance Westry",
+    "Milan Momcilovic",
     100.0
    ]
   ]
