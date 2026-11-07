@@ -42,5 +42,27 @@
   "tpa": 1,
   "ftm": 5,
   "fta": 6
+ },
+ {
+  "event_id": "401920156",
+  "date": "2026-11-07",
+  "opponent": "Cal State Fullerton Titans",
+  "home": true,
+  "result": "L",
+  "score": "85-87",
+  "min": 27,
+  "pts": 6,
+  "reb": 6,
+  "ast": 3,
+  "stl": 2,
+  "blk": 0,
+  "to": 3,
+  "pf": 3,
+  "fgm": 2,
+  "fga": 7,
+  "tpm": 1,
+  "tpa": 3,
+  "ftm": 1,
+  "fta": 1
  }
 ]

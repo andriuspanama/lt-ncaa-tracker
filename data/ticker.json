@@ -2,22 +2,6 @@
  "updated": "2026-11-07",
  "items": [
   {
-   "id": "motiejus-krivas",
-   "name": "Motiejus Krivas",
-   "team": "Arizona Wildcats",
-   "date": "2026-11-05",
-   "opp": "Cal Poly Mustangs",
-   "home": true,
-   "res": "W",
-   "score": "104-84",
-   "pts": 30,
-   "reb": 8,
-   "ast": 1,
-   "stl": 1,
-   "blk": 2,
-   "gs": 27.0
-  },
-  {
    "id": "paulius-murauskas",
    "name": "Paulius Murauskas",
    "team": "Arizona State Sun Devils",
@@ -32,6 +16,22 @@
    "stl": 2,
    "blk": 0,
    "gs": 26.9
+  },
+  {
+   "id": "vince-buzelis",
+   "name": "Vince Buzelis",
+   "team": "South Dakota",
+   "date": "2026-11-07",
+   "opp": "Cal State Fullerton Titans",
+   "home": true,
+   "res": "L",
+   "score": "85-87",
+   "pts": 26,
+   "reb": 10,
+   "ast": 2,
+   "stl": 0,
+   "blk": 0,
+   "gs": 22.9
   },
   {
    "id": "liutauras-lelevicius",
@@ -50,36 +50,36 @@
    "gs": 18.3
   },
   {
-   "id": "matas-vokietaitis",
-   "name": "Matas Vokietaitis",
-   "team": "Texas",
-   "date": "2026-11-05",
-   "opp": "Gardner-Webb Runnin' Bulldogs",
+   "id": "matas-deniusas",
+   "name": "Matas Deniušas",
+   "team": "Rhode Island",
+   "date": "2026-11-07",
+   "opp": "Monmouth Hawks",
    "home": true,
    "res": "W",
-   "score": "98-50",
-   "pts": 16,
+   "score": "84-66",
+   "pts": 15,
    "reb": 7,
    "ast": 0,
    "stl": 0,
-   "blk": 1,
-   "gs": 13.6
+   "blk": 0,
+   "gs": 10.6
   },
   {
-   "id": "augustinas-kiudulas",
-   "name": "Augustinas Kiudulas",
-   "team": "Western Michigan",
-   "date": "2026-11-05",
-   "opp": "Kalamazoo Hornets",
+   "id": "nedas-raupelis",
+   "name": "Nedas Raupelis",
+   "team": "Rhode Island",
+   "date": "2026-11-07",
+   "opp": "Monmouth Hawks",
    "home": true,
    "res": "W",
-   "score": "99-52",
+   "score": "84-66",
    "pts": 11,
    "reb": 4,
-   "ast": 2,
-   "stl": 1,
-   "blk": 2,
-   "gs": 13.1
+   "ast": 1,
+   "stl": 0,
+   "blk": 0,
+   "gs": 9.6
   },
   {
    "id": "dominic-pangonis",
@@ -130,22 +130,6 @@
    "gs": 7.9
   },
   {
-   "id": "mykolas-ivanauskas",
-   "name": "Mykolas Ivanauskas",
-   "team": "Northern Illinois Huskies",
-   "date": "2026-11-05",
-   "opp": "Tulsa Golden Hurricane",
-   "home": false,
-   "res": "L",
-   "score": "75-94",
-   "pts": 12,
-   "reb": 3,
-   "ast": 0,
-   "stl": 0,
-   "blk": 2,
-   "gs": 7.8
-  },
-  {
    "id": "dominykas-pleta",
    "name": "Dominykas Pleta",
    "team": "Iowa State",
@@ -160,6 +144,22 @@
    "stl": 0,
    "blk": 0,
    "gs": 7.5
+  },
+  {
+   "id": "kajus-kublickas",
+   "name": "Kajus Kublickas",
+   "team": "South Dakota",
+   "date": "2026-11-07",
+   "opp": "Cal State Fullerton Titans",
+   "home": true,
+   "res": "L",
+   "score": "85-87",
+   "pts": 6,
+   "reb": 6,
+   "ast": 3,
+   "stl": 2,
+   "blk": 0,
+   "gs": 4.8
   }
  ]
 }
