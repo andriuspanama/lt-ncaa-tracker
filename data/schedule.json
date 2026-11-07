@@ -599,9 +599,9 @@
   "team": "FIU",
   "opponent": "West Florida Argonauts",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "85",
+  "against": "75",
   "opp_rank": null
  },
  {
@@ -610,9 +610,9 @@
   "team": "Clemson Tigers",
   "opponent": "American University Eagles",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "82",
+  "against": "73",
   "opp_rank": null
  },
  {
@@ -621,9 +621,9 @@
   "team": "Stephen F. Austin",
   "opponent": "Texas Lutheran Bulldogs",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "89",
+  "against": "32",
   "opp_rank": null
  },
  {
@@ -632,9 +632,9 @@
   "team": "Wright State Raiders",
   "opponent": "Florida Atlantic Owls",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "97",
+  "against": "71",
   "opp_rank": null
  },
  {
@@ -643,9 +643,9 @@
   "team": "Iowa State",
   "opponent": "Southern Miss Golden Eagles",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "83",
+  "against": "57",
   "opp_rank": null
  },
  {
@@ -654,20 +654,9 @@
   "team": "Northern Kentucky",
   "opponent": "Texas A&M Aggies",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
-  "event_id": "401920952",
-  "date": "2026-11-07T01:30Z",
-  "team": "Kansas City",
-  "opponent": "Southern Illinois Salukis",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "67",
+  "against": "104",
   "opp_rank": null
  },
  {
@@ -676,9 +665,9 @@
   "team": "Arizona State Sun Devils",
   "opponent": "Northern Colorado Bears",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "90",
+  "against": "63",
   "opp_rank": null
  },
  {
@@ -687,9 +676,20 @@
   "team": "BYU",
   "opponent": "Omaha Mavericks",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "108",
+  "against": "67",
+  "opp_rank": null
+ },
+ {
+  "event_id": "401920952",
+  "date": "2026-11-07T02:15Z",
+  "team": "Kansas City",
+  "opponent": "Southern Illinois Salukis",
+  "home": true,
+  "state": "post",
+  "for": "100",
+  "against": "93",
   "opp_rank": null
  },
  {
@@ -698,9 +698,9 @@
   "team": "California Baptist",
   "opponent": "Oregon State Beavers",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "68",
+  "against": "96",
   "opp_rank": null
  },
  {
@@ -709,9 +709,9 @@
   "team": "UT Arlington",
   "opponent": "Portland Pilots",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "89",
+  "against": "85",
   "opp_rank": null
  },
  {
@@ -1797,7 +1797,7 @@
   "date": "2026-11-17T21:30Z",
   "team": "Florida Gators",
   "opponent": "Notre Dame Fighting Irish",
-  "home": false,
+  "home": true,
   "state": "pre",
   "for": null,
   "against": null,

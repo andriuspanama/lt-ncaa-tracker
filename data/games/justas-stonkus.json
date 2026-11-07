@@ -20,5 +20,27 @@
   "tpa": 1,
   "ftm": 0,
   "fta": 2
+ },
+ {
+  "event_id": "401920344",
+  "date": "2026-11-06",
+  "opponent": "Oregon State Beavers",
+  "home": false,
+  "result": "L",
+  "score": "68-96",
+  "min": 24,
+  "pts": 12,
+  "reb": 1,
+  "ast": 1,
+  "stl": 3,
+  "blk": 0,
+  "to": 2,
+  "pf": 2,
+  "fgm": 4,
+  "fga": 9,
+  "tpm": 2,
+  "tpa": 4,
+  "ftm": 2,
+  "fta": 2
  }
 ]

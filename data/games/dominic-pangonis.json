@@ -20,5 +20,27 @@
   "tpa": 7,
   "ftm": 6,
   "fta": 7
+ },
+ {
+  "event_id": "401923260",
+  "date": "2026-11-06",
+  "opponent": "Florida Atlantic Owls",
+  "home": true,
+  "result": "W",
+  "score": "97-71",
+  "min": 30,
+  "pts": 12,
+  "reb": 4,
+  "ast": 0,
+  "stl": 1,
+  "blk": 0,
+  "to": 2,
+  "pf": 3,
+  "fgm": 4,
+  "fga": 5,
+  "tpm": 2,
+  "tpa": 3,
+  "ftm": 2,
+  "fta": 3
  }
 ]

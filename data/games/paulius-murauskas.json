@@ -20,5 +20,27 @@
   "tpa": 5,
   "ftm": 11,
   "fta": 12
+ },
+ {
+  "event_id": "401921732",
+  "date": "2026-11-06",
+  "opponent": "Northern Colorado Bears",
+  "home": true,
+  "result": "W",
+  "score": "90-63",
+  "min": 33,
+  "pts": 33,
+  "reb": 5,
+  "ast": 2,
+  "stl": 2,
+  "blk": 0,
+  "to": 3,
+  "pf": 2,
+  "fgm": 13,
+  "fga": 18,
+  "tpm": 2,
+  "tpa": 3,
+  "ftm": 5,
+  "fta": 7
  }
 ]

@@ -20,5 +20,27 @@
   "tpa": 0,
   "ftm": 1,
   "fta": 2
+ },
+ {
+  "event_id": "401909772",
+  "date": "2026-11-06",
+  "opponent": "Southern Miss Golden Eagles",
+  "home": true,
+  "result": "W",
+  "score": "83-57",
+  "min": 17,
+  "pts": 8,
+  "reb": 5,
+  "ast": 1,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 1,
+  "fgm": 3,
+  "fga": 5,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 2,
+  "fta": 2
  }
 ]

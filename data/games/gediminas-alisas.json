@@ -20,5 +20,27 @@
   "tpa": 1,
   "ftm": 3,
   "fta": 4
+ },
+ {
+  "event_id": "401925089",
+  "date": "2026-11-06",
+  "opponent": "Texas Lutheran Bulldogs",
+  "home": true,
+  "result": "W",
+  "score": "89-32",
+  "min": 14,
+  "pts": 9,
+  "reb": 4,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 2,
+  "fgm": 4,
+  "fga": 5,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 1,
+  "fta": 2
  }
 ]

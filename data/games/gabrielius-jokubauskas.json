@@ -42,5 +42,27 @@
   "tpa": 1,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401920807",
+  "date": "2026-11-06",
+  "opponent": "Texas A&M Aggies",
+  "home": false,
+  "result": "L",
+  "score": "67-104",
+  "min": 14,
+  "pts": 2,
+  "reb": 3,
+  "ast": 0,
+  "stl": 1,
+  "blk": 1,
+  "to": 2,
+  "pf": 1,
+  "fgm": 0,
+  "fga": 4,
+  "tpm": 0,
+  "tpa": 4,
+  "ftm": 2,
+  "fta": 2
  }
 ]
