@@ -23,6 +23,7 @@ jobs:
         continue-on-error: true
       - run: python update.py
       - run: python build_ticker.py
+      - run: python build_form.py
       - run: python fetch_gamephotos.py
         continue-on-error: true
       - run: python fetch_ncaa_top25.py
