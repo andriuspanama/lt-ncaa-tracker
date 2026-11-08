@@ -42,5 +42,27 @@
   "tpa": 0,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401925772",
+  "date": "2026-11-07",
+  "opponent": "Davidson Wildcats",
+  "home": false,
+  "result": "L",
+  "score": "76-88",
+  "min": 7,
+  "pts": 0,
+  "reb": 0,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 1,
+  "fgm": 0,
+  "fga": 0,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
  }
 ]

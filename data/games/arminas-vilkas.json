@@ -20,5 +20,27 @@
   "tpa": 1,
   "ftm": 0,
   "fta": 4
+ },
+ {
+  "event_id": "401921174",
+  "date": "2026-11-07",
+  "opponent": "IU Indianapolis Jaguars",
+  "home": false,
+  "result": "L",
+  "score": "74-75",
+  "min": 18,
+  "pts": 7,
+  "reb": 4,
+  "ast": 2,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 0,
+  "fgm": 3,
+  "fga": 4,
+  "tpm": 0,
+  "tpa": 1,
+  "ftm": 1,
+  "fta": 2
  }
 ]

@@ -42,5 +42,27 @@
   "tpa": 0,
   "ftm": 2,
   "fta": 2
+ },
+ {
+  "event_id": "401926201",
+  "date": "2026-11-07",
+  "opponent": "UTSA Roadrunners",
+  "home": false,
+  "result": "L",
+  "score": "68-70",
+  "min": 24,
+  "pts": 4,
+  "reb": 3,
+  "ast": 0,
+  "stl": 1,
+  "blk": 0,
+  "to": 0,
+  "pf": 1,
+  "fgm": 2,
+  "fga": 5,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
  }
 ]

@@ -42,5 +42,27 @@
   "tpa": 4,
   "ftm": 2,
   "fta": 2
+ },
+ {
+  "event_id": "401920703",
+  "date": "2026-11-07",
+  "opponent": "SIU Edwardsville Cougars",
+  "home": true,
+  "result": "W",
+  "score": "78-77",
+  "min": 31,
+  "pts": 12,
+  "reb": 5,
+  "ast": 5,
+  "stl": 1,
+  "blk": 1,
+  "to": 2,
+  "pf": 1,
+  "fgm": 3,
+  "fga": 10,
+  "tpm": 3,
+  "tpa": 10,
+  "ftm": 3,
+  "fta": 4
  }
 ]

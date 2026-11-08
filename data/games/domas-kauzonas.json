@@ -20,5 +20,27 @@
   "tpa": 0,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401922044",
+  "date": "2026-11-07",
+  "opponent": "North Carolina Central Eagles",
+  "home": true,
+  "result": "W",
+  "score": "80-75",
+  "min": 7,
+  "pts": 0,
+  "reb": 2,
+  "ast": 2,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 0,
+  "fgm": 0,
+  "fga": 0,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
  }
 ]

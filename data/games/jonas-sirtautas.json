@@ -42,5 +42,27 @@
   "tpa": 0,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401929449",
+  "date": "2026-11-07",
+  "opponent": "Andrew Fighting Tigers",
+  "home": true,
+  "result": "W",
+  "score": "111-61",
+  "min": 21,
+  "pts": 9,
+  "reb": 5,
+  "ast": 1,
+  "stl": 0,
+  "blk": 1,
+  "to": 0,
+  "pf": 1,
+  "fgm": 4,
+  "fga": 5,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 1,
+  "fta": 2
  }
 ]

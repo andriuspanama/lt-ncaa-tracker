@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "items": [
   {
    "id": "paulius-murauskas",
@@ -50,6 +50,22 @@
    "gs": 18.3
   },
   {
+   "id": "titas-sargiunas",
+   "name": "Titas Sargiūnas",
+   "team": "Lipscomb",
+   "date": "2026-11-07",
+   "opp": "SIU Edwardsville Cougars",
+   "home": true,
+   "res": "W",
+   "score": "78-77",
+   "pts": 12,
+   "reb": 5,
+   "ast": 5,
+   "stl": 1,
+   "blk": 1,
+   "gs": 11.1
+  },
+  {
    "id": "matas-deniusas",
    "name": "Matas Deniušas",
    "team": "Rhode Island",
@@ -64,6 +80,22 @@
    "stl": 0,
    "blk": 0,
    "gs": 10.6
+  },
+  {
+   "id": "jonas-sirtautas",
+   "name": "Jonas Sirtautas",
+   "team": "Georgia State",
+   "date": "2026-11-07",
+   "opp": "Andrew Fighting Tigers",
+   "home": true,
+   "res": "W",
+   "score": "111-61",
+   "pts": 9,
+   "reb": 5,
+   "ast": 1,
+   "stl": 0,
+   "blk": 1,
+   "gs": 10.2
   },
   {
    "id": "nedas-raupelis",
@@ -114,52 +146,20 @@
    "gs": 8.7
   },
   {
-   "id": "gediminas-alisas",
-   "name": "Gediminas Alisas",
-   "team": "Stephen F. Austin",
-   "date": "2026-11-06",
-   "opp": "Texas Lutheran Bulldogs",
-   "home": true,
-   "res": "W",
-   "score": "89-32",
-   "pts": 9,
-   "reb": 4,
-   "ast": 0,
-   "stl": 0,
-   "blk": 0,
-   "gs": 7.9
-  },
-  {
-   "id": "dominykas-pleta",
-   "name": "Dominykas Pleta",
-   "team": "Iowa State",
-   "date": "2026-11-06",
-   "opp": "Southern Miss Golden Eagles",
-   "home": true,
-   "res": "W",
-   "score": "83-57",
-   "pts": 8,
-   "reb": 5,
-   "ast": 1,
-   "stl": 0,
-   "blk": 0,
-   "gs": 7.5
-  },
-  {
-   "id": "kajus-kublickas",
-   "name": "Kajus Kublickas",
-   "team": "South Dakota",
+   "id": "arminas-vilkas",
+   "name": "Arminas Vilkas",
+   "team": "UT Martin",
    "date": "2026-11-07",
-   "opp": "Cal State Fullerton Titans",
-   "home": true,
+   "opp": "IU Indianapolis Jaguars",
+   "home": false,
    "res": "L",
-   "score": "85-87",
-   "pts": 6,
-   "reb": 6,
-   "ast": 3,
-   "stl": 2,
+   "score": "74-75",
+   "pts": 7,
+   "reb": 4,
+   "ast": 2,
+   "stl": 0,
    "blk": 0,
-   "gs": 4.8
+   "gs": 8.4
   }
  ]
 }
