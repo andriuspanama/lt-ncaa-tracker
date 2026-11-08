@@ -11,35 +11,27 @@
 <meta property="og:title" content="Žaidėjai · LT NCAA Tracker"><meta property="og:description" content="Visi Lietuvos krepšininkai NCAA Division I: komandos, ūgis, statistika ir profiliai."><meta property="og:url" content="https://andriuspanama.github.io/lt-ncaa-tracker/">
 <meta name="twitter:card" content="summary">
 <script src="theme.js"></script>
-<title>LT NCAA Tracker</title>
+<title>LT NCAA Tracker · Lietuviai NCAA rezultatai</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="extra.css">
 <link rel="stylesheet" href="polish.css"><link rel="stylesheet" href="modern.css">
 </head>
-<body>
-<header>
-  <div><p class="sub">Lietuviai NCAA Division I · 2026–27</p></div>
-  <div class="upd" id="upd"></div>
-</header>
-<div class="tabs"><a class="on" href="index.html">Žaidėjai</a><a href="results.html">Rezultatai</a><a href="charts.html">Grafikai</a><a href="insights.html">Perliukai</a><a href="metodika.html">Metodika</a></div>
-<nav class="bar">
-  <div class="seg" id="period">
-    <button data-p="week">Turas</button><button data-p="month">Mėnuo</button><button data-p="season" class="on">Sezonas</button>
-  </div>
-  <input id="q" type="search" placeholder="Ieškoti žaidėjo ar komandos">
-  <select id="conf"><option value="">Visos konferencijos</option></select>
-  <select id="sort">
-    <option value="name">Pagal vardą</option><option value="pts">Taškai</option><option value="reb">Atkovoti</option>
-    <option value="ast">Perdavimai</option><option value="height">Ūgis</option>
-  </select>
-</nav>
+<body class="home">
+<header><div><h1>PRADŽIA</h1><p class="sub" id="hsub">Lietuviai NCAA Division I · rezultatai ir vakaro geriausieji</p></div><div class="upd" id="upd"></div></header>
+<div class="tabs"></div>
 <main>
-  <section class="card" id="leaders"></section>
-  <section id="grid" class="grid"></section>
+  <section class="hero2" id="hero"><figure class="hph" id="hph"></figure><div class="cats" id="cats"></div></section>
+  <section class="card dayc">
+    <div class="wnav" id="wn"><button type="button" id="wprev" aria-label="Ankstesnė savaitė">‹</button>
+      <label class="wcal"><span id="wlab">–</span><input type="date" id="wdate" aria-label="Pasirinkti datą"></label>
+      <button type="button" id="wnext" aria-label="Kita savaitė">›</button></div>
+    <div class="days" id="days"></div>
+    <div class="dayfoot"><div class="seg" id="hf"><button data-f="" class="on">Visi</button><button data-f="W">Pergalės</button><button data-f="L">Pralaimėjimai</button></div></div>
+    <div id="list"></div>
+  </section>
 </main>
-<div id="sheet" hidden></div>
-<footer>Duomenys: ESPN / NCAA. Skaičiuojama iš rungtynių boxscore. · LT NCAA Tracker · <a href="metodika.html">Metodika</a> · Neoficialus projektas, nesusijęs su NCAA ar ESPN.</footer>
+<footer>Duomenys: ESPN / NCAA. Nuotraukos rodomos iš ESPN ir nesaugomos svetainėje. · LT NCAA Tracker · <a href="metodika.html">Metodika</a> · Neoficialus projektas, nesusijęs su NCAA ar ESPN.</footer>
 <script src="media.js"></script>
-<script src="app.js"></script>
+<script src="home.js"></script>
 </body>
 </html>

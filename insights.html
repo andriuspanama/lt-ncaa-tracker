@@ -21,7 +21,8 @@
 <div class="tabs"><a href="index.html">Žaidėjai</a><a href="results.html">Rezultatai</a><a href="charts.html">Grafikai</a><a class="on" href="insights.html">Perliukai</a><a href="metodika.html">Metodika</a></div>
 <nav class="bar">
   <div class="seg" id="per"><button data-p="week" class="on">Savaitė</button><button data-p="month">Mėnuo</button></div>
-  <select id="key" class="big-sel"></select>
+  <select id="key" class="big-sel" hidden></select>
+  <div class="wnav" id="wn"><button type="button" id="wprev" aria-label="Ankstesnis laikotarpis">‹</button><label class="wcal"><span id="wlab">–</span><input type="date" id="wdate" aria-label="Pasirinkti datą"></label><button type="button" id="wnext" aria-label="Kitas laikotarpis">›</button></div>
   <div class="seg" id="dm"><button data-d="0" class="on">Tikri duomenys</button><button data-d="1">Demo</button></div>
 </nav>
 <main class="mag"><div id="out"></div></main>

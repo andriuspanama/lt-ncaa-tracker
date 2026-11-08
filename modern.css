@@ -133,3 +133,105 @@ select{background-color:var(--card)}
 .cmpsel{grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)}
 .cmpsel select{min-width:0;text-overflow:ellipsis}
 @media (max-width:420px){.topbar .tabs a{font-size:9.5px;letter-spacing:0;padding-left:2px;padding-right:2px}.topbar .tabs a svg{width:20px;height:20px}}
+
+/* ===== Titulinis: hero nuotrauka + 5 kategorijos + dienų juosta ===== */
+.av.md{width:64px;height:64px}
+.hero2{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:14px;margin-bottom:14px;align-items:stretch}
+.hero2.noday{grid-template-columns:1fr}
+.hph{margin:0;position:relative;border-radius:20px;overflow:hidden;min-height:320px;background:linear-gradient(135deg,#0d1624,#162338);border:1px solid var(--edge);display:flex;flex-direction:column}
+.hph.empty{min-height:120px}
+.hph-link{position:relative;display:block;flex:1;min-height:320px;color:#fff;text-decoration:none;background:linear-gradient(160deg,var(--tc,#27a7e6) -40%,#0b111b 70%)}
+.hph .gp{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 25%}
+.hph .pt{position:absolute;right:4%;bottom:0;height:92%;width:auto;max-width:70%;object-fit:contain;object-position:bottom}
+.hph-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05) 35%,rgba(0,0,0,.78))}
+.hph-txt{position:absolute;left:0;right:0;bottom:0;padding:18px 20px}
+.hph .kick{font:700 11px/1 var(--disp);letter-spacing:.2em;color:var(--ac);margin-bottom:8px}
+.hph h2{font:700 clamp(26px,4vw,40px)/1.05 var(--disp);margin:0 0 6px;color:#fff;letter-spacing:-.01em}
+.hph .hl2{font:700 20px/1.2 "Barlow Condensed",sans-serif;letter-spacing:.03em}
+.hph .hm{font-size:13px;color:#cfd8e3;margin-top:4px}
+.hph figcaption{position:absolute;top:10px;left:12px;right:12px;font-size:11px;color:#e8edf3;text-shadow:0 1px 3px #000;opacity:.9;pointer-events:none}
+.hph-empty{display:grid;gap:4px;padding:22px;color:var(--tx)}.hph-empty span{color:var(--mu);font-size:14px}
+.cats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.noday .cats{display:none}
+.cc{background:linear-gradient(180deg,var(--glass),var(--glass2));border:1px solid var(--edge);border-radius:16px;padding:12px 14px;min-width:0}
+[data-theme=light] .cc{background:var(--card)}
+.cc:last-child:nth-child(odd){grid-column:1/-1}
+.cc h3{font:700 11px/1 var(--disp);letter-spacing:.18em;color:var(--mu);margin:0 0 8px}
+.ccl{display:flex;align-items:center;gap:10px;color:var(--tx);text-decoration:none}
+.ccl .cn{flex:1;min-width:0;display:flex;flex-direction:column}
+.ccl .cn b{font:600 15px/1.2 var(--disp);overflow-wrap:anywhere}.ccl .cn span{font-size:12px;color:var(--mu);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ccl .cv{font:800 34px/1 "Barlow Condensed",sans-serif;color:var(--ac);text-align:right}.ccl .cv small{display:block;font:600 10px var(--disp);letter-spacing:.1em;color:var(--mu);margin-top:2px}
+.ccr{display:flex;justify-content:space-between;gap:8px;font-size:13px;color:var(--mu);text-decoration:none;padding:5px 0 0;margin-top:5px;border-top:1px solid var(--line)}
+.ccr b{color:var(--tx);font-family:"Barlow Condensed",sans-serif;font-size:16px}.ccr span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dayc{padding:14px}
+.wnav{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px}
+.wnav button{width:44px;height:44px;border-radius:50%;border:1px solid var(--edge);background:var(--glass);color:var(--tx);font-size:24px;line-height:1;cursor:pointer;flex:none}
+.wnav button:hover{border-color:var(--bl)}
+.wcal{position:relative;flex:1;display:flex;justify-content:center;align-items:center;gap:8px;min-height:44px;border-radius:999px;border:1px solid var(--edge);background:var(--glass);cursor:pointer;font:600 15px var(--disp);padding:0 14px}
+.wcal::before{content:"📅";font-size:15px}
+.wcal input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer}
+.days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;margin-bottom:12px}
+.dchip{position:relative;display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px 0 10px;border-radius:14px;border:1px solid var(--edge);background:var(--glass);color:var(--tx);cursor:pointer;font-family:var(--disp)}
+.dchip b{font:700 20px/1 "Barlow Condensed",sans-serif}.dchip span{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--mu)}
+.dchip i{font-style:normal;position:absolute;top:3px;right:5px;font-size:10px;color:var(--bl);font-weight:700}
+.dchip.off{opacity:.5}
+.dchip.on{background:linear-gradient(135deg,var(--ac),#ffb36b);border-color:transparent;color:#1a0c00}.dchip.on span,.dchip.on i{color:#1a0c00}
+.dayfoot{display:flex;justify-content:flex-end;margin:0 0 6px}
+@media (max-width:760px){
+  .hero2{grid-template-columns:1fr}
+  .hph,.hph-link{min-height:260px}
+  .cats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ccl .cv{font-size:28px}.ccl .cn b{font-size:14px}
+  .dchip b{font-size:17px}
+}
+
+/* ===== Žaidėjas: progresas, ženkliukai, „rodyti daugiau“ ===== */
+.fb{display:inline-block;font:700 11px/1 var(--disp);letter-spacing:.04em;padding:5px 9px;border-radius:999px;text-decoration:none;white-space:nowrap}
+.fb.hot{background:rgba(255,122,26,.16);color:#ff9a4d;border:1px solid rgba(255,122,26,.5)}
+.fb.cold{background:rgba(39,167,230,.15);color:#6cc4ee;border:1px solid rgba(39,167,230,.5)}
+.fb.tag{background:var(--chip);color:var(--tx);border:1px solid var(--edge);font-weight:600}
+[data-theme=light] .fb.hot{color:#c4490a}[data-theme=light] .fb.cold{color:#0a6fa5}
+.chips.tg{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.fx{border-radius:12px;padding:10px 12px;font-size:14px;margin:8px 0;line-height:1.45}
+.fx.hot{background:rgba(255,122,26,.1);border:1px solid rgba(255,122,26,.35)}.fx.cold{background:rgba(39,167,230,.1);border:1px solid rgba(39,167,230,.35)}
+.pgc{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:12px 0}
+.pgn{background:var(--glass);border:1px solid var(--edge);border-radius:14px;padding:10px 12px;display:flex;flex-direction:column;gap:3px}
+.pgn span{font-size:11px;color:var(--mu);letter-spacing:.04em}.pgn b{font:700 22px/1.1 "Barlow Condensed",sans-serif}.pgn small{font-size:11px;color:var(--mu)}
+.pgn em{font-style:normal;font-size:15px}
+.up{color:var(--gr)}.dn{color:var(--rd)}
+.pgt{width:100%}.pgt td:first-child{font-weight:600}.pgt td+td{text-align:right}.pgt th+th{text-align:right}
+.mg{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin-top:14px}
+.mc{background:var(--glass);border:1px solid var(--edge);border-radius:14px;padding:10px 12px;min-width:0}
+.mt2{font:600 12px var(--disp);letter-spacing:.06em;color:var(--mu);margin-bottom:4px}
+.mini{display:block;overflow:visible}
+button.more{display:block;margin:12px auto 2px;padding:0 20px;min-height:44px;border-radius:999px;border:1px solid var(--edge);background:var(--glass);color:var(--tx);font:600 14px var(--disp);cursor:pointer}
+button.more:hover{border-color:var(--bl)}
+
+/* ===== Lyderiai: karšti / šalti ===== */
+.hcr{display:grid;grid-template-columns:minmax(0,1.5fr) 92px 62px minmax(70px,1fr);gap:8px;align-items:center;padding:9px 0;border-top:1px solid var(--line);cursor:pointer}
+.hcr.hch{font:700 10px var(--disp);letter-spacing:.1em;color:var(--mu);text-transform:uppercase;cursor:default;border-top:0;padding:4px 0}
+.hcn .plk{font:600 15px var(--disp);color:var(--tx);text-decoration:none;overflow-wrap:anywhere}
+.hcv{display:flex;align-items:center;gap:6px;flex-wrap:wrap}.hcv b{font:700 20px "Barlow Condensed",sans-serif}.hcv b.mu{color:var(--mu)}
+.spk{color:var(--ac);flex:none}
+.hcb{position:relative;height:22px;border-radius:6px;background:var(--chip);overflow:hidden}
+.hcb i{position:absolute;left:0;top:0;bottom:0;border-radius:6px}.hcb.up i{background:linear-gradient(90deg,rgba(45,212,160,.25),rgba(45,212,160,.8))}.hcb.dn i{background:linear-gradient(90deg,rgba(240,82,79,.25),rgba(240,82,79,.8))}
+.hcb em{position:absolute;right:6px;top:0;line-height:22px;font:700 12px var(--disp);font-style:normal}
+.tgg{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.tgb h3{font:700 13px var(--disp);margin:0 0 6px;letter-spacing:.04em}
+.tgi{display:flex;justify-content:space-between;gap:8px;padding:6px 0;border-top:1px solid var(--line);color:var(--tx);text-decoration:none;font-size:14px}
+.tgi b{font-family:"Barlow Condensed",sans-serif;font-size:16px;color:var(--ac);white-space:nowrap}
+@media (max-width:520px){.hcr{grid-template-columns:minmax(0,1.3fr) 84px 52px minmax(56px,.9fr);gap:6px}.spk{display:none}}
+
+/* kalendoriaus juosta Įžvalgose */
+.mag-page .bar #key{display:none}
+.bar .wnav{flex:1;min-width:230px;margin:0}
+
+.hcwrap{grid-column:1/-1;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px}
+.hcr{grid-template-columns:minmax(0,1.5fr) 96px 64px minmax(90px,1fr)}
+@media (max-width:760px){
+  .ccl{display:grid;grid-template-columns:auto 1fr;grid-template-areas:"av cv" "cn cn";gap:6px 8px;align-items:center}
+  .ccl .av{grid-area:av;width:48px;height:48px}.ccl .cv{grid-area:cv}.ccl .cn{grid-area:cn}
+  .ccl .cn b{font-size:13px}
+}
+
+.mt2 em{font-style:normal;color:var(--tx);font-weight:700}

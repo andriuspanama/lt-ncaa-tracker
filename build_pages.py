@@ -21,7 +21,7 @@ T = '''<!doctype html>
 <header><div><h1>{name_up}</h1><p class="sub">{team} · {conf}</p></div></header>
 <div class="tabs"></div>
 <main id="pf" class="pf"><p class="empty">Kraunama…</p></main>
-<footer><a href="index.html">← Visi žaidėjai</a> · Neoficialus projektas, nesusijęs su NCAA ar ESPN.</footer>
+<footer><a href="players.html">← Visi žaidėjai</a> · Neoficialus projektas, nesusijęs su NCAA ar ESPN.</footer>
 <script src="media.js"></script>
 <script src="share.js"></script>
 <script src="player.js"></script>
@@ -35,6 +35,6 @@ if __name__ == "__main__":
         open(f"players/{p['id']}.html", "w", encoding="utf-8").write(T.format(
             id=p["id"], name=html.escape(p["name"]), name_up=html.escape(p["name"].upper()),
             team=html.escape(p["team"]), conf=html.escape(p["conference"]), base=BASE))
-    urls = [BASE + "/"] + [f"{BASE}/{s}.html" for s in ("games", "charts", "compare", "insights", "metodika")] + [f"{BASE}/players/{p['id']}.html" for p in players]
+    urls = [BASE + "/"] + [f"{BASE}/{s}.html" for s in ("players", "charts", "compare", "insights", "metodika")] + [f"{BASE}/players/{p['id']}.html" for p in players]
     open("sitemap.xml", "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"<url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n")
     print("Sukurta puslapių:", len(players))
