@@ -2,22 +2,6 @@
  "updated": "2026-11-08",
  "items": [
   {
-   "id": "paulius-murauskas",
-   "name": "Paulius Murauskas",
-   "team": "Arizona State Sun Devils",
-   "date": "2026-11-06",
-   "opp": "Northern Colorado Bears",
-   "home": true,
-   "res": "W",
-   "score": "90-63",
-   "pts": 33,
-   "reb": 5,
-   "ast": 2,
-   "stl": 2,
-   "blk": 0,
-   "gs": 26.9
-  },
-  {
    "id": "vince-buzelis",
    "name": "Vince Buzelis",
    "team": "South Dakota",
@@ -34,20 +18,20 @@
    "gs": 22.9
   },
   {
-   "id": "liutauras-lelevicius",
-   "name": "Liutauras Lelevičius",
-   "team": "Clemson Tigers",
-   "date": "2026-11-06",
-   "opp": "American University Eagles",
+   "id": "dovydas-butka",
+   "name": "Dovydas Butka",
+   "team": "Boise State",
+   "date": "2026-11-08",
+   "opp": "Butler Bulldogs",
    "home": true,
    "res": "W",
-   "score": "82-73",
-   "pts": 17,
-   "reb": 10,
-   "ast": 2,
-   "stl": 0,
-   "blk": 1,
-   "gs": 18.3
+   "score": "100-81",
+   "pts": 14,
+   "reb": 14,
+   "ast": 3,
+   "stl": 1,
+   "blk": 0,
+   "gs": 17.0
   },
   {
    "id": "titas-sargiunas",
@@ -114,36 +98,20 @@
    "gs": 9.6
   },
   {
-   "id": "dominic-pangonis",
-   "name": "Dominic Pangonis",
-   "team": "Wright State Raiders",
-   "date": "2026-11-06",
-   "opp": "Florida Atlantic Owls",
+   "id": "augustinas-kiudulas",
+   "name": "Augustinas Kiudulas",
+   "team": "Western Michigan",
+   "date": "2026-11-08",
+   "opp": "Campbell Fighting Camels",
    "home": true,
    "res": "W",
-   "score": "97-71",
-   "pts": 12,
-   "reb": 4,
-   "ast": 0,
+   "score": "87-71",
+   "pts": 10,
+   "reb": 5,
+   "ast": 2,
    "stl": 1,
    "blk": 0,
-   "gs": 9.5
-  },
-  {
-   "id": "justas-stonkus",
-   "name": "Justas Stonkus",
-   "team": "California Baptist",
-   "date": "2026-11-06",
-   "opp": "Oregon State Beavers",
-   "home": false,
-   "res": "L",
-   "score": "68-96",
-   "pts": 12,
-   "reb": 1,
-   "ast": 1,
-   "stl": 3,
-   "blk": 0,
-   "gs": 8.7
+   "gs": 8.5
   },
   {
    "id": "arminas-vilkas",
@@ -160,6 +128,38 @@
    "stl": 0,
    "blk": 0,
    "gs": 8.4
+  },
+  {
+   "id": "armandas-bancevicius",
+   "name": "Armandas Bancevičius",
+   "team": "UT Martin",
+   "date": "2026-11-07",
+   "opp": "IU Indianapolis Jaguars",
+   "home": false,
+   "res": "L",
+   "score": "74-75",
+   "pts": 7,
+   "reb": 4,
+   "ast": 1,
+   "stl": 0,
+   "blk": 0,
+   "gs": 6.3
+  },
+  {
+   "id": "alex-bieliauskas",
+   "name": "Alex Bieliauskas",
+   "team": "South Carolina",
+   "date": "2026-11-08",
+   "opp": "Southeast Missouri State Redhawks",
+   "home": true,
+   "res": "W",
+   "score": "78-68",
+   "pts": 8,
+   "reb": 4,
+   "ast": 0,
+   "stl": 0,
+   "blk": 1,
+   "gs": 6.2
   }
  ]
 }

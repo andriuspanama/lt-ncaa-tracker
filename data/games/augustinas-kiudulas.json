@@ -42,5 +42,27 @@
   "tpa": 2,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401920739",
+  "date": "2026-11-08",
+  "opponent": "Campbell Fighting Camels",
+  "home": true,
+  "result": "W",
+  "score": "87-71",
+  "min": 30,
+  "pts": 10,
+  "reb": 5,
+  "ast": 2,
+  "stl": 1,
+  "blk": 0,
+  "to": 0,
+  "pf": 3,
+  "fgm": 3,
+  "fga": 8,
+  "tpm": 1,
+  "tpa": 3,
+  "ftm": 3,
+  "fta": 5
  }
 ]

@@ -20,5 +20,27 @@
   "tpa": 0,
   "ftm": 4,
   "fta": 9
+ },
+ {
+  "event_id": "401902277",
+  "date": "2026-11-08",
+  "opponent": "Butler Bulldogs",
+  "home": true,
+  "result": "W",
+  "score": "100-81",
+  "min": 31,
+  "pts": 14,
+  "reb": 14,
+  "ast": 3,
+  "stl": 1,
+  "blk": 0,
+  "to": 1,
+  "pf": 0,
+  "fgm": 5,
+  "fga": 11,
+  "tpm": 0,
+  "tpa": 1,
+  "ftm": 4,
+  "fta": 5
  }
 ]

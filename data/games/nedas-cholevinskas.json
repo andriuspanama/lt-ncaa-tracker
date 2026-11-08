@@ -42,5 +42,27 @@
   "tpa": 0,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401920692",
+  "date": "2026-11-08",
+  "opponent": "Vermont Catamounts",
+  "home": false,
+  "result": "W",
+  "score": "79-76",
+  "min": 8,
+  "pts": 6,
+  "reb": 2,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 1,
+  "fgm": 2,
+  "fga": 5,
+  "tpm": 2,
+  "tpa": 4,
+  "ftm": 0,
+  "fta": 0
  }
 ]
