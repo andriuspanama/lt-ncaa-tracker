@@ -6,15 +6,23 @@
     "cat": "ppg",
     "label": "Taškai per rungtynes",
     "value": 27.0,
-    "rank": 13
+    "rank": 9
    }
   ],
-  "gantas-krizanauskas": [
+  "nojus-indrusaitis": [
    {
-    "cat": "apg",
-    "label": "Rezultatyvūs perdavimai per rungtynes",
-    "value": 8.0,
-    "rank": 22
+    "cat": "ppg",
+    "label": "Taškai per rungtynes",
+    "value": 25.0,
+    "rank": 17
+   }
+  ],
+  "mantas-juzenas": [
+   {
+    "cat": "rpg",
+    "label": "Atkovoti kamuoliai per rungtynes",
+    "value": 11.0,
+    "rank": 23
    }
   ],
   "motiejus-krivas": [
@@ -22,7 +30,7 @@
     "cat": "bpg",
     "label": "Blokai per rungtynes",
     "value": 4.0,
-    "rank": 9
+    "rank": 7
    }
   ],
   "matas-vokietaitis": [
@@ -30,15 +38,21 @@
     "cat": "fgp",
     "label": "Metimų iš žaidimo taiklumas (FG%)",
     "value": 88.23529481887817,
-    "rank": 21
+    "rank": 18
    }
   ],
   "dominic-pangonis": [
    {
+    "cat": "fgp",
+    "label": "Metimų iš žaidimo taiklumas (FG%)",
+    "value": 86.66666746139526,
+    "rank": 19
+   },
+   {
     "cat": "tpp",
     "label": "Tritaškių taiklumas (3P%)",
     "value": 80.0000011920929,
-    "rank": 12
+    "rank": 8
    }
   ]
  },
@@ -49,12 +63,12 @@
     34.5
    ],
    [
-    "Keshawn Fisher",
-    32.0
+    "Troy Santos",
+    30.0
    ],
    [
-    "Sebastian Mack",
-    31.0
+    "Jayden Reid",
+    29.0
    ]
   ],
   "rpg": [
@@ -74,22 +88,18 @@
   "apg": [
    [
     "Cian Medley",
-    11.0
-   ],
-   [
-    "Bryce Quinet",
-    11.0
+    11.5
    ],
    [
     "Jeremy Fears Jr.",
     10.0
+   ],
+   [
+    "Donovan Dent",
+    10.0
    ]
   ],
   "spg": [
-   [
-    "Miles Byrd",
-    7.0
-   ],
    [
     "Ben Hammond",
     6.0
@@ -97,6 +107,10 @@
    [
     "Tayden Owens",
     6.0
+   ],
+   [
+    "Grant Best",
+    5.5
    ]
   ],
   "bpg": [
@@ -105,12 +119,12 @@
     6.0
    ],
    [
-    "Josh Hayes",
+    "Dillon Claussen",
     6.0
    ],
    [
-    "Dillon Claussen",
-    6.0
+    "Bukky Oboye",
+    5.0
    ]
   ],
   "fgp": [
@@ -119,39 +133,39 @@
     100.0
    ],
    [
-    "Pharaoh Compton",
+    "Jamichael Davis",
     100.0
    ],
    [
-    "Jaion Pitt",
+    "Jacob Bannarbie",
     100.0
    ]
   ],
   "tpp": [
    [
-    "Joe Hurlburt",
+    "Rambo Eagins",
     100.0
    ],
    [
-    "Jackson Paveletzke",
-    100.0
+    "Isaiah Sutherland",
+    85.71428656578064
    ],
    [
-    "Trevaun Clark",
-    100.0
+    "Matt Christian",
+    83.33333134651184
    ]
   ],
   "ftp": [
    [
-    "Rodney Rice",
+    "Dominick Harris",
     100.0
    ],
    [
-    "Jahnathan Lamothe",
+    "Quincy Allen",
     100.0
    ],
    [
-    "Milan Momcilovic",
+    "KK Robinson",
     100.0
    ]
   ]

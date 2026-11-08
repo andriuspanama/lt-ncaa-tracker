@@ -1,0 +1,16 @@
+{
+ "updated": "2026-11-08",
+ "min_games": 10,
+ "window": 5,
+ "max_gp": 3,
+ "eligible": 0,
+ "players": {},
+ "hot": [],
+ "cold": [],
+ "tags": {
+  "progress": [],
+  "best": [],
+  "role_down": [],
+  "minutes_up": []
+ }
+}

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-08",
  "teams": {
   "Abilene Christian Wildcats": {
    "conf": "UAC",
@@ -981,6 +981,13 @@
    "color": "0a254e",
    "alt": "b72025"
   },
+  "Lindenwood Lions": {
+   "conf": "OVC",
+   "tier": "D",
+   "location": "Lindenwood",
+   "color": "000000",
+   "alt": null
+  },
   "Lipscomb Bisons": {
    "conf": "Atlantic Sun",
    "tier": "D",
@@ -1632,6 +1639,13 @@
    "color": "cfb991",
    "alt": "000000"
   },
+  "Queens University Royals": {
+   "conf": "Atlantic Sun",
+   "tier": "D",
+   "location": "Queens University",
+   "color": "192C66",
+   "alt": "857040"
+  },
   "Quinnipiac Bobcats": {
    "conf": "Metro",
    "tier": "D",
@@ -1869,6 +1883,13 @@
    "location": "Southern Illinois",
    "color": "85283D",
    "alt": "c2c3c0"
+  },
+  "Southern Indiana Screaming Eagles": {
+   "conf": "OVC",
+   "tier": "D",
+   "location": "Southern Indiana",
+   "color": null,
+   "alt": null
   },
   "Southern Jaguars": {
    "conf": "SWAC",
@@ -3424,6 +3445,13 @@
    "color": "0a254e",
    "alt": "b72025"
   },
+  "Lindenwood": {
+   "conf": "OVC",
+   "tier": "D",
+   "location": "Lindenwood",
+   "color": "000000",
+   "alt": null
+  },
   "Lipscomb": {
    "conf": "Atlantic Sun",
    "tier": "D",
@@ -4075,6 +4103,13 @@
    "color": "cfb991",
    "alt": "000000"
   },
+  "Queens University": {
+   "conf": "Atlantic Sun",
+   "tier": "D",
+   "location": "Queens University",
+   "color": "192C66",
+   "alt": "857040"
+  },
   "Quinnipiac": {
    "conf": "Metro",
    "tier": "D",
@@ -4312,6 +4347,13 @@
    "location": "Southern Illinois",
    "color": "85283D",
    "alt": "c2c3c0"
+  },
+  "Southern Indiana": {
+   "conf": "OVC",
+   "tier": "D",
+   "location": "Southern Indiana",
+   "color": null,
+   "alt": null
   },
   "Southern": {
    "conf": "SWAC",
