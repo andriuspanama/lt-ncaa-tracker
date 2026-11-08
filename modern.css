@@ -235,3 +235,45 @@ button.more:hover{border-color:var(--bl)}
 }
 
 .mt2 em{font-style:normal;color:var(--tx);font-weight:700}
+
+/* ===== Prisitaikymas: telefonas / planšetė / kompiuteris ===== */
+.wnav[hidden]{display:none}
+.bar .pnav{flex:1;min-width:240px;margin:0}
+.wcal span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+/* Lyderiai: be tarpų – kortelės krenta stulpeliais (masonry) */
+.cg{display:block}
+.cg>section.card,.cg>.hcwrap{margin-bottom:14px}
+.cmas{column-count:3;column-gap:14px}
+.cmas>.card{break-inside:avoid;-webkit-column-break-inside:avoid;display:block;margin:0 0 14px}
+@media (max-width:1100px){.cmas{column-count:2}}
+@media (max-width:700px){.cmas{column-count:1}}
+/* Titulinis: nuotraukos apvalkalas */
+.hph-img{position:absolute;inset:0;overflow:hidden}
+.hph .pt{right:5%}
+.hph-link.has-port .hph-txt{max-width:60%}
+@media (max-width:1000px){
+  .hero2{grid-template-columns:1fr}
+  .hph,.hph-link{min-height:0}
+  .hph-link{display:flex;flex-direction:column}
+  .hph-img{position:relative;inset:auto;height:clamp(200px,38vw,300px)}
+  .hph .gp{object-position:center 22%}
+  .hph .pt{right:auto;left:50%;transform:translateX(-50%);height:100%;max-width:90%}
+  .hph-shade{display:none}
+  .hph-txt{position:static;padding:14px 16px 16px;max-width:none!important;background:linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.55))}
+  .hph figcaption{top:8px}
+  .cats{grid-template-columns:repeat(5,minmax(0,1fr))}
+  .cc{padding:10px}
+  .cc:last-child:nth-child(odd){grid-column:auto}
+  .ccl{display:grid;grid-template-columns:auto 1fr;grid-template-areas:"av cv" "cn cn";gap:6px 6px;align-items:center}
+  .ccl .av{grid-area:av;width:44px;height:44px}.ccl .cv{grid-area:cv;font-size:26px}.ccl .cn{grid-area:cn}.ccl .cn b{font-size:13px}
+}
+@media (max-width:620px){
+  .cats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cc:last-child:nth-child(odd){grid-column:1/-1}
+  .dchip i{display:none}
+  .dchip{padding:8px 0}
+  .wcal{font-size:14px;padding:0 10px;gap:6px}
+  .dayfoot{justify-content:stretch}.dayfoot .seg{width:100%}.dayfoot .seg button{flex:1;padding:0 4px;font-size:12px;letter-spacing:.02em;min-width:0}
+}
+/* antraštė tame pačiame plotyje kaip turinys (didesniuose ekranuose) */
+body>header:not(.mast){max-width:1200px;margin-left:auto;margin-right:auto;box-sizing:border-box;width:100%}

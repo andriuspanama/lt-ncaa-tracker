@@ -42,7 +42,7 @@ function heroHTML(rows){
   const head=(window.PHOTOS[best.p.id]&&window.PHOTOS[best.p.id].url)||best.p.photo||(best.p.espn_id?'https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/'+best.p.espn_id+'.png':'');
   const img=ph?`<img class="gp" src="${esc(ph.url)}" alt="${esc(ph.caption||best.p.name)}" referrerpolicy="no-referrer" onerror="this.closest('.hph').classList.add('nophoto');this.remove()">`:'';
   const port=head?`<img class="pt" src="${esc(head.replace('width=100&height=100','width=500&height=500'))}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:'';
-  return `<a class="hph-link" href="players/${esc(best.p.id)}.html" style="--tc:${teamColor(best.p.team)}">${img||''}${!ph?port:''}
+  return `<a class="hph-link${!ph?' has-port':''}" href="players/${esc(best.p.id)}.html" style="--tc:${teamColor(best.p.team)}"><div class="hph-img">${img||''}${!ph?port:''}</div>
    <div class="hph-shade"></div><div class="hph-txt"><div class="kick">VAKARO ŽAIDĖJAS · ${esc(fm(S.day))}</div><h2>${esc(best.p.name)}</h2>
    <div class="hl2">${esc(line)}</div><div class="hm">${esc(best.p.team)} · ${g.home?'prieš':'@'} ${esc(g.opponent)} · ${esc(g.result||'')} ${esc(sc(g))}</div></div></a>
    ${ph?`<figcaption>${esc((ph.caption||'').slice(0,110))}${ph.credit?` · Foto: ${esc(ph.credit)}`:' · ESPN'}${ph.kind==='other'?' · archyvinė':''}</figcaption>`:''}`;
@@ -73,7 +73,7 @@ function drawWeek(){
   const mon=S.week,days=[...Array(7)].map((_,i)=>addDays(mon,i)),cnt={};
   S.res.forEach(r=>{cnt[r.date]=(cnt[r.date]||0)+1});
   S.sched.filter(g=>g.state!=='post').forEach(g=>{const d=usDate(g.date);cnt[d]=(cnt[d]||0)+1});
-  $('#wlab').textContent=`${fm(days[0])} – ${fm(days[6])}`;
+  const a0=D(days[0]),b0=D(days[6]);$('#wlab').textContent=a0.getMonth()===b0.getMonth()?fm(days[0]).replace(' d.','')+'–'+b0.getDate()+' d.':fm(days[0])+' – '+fm(days[6]);
   $('#days').innerHTML=days.map(d=>`<button type="button" class="dchip${d===S.day?' on':''}${cnt[d]?'':' off'}" data-d="${d}"><b>${D(d).getDate()}</b><span>${esc(wd(d))}</span><i>${cnt[d]||''}</i></button>`).join('');
   document.querySelectorAll('.dchip').forEach(b=>b.onclick=()=>{S.day=b.dataset.d;drawWeek();drawDay()});
   $('#wdate').value=S.day;

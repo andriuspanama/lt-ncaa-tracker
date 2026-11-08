@@ -1,6 +1,6 @@
 const $=s=>document.querySelector(s);
 const cf=p=>(window.ctxInfo&&ctxInfo(p.team)&&ctxInfo(p.team).conf)||p.conference;
-const S={players:[],stats:null,period:'season',cat:'pts'};
+const S={players:[],stats:null,games:{},period:'season',cat:'pts'};
 const CATS=[['pts','Taškai'],['reb','Atkovoti'],['ast','Perdavimai'],['stl','Perimti'],['blk','Blokai']];
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const ftin=cm=>{const i=Math.round(cm/2.54);return `${Math.floor(i/12)}'${i%12}"`};
@@ -8,7 +8,9 @@ const ini=n=>n.split(' ').map(w=>w[0]).slice(0,2).join('');
 const ring=t=>`hsl(${[...t].reduce((a,c)=>a+c.charCodeAt(0)*7,0)%360} 70% 55%)`;
 const fd=d=>new Date(d+'T12:00:00').toLocaleDateString('lt-LT',{day:'numeric',month:'short'});
 async function load(p){try{const r=await fetch(p,{cache:'no-store'});if(!r.ok)throw 0;return await r.json()}catch(e){return null}}
-const st=(p)=>S.stats?.periods?.[S.period]?.[p.id]||null;
+const SUMK=['min','pts','reb','ast','stl','blk','to','pf','fgm','fga','tpm','tpa','ftm','fta'];
+const st=p=>{const [a,b]=S.period==='season'?['0000','9999']:PNav.range(S.period),g=(S.games[p.id]||[]).filter(x=>x.date>=a&&x.date<=b&&x.min>0);
+  if(!g.length)return null;const o={gp:g.length};SUMK.forEach(k=>o[k]=g.reduce((t,x)=>t+(x[k]||0),0));return o};
 const val=(s,k)=>s&&s.gp?+(s[k]/s.gp).toFixed(1):null;
 function render(){
   const q=$('#q').value.toLowerCase(),c=$('#conf').value,sort=$('#sort').value;
@@ -17,22 +19,11 @@ function render(){
   list.sort((a,b)=>{const x=key(a),y=key(b);return typeof x==='string'?x.localeCompare(y,'lt'):x-y});
   $('#grid').innerHTML=list.map(p=>{
     const s=st(p);
-    const row=s&&s.gp?`<div class="stats">${[['pts','PPG'],['reb','RPG'],['ast','APG'],['stl','SPG']].map(([k,l])=>`<div><b>${val(s,k)}</b><span>${l}</span></div>`).join('')}</div>`:(p.roster_status==='not_found'?`<div class="empty">ESPN dar neįtraukė į komandos sąrašą · statistika atsiras po pirmų rungtynių</div>`:`<div class="empty">Duomenų dar nėra</div>`);
+    const row=s&&s.gp?`<div class="stats">${[['pts','PPG'],['reb','RPG'],['ast','APG'],['stl','SPG']].map(([k,l])=>`<div><b>${val(s,k)}</b><span>${l}</span></div>`).join('')}</div>`:(p.roster_status==='not_found'?`<div class="empty">ESPN dar neįtraukė į komandos sąrašą · statistika atsiras po pirmų rungtynių</div>`:`<div class="empty">${S.period==='season'?'Duomenų dar nėra':'Šiuo laikotarpiu nežaidė'}</div>`);
     return `<article class="pl" data-id="${esc(p.id)}" style="--tc:${teamColor(p.team)}"><div class="top">${avatar(p)}
     <div><div class="nm">${esc(p.name)}</div><div>${ncaaBadges(p.id,2)}${formBadge(p.id)}</div><div class="mt">${esc(p.team)}${confChip(p.team,p.conference)}</div>
     <div class="mt">${p.height_cm} cm (${ftin(p.height_cm)}) · ${esc(p.position)}</div></div>${teamLogo(p.team)}</div>${row}</article>`}).join('')||'<p class="empty">Nieko nerasta</p>';
   document.querySelectorAll('.pl').forEach(el=>el.onclick=e=>{if(e.target.closest('a'))return;location.href='players/'+el.dataset.id+'.html'});
-  leaders(list);
-}
-function leaders(list){
-  const per={week:'Turas',month:'Mėnuo',season:'Sezonas'}[S.period];
-  const rows=list.map(p=>({p,v:val(st(p),S.cat)})).filter(r=>r.v!==null).sort((a,b)=>b.v-a.v).slice(0,5);
-  const max=rows[0]?.v||1;
-  $('#leaders').innerHTML=`<h2>LYDERIAI</h2><p class="sub">${per} · vidurkis per rungtynes</p>
-  <div class="chips">${CATS.map(([k,l])=>`<button data-c="${k}" class="${k===S.cat?'on':''}">${l}</button>`).join('')}</div>
-  ${rows.length?rows.map((r,i)=>`<div class="lrow"><span class="mt">${i+1}</span>${avatar(r.p,'sm')}
-  <div><div class="nm">${esc(r.p.name)}${S.period==='season'?ncaaBadge(r.p.id,{pts:'ppg',reb:'rpg',ast:'apg',stl:'spg',blk:'bpg'}[S.cat]):''}</div><div class="mt">${esc(r.p.team)}</div><div class="bar2"><i style="width:${r.v/max*100}%"></i></div></div><b class="v">${r.v}</b></div>`).join(''):'<p class="empty">Duomenų dar nėra</p>'}`;
-  document.querySelectorAll('#leaders [data-c]').forEach(b=>b.onclick=()=>{S.cat=b.dataset.c;render()});
 }
 /* ---------- PROFILIS ---------- */
 function score(g){const n=String(g.score).split('-').map(Number);if(n.length<2||n.some(isNaN))return '';const hi=Math.max(...n),lo=Math.min(...n);return g.result==='L'?`${lo}–${hi}`:`${hi}–${lo}`}
@@ -68,11 +59,12 @@ async function openProfile(p){
 (async()=>{
   const [pl,stt]=await Promise.all([load('data/players.json'),load('data/stats.json')]);await mediaReady;
   S.players=pl?.players||[];S.stats=stt;
+  await Promise.all(S.players.map(async p=>{const g=await load(`data/games/${p.id}.json`);if(g)S.games[p.id]=g}));
+  PNav.setDates(Object.values(S.games).flat().map(g=>g.date));
   $('#upd').textContent=stt?.updated?`Atnaujinta: ${stt.updated}`:'Statistika dar nepradėta';
   [...new Set(S.players.map(cf))].sort().forEach(c=>$('#conf').insertAdjacentHTML('beforeend',`<option>${esc(c)}</option>`));
   ['q','conf','sort'].forEach(i=>$('#'+i).addEventListener('input',render));
-  document.querySelectorAll('#period button').forEach(b=>b.onclick=()=>{S.period=b.dataset.p;
-    document.querySelectorAll('#period button').forEach(x=>x.classList.toggle('on',x===b));render()});
+  PNav.mount({seg:'#period',onChange:()=>{S.period=PNav.per;render()}});
   render();
   const h=decodeURIComponent(location.hash.slice(1)),hp=S.players.find(p=>p.id===h);if(hp)openProfile(hp);
 })();

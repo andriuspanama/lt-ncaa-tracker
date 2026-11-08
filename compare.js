@@ -2,6 +2,7 @@ const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&g
 const GS=g=>g.pts+0.4*g.fgm-0.7*g.fga-0.4*(g.fta-g.ftm)+0.5*g.reb+g.stl+0.7*g.ast+0.7*g.blk-0.4*(g.pf||0)-g.to;
 const D=d=>new Date(d+'T12:00:00'),iso=d=>d.toISOString().slice(0,10);
 function span(per,dates){
+  if(typeof window!=='undefined'&&window.PNav&&window.PNav.ready&&per!=='season')return window.PNav.range(per);
   if(per==='season'||!dates.length)return ['0000','9999'];
   const l=D(dates.slice().sort().at(-1));
   if(per==='month')return [iso(new Date(l.getFullYear(),l.getMonth(),1,12)),iso(l)];
@@ -51,7 +52,7 @@ else(async()=>{
     const out=$('#out'),A=S.players.find(p=>p.id===$('#pa').value),B=S.players.find(p=>p.id===$('#pb').value);
     if(!A||!B||!withData().length){out.innerHTML='<p class="empty">Duomenų dar nėra. Pabandyk „Demo“.</p>';return}
     history.replaceState(null,'','#'+A.id+','+B.id);
-    const all=Object.values(G()).flat().map(g=>g.date),[s0,s1]=span(S.per,all),sel=p=>(G()[p.id]||[]).filter(g=>g.date>=s0&&g.date<=s1);
+    const all=Object.values(G()).flat().map(g=>g.date);if(window.PNav)PNav.setDates(all);const [s0,s1]=span(S.per,all),sel=p=>(G()[p.id]||[]).filter(g=>g.date>=s0&&g.date<=s1);
     const ga=sel(A),gb=sel(B);
     if(!ga.length||!gb.length){out.innerHTML=`<p class="empty">Šiame laikotarpyje ${!ga.length?esc(A.name):esc(B.name)} dar nežaidė.</p>`;return}
     const dark=document.documentElement.dataset.theme!=='light',ia=ctxInfo(A.team),ib=ctxInfo(B.team);
@@ -70,7 +71,7 @@ else(async()=>{
   S.players=(await load('data/players.json'))?.players||[];
   await Promise.all(S.players.map(async p=>{const g=await load(`data/games/${p.id}.json`);if(g&&g.length)S.real[p.id]=g}));
   const on=(sel,fn)=>document.querySelectorAll(sel+' button').forEach(b=>b.onclick=()=>{document.querySelectorAll(sel+' button').forEach(x=>x.classList.toggle('on',x===b));fn(b)});
-  on('#per',b=>{S.per=b.dataset.p;draw()});on('#dm',b=>{S.demo=b.dataset.d==='1';fill()});
+  PNav.mount({seg:'#per',onChange:()=>{S.per=PNav.per;draw()}});on('#dm',b=>{S.demo=b.dataset.d==='1';fill()});
   $('#pa').onchange=draw;$('#pb').onchange=draw;$('#sw').onclick=()=>{const t=$('#pa').value;$('#pa').value=$('#pb').value;$('#pb').value=t;draw()};
   document.addEventListener('click',e=>{if(e.target.closest&&e.target.closest('.theme-btn'))setTimeout(draw,0)});
   S.demo=new URLSearchParams(location.search).has('demo');

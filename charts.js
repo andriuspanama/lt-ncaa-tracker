@@ -8,6 +8,7 @@ const GS=g=>g.pts+0.4*g.fgm-0.7*g.fga-0.4*(g.fta-g.ftm)+0.5*g.reb+g.stl+0.7*g.as
 const MINS={week:20,month:40,season:60}; // minimalus bendras minučių slenkstis
 const D=d=>new Date(d+'T12:00:00'),iso=d=>d.toISOString().slice(0,10);
 function span(per,dates){
+  if(typeof window!=='undefined'&&window.PNav&&window.PNav.ready&&per!=='season')return window.PNav.range(per);
   if(per==='season'||!dates.length)return ['0000','9999'];
   const l=D(dates.slice().sort().at(-1));
   if(per==='month')return [iso(new Date(l.getFullYear(),l.getMonth(),1,12)),iso(l)];
@@ -87,18 +88,19 @@ function formCards(players){
   ${tg('progress','Stipriai progresuoja',f=>`${f1c(f.prev.ppg)} → ${f1c(f.last5.ppg)} PPG`)}${tg('best','Geriausia sezono atkarpa',f=>`Impact ${f1c(f.last5.imp)}`)}
   ${tg('role_down','Vaidmuo mažėja',f=>`${f1c(f.season.mpg)} → ${f1c(f.last5.mpg)} min.`)}${tg('minutes_up','Gauna daugiau minučių',f=>`${f1c(f.season.mpg)} → ${f1c(f.last5.mpg)} min.`)}</div></section>`}
 async function draw(){
-  const games=S.demo?demoGames(S.players):S.real,rows=table(S.players,games,S.per).filter(r=>r.min>=(S.demo?10:MINS[S.per]));
+  const games=S.demo?demoGames(S.players):S.real;if(window.PNav)PNav.setDates(Object.values(games).flat().map(g=>g.date));
+  const rows=table(S.players,games,S.per).filter(r=>r.min>=(S.demo?10:MINS[S.per]));
   const all=table(S.players,games,S.per),per={week:'Turas',month:'Mėnuo',season:'Sezonas'}[S.per];
   $('#note').innerHTML=S.demo?'<div class="demo">DEMO: sugeneruoti bandomieji skaičiai, ne tikra statistika.</div>':(all.length?'':'<p class="empty">Duomenų dar nėra. Pabandyk „Demo“.</p>');
   const hot=all.filter(r=>r.fga>=(S.demo?5:10));
   const cats=[['ppg','TAŠKAI'],['reb','ATKOVOTI'],['ast','PERDAVIMAI'],['stl','PERIMTI'],['blk','BLOKAI'],['fgp','METIMŲ TAIKLUMAS (FG%)'],['tpp','TRITAŠKIŲ TAIKLUMAS (3P%)'],['ftp','BAUDŲ TAIKLUMAS (FT%)']];
   const NK={ppg:'ppg',reb:'rpg',ast:'apg',stl:'spg',blk:'bpg',fgp:'fgp',tpp:'tpp',ftp:'ftp'},AT={fgp:['fga','metimų'],tpp:['tpa','tritaškių'],ftp:['fta','baudų']};
   const MA={week:{fga:8,tpa:4,fta:4},month:{fga:20,tpa:10,fta:8},season:{fga:40,tpa:20,fta:15}},mi=S.demo?{fga:5,tpa:2,fta:2}:MA[S.per];
-  $('#cards').innerHTML=list(rows,'imp',v=>v.toFixed(1),'TOP 10 · IMPACT',`${per} · Game Score vidurkis · min. ${S.demo?10:MINS[S.per]} min`,undefined,undefined,undefined,true)
-   +(S.demo?'':formCards(S.players))
+  $('#cards').innerHTML=(S.demo?'':formCards(S.players))+'<div class="cmas">'+list(rows,'imp',v=>v.toFixed(1),'TOP 10 · IMPACT',`${per} · Game Score vidurkis · min. ${S.demo?10:MINS[S.per]} min`,undefined,undefined,undefined,true)
    +list(hot,'pps',v=>v.toFixed(2),'HOT HANDS · METIMŲ EFEKTYVUMAS',`${per} · taškai per metimą`,10,undefined,5)
    +scatter(all)
    +cats.map(([k,t])=>{const q=AT[k],rr=q?all.filter(r=>r[q[0]]>=mi[q[0]]):all;return list(rr,k,q?v=>v.toFixed(1)+'%':v=>v.toFixed(1),'LYDERIAI · '+t,q?`${per} · min. ${mi[q[0]]} ${q[1]}`:`${per} · vidurkis per rungtynes`,10,NK[k],3)}).join('')
+   +'</div>'
    +(S.per==='season'&&!S.demo?'<p class="src" style="grid-column:1/-1">Geltonas ženkliukas „NCAA #N“ – žaidėjas patenka į visų NCAA D1 top 25 toje kategorijoje. Palieskite jį, kad pamatytumėte paaiškinimą.</p>':'');
 }
 (async()=>{
@@ -133,7 +135,7 @@ async function draw(){
   await Promise.all(S.players.map(async p=>{const g=await load(`data/games/${p.id}.json`);if(g)S.real[p.id]=g}));
   S.demo=new URLSearchParams(location.search).has('demo');
   document.querySelectorAll('#dm button').forEach(b=>{b.classList.toggle('on',(b.dataset.d==='1')===S.demo);b.onclick=()=>{S.demo=b.dataset.d==='1';document.querySelectorAll('#dm button').forEach(x=>x.classList.toggle('on',x===b));draw()}});
-  document.querySelectorAll('#period button').forEach(b=>b.onclick=()=>{S.per=b.dataset.p;document.querySelectorAll('#period button').forEach(x=>x.classList.toggle('on',x===b));draw()});
+  PNav.mount({seg:'#period',onChange:()=>{S.per=PNav.per;draw()}});
   draw();
 })();
 }
