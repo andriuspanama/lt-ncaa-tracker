@@ -918,9 +918,9 @@
   "team": "Saint Mary's",
   "opponent": "Nevada Wolf Pack",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "95",
+  "against": "96",
   "opp_rank": null
  },
  {
@@ -929,20 +929,20 @@
   "team": "California",
   "opponent": "Houston Cougars",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "68",
+  "against": "86",
   "opp_rank": 10
  },
  {
   "event_id": "401929002",
-  "date": "2026-11-09T04:00Z",
+  "date": "2026-11-09T03:00Z",
   "team": "UT Arlington",
   "opponent": "Hawai'i Rainbow Warriors",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "62",
+  "against": "71",
   "opp_rank": null
  },
  {
@@ -1002,7 +1002,7 @@
  },
  {
   "event_id": "401929357",
-  "date": "2026-11-10T03:30Z",
+  "date": "2026-11-10T02:30Z",
   "team": "UT Arlington",
   "opponent": "Bethesda Flames",
   "home": false,

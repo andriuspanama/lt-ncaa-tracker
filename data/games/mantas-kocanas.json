@@ -42,5 +42,27 @@
   "tpa": 2,
   "ftm": 1,
   "fta": 2
+ },
+ {
+  "event_id": "401918053",
+  "date": "2026-11-08",
+  "opponent": "Houston Cougars",
+  "home": false,
+  "result": "L",
+  "score": "68-86",
+  "min": 21,
+  "pts": 4,
+  "reb": 2,
+  "ast": 2,
+  "stl": 0,
+  "blk": 0,
+  "to": 3,
+  "pf": 4,
+  "fgm": 2,
+  "fga": 3,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
  }
 ]

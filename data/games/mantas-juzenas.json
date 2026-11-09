@@ -42,5 +42,27 @@
   "tpa": 5,
   "ftm": 3,
   "fta": 4
+ },
+ {
+  "event_id": "401911453",
+  "date": "2026-11-08",
+  "opponent": "Nevada Wolf Pack",
+  "home": false,
+  "result": "L",
+  "score": "95-96",
+  "min": 41,
+  "pts": 24,
+  "reb": 8,
+  "ast": 4,
+  "stl": 1,
+  "blk": 0,
+  "to": 0,
+  "pf": 2,
+  "fgm": 7,
+  "fga": 18,
+  "tpm": 5,
+  "tpa": 13,
+  "ftm": 5,
+  "fta": 7
  }
 ]

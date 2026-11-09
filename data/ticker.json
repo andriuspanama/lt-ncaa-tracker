@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "items": [
   {
    "id": "vince-buzelis",
@@ -16,6 +16,22 @@
    "stl": 0,
    "blk": 0,
    "gs": 22.9
+  },
+  {
+   "id": "mantas-juzenas",
+   "name": "Mantas Juzėnas",
+   "team": "Saint Mary's",
+   "date": "2026-11-08",
+   "opp": "Nevada Wolf Pack",
+   "home": false,
+   "res": "L",
+   "score": "95-96",
+   "pts": 24,
+   "reb": 8,
+   "ast": 4,
+   "stl": 1,
+   "blk": 0,
+   "gs": 20.4
   },
   {
    "id": "dovydas-butka",
@@ -144,22 +160,6 @@
    "stl": 0,
    "blk": 0,
    "gs": 6.3
-  },
-  {
-   "id": "alex-bieliauskas",
-   "name": "Alex Bieliauskas",
-   "team": "South Carolina",
-   "date": "2026-11-08",
-   "opp": "Southeast Missouri State Redhawks",
-   "home": true,
-   "res": "W",
-   "score": "78-68",
-   "pts": 8,
-   "reb": 4,
-   "ast": 0,
-   "stl": 0,
-   "blk": 1,
-   "gs": 6.2
   }
  ]
 }

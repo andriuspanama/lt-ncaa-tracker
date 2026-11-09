@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401929002",
+  "date": "2026-11-08",
+  "opponent": "Hawai'i Rainbow Warriors",
+  "home": false,
+  "result": "L",
+  "score": "62-71",
+  "min": 1,
+  "pts": 0,
+  "reb": 0,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 0,
+  "fgm": 0,
+  "fga": 0,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
+ }
+]
