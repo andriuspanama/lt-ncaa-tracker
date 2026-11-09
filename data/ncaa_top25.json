@@ -6,23 +6,15 @@
     "cat": "ppg",
     "label": "Taškai per rungtynes",
     "value": 27.0,
-    "rank": 9
+    "rank": 10
    }
   ],
-  "nojus-indrusaitis": [
-   {
-    "cat": "ppg",
-    "label": "Taškai per rungtynes",
-    "value": 25.0,
-    "rank": 17
-   }
-  ],
-  "mantas-juzenas": [
+  "dovydas-butka": [
    {
     "cat": "rpg",
     "label": "Atkovoti kamuoliai per rungtynes",
-    "value": 11.0,
-    "rank": 23
+    "value": 11.5,
+    "rank": 14
    }
   ],
   "motiejus-krivas": [
@@ -30,7 +22,7 @@
     "cat": "bpg",
     "label": "Blokai per rungtynes",
     "value": 4.0,
-    "rank": 7
+    "rank": 5
    }
   ],
   "matas-vokietaitis": [
@@ -38,7 +30,7 @@
     "cat": "fgp",
     "label": "Metimų iš žaidimo taiklumas (FG%)",
     "value": 88.23529481887817,
-    "rank": 18
+    "rank": 8
    }
   ],
   "dominic-pangonis": [
@@ -46,7 +38,7 @@
     "cat": "fgp",
     "label": "Metimų iš žaidimo taiklumas (FG%)",
     "value": 86.66666746139526,
-    "rank": 19
+    "rank": 9
    },
    {
     "cat": "tpp",
@@ -77,12 +69,12 @@
     17.0
    ],
    [
-    "William Berg",
-    16.0
+    "Patrick Wessler",
+    15.0
    ],
    [
-    "Jerquarius Stanback",
-    16.0
+    "Demetrius Lilley",
+    14.333333
    ]
   ],
   "apg": [
@@ -109,8 +101,8 @@
     6.0
    ],
    [
-    "Grant Best",
-    5.5
+    "Dylan Mingo",
+    5.0
    ]
   ],
   "bpg": [
@@ -119,25 +111,25 @@
     6.0
    ],
    [
-    "Dillon Claussen",
-    6.0
+    "Bukky Oboye",
+    5.0
    ],
    [
-    "Bukky Oboye",
+    "Abdullah Ahmed",
     5.0
    ]
   ],
   "fgp": [
-   [
-    "Robert Vaihola",
-    100.0
-   ],
    [
     "Jamichael Davis",
     100.0
    ],
    [
     "Jacob Bannarbie",
+    100.0
+   ],
+   [
+    "Joseph Annan Jr",
     100.0
    ]
   ],
@@ -147,8 +139,8 @@
     100.0
    ],
    [
-    "Isaiah Sutherland",
-    85.71428656578064
+    "Trevaun Clark",
+    83.33333134651184
    ],
    [
     "Matt Christian",
@@ -157,15 +149,15 @@
   ],
   "ftp": [
    [
-    "Dominick Harris",
+    "Barrington Hargress",
     100.0
    ],
    [
-    "Quincy Allen",
+    "Elmarko Jackson",
     100.0
    ],
    [
-    "KK Robinson",
+    "Paul McNeil Jr.",
     100.0
    ]
   ]

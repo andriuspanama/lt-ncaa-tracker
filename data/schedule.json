@@ -1636,7 +1636,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": null
+  "opp_rank": 25
  },
  {
   "event_id": "401920235",
@@ -1955,7 +1955,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": null
+  "opp_rank": 25
  },
  {
   "event_id": "401921734",
@@ -2791,7 +2791,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 22
+  "opp_rank": 9
  },
  {
   "event_id": "401929407",
@@ -3143,7 +3143,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 11
+  "opp_rank": 10
  },
  {
   "event_id": "401929177",
@@ -3748,7 +3748,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 24
+  "opp_rank": 22
  },
  {
   "event_id": "401926204",
@@ -4265,7 +4265,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 14
+  "opp_rank": 17
  },
  {
   "event_id": "401909549",
@@ -4320,7 +4320,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 12
+  "opp_rank": 19
  },
  {
   "event_id": "401909779",
@@ -4771,7 +4771,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 22
+  "opp_rank": 9
  },
  {
   "event_id": "401920714",
@@ -4815,7 +4815,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 12
+  "opp_rank": 19
  },
  {
   "event_id": "401918081",
@@ -5079,7 +5079,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 5
+  "opp_rank": 12
  },
  {
   "event_id": "401929451",
@@ -5332,7 +5332,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 9
+  "opp_rank": 6
  },
  {
   "event_id": "401906778",
@@ -5893,7 +5893,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 18
+  "opp_rank": null
  },
  {
   "event_id": "401917393",
@@ -5915,7 +5915,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 5
+  "opp_rank": 12
  },
  {
   "event_id": "401911537",
@@ -5937,7 +5937,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 25
+  "opp_rank": 23
  },
  {
   "event_id": "401922770",
@@ -6234,7 +6234,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 12
+  "opp_rank": 19
  },
  {
   "event_id": "401927755",
@@ -6432,7 +6432,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 24
+  "opp_rank": 22
  },
  {
   "event_id": "401922785",
@@ -6487,7 +6487,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 17
+  "opp_rank": 15
  },
  {
   "event_id": "401927233",
@@ -6685,7 +6685,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 9
+  "opp_rank": 6
  },
  {
   "event_id": "401924961",
@@ -6839,7 +6839,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 24
+  "opp_rank": 22
  },
  {
   "event_id": "401902334",
@@ -6861,7 +6861,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 19
+  "opp_rank": 16
  },
  {
   "event_id": "401922794",
@@ -6872,7 +6872,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 25
+  "opp_rank": 23
  },
  {
   "event_id": "401922794",
@@ -6883,7 +6883,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 5
+  "opp_rank": 12
  },
  {
   "event_id": "401924902",
@@ -6938,7 +6938,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 11
+  "opp_rank": 10
  },
  {
   "event_id": "401927237",
@@ -6993,7 +6993,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 10
+  "opp_rank": 8
  },
  {
   "event_id": "401917612",
@@ -7257,7 +7257,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 20
+  "opp_rank": 18
  },
  {
   "event_id": "401905707",
@@ -7422,7 +7422,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 5
+  "opp_rank": 12
  },
  {
   "event_id": "401922801",
@@ -7455,7 +7455,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 19
+  "opp_rank": 16
  },
  {
   "event_id": "401922808",
@@ -7488,7 +7488,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 15
+  "opp_rank": 14
  },
  {
   "event_id": "401919249",
@@ -7664,7 +7664,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 20
+  "opp_rank": 18
  },
  {
   "event_id": "401911869",
@@ -7730,7 +7730,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 18
+  "opp_rank": null
  },
  {
   "event_id": "401927771",
@@ -7752,7 +7752,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 25
+  "opp_rank": 23
  },
  {
   "event_id": "401911483",
@@ -7906,7 +7906,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 19
+  "opp_rank": 16
  },
  {
   "event_id": "401911405",
@@ -8137,7 +8137,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 12
+  "opp_rank": 19
  },
  {
   "event_id": "401905832",
@@ -8181,7 +8181,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 10
+  "opp_rank": 8
  },
  {
   "event_id": "401905717",
@@ -8368,7 +8368,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 14
+  "opp_rank": 17
  },
  {
   "event_id": "401911880",
@@ -8665,7 +8665,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 8
+  "opp_rank": 11
  },
  {
   "event_id": "401902370",
@@ -8676,7 +8676,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 23
+  "opp_rank": 24
  },
  {
   "event_id": "401911117",
@@ -8720,7 +8720,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 10
+  "opp_rank": 8
  },
  {
   "event_id": "401924067",
@@ -9391,7 +9391,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 10
+  "opp_rank": 8
  },
  {
   "event_id": "401911365",
@@ -9787,7 +9787,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 20
+  "opp_rank": 18
  },
  {
   "event_id": "401911132",
@@ -9809,7 +9809,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 17
+  "opp_rank": 15
  },
  {
   "event_id": "401917645",
@@ -9864,7 +9864,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 15
+  "opp_rank": 14
  },
  {
   "event_id": "401902388",
@@ -9875,7 +9875,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 23
+  "opp_rank": 24
  },
  {
   "event_id": "401918193",
@@ -10150,7 +10150,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 17
+  "opp_rank": 15
  },
  {
   "event_id": "401905440",
@@ -10194,7 +10194,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 24
+  "opp_rank": 22
  },
  {
   "event_id": "401911137",
@@ -10414,7 +10414,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 5
+  "opp_rank": 12
  },
  {
   "event_id": "401922719",
@@ -10447,7 +10447,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 14
+  "opp_rank": 17
  },
  {
   "event_id": "401917648",
@@ -10810,7 +10810,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 18
+  "opp_rank": null
  },
  {
   "event_id": "401922734",
@@ -10832,7 +10832,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 17
+  "opp_rank": 15
  },
  {
   "event_id": "401918213",
@@ -11217,7 +11217,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 25
+  "opp_rank": 23
  },
  {
   "event_id": "401920526",
@@ -11228,7 +11228,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 5
+  "opp_rank": 12
  },
  {
   "event_id": "401912058",
@@ -11261,7 +11261,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 8
+  "opp_rank": 11
  },
  {
   "event_id": "401911157",
@@ -11580,7 +11580,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 8
+  "opp_rank": 11
  },
  {
   "event_id": "401922751",
@@ -11712,7 +11712,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 12
+  "opp_rank": 19
  },
  {
   "event_id": "401911161",
@@ -11932,7 +11932,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 17
+  "opp_rank": 15
  },
  {
   "event_id": "401913341",
@@ -12163,7 +12163,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 19
+  "opp_rank": 16
  },
  {
   "event_id": "401902444",
@@ -12174,7 +12174,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 23
+  "opp_rank": 24
  },
  {
   "event_id": "401918248",
@@ -12185,7 +12185,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 11
+  "opp_rank": 10
  },
  {
   "event_id": "401902445",
@@ -12295,7 +12295,7 @@
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": 10
+  "opp_rank": 8
  },
  {
   "event_id": "401917500",
