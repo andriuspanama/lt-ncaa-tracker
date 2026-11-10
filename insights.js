@@ -94,8 +94,6 @@ function build(per,key,players,games,top25=[],awards=[],minOverride,x={}){
     if(tl.length)sum.push(`Dar išsiskyrė: ${tl.map(z=>`${z.p.name} (${[...z.t].join(', ')})`).join('; ')}.`);
     const sw=res.filter(r=>r.g.result==='W').map(r=>({r,i:info(r.g.opponent)||{}})).filter(z=>(z.i.rank||z.i.tier==='A')&&z.r.pl.some(q=>q.g.min>=15&&q.g.pts>=8)).slice(0,3);
     if(sw.length)sum.push(`Pergalės prieš stiprius varžovus: ${sw.map(({r,i})=>{const bp=r.pl.filter(q=>q.g.min>=15).reduce((m,q)=>q.g.pts>m.g.pts?q:m);return `${r.p.team} nugalėjo ${r.g.opponent} (${ctxTxt(i)}), ${bp.p.name} pelnė ${bp.g.pts} ${pw(bp.g.pts,'taškus','taškų')}`}).join('; ')}.`);
-    const rl=rows.filter(r=>r.min/r.gp>=28).sort((x,y)=>y.min/y.gp-x.min/x.gp).slice(0,6);
-    if(rl.length)sum.push(`Pagrindinių vaidmenų žaidėjai (28+ min. per rungtynes): ${rl.map(r=>`${r.p.name} (${(r.min/r.gp).toFixed(0)} min.)`).join(', ')}.`);
     if(per==='month'){const dl=G.map(r=>r.g.date).sort().at(-1),c=D(dl);c.setDate(c.getDate()-7);const cs=iso(c);
       const ch=players.map(p=>{const gg=G.filter(r=>r.p===p).map(r=>r.g),e=gg.filter(x=>x.date<=cs),n=gg.filter(x=>x.date>cs);
         return e.length>=2&&n.length?{p,d:n.reduce((t,x)=>t+GS(x),0)/n.length-e.reduce((t,x)=>t+GS(x),0)/e.length}:null}).filter(Boolean).sort((x,y)=>y.d-x.d);
@@ -114,10 +112,17 @@ function demo(players){let seed=11;const R=()=>(seed=(seed*16807)%2147483647)/21
     return {event_id:p.team+i,date:d,opponent:opp[(i+p.height_cm)%6],home:i%2===0,result:R()>.4?'W':'L',score:'78-71',min:mn,pts:Math.round(fgm*2+R()*8*sk),reb:Math.round(mn/6*(big?1.6:.7)*R()*2),ast:Math.round(R()*(big?3:6)),stl:Math.round(R()*1.8),blk:Math.round(R()*(big?2:.7)),to:Math.round(R()*3),pf:Math.round(R()*4),fgm,fga,tpm:Math.round(R()*3),tpa:5,ftm:Math.round(R()*3),fta:Math.round(R()*4)}})});return o}
 const av=p=>avatar(p,'sm');
 const lk=p=>`<a href="players/${encodeURIComponent(p.id)}.html">${esc(p.name)}</a>`;
+function syncNav(){const sel=$('#key'),o=sel.selectedOptions[0],ok=/^\d{4}/.test(sel.value);
+  $('#wlab').textContent=o?o.textContent:'–';$('#wprev').disabled=!ok||sel.selectedIndex>=sel.options.length-1;$('#wnext').disabled=!ok||sel.selectedIndex<=0;
+  if(ok)$('#wdate').value=sel.value.length===7?sel.value+'-01':sel.value}
+function stepKey(d){const sel=$('#key'),i=Math.max(0,Math.min(sel.options.length-1,sel.selectedIndex+d));if(i!==sel.selectedIndex){sel.selectedIndex=i;syncNav();draw()}}
+function jumpTo(v){const sel=$('#key'),k=S.per==='week'?monday(v):v.slice(0,7),opts=[...sel.options].map(o=>o.value).filter(x=>/^\d{4}/.test(x));if(!opts.length)return;
+  const dist=x=>Math.abs(D(x.length===7?x+'-01':x)-D(k.length===7?k+'-01':k));const best=opts.includes(k)?k:opts.slice().sort((a,b)=>dist(a)-dist(b))[0];
+  sel.value=best;syncNav();draw()}
 function fill(){
   const games=S.demo?demo(S.players):S.real,dates=Object.values(games).flat().map(g=>g.date),sel=$('#key');
   const keys=[...new Set(dates.map(d=>S.per==='week'?monday(d):d.slice(0,7)))].sort().reverse();
-  sel.innerHTML=keys.map(k=>`<option value="${k}">${S.per==='week'?fd(k)+' – '+fd(rangeOf('week',k)[1]):k}</option>`).join('')||'<option>–</option>';draw()}
+  sel.innerHTML=keys.map(k=>`<option value="${k}">${S.per==='week'?fd(k)+' – '+fd(rangeOf('week',k)[1]):k}</option>`).join('')||'<option>–</option>';syncNav();draw()}
 function draw(){
   const games=S.demo?demo(S.players):S.real,key=$('#key').value,out=$('#out');
   if(!/^\d{4}/.test(key)){out.innerHTML='<p class="empty">Duomenų dar nėra. Pabandyk „Demo“.</p>';return}
@@ -128,8 +133,10 @@ function draw(){
   const photoOf=(i,k)=>{if(S.demo)return k<2?{url:DEMO_IMG,caption:'Demo nuotrauka: čia atsiras ESPN nuotrauka, kurioje matomas lietuvis.',credit:'Demo'}:null;
     return ((S.photos.photos||{})[i.eid]||[]).find(x=>x.player===i.p.id)||null};
   const fig=(ph,cls)=>ph?`<figure class="ph ${cls||''}"><div class="im"><img src="${esc(ph.url)}" alt="${esc(ph.caption||'')}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()"></div><figcaption><span>${esc((ph.caption||'').replace(/\s+/g,' ').slice(0,150))}</span><i>Foto: ${esc(ph.credit||'ESPN')}${ph.link?` · <a href="${esc(ph.link)}" target="_blank" rel="noopener">ESPN ↗</a>`:''}</i></figcaption></figure>`:'';
+  const media=i=>{if(S.demo)return '';const P=S.photos||{},v=((P.videos||{})[i.eid]||[]).find(x=>x.player===i.p.id),n=((P.news||{})[i.eid]||[]).find(x=>x.player===i.p.id),m=v||n;
+    return m&&m.link?`<a class="esp" href="${esc(m.link)}" target="_blank" rel="noopener">${v?'▶ ESPN video':'ESPN'}: ${esc(m.headline)} ↗</a>`:''};
   const story=(i,k,big)=>{const body=i.head&&i.type!=='apdovanojimas'?i.text+' '+i.body:i.text;
-    return `<article class="story${big?' lead':''}">${fig(photoOf(i,k),big?'wide':'')}<div class="kick">${esc(i.type)} · ${fd(i.date)} · ${lk(i.p)}</div><h3>${esc(i.head||i.text)}</h3><p>${esc(body)}</p></article>`};
+    return `<article class="story${big?' lead':''}">${fig(photoOf(i,k),big?'wide':'')}<div class="kick">${esc(i.type)} · ${fd(i.date)} · ${lk(i.p)}</div><h3>${esc(i.head||i.text)}</h3><p>${esc(body)}</p>${media(i)}</article>`};
   const cover=items[0],rest=items.slice(1);
   $('#issue').textContent=r.items.length||r.sum.length?`${fd(r.range[0])} – ${fd(r.range[1])}`:'2026–27 sezonas';
   out.innerHTML=(S.demo?'<div class="demo">DEMO: bandomieji skaičiai, ne tikra statistika.</div>':'')+
@@ -147,6 +154,9 @@ function draw(){
   const on=(sel,fn)=>document.querySelectorAll(sel+' button').forEach(b=>b.onclick=()=>{document.querySelectorAll(sel+' button').forEach(x=>x.classList.toggle('on',x===b));fn(b)});
   on('#per',b=>{S.per=b.dataset.p;fill()});on('#dm',b=>{S.demo=b.dataset.d==='1';fill()});
   document.querySelectorAll('#dm button').forEach(b=>b.classList.toggle('on',(b.dataset.d==='1')===S.demo));
-  $('#key').onchange=draw;fill();
+  $('#key').onchange=()=>{syncNav();draw()};$('#wprev').onclick=()=>stepKey(1);$('#wnext').onclick=()=>stepKey(-1);
+  $('#wdate').onchange=e=>{if(e.target.value)jumpTo(e.target.value)};
+  $('.wcal').addEventListener('click',e=>{const i=$('#wdate');if(e.target!==i&&i.showPicker){try{i.showPicker()}catch(_){}}});
+  fill();
 })();
 }

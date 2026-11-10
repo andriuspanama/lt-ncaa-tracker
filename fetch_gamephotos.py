@@ -31,6 +31,27 @@ def images_of(j):
         if key in j: walk(j[key], None)
     return found
 
+def videos_of(j):
+    """ESPN rungtynių vaizdo įrašai (highlights, interviu): antraštė, miniatiūra, nuoroda į ESPN, o jei yra – tiesioginė .mp4 nuoroda."""
+    out = []
+    for v in (j.get("videos") or []):
+        if not isinstance(v, dict): continue
+        links = v.get("links") or {}
+        s = links.get("source") or {}
+        src = None
+        for k in ("HD", "full", "mezzanine", "href"):
+            x = s.get(k)
+            h = x.get("href") if isinstance(x, dict) else x
+            if isinstance(h, str) and ".mp4" in h: src = h; break
+        if not src:
+            h = (((links.get("mobile") or {}).get("source") or {}).get("href"))
+            if isinstance(h, str) and ".mp4" in h: src = h
+        web = ((links.get("web") or {}).get("href")) or ((links.get("mobile") or {}).get("href"))
+        thumb = v.get("thumbnail") or next((p.get("href") for p in (v.get("posters") or []) if isinstance(p, dict) and p.get("href")), None)
+        out.append({"headline": v.get("headline") or v.get("title") or "", "description": v.get("description") or "", "duration": v.get("duration"),
+                    "thumb": thumb, "src": src, "link": web})
+    return out
+
 def mentions(p, text):
     """Ar parašas mini žaidėją? Pilnas vardas, alias arba pavardė (leidžiam vienos raidės praradimą: Križanauskas→Krianauskas)."""
     t = norm(text)
@@ -54,6 +75,7 @@ def usable(im):
 if __name__ == "__main__":
     players = load("data/players.json", {"players": []})["players"]
     out = load(OUT, {"photos": {}, "checked": {}})
+    out.setdefault("videos", {}); out.setdefault("news", {})
     today = dt.date.today()
     events = {}
     for p in players:
@@ -77,6 +99,17 @@ if __name__ == "__main__":
                 if mentions(p, im["caption"]) or mentions(p, im.get("headline") or ""):
                     got[p["id"]] = {"url": im["url"], "caption": (im["caption"] or im.get("headline") or "")[:240], "credit": im.get("credit"),
                                     "w": im.get("w"), "h": im.get("h"), "link": im.get("link"), "player": p["id"]}
+        vids = []
+        for v in videos_of(j):
+            for p in events[eid]["players"]:
+                if mentions(p, v["headline"] + " " + v["description"]) and (v["thumb"] or v["src"]):
+                    vids.append({"player": p["id"], "headline": v["headline"][:200], "duration": v["duration"], "thumb": v["thumb"], "src": v["src"], "link": v["link"]})
+        if vids: out["videos"][eid] = vids; print("VIDEO", eid, [x["player"] for x in vids])
+        else: out["videos"].pop(eid, None)
+        art = (j.get("article") or {}); head = art.get("headline") or ""; alink = ((art.get("links") or {}).get("web") or {}).get("href")
+        news = [{"player": p["id"], "headline": head[:200], "link": alink} for p in events[eid]["players"] if head and alink and mentions(p, head + " " + (art.get("description") or ""))]
+        if news: out["news"][eid] = news
+        else: out["news"].pop(eid, None)
         if got:
             out["photos"][eid] = list(got.values())
             new += len(got); print("OK", eid, [p for p in got])

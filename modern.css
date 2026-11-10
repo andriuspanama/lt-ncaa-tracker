@@ -277,3 +277,17 @@ button.more:hover{border-color:var(--bl)}
 }
 /* antraštė tame pačiame plotyje kaip turinys (didesniuose ekranuose) */
 body>header:not(.mast){max-width:1200px;margin-left:auto;margin-right:auto;box-sizing:border-box;width:100%}
+
+/* ESPN video titulinėje + nuoroda Įžvalgose */
+.hph-link.vid{background:#0b111b;cursor:default}
+.vplay{position:absolute;inset:0;display:block;color:#fff;text-decoration:none;background:#0b111b}
+.vplay img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.vplay::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05) 45%,rgba(0,0,0,.6))}
+.pbtn{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);z-index:1;width:68px;height:68px;border-radius:50%;background:rgba(255,122,26,.95);display:grid;place-items:center;font-size:26px;padding-left:5px;box-shadow:0 10px 30px rgba(0,0,0,.5);transition:transform .2s}
+.vplay:hover .pbtn{transform:translate(-50%,-50%) scale(1.08)}
+.vtag{position:absolute;left:12px;top:12px;z-index:1;font:700 11px var(--disp);letter-spacing:.14em;background:rgba(0,0,0,.6);padding:5px 9px;border-radius:999px}
+.hph video{position:absolute;inset:0;width:100%;height:100%;background:#000;object-fit:contain}
+.hph .vh{margin-top:8px;font-size:13px;color:#d6dee8;font-style:italic;overflow-wrap:anywhere}
+.hph.playing .hph-txt{opacity:.0;pointer-events:none;height:0;padding:0;overflow:hidden}
+@media (min-width:1001px){.hph-link.vid .hph-txt{z-index:2;pointer-events:none}.hph-link.vid .hph-txt a{pointer-events:auto}.hph.playing .hph-txt{display:none}}
+.mag a.esp{display:inline-block;margin-top:8px;font:600 12px var(--lab);letter-spacing:.02em;color:var(--hot);border-bottom:1px solid var(--rule)}

@@ -35,9 +35,22 @@ function pickPhoto(best){
   all.sort((a,b)=>b.date.localeCompare(a.date));
   return all[0]?{...all[0],kind:'other'}:null;
 }
+const dur=s=>{s=Math.round(+s||0);return s?`${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`:''};
+function videoHero(best,v){
+  const g=best.g,line=[`${g.pts} tšk.`,`${g.reb} atk.`,`${g.ast} perd.`,g.stl?`${g.stl} perim.`:'',g.blk?`${g.blk} blok.`:''].filter(Boolean).join(' · ');
+  const link=v.link||'';
+  return `<div class="hph-link vid" style="--tc:${teamColor(best.p.team)}"><div class="hph-img">
+    <a class="vplay" href="${esc(link||'#')}" target="_blank" rel="noopener" data-src="${esc(v.src||'')}" data-poster="${esc(v.thumb||'')}" data-link="${esc(link)}" aria-label="Paleisti ESPN vaizdo įrašą">
+      ${v.thumb?`<img src="${esc(v.thumb)}" alt="" referrerpolicy="no-referrer">`:''}<span class="pbtn">▶</span><span class="vtag">ESPN VIDEO${dur(v.duration)?' · '+dur(v.duration):''}</span></a></div>
+    <div class="hph-txt"><div class="kick">VAKARO ŽAIDĖJAS · ${esc(fm(S.day))}</div><h2><a href="players/${esc(best.p.id)}.html" style="color:inherit;text-decoration:none">${esc(best.p.name)}</a></h2>
+    <div class="hl2">${esc(line)}</div><div class="hm">${esc(best.p.team)} · ${g.home?'prieš':'@'} ${esc(g.opponent)} · ${esc(g.result||'')} ${esc(sc(g))}</div>
+    ${v.headline?`<div class="vh">${esc(v.headline)}</div>`:''}</div></div>`;
+}
 function heroHTML(rows){
   if(!rows.length)return `<div class="hph-empty"><b>Tą dieną lietuviai nežaidė</b><span>Pasirink kitą dieną kalendoriuje.</span></div>`;
-  const best=rows.slice().sort((a,b)=>b.gs-a.gs)[0],g=best.g,ph=pickPhoto(best);
+  const best=rows.slice().sort((a,b)=>b.gs-a.gs)[0],g=best.g,vid=(((S.photos||{}).videos||{})[best.eid]||[]).find(x=>x.player===best.p.id);
+  if(vid&&(vid.thumb||vid.src))return videoHero(best,vid);
+  const ph=pickPhoto(best);
   const line=[`${g.pts} tšk.`,`${g.reb} atk.`,`${g.ast} perd.`,g.stl?`${g.stl} perim.`:'',g.blk?`${g.blk} blok.`:''].filter(Boolean).join(' · ');
   const head=(window.PHOTOS[best.p.id]&&window.PHOTOS[best.p.id].url)||best.p.photo||(best.p.espn_id?'https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/'+best.p.espn_id+'.png':'');
   const img=ph?`<img class="gp" src="${esc(ph.url)}" alt="${esc(ph.caption||best.p.name)}" referrerpolicy="no-referrer" onerror="this.closest('.hph').classList.add('nophoto');this.remove()">`:'';
@@ -98,5 +111,9 @@ function go(day){S.day=day;S.week=monday(day);drawWeek();drawDay()}
   $('#wdate').onchange=e=>{if(e.target.value)go(e.target.value)};
   $('.wcal').addEventListener('click',e=>{const i=$('#wdate');if(e.target!==i&&i.showPicker){try{i.showPicker()}catch(_){}}});
   document.querySelectorAll('#hf button').forEach(b=>b.onclick=()=>{S.f=b.dataset.f;document.querySelectorAll('#hf button').forEach(x=>x.classList.toggle('on',x===b));drawDay()});
+  $('#hph').addEventListener('click',e=>{const a=e.target.closest('.vplay');if(!a||!a.dataset.src)return;e.preventDefault();
+    const box=a.closest('.hph-img'),v=document.createElement('video');v.controls=true;v.autoplay=true;v.playsInline=true;v.src=a.dataset.src;if(a.dataset.poster)v.poster=a.dataset.poster;
+    v.onerror=()=>{box.replaceChildren(a);$('#hph').classList.remove('playing');if(a.dataset.link)window.open(a.dataset.link,'_blank','noopener')};
+    box.replaceChildren(v);$('#hph').classList.add('playing')});
   go(first);
 })();

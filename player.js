@@ -16,8 +16,8 @@ function radar(vals){const c=150,R=100,pt=(i,r)=>{const a=(-90+i*360/AX.length)*
 function strips(all,a){return AX.map(([k,l])=>{const v=a[k],arr=all.map(x=>x[k]).filter(x=>x!=null);if(v==null||!arr.length)return '';
   const rk=arr.filter(x=>x>v).length+1,q=pct(all,k,v),c=q>=75?'#2dd4a0':q>=40?'#facc15':'#f0524f';
   return `<div class="st"><span class="l">${l}</span><span class="tr"><i style="left:${q}%;background:${c}"></i></span><span class="r">#${rk} / ${arr.length}</span></div>`}).join('')}
-function form(g){const l=g.slice(-10),mx=Math.max(...l.map(x=>x.pts),10),w=300/l.length;
-  return `<svg viewBox="0 0 300 110" width="100%">${l.map((x,i)=>{const h=x.pts/mx*80;return `<rect x="${i*w+4}" y="${90-h}" width="${w-8}" height="${h}" rx="3" fill="${x.result==='W'?'#22c55e':x.result==='L'?'#ef4444':'#8b95a3'}"/><text x="${i*w+w/2}" y="${86-h}" text-anchor="middle" font-size="10">${x.pts}</text><text x="${i*w+w/2}" y="104" text-anchor="middle" font-size="9">${fd(x.date).replace(/ /g,'')}</text>`}).join('')}</svg>`}
+function form(g){const l=g.slice(-10),n=l.length,mx=Math.max(...l.map(x=>x.pts),10),slot=46,W=Math.max(n,6)*slot,off=(W-n*slot)/2,bw=30;
+  return `<svg viewBox="0 0 ${W} 118" width="100%" style="display:block;max-width:${Math.max(n,6)*56}px;margin:6px auto 0">${l.map((x,i)=>{const h=Math.max(3,x.pts/mx*78),cx=off+i*slot+slot/2;return `<rect x="${cx-bw/2}" y="${94-h}" width="${bw}" height="${h}" rx="4" fill="${x.result==='W'?'#22c55e':x.result==='L'?'#ef4444':'#8b95a3'}"/><text x="${cx}" y="${89-h}" text-anchor="middle" font-size="11" font-weight="600" style="fill:var(--tx)">${x.pts}</text><text x="${cx}" y="111" text-anchor="middle" font-size="9.5" style="fill:var(--mu)">${fd(x.date).replace(/ /g,'')}</text>`}).join('')}</svg>`}
 function sc(g){const n=String(g.score).split('-').map(Number);if(n.length<2||n.some(isNaN))return '';const h=Math.max(...n),l=Math.min(...n);return g.result==='L'?`${l}–${h}`:`${h}–${l}`}
 const ftin=cm=>{const i=Math.round(cm/2.54);return `${Math.floor(i/12)}'${i%12}"`};
 const D0=d=>new Date(d+'T12:00:00'),iso0=d=>d.toISOString().slice(0,10);
