@@ -141,5 +141,47 @@
   "401911009": "2026-11-10",
   "401921085": "2026-11-10",
   "401906865": "2026-11-10"
+ },
+ "videos": {
+  "401920692": [
+   {
+    "player": "nedas-cholevinskas",
+    "headline": "Nedas Cholevinskas has too much range with this deep 3-pointer",
+    "duration": 17,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/e2b1af96-1326-4b86-bd9b-0f02eda4efcf/e2b1af96-1326-4b86-bd9b-0f02eda4efcf.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/e2b1af96-1326-4b86-bd9b-0f02eda4efcf/e2b1af96-1326-4b86-bd9b-0f02eda4efcf.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50422974/nedas-cholevinskas-too-much-range-deep-3-pointer"
+   }
+  ]
+ },
+ "news": {
+  "401921732": [
+   {
+    "player": "paulius-murauskas",
+    "headline": "Paulis Marauskas scores career-high 33 to power Arizona State past Northern Colorado 90-63",
+    "link": "http://www.espn.com/ncb/recap?gameId=401921732"
+   }
+  ],
+  "401912208": [
+   {
+    "player": "liutauras-lelevicius",
+    "headline": "Ace Buckner scores 26 to lead Clemson over American 82-73",
+    "link": "http://www.espn.com/ncb/recap?gameId=401912208"
+   }
+  ],
+  "401918074": [
+   {
+    "player": "liutauras-lelevicius",
+    "headline": "Lelevcius, Thompson score 21 apiece to send Clemson past North Dakota",
+    "link": "http://www.espn.com/ncb/recap?gameId=401918074"
+   }
+  ],
+  "401906865": [
+   {
+    "player": "matas-vokietaitis",
+    "headline": "Matas Vokietaitis scores 26 points as No. 7 Texas beats Grambling State 93-62",
+    "link": "http://www.espn.com/ncb/recap?gameId=401906865"
+   }
+  ]
  }
 }
