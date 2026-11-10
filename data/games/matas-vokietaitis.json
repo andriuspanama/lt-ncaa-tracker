@@ -42,5 +42,27 @@
   "tpa": 0,
   "ftm": 4,
   "fta": 7
+ },
+ {
+  "event_id": "401906865",
+  "date": "2026-11-09",
+  "opponent": "Grambling Tigers",
+  "home": true,
+  "result": "W",
+  "score": "93-62",
+  "min": 23,
+  "pts": 26,
+  "reb": 9,
+  "ast": 0,
+  "stl": 1,
+  "blk": 1,
+  "to": 1,
+  "pf": 1,
+  "fgm": 8,
+  "fga": 12,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 10,
+  "fta": 12
  }
 ]

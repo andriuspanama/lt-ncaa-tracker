@@ -42,5 +42,27 @@
   "tpa": 3,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401911009",
+  "date": "2026-11-09",
+  "opponent": "Penn State Schuylkill Nittany Lions",
+  "home": true,
+  "result": "W",
+  "score": "107-65",
+  "min": 13,
+  "pts": 14,
+  "reb": 6,
+  "ast": 1,
+  "stl": 1,
+  "blk": 0,
+  "to": 1,
+  "pf": 2,
+  "fgm": 4,
+  "fga": 7,
+  "tpm": 0,
+  "tpa": 3,
+  "ftm": 6,
+  "fta": 7
  }
 ]

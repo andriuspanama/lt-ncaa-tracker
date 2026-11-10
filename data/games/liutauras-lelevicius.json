@@ -42,5 +42,27 @@
   "tpa": 7,
   "ftm": 2,
   "fta": 2
+ },
+ {
+  "event_id": "401918074",
+  "date": "2026-11-09",
+  "opponent": "North Dakota Fighting Hawks",
+  "home": true,
+  "result": "W",
+  "score": "92-77",
+  "min": 32,
+  "pts": 21,
+  "reb": 8,
+  "ast": 2,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 2,
+  "fgm": 5,
+  "fga": 7,
+  "tpm": 2,
+  "tpa": 4,
+  "ftm": 9,
+  "fta": 9
  }
 ]
