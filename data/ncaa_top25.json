@@ -6,7 +6,7 @@
     "cat": "ppg",
     "label": "Taškai per rungtynes",
     "value": 27.0,
-    "rank": 10
+    "rank": 8
    }
   ],
   "dovydas-butka": [
@@ -14,7 +14,7 @@
     "cat": "rpg",
     "label": "Atkovoti kamuoliai per rungtynes",
     "value": 11.5,
-    "rank": 14
+    "rank": 11
    }
   ],
   "motiejus-krivas": [
@@ -22,15 +22,7 @@
     "cat": "bpg",
     "label": "Blokai per rungtynes",
     "value": 4.0,
-    "rank": 5
-   }
-  ],
-  "matas-vokietaitis": [
-   {
-    "cat": "fgp",
-    "label": "Metimų iš žaidimo taiklumas (FG%)",
-    "value": 88.23529481887817,
-    "rank": 8
+    "rank": 4
    }
   ],
   "dominic-pangonis": [
@@ -38,13 +30,13 @@
     "cat": "fgp",
     "label": "Metimų iš žaidimo taiklumas (FG%)",
     "value": 86.66666746139526,
-    "rank": 9
+    "rank": 7
    },
    {
     "cat": "tpp",
     "label": "Tritaškių taiklumas (3P%)",
     "value": 80.0000011920929,
-    "rank": 8
+    "rank": 5
    }
   ]
  },
@@ -65,12 +57,12 @@
   ],
   "rpg": [
    [
-    "DeWayne Brown II",
-    17.0
-   ],
-   [
     "Patrick Wessler",
     15.0
+   ],
+   [
+    "DeWayne Brown II",
+    14.5
    ],
    [
     "Demetrius Lilley",
@@ -87,8 +79,8 @@
     10.0
    ],
    [
-    "Donovan Dent",
-    10.0
+    "Chris Lockett Jr.",
+    9.0
    ]
   ],
   "spg": [
@@ -111,12 +103,12 @@
     6.0
    ],
    [
-    "Bukky Oboye",
+    "Abdullah Ahmed",
     5.0
    ],
    [
-    "Abdullah Ahmed",
-    5.0
+    "Nes Emeneke",
+    4.5
    ]
   ],
   "fgp": [
@@ -139,25 +131,25 @@
     100.0
    ],
    [
-    "Trevaun Clark",
+    "Matt Christian",
     83.33333134651184
    ],
    [
-    "Matt Christian",
+    "Siddiq McMair",
     83.33333134651184
    ]
   ],
   "ftp": [
    [
+    "Rylan Griffen",
+    100.0
+   ],
+   [
     "Barrington Hargress",
     100.0
    ],
    [
-    "Elmarko Jackson",
-    100.0
-   ],
-   [
-    "Paul McNeil Jr.",
+    "Layden Blocker",
     100.0
    ]
   ]

@@ -385,6 +385,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401925914",
+  "date": "2026-11-04T03:00Z",
+  "team": "Portland State",
+  "opponent": "Lewis & Clark River Otters",
+  "home": true,
+  "state": "post",
+  "for": "111",
+  "against": "59",
+  "opp_rank": null
+ },
+ {
   "event_id": "401920232",
   "date": "2026-11-04T23:30Z",
   "team": "Dartmouth Big Green",
@@ -825,6 +836,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401917517",
+  "date": "2026-11-08T03:00Z",
+  "team": "Portland State",
+  "opponent": "Seattle U Redhawks",
+  "home": false,
+  "state": "post",
+  "for": "60",
+  "against": "79",
+  "opp_rank": null
+ },
+ {
   "event_id": "401921820",
   "date": "2026-11-08T18:00Z",
   "team": "South Carolina",
@@ -984,9 +1006,9 @@
   "team": "UT Arlington",
   "opponent": "Bethesda Flames",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "116",
+  "against": "65",
   "opp_rank": null
  },
  {
@@ -1226,6 +1248,17 @@
   "team": "Boise State",
   "opponent": "Oakland Golden Grizzlies",
   "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401925915",
+  "date": "2026-11-12T02:00Z",
+  "team": "Portland State",
+  "opponent": "Colorado State Rams",
+  "home": false,
   "state": "pre",
   "for": null,
   "against": null,
@@ -1551,6 +1584,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401921063",
+  "date": "2026-11-15T00:00Z",
+  "team": "Portland State",
+  "opponent": "San Francisco Dons",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401925108",
   "date": "2026-11-15T00:00Z",
   "team": "UT Arlington",
@@ -1721,6 +1765,17 @@
   "team": "Clemson Tigers",
   "opponent": "The Citadel Bulldogs",
   "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401917532",
+  "date": "2026-11-17T03:00Z",
+  "team": "Portland State",
+  "opponent": "Saint Mary's Gaels",
+  "home": false,
   "state": "pre",
   "for": null,
   "against": null,
@@ -2002,6 +2057,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401925916",
+  "date": "2026-11-20T03:00Z",
+  "team": "Portland State",
+  "opponent": "Northwest Indian RedHawks",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401916123",
   "date": "2026-11-20T20:00Z",
   "team": "Stephen F. Austin",
@@ -2237,6 +2303,17 @@
   "date": "2026-11-22T22:00Z",
   "team": "Lipscomb",
   "opponent": "Milligan Buffaloes",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401920159",
+  "date": "2026-11-22T22:00Z",
+  "team": "Portland State",
+  "opponent": "Cal State Fullerton Titans",
   "home": true,
   "state": "pre",
   "for": null,
@@ -2629,6 +2706,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401925917",
+  "date": "2026-11-25T22:00Z",
+  "team": "Portland State",
+  "opponent": "UC Riverside Highlanders",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401920076",
   "date": "2026-11-26T00:00Z",
   "team": "Longwood",
@@ -2809,6 +2897,17 @@
   "date": "2026-11-28T23:00Z",
   "team": "VMI Keydets",
   "opponent": "Richmond Spiders",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401920954",
+  "date": "2026-11-29T00:00Z",
+  "team": "Portland State",
+  "opponent": "Southern Illinois Salukis",
   "home": false,
   "state": "pre",
   "for": null,
@@ -3234,6 +3333,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401913416",
+  "date": "2026-12-04T03:00Z",
+  "team": "Portland State",
+  "opponent": "Eastern Washington Eagles",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401917375",
   "date": "2026-12-04T03:00Z",
   "team": "Utah Valley",
@@ -3487,6 +3597,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401913422",
+  "date": "2026-12-05T22:00Z",
+  "team": "Portland State",
+  "opponent": "Idaho Vandals",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401920985",
   "date": "2026-12-05T22:30Z",
   "team": "Stephen F. Austin",
@@ -3712,6 +3833,17 @@
   "team": "Mercer",
   "opponent": "Arizona State Sun Devils",
   "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401925918",
+  "date": "2026-12-09T03:00Z",
+  "team": "Portland State",
+  "opponent": "Evergreen State Geoducks",
+  "home": true,
   "state": "pre",
   "for": null,
   "against": null,
@@ -4108,6 +4240,17 @@
   "team": "Kansas City",
   "opponent": "Southeast Missouri State Redhawks",
   "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401925919",
+  "date": "2026-12-12T22:00Z",
+  "team": "Portland State",
+  "opponent": "George Fox Bruins",
+  "home": true,
   "state": "pre",
   "for": null,
   "against": null,
@@ -4734,6 +4877,17 @@
   "date": "2026-12-20T21:00Z",
   "team": "Northern Kentucky",
   "opponent": "Harvard Crimson",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401925920",
+  "date": "2026-12-20T21:30Z",
+  "team": "Portland State",
+  "opponent": "Oregon Ducks",
   "home": false,
   "state": "pre",
   "for": null,
@@ -5445,6 +5599,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401913429",
+  "date": "2026-12-31T21:00Z",
+  "team": "Portland State",
+  "opponent": "Montana State Bobcats",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401917390",
   "date": "2026-12-31T21:00Z",
   "team": "Utah Valley",
@@ -5614,6 +5779,17 @@
   "date": "2027-01-02T20:30Z",
   "team": "South Carolina",
   "opponent": "LSU Tigers",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401913434",
+  "date": "2027-01-02T21:00Z",
+  "team": "Portland State",
+  "opponent": "Montana Grizzlies",
   "home": false,
   "state": "pre",
   "for": null,
@@ -6182,6 +6358,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401913440",
+  "date": "2027-01-08T02:00Z",
+  "team": "Portland State",
+  "opponent": "Utah Tech Trailblazers",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401911700",
   "date": "2027-01-08T02:00Z",
   "team": "UT Martin",
@@ -6549,6 +6736,17 @@
   "date": "2027-01-10T01:00Z",
   "team": "Northern Kentucky",
   "opponent": "Milwaukee Panthers",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401913445",
+  "date": "2027-01-10T01:30Z",
+  "team": "Portland State",
+  "opponent": "Southern Utah Thunderbirds",
   "home": false,
   "state": "pre",
   "for": null,
@@ -6930,6 +7128,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401913449",
+  "date": "2027-01-15T03:00Z",
+  "team": "Portland State",
+  "opponent": "Weber State Wildcats",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401905709",
   "date": "2027-01-16T01:00Z",
   "team": "South Dakota",
@@ -7176,6 +7385,17 @@
   "date": "2027-01-16T22:00Z",
   "team": "Lipscomb",
   "opponent": "Florida Gulf Coast Eagles",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401913452",
+  "date": "2027-01-16T22:00Z",
+  "team": "Portland State",
+  "opponent": "Idaho State Bengals",
   "home": true,
   "state": "pre",
   "for": null,
@@ -7656,6 +7876,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401913459",
+  "date": "2027-01-22T03:00Z",
+  "team": "Portland State",
+  "opponent": "Northern Arizona Lumberjacks",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401921202",
   "date": "2027-01-23T00:00Z",
   "team": "Quinnipiac",
@@ -8030,6 +8261,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401913468",
+  "date": "2027-01-26T01:00Z",
+  "team": "Portland State",
+  "opponent": "Northern Colorado Bears",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401905261",
   "date": "2027-01-26T01:30Z",
   "team": "Campbell",
@@ -8338,6 +8580,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401913470",
+  "date": "2027-01-29T02:00Z",
+  "team": "Portland State",
+  "opponent": "Idaho Vandals",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401911694",
   "date": "2027-01-29T02:00Z",
   "team": "UT Martin",
@@ -8573,6 +8826,17 @@
   "date": "2027-01-30T21:30Z",
   "team": "UT Martin",
   "opponent": "Tennessee State Tigers",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401913474",
+  "date": "2027-01-30T22:00Z",
+  "team": "Portland State",
+  "opponent": "Eastern Washington Eagles",
   "home": false,
   "state": "pre",
   "for": null,
@@ -9075,6 +9339,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401913482",
+  "date": "2027-02-05T03:00Z",
+  "team": "Portland State",
+  "opponent": "Montana Grizzlies",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401917446",
   "date": "2027-02-05T03:00Z",
   "team": "Utah Valley",
@@ -9277,6 +9552,17 @@
   "date": "2027-02-06T22:00Z",
   "team": "Lipscomb",
   "opponent": "Jacksonville Dolphins",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401913487",
+  "date": "2027-02-06T22:00Z",
+  "team": "Portland State",
+  "opponent": "Montana State Bobcats",
   "home": true,
   "state": "pre",
   "for": null,
@@ -9746,6 +10032,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401913492",
+  "date": "2027-02-12T02:00Z",
+  "team": "Portland State",
+  "opponent": "Idaho State Bengals",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401917460",
   "date": "2027-02-12T03:00Z",
   "team": "California Baptist",
@@ -10037,6 +10334,17 @@
   "team": "New Mexico",
   "opponent": "UNLV Rebels",
   "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401913498",
+  "date": "2027-02-13T23:00Z",
+  "team": "Portland State",
+  "opponent": "Weber State Wildcats",
+  "home": false,
   "state": "pre",
   "for": null,
   "against": null,
@@ -10461,6 +10769,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401913504",
+  "date": "2027-02-19T03:00Z",
+  "team": "Portland State",
+  "opponent": "Southern Utah Thunderbirds",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401917470",
   "date": "2027-02-19T03:00Z",
   "team": "Utah Valley",
@@ -10703,6 +11022,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401913509",
+  "date": "2027-02-20T22:00Z",
+  "team": "Portland State",
+  "opponent": "Utah Tech Trailblazers",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401927807",
   "date": "2027-02-20T23:30Z",
   "team": "Boise State",
@@ -10861,6 +11191,17 @@
   "date": "2027-02-23T00:30Z",
   "team": "Stephen F. Austin",
   "opponent": "LSU New Orleans Privateers",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401913514",
+  "date": "2027-02-23T01:00Z",
+  "team": "Portland State",
+  "opponent": "Northern Arizona Lumberjacks",
   "home": false,
   "state": "pre",
   "for": null,
@@ -11411,6 +11752,17 @@
   "date": "2027-02-27T22:00Z",
   "team": "Lipscomb",
   "opponent": "West Florida Argonauts",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401913519",
+  "date": "2027-02-27T22:00Z",
+  "team": "Portland State",
+  "opponent": "Northern Colorado Bears",
   "home": true,
   "state": "pre",
   "for": null,
