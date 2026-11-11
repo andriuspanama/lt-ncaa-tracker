@@ -1,0 +1,25 @@
+{
+  "name": "LT NCAA Tracker",
+  "short_name": "LT NCAA",
+  "description": "Lietuviai NCAA Division I: rezultatai, statistika, įžvalgos",
+  "lang": "lt",
+  "id": "./",
+  "start_url": "./index.html?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#050811",
+  "theme_color": "#050811",
+  "categories": ["sports", "news"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Rezultatai", "short_name": "Rezultatai", "url": "./index.html", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Žaidėjai", "short_name": "Žaidėjai", "url": "./players.html", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Lyderiai", "short_name": "Lyderiai", "url": "./charts.html", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Įžvalgos", "short_name": "Įžvalgos", "url": "./insights.html", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]}
+  ]
+}

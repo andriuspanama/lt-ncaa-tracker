@@ -4,8 +4,9 @@ window.PHOTOS={};
 var jl=function(u){return fetch(u,{cache:'no-store'}).then(function(r){return r.ok?r.json():{}}).catch(function(){return {}})};
 window.NCAA={players:{}};
 window.FORM={players:{},hot:[],cold:[],tags:{},max_gp:0,eligible:0};
+window.REC={players:{}};
 window.CTX={teams:{},ap:{}};
-window.mediaReady=Promise.all([jl('data/teams.json'),jl('data/photos.json'),jl('data/ncaa_top25.json'),jl('data/conferences.json'),jl('data/rankings.json'),jl('data/form.json')]).then(function(r){window.FORM=r[5]&&r[5].players?r[5]:window.FORM;window.TEAMS=r[0];window.PHOTOS=r[1];window.NCAA=r[2]&&r[2].players?r[2]:{players:{}};var tm=(r[3]&&r[3].teams)||{},cs={};Object.keys(tm).forEach(function(k){cs[tm[k].conf]=1});window.CTX={teams:Object.keys(cs).length>=3?tm:{},ap:(r[4]&&r[4].ap)||{}}});
+window.mediaReady=Promise.all([jl('data/teams.json'),jl('data/photos.json'),jl('data/ncaa_top25.json'),jl('data/conferences.json'),jl('data/rankings.json'),jl('data/form.json'),jl('data/records.json')]).then(function(r){window.FORM=r[5]&&r[5].players?r[5]:window.FORM;window.REC=r[6]&&r[6].players?r[6]:window.REC;window.TEAMS=r[0];window.PHOTOS=r[1];window.NCAA=r[2]&&r[2].players?r[2]:{players:{}};var tm=(r[3]&&r[3].teams)||{},cs={};Object.keys(tm).forEach(function(k){cs[tm[k].conf]=1});window.CTX={teams:Object.keys(cs).length>=3?tm:{},ap:(r[4]&&r[4].ap)||{}}});
 (function(){
   var e=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
 
@@ -95,4 +96,12 @@ window.formBadge=function(id,plain){
   var hot=(F.hot||[]).indexOf(id)>-1,cold=(F.cold||[]).indexOf(id)>-1;if(!hot&&!cold)return '';
   var t=(hot?'Karštas: paskutinių '+F.window+' rungtynių ':'Šaltas: paskutinių '+F.window+' rungtynių ')+'Impact '+window.fc(p.last5.imp)+' (sezono vid. '+window.fc(p.season.imp)+'), '+window.fc(p.last5.ppg)+' tšk. (sezono vid. '+window.fc(p.season.ppg)+'). Spausk – formos analizė.';
   return '<a class="fb '+(hot?'hot':'cold')+'" href="players/'+encodeURIComponent(id)+'.html#forma" title="'+t.replace(/"/g,'&quot;')+'">'+(hot?'🔥 Karštas':'❄️ Šaltas')+'</a>';
+};
+
+/* Sezono rekordai (data/records.json, skaičiuoja build_records.py) */
+window.STATNAME={pts:'Taškai',reb:'Atkovoti',ast:'Perdavimai',stl:'Perimti',blk:'Blokai',tpm:'Tritaškiai'};
+window.recBadge=function(id){
+  var r=(window.REC.players||{})[id];if(!r||!r.new||!r.new.length)return '';
+  var t='Naujas sezono rekordas: '+r.new.map(function(n){return window.STATNAME[n.stat]+' '+n.v+' (anksčiau '+n.prev+')'}).join(', ');
+  return '<a class="fb rec" href="players/'+encodeURIComponent(id)+'.html#rekordai" title="'+t.replace(/"/g,'&quot;')+'">🏆 Naujas rekordas</a>';
 };

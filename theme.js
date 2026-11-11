@@ -46,7 +46,7 @@
     var on=function(){var h=document.documentElement,m=h.scrollHeight-h.clientHeight;pr.style.width=(m>0?100*h.scrollTop/m:0)+'%'};
     window.addEventListener('scroll',on,{passive:true});on();
     var top=document.querySelector('.topbar');if(!top)return;
-    var base=/\/players\//.test(location.pathname)?'../':'';
+    var base='';
     fetch(base+'data/ticker.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).then(function(j){
       if(!j||!j.items||!j.items.length)return;
       var e=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
@@ -60,3 +60,6 @@
     }).catch(function(){});
   });
 })();
+
+/* PWA: config.js ir pwa.js (nuosekliai) */
+(function(){['config.js','pwa.js'].forEach(function(f){var s=document.createElement('script');s.src=f;s.async=false;document.head.appendChild(s)})})();

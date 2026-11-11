@@ -6,7 +6,7 @@ PATH = "data/players.json"
 data = json.load(open(PATH, encoding="utf-8"))
 todo = [p for p in data["players"] if not p.get("espn_id")]
 if not todo:
-        print("Visi ID jau yra."); raise SystemExit(0)
+    print("Visi ID jau yra."); raise SystemExit(0)
 teams = [t["team"] for t in get(f"{B}/teams", limit=500)["sports"][0]["leagues"][0]["teams"]]
 ALIAS = {"FIU": "Florida International"}  # ESPN naudoja pilną pavadinimą
 def find_team(name):
