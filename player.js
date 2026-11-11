@@ -59,7 +59,7 @@ function progress(g,id){
     top+=`<div class="fx ${hot?'hot':'cold'}"><b>${hot?'🔥 Karštas':'❄️ Šaltas'}</b> · paskutinės ${F.window} rungtynės: ${fm1(fp.last5.ppg)} tšk., Impact ${fm1(fp.last5.imp)} (sezono vidurkis ${fm1(fp.season.ppg)} tšk., Impact ${fm1(fp.season.imp)}).</div>`}
   if(fp&&fp.tags&&fp.tags.length)top+=`<div class="chips tg">${fp.tags.map(t=>`<span class="fb tag">${esc(window.TAGTXT[t]||t)}</span>`).join('')}</div>`;
   if(!fp)top+=`<p class="sub">Karštų / šaltų ženklų analizė atsiras po ${F.min_games||10} rungtynių (dabar: ${n}).</p>`;
-  if(n<3)return `<section class="card" id="prog"><h2>PROGRESO ANALIZĖ</h2>${top}<p class="empty">Progreso grafikai atsiras po 3 rungtynių (dabar: ${n}).</p></section>`;
+  if(n<3)return `<section class="card" id="forma"><h2>PROGRESO ANALIZĖ</h2>${top}<p class="empty">Progreso grafikai atsiras po 3 rungtynių (dabar: ${n}).</p></section>`;
   const k=Math.min(5,Math.floor(n/2)),A=agg(g.slice(0,k)),B=agg(g.slice(-k)),T=agg(g),imp=g.map(GS);
   const dI=B.imp-A.imp,trend=dI>=1.5?'augantis':dI<=-1.5?'krintantis':'stabilus',tcl=dI>=1.5?'up':dI<=-1.5?'dn':'';
   const row=(l,a,b,f=fm1)=>{const d=b-a;return `<tr><td>${l}</td><td>${f(a)}</td><td>${f(b)}</td><td class="${d>=0.05?'up':d<=-0.05?'dn':''}">${sg(d)}</td></tr>`};
@@ -67,7 +67,7 @@ function progress(g,id){
   if(n>k+1){const P=agg(g.slice(0,n-k));seasonRow=`<div class="pgn"><span>Sezono vidurkio pokytis</span><b>${fm1(P.ppg)} → ${fm1(T.ppg)} PPG <em class="${T.ppg-P.ppg>=0.05?'up':T.ppg-P.ppg<=-0.05?'dn':''}">${sg(T.ppg-P.ppg)}</em></b><small>prieš paskutines ${k} rungtynes → dabar</small></div>`}
   const cum=g.map((_,i)=>agg(g.slice(0,i+1)).ppg);
   const ch=(t,svg,av)=>`<div class="mc"><div class="mt2">${t}${av!=null?` <em>· vid. ${fm1(av)}</em>`:''}</div>${svg}</div>`;
-  return `<section class="card" id="prog"><h2>PROGRESO ANALIZĖ</h2><p class="sub">Kaip vystosi sezonas, o ne tik kiek žaidėjas pelno</p>${top}
+  return `<section class="card" id="forma"><h2>PROGRESO ANALIZĖ</h2><p class="sub">Kaip vystosi sezonas, o ne tik kiek žaidėjas pelno</p>${top}
   <div class="pgc"><div class="pgn"><span>Pirmos ${k} rungtynės</span><b>${fm1(A.ppg)} PPG</b></div><div class="pgn"><span>Paskutinės ${k} rungtynės</span><b>${fm1(B.ppg)} PPG</b></div>
     <div class="pgn"><span>Minučių vidurkis</span><b class="${B.mpg-A.mpg>=0.05?'up':B.mpg-A.mpg<=-0.05?'dn':''}">${sg(B.mpg-A.mpg)}</b></div>
     <div class="pgn"><span>Impact Score</span><b class="${tcl}">${trend}</b><small>${fm1(A.imp)} → ${fm1(B.imp)}</small></div>${seasonRow}</div>
@@ -90,29 +90,34 @@ function recordsCard(id){
   return `<section class="card" id="rekordai"><h2>SEZONO REKORDAI IR ŽENKLIUKAI</h2><p class="sub">Geriausios šio sezono rungtynės pagal rodiklį</p><div class="rgrid">${tiles}</div>${bd?`<h3 class="h3s">Pasiekimai</h3><div class="achs">${bd}</div>`:'<p class="sub">Pasiekimų ženkliukai atsiras, kai žaidėjas sužais įspūdingų rungtynių.</p>'}</section>`}
 
 /* ---------- ŠŪVIŲ ŽEMĖLAPIS ---------- */
-const HOOPX=25,HOOPY=5.25;
+const HOOPX=25,HOOPY=5.25,ARC=22.15;
+/* ESPN koordinatės šiek tiek netikslios: suderinam su oficialia metimo verte – tritaškiai visada už lanko, dvitaškiai (ne kampe) – viduje */
+function fixShot(s){const dx=s.x-HOOPX,dy=s.y-HOOPY,d=Math.hypot(dx,dy)||0.01;let x=s.x,y=s.y;
+  if(s.v===3&&d<ARC+0.9){const k=(ARC+0.9)/d;x=HOOPX+dx*k;y=HOOPY+dy*k}
+  else if(s.v===2&&s.y>8&&d>ARC-0.7){const k=(ARC-0.7)/d;x=HOOPX+dx*k;y=HOOPY+dy*k}
+  return Object.assign({},s,{x:+Math.max(.6,Math.min(49.4,x)).toFixed(1),y:+Math.max(.6,y).toFixed(1)})}
 function courtSVG(shots){
   const Y=y=>(47-y).toFixed(2),dots=shots.map(s=>{const t=`${s.m?'Pataikė':'Nepataikė'} ${s.v} tšk. · ${s.h?'prieš':'@'} ${s.o} · ${s.d}`;
     return s.m?`<circle cx="${s.x}" cy="${Y(s.y)}" r="0.85" fill="#22c55e" stroke="#fff" stroke-width=".18" opacity=".92"><title>${t}</title></circle>`
       :`<g stroke="#ef4444" stroke-width=".35" stroke-linecap="round" opacity=".85"><title>${t}</title><line x1="${s.x-.65}" y1="${(47-s.y-.65).toFixed(2)}" x2="${s.x+.65}" y2="${(47-s.y+.65).toFixed(2)}"/><line x1="${s.x-.65}" y1="${(47-s.y+.65).toFixed(2)}" x2="${s.x+.65}" y2="${(47-s.y-.65).toFixed(2)}"/></g>`}).join('');
-  return `<svg viewBox="-2 -2 54 51.5" width="100%" class="court" role="img" aria-label="Šūvių žemėlapis"><g fill="none" stroke="currentColor" stroke-width=".28" opacity=".55">
+  return `<svg viewBox="-2 -2 54 51.5" width="100%" class="court" role="img" aria-label="Metimų žemėlapis"><g fill="none" stroke="currentColor" stroke-width=".28" opacity=".55">
     <rect x="0" y="0" width="50" height="47"/><rect x="19" y="28" width="12" height="19"/><circle cx="25" cy="28" r="6"/>
     <path d="M21,41.75 A4,4 0 0 1 29,41.75"/><line x1="22" y1="43" x2="28" y2="43"/><circle cx="25" cy="41.75" r=".75"/>
     <path d="M3,47 L3,39.17 A22.15,22.15 0 0 1 47,39.17 L47,47"/><path d="M19,0 A6,6 0 0 0 31,0"/></g>${dots}</svg>`}
 function zoneStats(shots){
-  const Z={rim:['Prie krepšio',0,0],paint:['Dažas',0,0],mid:['Vidutinis nuotolis',0,0],c3:['Kampiniai tritaškiai',0,0],a3:['Tritaškiai iš viršaus',0,0]};
+  const Z={rim:['Prie krepšio',0,0],paint:['Dažytoji zona',0,0],mid:['Vidutinis nuotolis',0,0],c3:['Tritaškiai iš kampų',0,0],a3:['Tritaškiai nuo lanko',0,0]};
   shots.forEach(s=>{const d=Math.hypot(s.x-HOOPX,s.y-HOOPY),k=s.v===3?(s.y<=8?'c3':'a3'):d<=4?'rim':(s.x>=19&&s.x<=31&&s.y<=19)?'paint':'mid';Z[k][2]++;if(s.m)Z[k][1]++});
   return Object.values(Z).filter(z=>z[2]).map(([n,m,a])=>`<tr><td>${n}</td><td>${m}/${a}</td><td><span class="zb"><i style="width:${Math.round(m/a*100)}%"></i></span> ${Math.round(m/a*100)}%</td></tr>`).join('')}
 function shotsHTML(all,sel){
   const shots=sel?all.filter(s=>s.e===sel):all,m=shots.filter(s=>s.m).length,t3=shots.filter(s=>s.v===3),t3m=t3.filter(s=>s.m).length;
   const games=[...new Map(all.map(s=>[s.e,s])).values()];
-  return `<h2>ŠŪVIŲ ŽEMĖLAPIS</h2><p class="sub">${shots.length} metimai iš žaidimo: ${m} pataikyti (${shots.length?Math.round(m/shots.length*100):0}%) · tritaškiai ${t3m}/${t3.length}</p>
+  return `<h2>METIMŲ ŽEMĖLAPIS</h2><p class="sub">${shots.length} metimai iš žaidimo: ${m} pataikyti (${shots.length?Math.round(m/shots.length*100):0}%) · tritaškiai ${t3m}/${t3.length}</p>
    <select id="shsel" class="big-sel shsel"><option value="">Visas sezonas</option>${games.map(g=>`<option value="${esc(g.e)}"${g.e===sel?' selected':''}>${fd(g.d)} · ${g.h?'prieš':'@'} ${esc(g.o)}</option>`).join('')}</select>
    <div class="shgrid"><div class="shc">${courtSVG(shots)}<div class="lg"><span><i class="mk"></i> pataikė</span><span><i class="ms">✕</i> nepataikė</span></div></div>
-   <div class="tw"><table class="pgt zt"><tr><th>Zona</th><th>Pataikė</th><th>FG%</th></tr>${zoneStats(shots)}</table></div></div>`}
+   <div class="tw"><table class="pgt zt"><tr><th>Zona</th><th>Pataikyta</th><th>Taiklumas</th></tr>${zoneStats(shots)}</table></div></div>`}
 async function loadShots(id){
   const box=document.getElementById('shots');if(!box)return;
-  try{const r=await fetch('data/shots/'+id+'.json',{cache:'no-store'});if(!r.ok)return;const all=await r.json();if(!Array.isArray(all)||!all.length)return;
+  try{const r=await fetch('data/shots/'+id+'.json',{cache:'no-store'});if(!r.ok)return;const raw=await r.json();if(!Array.isArray(raw)||!raw.length)return;const all=raw.map(fixShot);
     const draw=sel=>{box.innerHTML=shotsHTML(all,sel);const s=box.querySelector('#shsel');if(s)s.onchange=()=>draw(s.value)};draw('');box.hidden=false}catch(e){}}
 if(typeof document==='undefined'){module.exports={agg,pct,GS,strips,shareData,progress,recordsCard,shotsHTML};}
 else(async()=>{
@@ -135,7 +140,7 @@ else(async()=>{
       <div class="seg" id="shper"><button data-p="week">Savaitė</button><button data-p="month">Mėnuo</button><button data-p="season" class="on">Sezonas</button></div>
       <button class="share-card-btn share-action share-big" id="shbtn" type="button">Sukurti ir dalintis kortele</button></section>
     ${ncaaEntries(id).length?`<section class="card"><h2>NCAA TOP 25</h2><p class="sub">Kategorijos, kuriose patenka tarp visų D1 žaidėjų</p><div class="hl">${ncaaEntries(id).slice().sort((x,y)=>x.rank-y.rank).map(x=>`<div><b>#${x.rank}</b> · ${esc(ncaaExplain(x))}</div>`).join('')}</div></section>`:''}
-    <section class="card" id="forma"><h2>FORMA</h2><p class="sub">Paskutinių ${Math.min(10,g.length)} rungtynių taškai</p>${form(g)}</section>
+    
     ${progress(g,id)}
     ${recordsCard(id)}
     <section class="card" id="shots" hidden></section>

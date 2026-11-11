@@ -41,10 +41,10 @@ Neoficialus Lietuvos krepšininkų NCAA Division I sekiklis (statinė svetainė,
 Nėra oficialaus NCAA API; naudojami viešieji ESPN endpointai, jie gali pasikeisti. Logotipai ir nuotraukos nenaudojami. Duomenys gali vėluoti.
 
 ## Programėlė (PWA) ir pranešimai
-- Svetainę galima įdiegti kaip programėlę (Android/Chrome: „Įdiegti“ juosta; iPhone: Safari → Dalintis → Pridėti į pradžios ekraną). Piktogramos: `python tools/make_icons.py` (tas pats NCAA logotipas iš `ncaa-logo.png`).
+- Svetainę galima įdiegti kaip programėlę (Android/Chrome: „Įdiegti“ juosta; iPhone: Safari → Dalintis → Pridėti į pradžios ekraną). Piktogramos: `python make_icons.py` (tas pats NCAA logotipas iš `ncaa-logo.png`).
 - `sw.js` – veikimas be tinklo (rodo paskutinius duomenis) ir fono tikrinimas (Android Chrome, įdiegta programėlė).
 - **Momentiniai pranešimai (neprivaloma)** – per OneSignal (nemokama paskyra): 1) onesignal.com → naujas „Web“ projektas, svetainės adresas `https://andriuspanama.github.io/lt-ncaa-tracker/`; 2) `config.js` įrašyk savo App ID; 3) GitHub → Settings → Secrets and variables → Actions → pridėk `ONESIGNAL_APP_ID` ir `ONESIGNAL_API_KEY`. `send_push.py` siunčia ne dažniau nei kas 5 val. ir tik kai atsiranda nauji rezultatai. iPhone pranešimus gauna tik įdiegta programėlė (iOS 16.4+).
 
-## Šūvių žemėlapis ir rekordai
-- `fetch_shots.py` – ESPN play-by-play šūvių koordinatės → `data/shots/<id>.json` (jei ESPN koordinačių nepateikia, žemėlapis nerodomas).
+## Metimų žemėlapis ir rekordai
+- `fetch_shots.py` – ESPN play-by-play metimų koordinatės → `data/shots/<id>.json` (jei ESPN koordinačių nepateikia, žemėlapis nerodomas).
 - `build_records.py` → `data/records.json`: sezono rekordai, pasiekimų ženkliukai ir 🏆 „naujas rekordas“ (7 d.).

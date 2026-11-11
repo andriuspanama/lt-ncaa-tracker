@@ -326,3 +326,46 @@ body>header:not(.mast){max-width:1200px;margin-left:auto;margin-right:auto;box-s
 .shsel{width:100%;max-width:340px;margin:6px 0 0;min-height:44px}
 .zt td+td,.zt th+th{text-align:right}.zb{display:inline-block;width:46px;height:6px;border-radius:3px;background:var(--chip);vertical-align:middle;margin-right:4px;overflow:hidden}.zb i{display:block;height:100%;background:linear-gradient(90deg,var(--bl),var(--ac))}
 @media (max-width:760px){.shgrid{grid-template-columns:1fr}.shc{margin:0 auto}}
+
+/* ===== Lyderiai: nominacijų pasirinkimas + podiumas ===== */
+.nomwrap{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:16px;align-items:start;margin-bottom:16px}
+.nomwrap #nompanel{order:1;min-width:0}.nomwrap .nomnav{order:2;position:sticky;top:78px}
+.nomnav{display:flex;flex-direction:column;gap:6px}
+.nsep{font:700 10px var(--disp);letter-spacing:.18em;text-transform:uppercase;color:var(--mu);margin:10px 4px 2px}
+.nn{display:grid;grid-template-columns:38px minmax(0,1fr);grid-template-areas:"i t" "i l";column-gap:10px;align-items:center;text-align:left;padding:9px 12px;border-radius:14px;border:1px solid var(--edge);background:var(--glass);color:var(--tx);cursor:pointer;font-family:var(--disp);transition:border-color .15s,background .15s}
+.nn .ni{grid-area:i;width:38px;height:38px;border-radius:11px;display:grid;place-items:center;font-size:19px;background:color-mix(in srgb,var(--nc) 16%,transparent)}
+.nn .nt{grid-area:t;font-weight:700;font-size:14px;letter-spacing:.02em}
+.nn .nl{grid-area:l;font-size:12px;color:var(--mu);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.nn .nl b{color:var(--nc);font-family:"Barlow Condensed",sans-serif;font-size:15px}
+.nn:hover{border-color:var(--nc)}
+.nn.on{border-color:var(--nc);background:linear-gradient(90deg,color-mix(in srgb,var(--nc) 20%,transparent),var(--glass));box-shadow:inset 3px 0 0 var(--nc)}
+.nomp{border-top:3px solid var(--nc)}
+.nomh{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.nomi{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;font-size:25px;background:color-mix(in srgb,var(--nc) 18%,transparent);flex:none}
+.card .nomt{font:800 clamp(24px,3vw,32px)/1.1 var(--disp);letter-spacing:.005em;text-transform:none;margin:0;color:var(--tx)}
+.nomh .sub{margin:3px 0 0}
+.pod{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;align-items:end;margin-bottom:12px}
+.pod.n1{grid-template-columns:minmax(0,1fr)}.pod.n2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.pc{position:relative;display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;padding:14px 10px 12px;border-radius:18px;border:1px solid var(--edge);background:linear-gradient(180deg,color-mix(in srgb,var(--nc) 9%,transparent),var(--glass2));color:var(--tx);text-decoration:none;min-width:0}
+.pc.p1{padding-top:22px;padding-bottom:18px;border-color:var(--nc);background:linear-gradient(180deg,color-mix(in srgb,var(--nc) 20%,transparent),var(--glass2))}
+.pc .pr{position:absolute;left:10px;top:8px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font:800 12px var(--disp);background:var(--chip);color:var(--tx)}
+.pc.p1 .pr{background:var(--nc);color:#1a0c00}
+.pc .av{width:62px;height:62px}.pc.p1 .av{width:82px;height:82px}
+.pc .pn{display:flex;flex-direction:column;align-items:center;gap:3px;min-width:0}
+.pc .pn b{font:700 15px/1.2 var(--disp);overflow-wrap:anywhere}.pc.p1 .pn b{font-size:17px}
+.pc .pn small{font-size:12px;color:var(--mu);display:flex;align-items:center;gap:4px;flex-wrap:wrap;justify-content:center}
+.pc .pv{font:800 34px/1 "Barlow Condensed",sans-serif;color:var(--nc)}.pc.p1 .pv{font-size:46px}
+.nomp .rowc .v{color:var(--nc)}.nomp .bar2 i{background:linear-gradient(90deg,color-mix(in srgb,var(--nc) 45%,transparent),var(--nc))}
+@media (max-width:1000px){
+  .nomwrap{grid-template-columns:1fr}.nomwrap .nomnav{order:0;position:static;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+  .nomwrap #nompanel{order:1}.nsep{grid-column:1/-1}
+}
+@media (max-width:700px){
+  .nomwrap .nomnav{display:flex;flex-direction:row;overflow-x:auto;gap:8px;padding-bottom:4px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}
+  .nsep,.nn .nl{display:none}
+  .nn{flex:none;display:flex;gap:8px;align-items:center;padding:8px 12px;border-radius:999px;scroll-snap-align:start}
+  .nn .ni{width:26px;height:26px;border-radius:50%;font-size:14px}.nn .nt{font-size:13px;white-space:nowrap}
+  .pod,.pod.n2{grid-template-columns:1fr}
+  .pc{flex-direction:row;text-align:left;padding:10px 12px;gap:10px}.pc.p1{order:1}.pc.p2{order:2}.pc.p3{order:3}
+  .pc .pr{position:static;flex:none}.pc .av,.pc.p1 .av{width:48px;height:48px}.pc .pn{align-items:flex-start;flex:1}.pc .pn small{justify-content:flex-start}
+  .pc .pv,.pc.p1 .pv{font-size:30px;margin-left:auto}.pc.p1 .pn b{font-size:15px}
+}
