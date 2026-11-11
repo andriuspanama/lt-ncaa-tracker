@@ -2,22 +2,6 @@
  "updated": "2026-11-11",
  "items": [
   {
-   "id": "matas-vokietaitis",
-   "name": "Matas Vokietaitis",
-   "team": "Texas",
-   "date": "2026-11-09",
-   "opp": "Grambling Tigers",
-   "home": true,
-   "res": "W",
-   "score": "93-62",
-   "pts": 26,
-   "reb": 9,
-   "ast": 0,
-   "stl": 1,
-   "blk": 1,
-   "gs": 24.8
-  },
-  {
    "id": "paulius-murauskas",
    "name": "Paulius Murauskas",
    "team": "Arizona State Sun Devils",
@@ -32,22 +16,6 @@
    "stl": 2,
    "blk": 3,
    "gs": 22.3
-  },
-  {
-   "id": "liutauras-lelevicius",
-   "name": "Liutauras Lelevičius",
-   "team": "Clemson Tigers",
-   "date": "2026-11-09",
-   "opp": "North Dakota Fighting Hawks",
-   "home": true,
-   "res": "W",
-   "score": "92-77",
-   "pts": 21,
-   "reb": 8,
-   "ast": 2,
-   "stl": 0,
-   "blk": 0,
-   "gs": 21.7
   },
   {
    "id": "motiejus-krivas",
@@ -98,22 +66,6 @@
    "gs": 13.6
   },
   {
-   "id": "matas-buteliauskas",
-   "name": "Matas Buteliauskas",
-   "team": "Buffalo",
-   "date": "2026-11-09",
-   "opp": "Penn State Schuylkill Nittany Lions",
-   "home": true,
-   "res": "W",
-   "score": "107-65",
-   "pts": 14,
-   "reb": 6,
-   "ast": 1,
-   "stl": 1,
-   "blk": 0,
-   "gs": 13.2
-  },
-  {
    "id": "kajus-kublickas",
    "name": "Kajus Kublickas",
    "team": "South Dakota",
@@ -160,6 +112,54 @@
    "stl": 0,
    "blk": 0,
    "gs": 4.9
+  },
+  {
+   "id": "nikas-stuknys",
+   "name": "Nikas Stuknys",
+   "team": "UT Martin",
+   "date": "2026-11-10",
+   "opp": "Arkansas State Red Wolves",
+   "home": false,
+   "res": "W",
+   "score": "82-65",
+   "pts": 5,
+   "reb": 4,
+   "ast": 0,
+   "stl": 2,
+   "blk": 0,
+   "gs": 3.6
+  },
+  {
+   "id": "gabrielius-jokubauskas",
+   "name": "Gabrielius Jokubauskas",
+   "team": "Northern Kentucky",
+   "date": "2026-11-10",
+   "opp": "Saint Louis Billikens",
+   "home": false,
+   "res": "L",
+   "score": "63-125",
+   "pts": 3,
+   "reb": 6,
+   "ast": 1,
+   "stl": 0,
+   "blk": 0,
+   "gs": 1.9
+  },
+  {
+   "id": "ernas-valauskas",
+   "name": "Ernas Valauskas",
+   "team": "Dartmouth Big Green",
+   "date": "2026-11-11",
+   "opp": "UAlbany Great Danes",
+   "home": false,
+   "res": "W",
+   "score": "85-76",
+   "pts": 5,
+   "reb": 1,
+   "ast": 1,
+   "stl": 0,
+   "blk": 0,
+   "gs": 1.6
   }
  ]
 }

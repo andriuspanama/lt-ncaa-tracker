@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-11",
- "newest": "2026-11-10",
+ "newest": "2026-11-11",
  "players": {
   "motiejus-krivas": {
    "gp": 3,
@@ -1573,7 +1573,7 @@
    "new": []
   },
   "ernas-valauskas": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 18,
@@ -1591,10 +1591,10 @@
     },
     "ast": {
      "v": 1,
-     "date": "2026-11-08",
-     "eid": "401920233",
-     "opp": "Central Connecticut Blue Devils",
-     "home": true
+     "date": "2026-11-11",
+     "eid": "401920234",
+     "opp": "UAlbany Great Danes",
+     "home": false
     },
     "stl": {
      "v": 1,

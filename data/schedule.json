@@ -1182,9 +1182,9 @@
   "team": "Kansas City",
   "opponent": "Florida A&M Rattlers",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "87",
+  "against": "65",
   "opp_rank": null
  },
  {
@@ -1193,9 +1193,9 @@
   "team": "Dartmouth Big Green",
   "opponent": "UAlbany Great Danes",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "85",
+  "against": "76",
   "opp_rank": null
  },
  {

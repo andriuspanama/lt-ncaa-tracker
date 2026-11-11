@@ -64,5 +64,27 @@
   "tpa": 4,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401920234",
+  "date": "2026-11-11",
+  "opponent": "UAlbany Great Danes",
+  "home": false,
+  "result": "W",
+  "score": "85-76",
+  "min": 12,
+  "pts": 5,
+  "reb": 1,
+  "ast": 1,
+  "stl": 0,
+  "blk": 0,
+  "to": 4,
+  "pf": 0,
+  "fgm": 2,
+  "fga": 2,
+  "tpm": 1,
+  "tpa": 1,
+  "ftm": 0,
+  "fta": 0
  }
 ]
