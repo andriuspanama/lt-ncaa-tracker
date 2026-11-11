@@ -21,7 +21,7 @@ function render(){
     const s=st(p);
     const row=s&&s.gp?`<div class="stats">${[['pts','PPG'],['reb','RPG'],['ast','APG'],['stl','SPG']].map(([k,l])=>`<div><b>${val(s,k)}</b><span>${l}</span></div>`).join('')}</div>`:(p.roster_status==='not_found'?`<div class="empty">ESPN dar neįtraukė į komandos sąrašą · statistika atsiras po pirmų rungtynių</div>`:`<div class="empty">${S.period==='season'?'Duomenų dar nėra':'Šiuo laikotarpiu nežaidė'}</div>`);
     return `<article class="pl" data-id="${esc(p.id)}" style="--tc:${teamColor(p.team)}"><div class="top">${avatar(p)}
-    <div><div class="nm">${esc(p.name)}</div><div>${ncaaBadges(p.id,2)}${formBadge(p.id)}</div><div class="mt">${esc(p.team)}${confChip(p.team,p.conference)}</div>
+    <div><div class="nm">${esc(p.name)}</div><div>${ncaaBadges(p.id,2)}${formBadge(p.id)}${recBadge(p.id)}</div><div class="mt">${esc(p.team)}${confChip(p.team,p.conference)}</div>
     <div class="mt">${p.height_cm} cm (${ftin(p.height_cm)}) · ${esc(p.position)}</div></div>${teamLogo(p.team)}</div>${row}</article>`}).join('')||'<p class="empty">Nieko nerasta</p>';
   document.querySelectorAll('.pl').forEach(el=>el.onclick=e=>{if(e.target.closest('a'))return;location.href='players/'+el.dataset.id+'.html'});
 }

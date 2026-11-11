@@ -76,7 +76,45 @@ function progress(g,id){
   <div class="mg">${ch('Taškai kiekvienose rungtynėse',miniBars(g.map(x=>x.pts),dates,'#ff7a1a',T.ppg),T.ppg)}${ch('Žaidimo minutės',miniBars(g.map(x=>x.min),dates,'#27a7e6',T.mpg),T.mpg)}
   ${ch('Atkovoti kamuoliai',miniBars(g.map(x=>x.reb),dates,'#2dd4a0',T.rpg),T.rpg)}${ch('Rezultatyvūs perdavimai',miniBars(g.map(x=>x.ast),dates,'#fdb913',T.apg),T.apg)}
   ${ch('Impact Score kiekvienose rungtynėse',miniBars(imp.map(v=>Math.max(0,v)),dates,'#b07cff',T.imp),T.imp)}${ch('Sezono vidurkis (PPG) po kiekvienų rungtynių',miniLine(cum,dates,'#ff7a1a'))}</div></section>`}
-if(typeof document==='undefined'){module.exports={agg,pct,GS,strips,shareData,progress};}
+
+/* ---------- SEZONO REKORDAI IR ŽENKLIUKAI ---------- */
+const RECN={pts:'Taškai',reb:'Atkovoti',ast:'Perdavimai',stl:'Perimti',blk:'Blokai',tpm:'Tritaškiai'};
+const BADGES=[['td','🔱','Triple-double'],['dd','🔟','Double-double'],['p30','🚀','30+ taškų'],['p20','🔥','20+ taškų'],['t3','🎯','3+ tritaškiai'],['b3','🛡️','3+ blokai'],['s3','🕷️','3+ perimti'],['ft','✅','Tobulos baudos (6+)']];
+function recordsCard(id){
+  const R=typeof window!=='undefined'&&window.REC&&window.REC.players&&window.REC.players[id];
+  if(!R||!R.gp)return '';
+  const isNew=k=>(R.new||[]).some(n=>n.stat===k),keys=Object.keys(RECN).filter(k=>R.records&&R.records[k]);
+  const tiles=keys.map(k=>{const r=R.records[k];return `<div class="rtile${isNew(k)?' new':''}"><span>${RECN[k]}${isNew(k)?' <i>NAUJAS</i>':''}</span><b>${r.v}</b><small>${r.home?'prieš':'@'} ${esc(r.opp)} · ${fd(r.date)}</small></div>`}).join('');
+  const bd=BADGES.filter(([k])=>R.counts&&R.counts[k]).map(([k,e,t])=>`<span class="ach">${e} ${t}${R.counts[k]>1?` <b>×${R.counts[k]}</b>`:''}</span>`).join('');
+  if(!tiles&&!bd)return '';
+  return `<section class="card" id="rekordai"><h2>SEZONO REKORDAI IR ŽENKLIUKAI</h2><p class="sub">Geriausios šio sezono rungtynės pagal rodiklį</p><div class="rgrid">${tiles}</div>${bd?`<h3 class="h3s">Pasiekimai</h3><div class="achs">${bd}</div>`:'<p class="sub">Pasiekimų ženkliukai atsiras, kai žaidėjas sužais įspūdingų rungtynių.</p>'}</section>`}
+
+/* ---------- ŠŪVIŲ ŽEMĖLAPIS ---------- */
+const HOOPX=25,HOOPY=5.25;
+function courtSVG(shots){
+  const Y=y=>(47-y).toFixed(2),dots=shots.map(s=>{const t=`${s.m?'Pataikė':'Nepataikė'} ${s.v} tšk. · ${s.h?'prieš':'@'} ${s.o} · ${s.d}`;
+    return s.m?`<circle cx="${s.x}" cy="${Y(s.y)}" r="0.85" fill="#22c55e" stroke="#fff" stroke-width=".18" opacity=".92"><title>${t}</title></circle>`
+      :`<g stroke="#ef4444" stroke-width=".35" stroke-linecap="round" opacity=".85"><title>${t}</title><line x1="${s.x-.65}" y1="${(47-s.y-.65).toFixed(2)}" x2="${s.x+.65}" y2="${(47-s.y+.65).toFixed(2)}"/><line x1="${s.x-.65}" y1="${(47-s.y+.65).toFixed(2)}" x2="${s.x+.65}" y2="${(47-s.y-.65).toFixed(2)}"/></g>`}).join('');
+  return `<svg viewBox="-2 -2 54 51.5" width="100%" class="court" role="img" aria-label="Šūvių žemėlapis"><g fill="none" stroke="currentColor" stroke-width=".28" opacity=".55">
+    <rect x="0" y="0" width="50" height="47"/><rect x="19" y="28" width="12" height="19"/><circle cx="25" cy="28" r="6"/>
+    <path d="M21,41.75 A4,4 0 0 1 29,41.75"/><line x1="22" y1="43" x2="28" y2="43"/><circle cx="25" cy="41.75" r=".75"/>
+    <path d="M3,47 L3,39.17 A22.15,22.15 0 0 1 47,39.17 L47,47"/><path d="M19,0 A6,6 0 0 0 31,0"/></g>${dots}</svg>`}
+function zoneStats(shots){
+  const Z={rim:['Prie krepšio',0,0],paint:['Dažas',0,0],mid:['Vidutinis nuotolis',0,0],c3:['Kampiniai tritaškiai',0,0],a3:['Tritaškiai iš viršaus',0,0]};
+  shots.forEach(s=>{const d=Math.hypot(s.x-HOOPX,s.y-HOOPY),k=s.v===3?(s.y<=8?'c3':'a3'):d<=4?'rim':(s.x>=19&&s.x<=31&&s.y<=19)?'paint':'mid';Z[k][2]++;if(s.m)Z[k][1]++});
+  return Object.values(Z).filter(z=>z[2]).map(([n,m,a])=>`<tr><td>${n}</td><td>${m}/${a}</td><td><span class="zb"><i style="width:${Math.round(m/a*100)}%"></i></span> ${Math.round(m/a*100)}%</td></tr>`).join('')}
+function shotsHTML(all,sel){
+  const shots=sel?all.filter(s=>s.e===sel):all,m=shots.filter(s=>s.m).length,t3=shots.filter(s=>s.v===3),t3m=t3.filter(s=>s.m).length;
+  const games=[...new Map(all.map(s=>[s.e,s])).values()];
+  return `<h2>ŠŪVIŲ ŽEMĖLAPIS</h2><p class="sub">${shots.length} metimai iš žaidimo: ${m} pataikyti (${shots.length?Math.round(m/shots.length*100):0}%) · tritaškiai ${t3m}/${t3.length}</p>
+   <select id="shsel" class="big-sel shsel"><option value="">Visas sezonas</option>${games.map(g=>`<option value="${esc(g.e)}"${g.e===sel?' selected':''}>${fd(g.d)} · ${g.h?'prieš':'@'} ${esc(g.o)}</option>`).join('')}</select>
+   <div class="shgrid"><div class="shc">${courtSVG(shots)}<div class="lg"><span><i class="mk"></i> pataikė</span><span><i class="ms">✕</i> nepataikė</span></div></div>
+   <div class="tw"><table class="pgt zt"><tr><th>Zona</th><th>Pataikė</th><th>FG%</th></tr>${zoneStats(shots)}</table></div></div>`}
+async function loadShots(id){
+  const box=document.getElementById('shots');if(!box)return;
+  try{const r=await fetch('data/shots/'+id+'.json',{cache:'no-store'});if(!r.ok)return;const all=await r.json();if(!Array.isArray(all)||!all.length)return;
+    const draw=sel=>{box.innerHTML=shotsHTML(all,sel);const s=box.querySelector('#shsel');if(s)s.onchange=()=>draw(s.value)};draw('');box.hidden=false}catch(e){}}
+if(typeof document==='undefined'){module.exports={agg,pct,GS,strips,shareData,progress,recordsCard,shotsHTML};}
 else(async()=>{
   const $=s=>document.querySelector(s),load=async p=>{try{const r=await fetch(p,{cache:'no-store'});if(!r.ok)throw 0;return await r.json()}catch(e){return null}};
   await mediaReady;
@@ -84,7 +122,7 @@ else(async()=>{
   if(!p){pf.innerHTML='<p class="empty">Žaidėjas nerastas</p>';return}
   const games={};await Promise.all(players.map(async q=>{const g=await load(`data/games/${q.id}.json`);if(g&&g.length)games[q.id]=g}));
   const g=games[id],head=`<section class="card who">${avatar(p)}<h2>${esc(p.name)}</h2>${teamLogo(p.team,'tl')}<div class="mt">${esc(p.team)}${confChip(p.team,p.conference)}</div>
-    <div class="mt">${p.position} · ${p.height_cm} cm (${ftin(p.height_cm)})${p.class_year?' · '+esc(p.class_year):''}${p.jersey?' · #'+esc(p.jersey):''}</div>${formBadge(id)?`<div class="mt">${formBadge(id)}</div>`:''}`;
+    <div class="mt">${p.position} · ${p.height_cm} cm (${ftin(p.height_cm)})${p.class_year?' · '+esc(p.class_year):''}${p.jersey?' · #'+esc(p.jersey):''}</div>${(formBadge(id)||recBadge(id))?`<div class="mt">${formBadge(id)} ${recBadge(id)}</div>`:''}`;
   if(!g){pf.innerHTML=`<div class="hero">${head}<p class="empty">Duomenų dar nėra</p></section></div>`;return}
   const a=agg(g),all=Object.values(games).map(agg),vals=AX.map(([k])=>pct(all,k,a[k])),pa=k=>a[k].toFixed(1);
   const best=k=>g.reduce((m,x)=>x[k]>m[k]?x:m);
@@ -99,10 +137,13 @@ else(async()=>{
     ${ncaaEntries(id).length?`<section class="card"><h2>NCAA TOP 25</h2><p class="sub">Kategorijos, kuriose patenka tarp visų D1 žaidėjų</p><div class="hl">${ncaaEntries(id).slice().sort((x,y)=>x.rank-y.rank).map(x=>`<div><b>#${x.rank}</b> · ${esc(ncaaExplain(x))}</div>`).join('')}</div></section>`:''}
     <section class="card" id="forma"><h2>FORMA</h2><p class="sub">Paskutinių ${Math.min(10,g.length)} rungtynių taškai</p>${form(g)}</section>
     ${progress(g,id)}
+    ${recordsCard(id)}
+    <section class="card" id="shots" hidden></section>
     <section class="card"><h2>SEZONO PASIEKIMAI</h2><div class="hl">${[['pts','PTS'],['reb','REB'],['ast','AST']].map(([k,l])=>{const x=best(k);return `<div><b>${x[k]} ${l}</b> · ${x.home?'prieš':'@'} ${esc(x.opponent)} · ${fd(x.date)}</div>`}).join('')}</div></section>
     <section class="card"><h2>RUNGTYNIŲ ŽURNALAS</h2><p class="sub">Paskutinės 3 rungtynės · iš viso ${g.length}</p><div class="tw"><table><tr><th>Data</th><th>Varžovas</th><th></th><th>MIN</th><th>PTS</th><th>REB</th><th>AST</th><th>FG</th><th>3P</th></tr>
     <tbody id="logb">${[...g].reverse().slice(0,3).map(logRow).join('')}</tbody></table></div><button class="more" id="logmore" type="button" ${g.length>3?'':'hidden'}>Rodyti daugiau</button></section>
     <section class="card"><h2>KARJERA</h2><p class="empty">Ankstesnių sezonų duomenų kol kas nerenkame.</p></section>`;
+  loadShots(id);
   let shown=3;const rev=[...g].reverse(),more=$('#logmore');
   if(more)more.onclick=()=>{shown=Math.min(rev.length,shown+10);$('#logb').innerHTML=rev.slice(0,shown).map(logRow).join('');
     more.hidden=shown>=rev.length;more.textContent='Rodyti daugiau ('+(rev.length-shown)+')'};
