@@ -10,6 +10,7 @@
   const hex=h=>{h=String(h||'').replace('#','');return /^[0-9a-f]{6}$/i.test(h)?'#'+h:null};
   const rgba=(h,a)=>{const v=hex(h)||BLUE;return `rgba(${parseInt(v.substr(1,2),16)},${parseInt(v.substr(3,2),16)},${parseInt(v.substr(5,2),16)},${a})`};
   const loadImg=url=>new Promise(res=>{if(!url)return res(null);const i=new Image();i.crossOrigin='anonymous';i.onload=()=>res(i);i.onerror=()=>res(null);i.src=url;setTimeout(()=>res(null),6000)});
+  const acc=t=>{const c=window.teamColor&&window.teamColor(t),m=/rgb\((\d+),\s*(\d+),\s*(\d+)\)/.exec(c||'');return m?'#'+[m[1],m[2],m[3]].map(v=>(+v).toString(16).padStart(2,'0')).join(''):(hex((teamInfo(t)||{}).color)||ORANGE)};
   const teamInfo=t=>{try{return window.ctxInfo&&window.ctxInfo(t)||{}}catch(e){return {}}};
   const logoUrl=t=>{const x=window.TEAMS&&window.TEAMS[t];if(!x||!x.logo_url)return null;return x.file_page&&x.file_page.indexOf('/wiki/File:')>-1?x.file_page.replace('/wiki/File:','/wiki/Special:FilePath/')+'?width=200':x.logo_url};
   const photoUrl=p=>{const u=(window.PHOTOS&&window.PHOTOS[p.id]&&window.PHOTOS[p.id].url)||p.photo;return u?u.replace('width=100&height=100','width=500&height=500'):(p.espn_id?'https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/'+p.espn_id+'.png':null)};
@@ -25,12 +26,12 @@
     c.beginPath();c.arc(w*.5,h*1.02,w*.18,Math.PI,2*Math.PI);c.stroke();
     c.beginPath();c.moveTo(0,h*.74);c.lineTo(w,h*.74);c.stroke();
   }
-  function head(c,w,period,demo,logo){
+  function head(c,w,period,demo,logo,lbl){
     if(logo)c.drawImage(logo,64,46,56,56);
     const x=logo?136:64;
     text(c,'LT NCAA TRACKER',x,82,26,INK,'800','left',null,F,3);
     text(c,'LIETUVIAI AMERIKOS KOLEDŽŲ KREPŠINYJE',x,104,12,MUTE,'600','left',null,FS,1.6);
-    const label=periods[period]||'SEZONAS',tw=label.length*13+40;
+    const label=lbl||periods[period]||'SEZONAS',tw=label.length*13+40;
     round(c,w-64-tw,56,tw,40,20,'rgba(255,255,255,.07)');
     text(c,label,w-64-tw/2,83,17,INK,'700','center',null,F,2.5);
     if(demo)text(c,'DEMO · BANDOMIEJI DUOMENYS',w/2,128,13,'#ffb36b','700','center',null,FS,1.5);
@@ -47,7 +48,7 @@
 
   async function playerCard(d){
     const W=1080,H=1080,cv=document.createElement('canvas');cv.width=W;cv.height=H;const c=cv.getContext('2d');
-    const p=d.player,info=teamInfo(p.team),accent=hex(info.color)||ORANGE;
+    const p=d.player,info=teamInfo(p.team),accent=acc(p.team);
     const [photo,logo]=await Promise.all([loadImg(photoUrl(p)),loadImg(logoUrl(p.team))]);
     const ncaa=window.__ncaaLogo?await loadImg(window.__ncaaLogo):null;
     backdrop(c,W,H,accent);head(c,W,d.period,d.demo,ncaa);
@@ -137,20 +138,57 @@
     foot(c,W,H);return cv;
   }
 
+
+  /* „Vakaro žaidėjas“ – socialinio tinklo įrašas (1080×1350) */
+  async function potnCard(d){
+    const W=1080,H=1350,cv=document.createElement('canvas');cv.width=W;cv.height=H;const c=cv.getContext('2d');
+    const p=d.player,info=teamInfo(p.team),accent=acc(p.team);
+    const [photo,logo,ncaa]=await Promise.all([loadImg(d.headUrl),loadImg(logoUrl(p.team)),window.__ncaaLogo?loadImg(window.__ncaaLogo):Promise.resolve(null)]);
+    backdrop(c,W,H,accent);
+    /* įstrižos juostos */
+    c.save();c.strokeStyle='rgba(255,255,255,.035)';c.lineWidth=2;for(let x=-H;x<W+H;x+=34){c.beginPath();c.moveTo(x,0);c.lineTo(x+H*.46,H);c.stroke()}c.restore();
+    head(c,W,null,false,ncaa,d.label||'VAKARO ŽAIDĖJAS');
+    const parts=p.name.split(' '),last=parts.pop().toUpperCase(),first=parts.join(' ').toUpperCase();
+    /* didžiulė kontūrinė pavardė fone */
+    let bf=360;c.font=`800 ${bf}px ${F}`;while(c.measureText(last).width>W-40&&bf>120){bf-=10;c.font=`800 ${bf}px ${F}`}
+    c.lineWidth=3;c.strokeStyle='rgba(255,255,255,.11)';c.textAlign='left';c.strokeText(last,24,560);
+    /* portretas */
+    if(photo){const ph=800,pw=Math.min(photo.width/photo.height*ph,720),x=W-pw-10,y=1060-ph;
+      c.save();c.shadowColor=accent;c.shadowBlur=70;c.drawImage(photo,x,y,pw,ph);c.restore();c.drawImage(photo,x,y,pw,ph)}
+    else{c.beginPath();c.arc(W*.7,640,230,0,Math.PI*2);c.fillStyle=rgba(accent,.35);c.fill();text(c,parts.concat([last]).map(w=>w[0]).slice(0,2).join(''),W*.7,700,200,'rgba(255,255,255,.9)','800','center')}
+    /* tekstas kairėje */
+    text(c,(d.date||'').toUpperCase(),64,214,22,accent,'700','left',null,F,4);
+    text(c,first,64,300,38,MUTE,'600','left',500,F,6);
+    let fs=150;c.font=`800 ${fs}px ${F}`;while(c.measureText(last).width>520&&fs>60){fs-=6;c.font=`800 ${fs}px ${F}`}
+    text(c,last,64,300+Math.round(fs*.86),fs,INK,'800','left',560);
+    const ty=300+Math.round(fs*.86)+64;let lx=64;
+    if(logo){c.drawImage(logo,lx,ty-30,44,44);lx+=58}
+    text(c,p.team,lx,ty,28,INK,'600','left',470,FS);
+    text(c,d.line||'',64,ty+44,21,MUTE,'500','left',520,FS);
+    if(d.dd){round(c,64,ty+78,238,40,20,rgba(accent,.22));text(c,'DOUBLE-DOUBLE',183,ty+105,17,INK,'700','center',null,F,3)}
+    /* trys išsiskyrę rodikliai */
+    const tl=(d.tiles||[]).slice(0,3),n=Math.max(tl.length,1),gap=18,tw=(W-128-(n-1)*gap)/n,ty2=1090;
+    tl.forEach((t,i)=>{const x=64+i*(tw+gap);round(c,x,ty2,tw,196,28,'rgba(255,255,255,.07)');c.strokeStyle='rgba(255,255,255,.12)';c.lineWidth=1.5;c.beginPath();c.roundRect(x,ty2,tw,196,28);c.stroke();
+      c.fillStyle=accent;c.fillRect(x+28,ty2+28,38,6);
+      let vs=104;c.font=`800 ${vs}px ${F}`;while(c.measureText(t.v).width>tw-50&&vs>48){vs-=6;c.font=`800 ${vs}px ${F}`}
+      text(c,t.v,x+28,ty2+128,vs,INK,'800','left',tw-40);text(c,String(t.u).toUpperCase(),x+30,ty2+170,17,MUTE,'700','left',tw-44,F,2.5)});
+    foot(c,W,H);return cv;
+  }
+
   async function makeCard(d){
     try{await Promise.all(['800 40px "Barlow Condensed"','700 20px "Barlow Condensed"','600 20px Inter'].map(f=>document.fonts.load(f)))}catch(e){}
     d.__logo=window.__ncaaLogo?await loadImg(window.__ncaaLogo):null;
-    return d.type==='comparison'?compareCard(d):d.type==='leaders'?leadersCard(d):playerCard(d);
+    return d.type==='comparison'?compareCard(d):d.type==='leaders'?leadersCard(d):d.type==='potn'?potnCard(d):playerCard(d);
   }
   window.shareStatsCard=async data=>{
     const canvas=await makeCard(data),blob=await new Promise(r=>canvas.toBlob(r,'image/png'));
     if(!blob)throw new Error('Nepavyko sukurti PNG kortelės');
-    const name=data.type==='player'?'lt-ncaa-'+data.player.id+'.png':'lt-ncaa-kortele.png',file=new File([blob],name,{type:'image/png'});
+    const name=(data.type==='player'||data.type==='potn')?'lt-ncaa-'+data.player.id+(data.type==='potn'?'-vakaro-zaidejas':'')+'.png':'lt-ncaa-kortele.png',file=new File([blob],name,{type:'image/png'});
     /* OS dalinimosi langas tik jutikliniuose įrenginiuose; kompiuteryje – tiesioginis atsisiuntimas.
        Jei dalinimasis nepavyksta (pvz. baigėsi paspaudimo „leidimas“, kol buvo kuriama kortelė) – atsisiunčiam. */
     const touch=window.matchMedia&&matchMedia('(pointer:coarse)').matches;
     if(touch&&navigator.share&&navigator.canShare&&navigator.canShare({files:[file]})){
-      try{await navigator.share({title:'LT NCAA Tracker',text:data.type==='comparison'?'Žaidėjų palyginimas':data.type==='player'?data.player.name+' · statistika':'Lietuviai NCAA',files:[file]});return 'shared'}
+      try{await navigator.share({title:'LT NCAA Tracker',text:data.type==='comparison'?'Žaidėjų palyginimas':data.type==='potn'?data.player.name+' · vakaro žaidėjas':data.type==='player'?data.player.name+' · statistika':'Lietuviai NCAA',files:[file]});return 'shared'}
       catch(e){if(e&&e.name==='AbortError')return 'cancelled'}}
     const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);return 'downloaded';
   };
