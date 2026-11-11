@@ -5,8 +5,8 @@
    {
     "cat": "ppg",
     "label": "Taškai per rungtynes",
-    "value": 27.0,
-    "rank": 8
+    "value": 25.333334,
+    "rank": 9
    }
   ],
   "dovydas-butka": [
@@ -17,42 +17,28 @@
     "rank": 11
    }
   ],
-  "motiejus-krivas": [
-   {
-    "cat": "bpg",
-    "label": "Blokai per rungtynes",
-    "value": 4.0,
-    "rank": 4
-   }
-  ],
-  "dominic-pangonis": [
+  "dominykas-pleta": [
    {
     "cat": "fgp",
     "label": "Metimų iš žaidimo taiklumas (FG%)",
-    "value": 86.66666746139526,
-    "rank": 7
-   },
-   {
-    "cat": "tpp",
-    "label": "Tritaškių taiklumas (3P%)",
-    "value": 80.0000011920929,
-    "rank": 5
+    "value": 80.95238208770752,
+    "rank": 24
    }
   ]
  },
  "debug": {
   "ppg": [
    [
+    "Issac Lane",
+    35.0
+   ],
+   [
     "Dior Johnson",
-    34.5
+    31.0
    ],
    [
-    "Troy Santos",
-    30.0
-   ],
-   [
-    "Jayden Reid",
-    29.0
+    "Jake Hall",
+    30.666666
    ]
   ],
   "rpg": [
@@ -76,7 +62,7 @@
    ],
    [
     "Jeremy Fears Jr.",
-    10.0
+    10.333333
    ],
    [
     "Chris Lockett Jr.",
@@ -85,15 +71,15 @@
   ],
   "spg": [
    [
-    "Ben Hammond",
-    6.0
-   ],
-   [
     "Tayden Owens",
     6.0
    ],
    [
-    "Dylan Mingo",
+    "Tyler Shephard",
+    5.0
+   ],
+   [
+    "Dontrell Johnson",
     5.0
    ]
   ],
@@ -113,15 +99,15 @@
   ],
   "fgp": [
    [
-    "Jamichael Davis",
-    100.0
-   ],
-   [
     "Jacob Bannarbie",
     100.0
    ],
    [
     "Joseph Annan Jr",
+    100.0
+   ],
+   [
+    "Amir Rosa",
     100.0
    ]
   ],
@@ -131,25 +117,25 @@
     100.0
    ],
    [
-    "Matt Christian",
-    83.33333134651184
+    "Rasheed Jones",
+    85.71428656578064
    ],
    [
-    "Siddiq McMair",
+    "Matt Christian",
     83.33333134651184
    ]
   ],
   "ftp": [
    [
-    "Rylan Griffen",
-    100.0
-   ],
-   [
-    "Barrington Hargress",
-    100.0
-   ],
-   [
     "Layden Blocker",
+    100.0
+   ],
+   [
+    "Elmarko Jackson",
+    100.0
+   ],
+   [
+    "Paul McNeil Jr.",
     100.0
    ]
   ]
