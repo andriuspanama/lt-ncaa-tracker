@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401924896",
+  "date": "2026-11-10",
+  "opponent": "Little Rock Trojans",
+  "home": true,
+  "result": "W",
+  "score": "94-69",
+  "min": 9,
+  "pts": 3,
+  "reb": 2,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 1,
+  "fgm": 1,
+  "fga": 3,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 1,
+  "fta": 2
+ }
+]

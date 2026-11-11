@@ -42,5 +42,27 @@
   "tpa": 0,
   "ftm": 2,
   "fta": 2
+ },
+ {
+  "event_id": "401909773",
+  "date": "2026-11-10",
+  "opponent": "Southern Jaguars",
+  "home": true,
+  "result": "W",
+  "score": "84-47",
+  "min": 19,
+  "pts": 14,
+  "reb": 3,
+  "ast": 3,
+  "stl": 2,
+  "blk": 0,
+  "to": 2,
+  "pf": 1,
+  "fgm": 7,
+  "fga": 8,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
  }
 ]

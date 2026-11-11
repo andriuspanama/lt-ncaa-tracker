@@ -65,6 +65,17 @@
     "link": "http://www.espn.com/ncb/recap?gameId=401906865",
     "player": "matas-vokietaitis"
    }
+  ],
+  "401921733": [
+   {
+    "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1111/91376c71-eeb1-4251-83e8-5b9e791bf25d/91376c71-eeb1-4251-83e8-5b9e791bf25d.jpg",
+    "caption": "Hofstra Pride vs. Arizona State Sun Devils: Game Highlights Hofstra Pride vs. Arizona State Sun Devils: Game Highlights",
+    "credit": null,
+    "w": 576,
+    "h": 324,
+    "link": "http://www.espn.com/ncb/recap?gameId=401921733",
+    "player": "paulius-murauskas"
+   }
   ]
  },
  "checked": {
@@ -119,28 +130,41 @@
   "401909772": "2026-11-10",
   "401920344": "2026-11-10",
   "401923260": "2026-11-10",
-  "401920156": "2026-11-10",
-  "401920062": "2026-11-10",
-  "401926201": "2026-11-10",
-  "401921174": "2026-11-10",
-  "401922044": "2026-11-10",
-  "401917517": "2026-11-10",
-  "401925772": "2026-11-10",
-  "401920703": "2026-11-10",
-  "401929449": "2026-11-10",
-  "401911186": "2026-11-10",
-  "401921820": "2026-11-10",
-  "401902277": "2026-11-10",
-  "401920692": "2026-11-10",
-  "401920739": "2026-11-10",
-  "401920233": "2026-11-10",
-  "401918053": "2026-11-10",
-  "401911453": "2026-11-10",
-  "401929002": "2026-11-10",
-  "401918074": "2026-11-10",
-  "401911009": "2026-11-10",
-  "401921085": "2026-11-10",
-  "401906865": "2026-11-10"
+  "401920156": "2026-11-11",
+  "401920062": "2026-11-11",
+  "401926201": "2026-11-11",
+  "401921174": "2026-11-11",
+  "401922044": "2026-11-11",
+  "401917517": "2026-11-11",
+  "401925772": "2026-11-11",
+  "401920703": "2026-11-11",
+  "401929449": "2026-11-11",
+  "401911186": "2026-11-11",
+  "401921820": "2026-11-11",
+  "401902277": "2026-11-11",
+  "401920692": "2026-11-11",
+  "401920739": "2026-11-11",
+  "401920233": "2026-11-11",
+  "401918053": "2026-11-11",
+  "401911453": "2026-11-11",
+  "401929002": "2026-11-11",
+  "401918074": "2026-11-11",
+  "401911009": "2026-11-11",
+  "401921085": "2026-11-11",
+  "401906865": "2026-11-11",
+  "401909740": "2026-11-11",
+  "401921733": "2026-11-11",
+  "401926731": "2026-11-11",
+  "401924952": "2026-11-11",
+  "401920063": "2026-11-11",
+  "401911250": "2026-11-11",
+  "401922045": "2026-11-11",
+  "401921025": "2026-11-11",
+  "401924896": "2026-11-11",
+  "401909773": "2026-11-11",
+  "401920704": "2026-11-11",
+  "401929180": "2026-11-11",
+  "401928828": "2026-11-11"
  },
  "videos": {
   "401920692": [
@@ -151,6 +175,16 @@
     "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/e2b1af96-1326-4b86-bd9b-0f02eda4efcf/e2b1af96-1326-4b86-bd9b-0f02eda4efcf.jpg",
     "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1108/e2b1af96-1326-4b86-bd9b-0f02eda4efcf/e2b1af96-1326-4b86-bd9b-0f02eda4efcf.mp4",
     "link": "https://www.espn.com/video/clip/_/id/50422974/nedas-cholevinskas-too-much-range-deep-3-pointer"
+   }
+  ],
+  "401921733": [
+   {
+    "player": "paulius-murauskas",
+    "headline": "Paulius Murauskas gets the hoop and the harm",
+    "duration": 15,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1111/f414a63e-be6a-4272-b420-c10ebd1d887b/f414a63e-be6a-4272-b420-c10ebd1d887b.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1111/f414a63e-be6a-4272-b420-c10ebd1d887b/f414a63e-be6a-4272-b420-c10ebd1d887b.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50448781/paulius-murauskas-gets-hoop-harm"
    }
   ]
  },
@@ -181,6 +215,13 @@
     "player": "matas-vokietaitis",
     "headline": "Matas Vokietaitis scores 26 points as No. 7 Texas beats Grambling State 93-62",
     "link": "http://www.espn.com/ncb/recap?gameId=401906865"
+   }
+  ],
+  "401921733": [
+   {
+    "player": "paulius-murauskas",
+    "headline": "Murauskas 22 points lift Arizona State over Hofstra 85-63",
+    "link": "http://www.espn.com/ncb/recap?gameId=401921733"
    }
   ]
  }

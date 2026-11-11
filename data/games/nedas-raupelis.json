@@ -42,5 +42,27 @@
   "tpa": 0,
   "ftm": 3,
   "fta": 4
+ },
+ {
+  "event_id": "401920063",
+  "date": "2026-11-10",
+  "opponent": "Maine Black Bears",
+  "home": true,
+  "result": "W",
+  "score": "71-65",
+  "min": 15,
+  "pts": 0,
+  "reb": 0,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 1,
+  "fgm": 0,
+  "fga": 0,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
  }
 ]

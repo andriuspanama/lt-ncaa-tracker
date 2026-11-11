@@ -42,5 +42,27 @@
   "tpa": 1,
   "ftm": 1,
   "fta": 2
+ },
+ {
+  "event_id": "401926731",
+  "date": "2026-11-10",
+  "opponent": "Arkansas State Red Wolves",
+  "home": false,
+  "result": "W",
+  "score": "82-65",
+  "min": 23,
+  "pts": 0,
+  "reb": 5,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 2,
+  "pf": 3,
+  "fgm": 0,
+  "fga": 4,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
  }
 ]

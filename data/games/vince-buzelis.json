@@ -64,5 +64,27 @@
   "tpa": 0,
   "ftm": 12,
   "fta": 15
+ },
+ {
+  "event_id": "401924952",
+  "date": "2026-11-10",
+  "opponent": "Houston Christian Huskies",
+  "home": true,
+  "result": "L",
+  "score": "76-87",
+  "min": 30,
+  "pts": 11,
+  "reb": 6,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 4,
+  "pf": 1,
+  "fgm": 5,
+  "fga": 9,
+  "tpm": 0,
+  "tpa": 2,
+  "ftm": 1,
+  "fta": 2
  }
 ]

@@ -42,5 +42,27 @@
   "tpa": 3,
   "ftm": 2,
   "fta": 3
+ },
+ {
+  "event_id": "401928828",
+  "date": "2026-11-10",
+  "opponent": "Toledo Rockets",
+  "home": false,
+  "result": "W",
+  "score": "76-68",
+  "min": 30,
+  "pts": 6,
+  "reb": 3,
+  "ast": 2,
+  "stl": 0,
+  "blk": 0,
+  "to": 4,
+  "pf": 3,
+  "fgm": 1,
+  "fga": 6,
+  "tpm": 0,
+  "tpa": 3,
+  "ftm": 4,
+  "fta": 5
  }
 ]

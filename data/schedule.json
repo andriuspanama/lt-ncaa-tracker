@@ -1017,9 +1017,9 @@
   "team": "Florida Gators",
   "opponent": "Florida State Seminoles",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "81",
+  "against": "72",
   "opp_rank": null
  },
  {
@@ -1028,9 +1028,9 @@
   "team": "Longwood",
   "opponent": "St. Mary's (MD) Seahawks",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "101",
+  "against": "45",
   "opp_rank": null
  },
  {
@@ -1039,9 +1039,9 @@
   "team": "Mercer",
   "opponent": "Georgia Southern Eagles",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "97",
+  "against": "91",
   "opp_rank": null
  },
  {
@@ -1050,9 +1050,9 @@
   "team": "Rhode Island",
   "opponent": "Maine Black Bears",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "71",
+  "against": "65",
   "opp_rank": null
  },
  {
@@ -1061,9 +1061,9 @@
   "team": "Wright State Raiders",
   "opponent": "Toledo Rockets",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "76",
+  "against": "68",
   "opp_rank": null
  },
  {
@@ -1072,9 +1072,9 @@
   "team": "Iowa State",
   "opponent": "Southern Jaguars",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "84",
+  "against": "47",
   "opp_rank": null
  },
  {
@@ -1083,9 +1083,9 @@
   "team": "Lipscomb",
   "opponent": "Belmont Bruins",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "88",
+  "against": "75",
   "opp_rank": null
  },
  {
@@ -1094,9 +1094,9 @@
   "team": "Northern Kentucky",
   "opponent": "Saint Louis Billikens",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "63",
+  "against": "125",
   "opp_rank": null
  },
  {
@@ -1105,9 +1105,9 @@
   "team": "South Dakota",
   "opponent": "Houston Christian Huskies",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "76",
+  "against": "87",
   "opp_rank": null
  },
  {
@@ -1116,9 +1116,9 @@
   "team": "UT Martin",
   "opponent": "Arkansas State Red Wolves",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "82",
+  "against": "65",
   "opp_rank": null
  },
  {
@@ -1127,9 +1127,9 @@
   "team": "Arizona State Sun Devils",
   "opponent": "Hofstra Pride",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "85",
+  "against": "63",
   "opp_rank": null
  },
  {
@@ -1138,9 +1138,9 @@
   "team": "Arizona Wildcats",
   "opponent": "Northern Arizona Lumberjacks",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "90",
+  "against": "59",
   "opp_rank": null
  },
  {
@@ -1149,9 +1149,9 @@
   "team": "BYU",
   "opponent": "Queens University Royals",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "98",
+  "against": "82",
   "opp_rank": null
  },
  {
@@ -1160,9 +1160,9 @@
   "team": "Georgia State",
   "opponent": "Fresno State Bulldogs",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "92",
+  "against": "95",
   "opp_rank": null
  },
  {
@@ -1171,9 +1171,9 @@
   "team": "New Mexico",
   "opponent": "Little Rock Trojans",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "94",
+  "against": "69",
   "opp_rank": null
  },
  {
@@ -1243,6 +1243,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401917963",
+  "date": "2026-11-12T01:00Z",
+  "team": "Stephen F. Austin",
+  "opponent": "Abilene Christian Wildcats",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401928814",
   "date": "2026-11-12T02:00Z",
   "team": "Boise State",
@@ -1258,17 +1269,6 @@
   "date": "2026-11-12T02:00Z",
   "team": "Portland State",
   "opponent": "Colorado State Rams",
-  "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
-  "event_id": "401917963",
-  "date": "2026-11-12T02:00Z",
-  "team": "Stephen F. Austin",
-  "opponent": "Abilene Christian Wildcats",
   "home": false,
   "state": "pre",
   "for": null,

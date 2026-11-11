@@ -64,5 +64,27 @@
   "tpa": 10,
   "ftm": 3,
   "fta": 4
+ },
+ {
+  "event_id": "401920704",
+  "date": "2026-11-10",
+  "opponent": "Belmont Bruins",
+  "home": true,
+  "result": "W",
+  "score": "88-75",
+  "min": 32,
+  "pts": 17,
+  "reb": 3,
+  "ast": 3,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 1,
+  "fgm": 7,
+  "fga": 12,
+  "tpm": 3,
+  "tpa": 8,
+  "ftm": 0,
+  "fta": 0
  }
 ]

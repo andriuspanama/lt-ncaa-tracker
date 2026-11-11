@@ -42,5 +42,27 @@
   "tpa": 0,
   "ftm": 10,
   "fta": 12
+ },
+ {
+  "event_id": "401909740",
+  "date": "2026-11-10",
+  "opponent": "Northern Arizona Lumberjacks",
+  "home": true,
+  "result": "W",
+  "score": "90-59",
+  "min": 26,
+  "pts": 16,
+  "reb": 7,
+  "ast": 1,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 2,
+  "fgm": 7,
+  "fga": 9,
+  "tpm": 0,
+  "tpa": 1,
+  "ftm": 2,
+  "fta": 3
  }
 ]

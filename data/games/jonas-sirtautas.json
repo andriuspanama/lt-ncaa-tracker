@@ -64,5 +64,27 @@
   "tpa": 0,
   "ftm": 1,
   "fta": 2
+ },
+ {
+  "event_id": "401929180",
+  "date": "2026-11-10",
+  "opponent": "Fresno State Bulldogs",
+  "home": false,
+  "result": "L",
+  "score": "92-95",
+  "min": 2,
+  "pts": 0,
+  "reb": 1,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 0,
+  "fgm": 0,
+  "fga": 0,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
  }
 ]

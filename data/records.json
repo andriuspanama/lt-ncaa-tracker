@@ -1,0 +1,1627 @@
+{
+ "updated": "2026-11-11",
+ "newest": "2026-11-10",
+ "players": {
+  "motiejus-krivas": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 30,
+     "date": "2026-11-05",
+     "eid": "401909739",
+     "opp": "Cal Poly Mustangs",
+     "home": true
+    },
+    "reb": {
+     "v": 9,
+     "date": "2026-11-02",
+     "eid": "401909738",
+     "opp": "UCLA Bruins",
+     "home": false
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-10",
+     "eid": "401909740",
+     "opp": "Northern Arizona Lumberjacks",
+     "home": true
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-05",
+     "eid": "401909739",
+     "opp": "Cal Poly Mustangs",
+     "home": true
+    },
+    "blk": {
+     "v": 6,
+     "date": "2026-11-02",
+     "eid": "401909738",
+     "opp": "UCLA Bruins",
+     "home": false
+    }
+   },
+   "counts": {
+    "p20": 1,
+    "p30": 1,
+    "b3": 1
+   },
+   "new": []
+  },
+  "ugnius-jarusevicius": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 2,
+     "date": "2026-11-10",
+     "eid": "401909740",
+     "opp": "Northern Arizona Lumberjacks",
+     "home": true
+    },
+    "reb": {
+     "v": 2,
+     "date": "2026-11-10",
+     "eid": "401909740",
+     "opp": "Northern Arizona Lumberjacks",
+     "home": true
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-02",
+     "eid": "401909738",
+     "opp": "UCLA Bruins",
+     "home": false
+    },
+    "stl": {
+     "v": 2,
+     "date": "2026-11-10",
+     "eid": "401909740",
+     "opp": "Northern Arizona Lumberjacks",
+     "home": true
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "paulius-murauskas": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 33,
+     "date": "2026-11-06",
+     "eid": "401921732",
+     "opp": "Northern Colorado Bears",
+     "home": true
+    },
+    "reb": {
+     "v": 11,
+     "date": "2026-11-10",
+     "eid": "401921733",
+     "opp": "Hofstra Pride",
+     "home": true
+    },
+    "ast": {
+     "v": 3,
+     "date": "2026-11-10",
+     "eid": "401921733",
+     "opp": "Hofstra Pride",
+     "home": true
+    },
+    "stl": {
+     "v": 2,
+     "date": "2026-11-10",
+     "eid": "401921733",
+     "opp": "Hofstra Pride",
+     "home": true
+    },
+    "blk": {
+     "v": 3,
+     "date": "2026-11-10",
+     "eid": "401921733",
+     "opp": "Hofstra Pride",
+     "home": true
+    },
+    "tpm": {
+     "v": 2,
+     "date": "2026-11-06",
+     "eid": "401921732",
+     "opp": "Northern Colorado Bears",
+     "home": true
+    }
+   },
+   "counts": {
+    "dd": 1,
+    "p20": 3,
+    "p30": 1,
+    "b3": 1
+   },
+   "new": [
+    {
+     "stat": "reb",
+     "v": 11,
+     "prev": 9,
+     "date": "2026-11-10",
+     "opp": "Hofstra Pride"
+    },
+    {
+     "stat": "blk",
+     "v": 3,
+     "prev": 0,
+     "date": "2026-11-10",
+     "opp": "Hofstra Pride"
+    }
+   ]
+  },
+  "jokubas-rudaitis": {
+   "gp": 2,
+   "records": {
+    "pts": {
+     "v": 2,
+     "date": "2026-11-06",
+     "eid": "401921732",
+     "opp": "Northern Colorado Bears",
+     "home": true
+    },
+    "reb": {
+     "v": 1,
+     "date": "2026-11-06",
+     "eid": "401921732",
+     "opp": "Northern Colorado Bears",
+     "home": true
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-10",
+     "eid": "401921733",
+     "opp": "Hofstra Pride",
+     "home": true
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "arturas-butajevas": {
+   "gp": 2,
+   "records": {
+    "pts": {
+     "v": 1,
+     "date": "2026-11-05",
+     "eid": "401906770",
+     "opp": "Jacksonville Dolphins",
+     "home": true
+    },
+    "reb": {
+     "v": 6,
+     "date": "2026-11-05",
+     "eid": "401906770",
+     "opp": "Jacksonville Dolphins",
+     "home": true
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-05",
+     "eid": "401906770",
+     "opp": "Jacksonville Dolphins",
+     "home": true
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "paulius-narvilas": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 4,
+     "date": "2026-11-07",
+     "eid": "401926201",
+     "opp": "UTSA Roadrunners",
+     "home": false
+    },
+    "reb": {
+     "v": 10,
+     "date": "2026-11-02",
+     "eid": "401926200",
+     "opp": "Virginia Lynchburg Dragons",
+     "home": true
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-02",
+     "eid": "401926200",
+     "opp": "Virginia Lynchburg Dragons",
+     "home": true
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-07",
+     "eid": "401926201",
+     "opp": "UTSA Roadrunners",
+     "home": false
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "liutauras-lelevicius": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 21,
+     "date": "2026-11-09",
+     "eid": "401918074",
+     "opp": "North Dakota Fighting Hawks",
+     "home": true
+    },
+    "reb": {
+     "v": 10,
+     "date": "2026-11-06",
+     "eid": "401912208",
+     "opp": "American University Eagles",
+     "home": true
+    },
+    "ast": {
+     "v": 2,
+     "date": "2026-11-09",
+     "eid": "401918074",
+     "opp": "North Dakota Fighting Hawks",
+     "home": true
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-02",
+     "eid": "401918073",
+     "opp": "Stetson Hatters",
+     "home": true
+    },
+    "blk": {
+     "v": 1,
+     "date": "2026-11-06",
+     "eid": "401912208",
+     "opp": "American University Eagles",
+     "home": true
+    },
+    "tpm": {
+     "v": 5,
+     "date": "2026-11-06",
+     "eid": "401912208",
+     "opp": "American University Eagles",
+     "home": true
+    }
+   },
+   "counts": {
+    "dd": 1,
+    "p20": 1,
+    "t3": 1,
+    "ft": 1
+   },
+   "new": [
+    {
+     "stat": "pts",
+     "v": 21,
+     "prev": 17,
+     "date": "2026-11-09",
+     "opp": "North Dakota Fighting Hawks"
+    }
+   ]
+  },
+  "gediminas-alisas": {
+   "gp": 2,
+   "records": {
+    "pts": {
+     "v": 9,
+     "date": "2026-11-06",
+     "eid": "401925089",
+     "opp": "Texas Lutheran Bulldogs",
+     "home": true
+    },
+    "reb": {
+     "v": 10,
+     "date": "2026-11-02",
+     "eid": "401925088",
+     "opp": "Lyon Scots",
+     "home": true
+    },
+    "ast": {
+     "v": 2,
+     "date": "2026-11-02",
+     "eid": "401925088",
+     "opp": "Lyon Scots",
+     "home": true
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "modestas-babraitis": {
+   "gp": 1,
+   "records": {},
+   "counts": {},
+   "new": []
+  },
+  "armandas-bancevicius": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 7,
+     "date": "2026-11-07",
+     "eid": "401921174",
+     "opp": "IU Indianapolis Jaguars",
+     "home": false
+    },
+    "reb": {
+     "v": 4,
+     "date": "2026-11-07",
+     "eid": "401921174",
+     "opp": "IU Indianapolis Jaguars",
+     "home": false
+    },
+    "ast": {
+     "v": 2,
+     "date": "2026-11-10",
+     "eid": "401926731",
+     "opp": "Arkansas State Red Wolves",
+     "home": false
+    },
+    "blk": {
+     "v": 1,
+     "date": "2026-11-10",
+     "eid": "401926731",
+     "opp": "Arkansas State Red Wolves",
+     "home": false
+    },
+    "tpm": {
+     "v": 1,
+     "date": "2026-11-07",
+     "eid": "401921174",
+     "opp": "IU Indianapolis Jaguars",
+     "home": false
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "alex-bieliauskas": {
+   "gp": 2,
+   "records": {
+    "pts": {
+     "v": 10,
+     "date": "2026-11-03",
+     "eid": "401921819",
+     "opp": "Stetson Hatters",
+     "home": true
+    },
+    "reb": {
+     "v": 4,
+     "date": "2026-11-08",
+     "eid": "401921820",
+     "opp": "Southeast Missouri State Redhawks",
+     "home": true
+    },
+    "ast": {
+     "v": 2,
+     "date": "2026-11-03",
+     "eid": "401921819",
+     "opp": "Stetson Hatters",
+     "home": true
+    },
+    "blk": {
+     "v": 1,
+     "date": "2026-11-08",
+     "eid": "401921820",
+     "opp": "Southeast Missouri State Redhawks",
+     "home": true
+    },
+    "tpm": {
+     "v": 1,
+     "date": "2026-11-08",
+     "eid": "401921820",
+     "opp": "Southeast Missouri State Redhawks",
+     "home": true
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "matas-buteliauskas": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 14,
+     "date": "2026-11-09",
+     "eid": "401911009",
+     "opp": "Penn State Schuylkill Nittany Lions",
+     "home": true
+    },
+    "reb": {
+     "v": 6,
+     "date": "2026-11-09",
+     "eid": "401911009",
+     "opp": "Penn State Schuylkill Nittany Lions",
+     "home": true
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-09",
+     "eid": "401911009",
+     "opp": "Penn State Schuylkill Nittany Lions",
+     "home": true
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-09",
+     "eid": "401911009",
+     "opp": "Penn State Schuylkill Nittany Lions",
+     "home": true
+    },
+    "blk": {
+     "v": 1,
+     "date": "2026-11-02",
+     "eid": "401910995",
+     "opp": "Marshall Thundering Herd",
+     "home": false
+    },
+    "tpm": {
+     "v": 1,
+     "date": "2026-11-05",
+     "eid": "401909706",
+     "opp": "Pittsburgh Panthers",
+     "home": false
+    }
+   },
+   "counts": {},
+   "new": [
+    {
+     "stat": "pts",
+     "v": 14,
+     "prev": 3,
+     "date": "2026-11-09",
+     "opp": "Penn State Schuylkill Nittany Lions"
+    }
+   ]
+  },
+  "dovydas-butka": {
+   "gp": 2,
+   "records": {
+    "pts": {
+     "v": 18,
+     "date": "2026-11-04",
+     "eid": "401929171",
+     "opp": "West Coast Baptist Eagles",
+     "home": true
+    },
+    "reb": {
+     "v": 14,
+     "date": "2026-11-08",
+     "eid": "401902277",
+     "opp": "Butler Bulldogs",
+     "home": true
+    },
+    "ast": {
+     "v": 3,
+     "date": "2026-11-08",
+     "eid": "401902277",
+     "opp": "Butler Bulldogs",
+     "home": true
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-08",
+     "eid": "401902277",
+     "opp": "Butler Bulldogs",
+     "home": true
+    }
+   },
+   "counts": {
+    "dd": 1
+   },
+   "new": []
+  },
+  "vince-buzelis": {
+   "gp": 4,
+   "records": {
+    "pts": {
+     "v": 26,
+     "date": "2026-11-07",
+     "eid": "401920156",
+     "opp": "Cal State Fullerton Titans",
+     "home": true
+    },
+    "reb": {
+     "v": 10,
+     "date": "2026-11-07",
+     "eid": "401920156",
+     "opp": "Cal State Fullerton Titans",
+     "home": true
+    },
+    "ast": {
+     "v": 6,
+     "date": "2026-11-02",
+     "eid": "401929404",
+     "opp": "Mount Marty Lancers",
+     "home": true
+    },
+    "stl": {
+     "v": 2,
+     "date": "2026-11-04",
+     "eid": "401928811",
+     "opp": "Northern Kentucky Norse",
+     "home": true
+    },
+    "tpm": {
+     "v": 1,
+     "date": "2026-11-04",
+     "eid": "401928811",
+     "opp": "Northern Kentucky Norse",
+     "home": true
+    }
+   },
+   "counts": {
+    "dd": 1,
+    "p20": 2
+   },
+   "new": []
+  },
+  "nedas-cholevinskas": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 6,
+     "date": "2026-11-08",
+     "eid": "401920692",
+     "opp": "Vermont Catamounts",
+     "home": false
+    },
+    "reb": {
+     "v": 3,
+     "date": "2026-11-02",
+     "eid": "401924856",
+     "opp": "Michigan State Spartans",
+     "home": false
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-05",
+     "eid": "401921680",
+     "opp": "Bryant Bulldogs",
+     "home": true
+    },
+    "tpm": {
+     "v": 2,
+     "date": "2026-11-08",
+     "eid": "401920692",
+     "opp": "Vermont Catamounts",
+     "home": false
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "nedas-raupelis": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 11,
+     "date": "2026-11-07",
+     "eid": "401920062",
+     "opp": "Monmouth Hawks",
+     "home": true
+    },
+    "reb": {
+     "v": 5,
+     "date": "2026-11-03",
+     "eid": "401920061",
+     "opp": "Holy Cross Crusaders",
+     "home": true
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-07",
+     "eid": "401920062",
+     "opp": "Monmouth Hawks",
+     "home": true
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "regimantas-ciunys": {
+   "gp": 1,
+   "records": {
+    "pts": {
+     "v": 2,
+     "date": "2026-11-09",
+     "eid": "401921085",
+     "opp": "McDaniel Green Terror",
+     "home": true
+    },
+    "reb": {
+     "v": 2,
+     "date": "2026-11-09",
+     "eid": "401921085",
+     "opp": "McDaniel Green Terror",
+     "home": true
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-09",
+     "eid": "401921085",
+     "opp": "McDaniel Green Terror",
+     "home": true
+    },
+    "blk": {
+     "v": 1,
+     "date": "2026-11-09",
+     "eid": "401921085",
+     "opp": "McDaniel Green Terror",
+     "home": true
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "dominykas-daubaris": {
+   "gp": 1,
+   "records": {},
+   "counts": {},
+   "new": []
+  },
+  "matas-deniusas": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 15,
+     "date": "2026-11-07",
+     "eid": "401920062",
+     "opp": "Monmouth Hawks",
+     "home": true
+    },
+    "reb": {
+     "v": 8,
+     "date": "2026-11-03",
+     "eid": "401920061",
+     "opp": "Holy Cross Crusaders",
+     "home": true
+    },
+    "stl": {
+     "v": 2,
+     "date": "2026-11-10",
+     "eid": "401920063",
+     "opp": "Maine Black Bears",
+     "home": true
+    },
+    "tpm": {
+     "v": 1,
+     "date": "2026-11-07",
+     "eid": "401920062",
+     "opp": "Monmouth Hawks",
+     "home": true
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "nojus-indrusaitis": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 30,
+     "date": "2026-11-04",
+     "eid": "401918052",
+     "opp": "Radford Highlanders",
+     "home": true
+    },
+    "reb": {
+     "v": 5,
+     "date": "2026-11-04",
+     "eid": "401918052",
+     "opp": "Radford Highlanders",
+     "home": true
+    },
+    "ast": {
+     "v": 3,
+     "date": "2026-11-02",
+     "eid": "401918051",
+     "opp": "Adams State Grizzlies",
+     "home": true
+    },
+    "stl": {
+     "v": 2,
+     "date": "2026-11-04",
+     "eid": "401918052",
+     "opp": "Radford Highlanders",
+     "home": true
+    },
+    "tpm": {
+     "v": 6,
+     "date": "2026-11-04",
+     "eid": "401918052",
+     "opp": "Radford Highlanders",
+     "home": true
+    }
+   },
+   "counts": {
+    "p20": 2,
+    "p30": 1,
+    "t3": 2
+   },
+   "new": []
+  },
+  "dovydas-jencius": {
+   "gp": 1,
+   "records": {
+    "ast": {
+     "v": 1,
+     "date": "2026-11-02",
+     "eid": "401909490",
+     "opp": "Creighton Bluejays",
+     "home": false
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "gabrielius-jokubauskas": {
+   "gp": 4,
+   "records": {
+    "pts": {
+     "v": 5,
+     "date": "2026-11-02",
+     "eid": "401911532",
+     "opp": "UTEP Miners",
+     "home": true
+    },
+    "reb": {
+     "v": 6,
+     "date": "2026-11-10",
+     "eid": "401911250",
+     "opp": "Saint Louis Billikens",
+     "home": false
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-10",
+     "eid": "401911250",
+     "opp": "Saint Louis Billikens",
+     "home": false
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-06",
+     "eid": "401920807",
+     "opp": "Texas A&M Aggies",
+     "home": false
+    },
+    "blk": {
+     "v": 1,
+     "date": "2026-11-06",
+     "eid": "401920807",
+     "opp": "Texas A&M Aggies",
+     "home": false
+    },
+    "tpm": {
+     "v": 1,
+     "date": "2026-11-10",
+     "eid": "401911250",
+     "opp": "Saint Louis Billikens",
+     "home": false
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "mantas-juzenas": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 24,
+     "date": "2026-11-08",
+     "eid": "401911453",
+     "opp": "Nevada Wolf Pack",
+     "home": false
+    },
+    "reb": {
+     "v": 11,
+     "date": "2026-11-04",
+     "eid": "401917512",
+     "opp": "North Dakota State Bison",
+     "home": true
+    },
+    "ast": {
+     "v": 7,
+     "date": "2026-11-04",
+     "eid": "401917512",
+     "opp": "North Dakota State Bison",
+     "home": true
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-08",
+     "eid": "401911453",
+     "opp": "Nevada Wolf Pack",
+     "home": false
+    },
+    "blk": {
+     "v": 1,
+     "date": "2026-11-04",
+     "eid": "401917512",
+     "opp": "North Dakota State Bison",
+     "home": true
+    },
+    "tpm": {
+     "v": 5,
+     "date": "2026-11-08",
+     "eid": "401911453",
+     "opp": "Nevada Wolf Pack",
+     "home": false
+    }
+   },
+   "counts": {
+    "dd": 1,
+    "p20": 2,
+    "t3": 1
+   },
+   "new": [
+    {
+     "stat": "pts",
+     "v": 24,
+     "prev": 20,
+     "date": "2026-11-08",
+     "opp": "Nevada Wolf Pack"
+    },
+    {
+     "stat": "tpm",
+     "v": 5,
+     "prev": 2,
+     "date": "2026-11-08",
+     "opp": "Nevada Wolf Pack"
+    }
+   ]
+  },
+  "domas-kauzonas": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 2,
+     "date": "2026-11-10",
+     "eid": "401922045",
+     "opp": "St. Mary's (MD) Seahawks",
+     "home": true
+    },
+    "reb": {
+     "v": 5,
+     "date": "2026-11-02",
+     "eid": "401922043",
+     "opp": "Pfeiffer Falcons",
+     "home": true
+    },
+    "ast": {
+     "v": 2,
+     "date": "2026-11-07",
+     "eid": "401922044",
+     "opp": "North Carolina Central Eagles",
+     "home": true
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-02",
+     "eid": "401922043",
+     "opp": "Pfeiffer Falcons",
+     "home": true
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "augustinas-kiudulas": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 12,
+     "date": "2026-11-02",
+     "eid": "401910997",
+     "opp": "Old Dominion Monarchs",
+     "home": false
+    },
+    "reb": {
+     "v": 5,
+     "date": "2026-11-08",
+     "eid": "401920739",
+     "opp": "Campbell Fighting Camels",
+     "home": true
+    },
+    "ast": {
+     "v": 2,
+     "date": "2026-11-08",
+     "eid": "401920739",
+     "opp": "Campbell Fighting Camels",
+     "home": true
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-08",
+     "eid": "401920739",
+     "opp": "Campbell Fighting Camels",
+     "home": true
+    },
+    "blk": {
+     "v": 2,
+     "date": "2026-11-05",
+     "eid": "401928849",
+     "opp": "Kalamazoo Hornets",
+     "home": true
+    },
+    "tpm": {
+     "v": 2,
+     "date": "2026-11-02",
+     "eid": "401910997",
+     "opp": "Old Dominion Monarchs",
+     "home": false
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "mantas-kocanas": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 5,
+     "date": "2026-11-02",
+     "eid": "401918051",
+     "opp": "Adams State Grizzlies",
+     "home": true
+    },
+    "reb": {
+     "v": 5,
+     "date": "2026-11-02",
+     "eid": "401918051",
+     "opp": "Adams State Grizzlies",
+     "home": true
+    },
+    "ast": {
+     "v": 2,
+     "date": "2026-11-08",
+     "eid": "401918053",
+     "opp": "Houston Cougars",
+     "home": false
+    },
+    "tpm": {
+     "v": 1,
+     "date": "2026-11-04",
+     "eid": "401918052",
+     "opp": "Radford Highlanders",
+     "home": true
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "gantas-krizanauskas": {
+   "gp": 2,
+   "records": {
+    "pts": {
+     "v": 6,
+     "date": "2026-11-03",
+     "eid": "401925914",
+     "opp": "Lewis & Clark River Otters",
+     "home": true
+    },
+    "reb": {
+     "v": 4,
+     "date": "2026-11-03",
+     "eid": "401925914",
+     "opp": "Lewis & Clark River Otters",
+     "home": true
+    },
+    "ast": {
+     "v": 8,
+     "date": "2026-11-03",
+     "eid": "401925914",
+     "opp": "Lewis & Clark River Otters",
+     "home": true
+    },
+    "tpm": {
+     "v": 1,
+     "date": "2026-11-07",
+     "eid": "401917517",
+     "opp": "Seattle U Redhawks",
+     "home": false
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "kajus-kublickas": {
+   "gp": 4,
+   "records": {
+    "pts": {
+     "v": 16,
+     "date": "2026-11-10",
+     "eid": "401924952",
+     "opp": "Houston Christian Huskies",
+     "home": true
+    },
+    "reb": {
+     "v": 6,
+     "date": "2026-11-07",
+     "eid": "401920156",
+     "opp": "Cal State Fullerton Titans",
+     "home": true
+    },
+    "ast": {
+     "v": 4,
+     "date": "2026-11-04",
+     "eid": "401928811",
+     "opp": "Northern Kentucky Norse",
+     "home": true
+    },
+    "stl": {
+     "v": 2,
+     "date": "2026-11-07",
+     "eid": "401920156",
+     "opp": "Cal State Fullerton Titans",
+     "home": true
+    },
+    "blk": {
+     "v": 1,
+     "date": "2026-11-04",
+     "eid": "401928811",
+     "opp": "Northern Kentucky Norse",
+     "home": true
+    },
+    "tpm": {
+     "v": 2,
+     "date": "2026-11-10",
+     "eid": "401924952",
+     "opp": "Houston Christian Huskies",
+     "home": true
+    }
+   },
+   "counts": {
+    "ft": 1
+   },
+   "new": [
+    {
+     "stat": "pts",
+     "v": 16,
+     "prev": 15,
+     "date": "2026-11-10",
+     "opp": "Houston Christian Huskies"
+    }
+   ]
+  },
+  "mantas-laurencikas": {
+   "gp": 2,
+   "records": {
+    "ast": {
+     "v": 1,
+     "date": "2026-11-05",
+     "eid": "401906864",
+     "opp": "Gardner-Webb Runnin' Bulldogs",
+     "home": true
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-05",
+     "eid": "401906864",
+     "opp": "Gardner-Webb Runnin' Bulldogs",
+     "home": true
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "kajus-mikalauskas": {
+   "gp": 1,
+   "records": {},
+   "counts": {},
+   "new": []
+  },
+  "petras-padegimas": {
+   "gp": 4,
+   "records": {
+    "pts": {
+     "v": 2,
+     "date": "2026-11-10",
+     "eid": "401921025",
+     "opp": "Georgia Southern Eagles",
+     "home": false
+    },
+    "reb": {
+     "v": 5,
+     "date": "2026-11-05",
+     "eid": "401920377",
+     "opp": "Virginia Tech Hokies",
+     "home": false
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-02",
+     "eid": "401929384",
+     "opp": "Reinhardt Eagles",
+     "home": true
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "rytis-petraitis": {
+   "gp": 1,
+   "records": {
+    "pts": {
+     "v": 3,
+     "date": "2026-11-10",
+     "eid": "401924896",
+     "opp": "Little Rock Trojans",
+     "home": true
+    },
+    "reb": {
+     "v": 2,
+     "date": "2026-11-10",
+     "eid": "401924896",
+     "opp": "Little Rock Trojans",
+     "home": true
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "dominykas-pleta": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 15,
+     "date": "2026-11-02",
+     "eid": "401909771",
+     "opp": "Memphis Tigers",
+     "home": true
+    },
+    "reb": {
+     "v": 5,
+     "date": "2026-11-06",
+     "eid": "401909772",
+     "opp": "Southern Miss Golden Eagles",
+     "home": true
+    },
+    "ast": {
+     "v": 3,
+     "date": "2026-11-10",
+     "eid": "401909773",
+     "opp": "Southern Jaguars",
+     "home": true
+    },
+    "stl": {
+     "v": 2,
+     "date": "2026-11-10",
+     "eid": "401909773",
+     "opp": "Southern Jaguars",
+     "home": true
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "titas-sargiunas": {
+   "gp": 4,
+   "records": {
+    "pts": {
+     "v": 17,
+     "date": "2026-11-10",
+     "eid": "401920704",
+     "opp": "Belmont Bruins",
+     "home": true
+    },
+    "reb": {
+     "v": 5,
+     "date": "2026-11-07",
+     "eid": "401920703",
+     "opp": "SIU Edwardsville Cougars",
+     "home": true
+    },
+    "ast": {
+     "v": 5,
+     "date": "2026-11-07",
+     "eid": "401920703",
+     "opp": "SIU Edwardsville Cougars",
+     "home": true
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-07",
+     "eid": "401920703",
+     "opp": "SIU Edwardsville Cougars",
+     "home": true
+    },
+    "blk": {
+     "v": 1,
+     "date": "2026-11-07",
+     "eid": "401920703",
+     "opp": "SIU Edwardsville Cougars",
+     "home": true
+    },
+    "tpm": {
+     "v": 3,
+     "date": "2026-11-10",
+     "eid": "401920704",
+     "opp": "Belmont Bruins",
+     "home": true
+    }
+   },
+   "counts": {
+    "t3": 2
+   },
+   "new": [
+    {
+     "stat": "pts",
+     "v": 17,
+     "prev": 12,
+     "date": "2026-11-10",
+     "opp": "Belmont Bruins"
+    }
+   ]
+  },
+  "jonas-sirtautas": {
+   "gp": 4,
+   "records": {
+    "pts": {
+     "v": 9,
+     "date": "2026-11-07",
+     "eid": "401929449",
+     "opp": "Andrew Fighting Tigers",
+     "home": true
+    },
+    "reb": {
+     "v": 5,
+     "date": "2026-11-07",
+     "eid": "401929449",
+     "opp": "Andrew Fighting Tigers",
+     "home": true
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-07",
+     "eid": "401929449",
+     "opp": "Andrew Fighting Tigers",
+     "home": true
+    },
+    "blk": {
+     "v": 1,
+     "date": "2026-11-07",
+     "eid": "401929449",
+     "opp": "Andrew Fighting Tigers",
+     "home": true
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "justas-stonkus": {
+   "gp": 2,
+   "records": {
+    "pts": {
+     "v": 12,
+     "date": "2026-11-06",
+     "eid": "401920344",
+     "opp": "Oregon State Beavers",
+     "home": false
+    },
+    "reb": {
+     "v": 1,
+     "date": "2026-11-06",
+     "eid": "401920344",
+     "opp": "Oregon State Beavers",
+     "home": false
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-06",
+     "eid": "401920344",
+     "opp": "Oregon State Beavers",
+     "home": false
+    },
+    "stl": {
+     "v": 3,
+     "date": "2026-11-06",
+     "eid": "401920344",
+     "opp": "Oregon State Beavers",
+     "home": false
+    },
+    "tpm": {
+     "v": 2,
+     "date": "2026-11-06",
+     "eid": "401920344",
+     "opp": "Oregon State Beavers",
+     "home": false
+    }
+   },
+   "counts": {
+    "s3": 1
+   },
+   "new": []
+  },
+  "nikas-stuknys": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 5,
+     "date": "2026-11-10",
+     "eid": "401926731",
+     "opp": "Arkansas State Red Wolves",
+     "home": false
+    },
+    "reb": {
+     "v": 4,
+     "date": "2026-11-10",
+     "eid": "401926731",
+     "opp": "Arkansas State Red Wolves",
+     "home": false
+    },
+    "ast": {
+     "v": 6,
+     "date": "2026-11-02",
+     "eid": "401919001",
+     "opp": "Tulane Green Wave",
+     "home": false
+    },
+    "stl": {
+     "v": 2,
+     "date": "2026-11-10",
+     "eid": "401926731",
+     "opp": "Arkansas State Red Wolves",
+     "home": false
+    },
+    "tpm": {
+     "v": 1,
+     "date": "2026-11-02",
+     "eid": "401919001",
+     "opp": "Tulane Green Wave",
+     "home": false
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "arminas-vilkas": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 7,
+     "date": "2026-11-07",
+     "eid": "401921174",
+     "opp": "IU Indianapolis Jaguars",
+     "home": false
+    },
+    "reb": {
+     "v": 5,
+     "date": "2026-11-10",
+     "eid": "401926731",
+     "opp": "Arkansas State Red Wolves",
+     "home": false
+    },
+    "ast": {
+     "v": 2,
+     "date": "2026-11-07",
+     "eid": "401921174",
+     "opp": "IU Indianapolis Jaguars",
+     "home": false
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-02",
+     "eid": "401919001",
+     "opp": "Tulane Green Wave",
+     "home": false
+    },
+    "blk": {
+     "v": 2,
+     "date": "2026-11-02",
+     "eid": "401919001",
+     "opp": "Tulane Green Wave",
+     "home": false
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "matas-vokietaitis": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 26,
+     "date": "2026-11-09",
+     "eid": "401906865",
+     "opp": "Grambling Tigers",
+     "home": true
+    },
+    "reb": {
+     "v": 9,
+     "date": "2026-11-09",
+     "eid": "401906865",
+     "opp": "Grambling Tigers",
+     "home": true
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-02",
+     "eid": "401906863",
+     "opp": "Chicago State Cougars",
+     "home": true
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-09",
+     "eid": "401906865",
+     "opp": "Grambling Tigers",
+     "home": true
+    },
+    "blk": {
+     "v": 1,
+     "date": "2026-11-09",
+     "eid": "401906865",
+     "opp": "Grambling Tigers",
+     "home": true
+    }
+   },
+   "counts": {
+    "p20": 2
+   },
+   "new": [
+    {
+     "stat": "pts",
+     "v": 26,
+     "prev": 22,
+     "date": "2026-11-09",
+     "opp": "Grambling Tigers"
+    },
+    {
+     "stat": "reb",
+     "v": 9,
+     "prev": 7,
+     "date": "2026-11-09",
+     "opp": "Grambling Tigers"
+    }
+   ]
+  },
+  "dominic-pangonis": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 30,
+     "date": "2026-11-02",
+     "eid": "401911333",
+     "opp": "Air Force Falcons",
+     "home": true
+    },
+    "reb": {
+     "v": 4,
+     "date": "2026-11-06",
+     "eid": "401923260",
+     "opp": "Florida Atlantic Owls",
+     "home": true
+    },
+    "ast": {
+     "v": 4,
+     "date": "2026-11-02",
+     "eid": "401911333",
+     "opp": "Air Force Falcons",
+     "home": true
+    },
+    "stl": {
+     "v": 3,
+     "date": "2026-11-02",
+     "eid": "401911333",
+     "opp": "Air Force Falcons",
+     "home": true
+    },
+    "tpm": {
+     "v": 6,
+     "date": "2026-11-02",
+     "eid": "401911333",
+     "opp": "Air Force Falcons",
+     "home": true
+    }
+   },
+   "counts": {
+    "p20": 1,
+    "p30": 1,
+    "t3": 1,
+    "s3": 1
+   },
+   "new": []
+  },
+  "mykolas-ivanauskas": {
+   "gp": 2,
+   "records": {
+    "pts": {
+     "v": 12,
+     "date": "2026-11-05",
+     "eid": "401920913",
+     "opp": "Tulsa Golden Hurricane",
+     "home": false
+    },
+    "reb": {
+     "v": 3,
+     "date": "2026-11-05",
+     "eid": "401920913",
+     "opp": "Tulsa Golden Hurricane",
+     "home": false
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-07",
+     "eid": "401911186",
+     "opp": "Dayton Flyers",
+     "home": false
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-07",
+     "eid": "401911186",
+     "opp": "Dayton Flyers",
+     "home": false
+    },
+    "blk": {
+     "v": 2,
+     "date": "2026-11-05",
+     "eid": "401920913",
+     "opp": "Tulsa Golden Hurricane",
+     "home": false
+    }
+   },
+   "counts": {},
+   "new": []
+  },
+  "ernas-valauskas": {
+   "gp": 3,
+   "records": {
+    "pts": {
+     "v": 18,
+     "date": "2026-11-04",
+     "eid": "401920232",
+     "opp": "Framingham State Rams",
+     "home": true
+    },
+    "reb": {
+     "v": 4,
+     "date": "2026-11-04",
+     "eid": "401920232",
+     "opp": "Framingham State Rams",
+     "home": true
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-08",
+     "eid": "401920233",
+     "opp": "Central Connecticut Blue Devils",
+     "home": true
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-08",
+     "eid": "401920233",
+     "opp": "Central Connecticut Blue Devils",
+     "home": true
+    },
+    "blk": {
+     "v": 1,
+     "date": "2026-11-04",
+     "eid": "401920232",
+     "opp": "Framingham State Rams",
+     "home": true
+    },
+    "tpm": {
+     "v": 4,
+     "date": "2026-11-04",
+     "eid": "401920232",
+     "opp": "Framingham State Rams",
+     "home": true
+    }
+   },
+   "counts": {
+    "t3": 1
+   },
+   "new": []
+  }
+ }
+}

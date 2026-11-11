@@ -20,5 +20,27 @@
   "tpa": 1,
   "ftm": 0,
   "fta": 1
+ },
+ {
+  "event_id": "401921733",
+  "date": "2026-11-10",
+  "opponent": "Hofstra Pride",
+  "home": true,
+  "result": "W",
+  "score": "85-63",
+  "min": 6,
+  "pts": 0,
+  "reb": 0,
+  "ast": 1,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 1,
+  "fgm": 0,
+  "fga": 1,
+  "tpm": 0,
+  "tpa": 1,
+  "ftm": 0,
+  "fta": 0
  }
 ]
