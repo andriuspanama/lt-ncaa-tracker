@@ -26,39 +26,77 @@ function upCard(g){
   <div class="sc">${lt(g.date,{hour:'2-digit',minute:'2-digit'})} · ${g.home?'prieš':'@'} ${esc(g.opponent)}${oppChip(g.opponent)||rk(g.opp_rank)}</div>
   <div class="who">${ltp.map(p=>`<a href="players/${esc(p.id)}.html" style="color:var(--ac);text-decoration:none">${esc(p.name)}</a>`).join(' · ')}</div></div>`}
 
-/* ---- nuotrauka: 1) iš to vakaro rungtynių, 2) bet kuri kita ESPN nuotrauka su žaidėju, 3) ESPN portretas ---- */
+/* ---- kuriais rodikliais žaidėjas išsiskyrė (3 ryškiausi) ---- */
+const REF={pts:20,reb:10,ast:7,stl:3,blk:3,tpm:4};
+function topStats(g){
+  const c=[];
+  [['pts','tšk.'],['reb','atk.'],['ast','perd.'],['stl','perim.'],['blk','blok.']].forEach(([k,u])=>{if(g[k]>0)c.push({k,w:g[k]/REF[k],v:String(g[k]),u})});
+  if(g.tpm>=2)c.push({k:'tpm',w:g.tpm/REF.tpm,v:`${g.tpm}/${g.tpa}`,u:'tritaškiai'});
+  if(g.fga>=6&&g.fgm/g.fga>=.6)c.push({k:'fg',w:(g.fgm/g.fga)/.62*Math.min(1,g.fga/10)*1.1,v:Math.round(g.fgm/g.fga*100)+'%',u:`metimai (${g.fgm}/${g.fga})`});
+  if(g.fta>=5&&g.ftm===g.fta)c.push({k:'ft',w:.8,v:`${g.ftm}/${g.fta}`,u:'baudos'});
+  return c.sort((a,b)=>b.w-a.w).slice(0,3);
+}
+const statLine=t=>t.map(x=>`${x.v} ${x.u}`).join(' · ');
+const isDD=g=>['pts','reb','ast','stl','blk'].filter(k=>g[k]>=10).length>=2;
+const headUrl=p=>p.espn_id?`https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/${p.espn_id}.png`:((window.PHOTOS[p.id]&&window.PHOTOS[p.id].url)||p.photo||'').replace('width=100&height=100','width=500&height=500');
+
+/* ---- nuotraukos tinkamumas (euristika pagal parašą ir dydį; ESPN neleidžia „pamatyti“, ar kadras iš arti) ---- */
+const PHOTO_MIN=4;
+const BAD=/huddle|bench|coach|fans|crowd|team\b|teammates|players|scoreboard|tip-?off|cheerleader|mascot|band\b|staff|trainer|referee|official|timeout|national anthem/i;
+const GOOD=/reacts|celebrat|smil|looks on|poses|portrait|handles|dribbl|drives|shoots|dunk|scores|rebound|blocks|steals|passes|lays|yell|roar|flex/i;
+function photoScore(ph,p){
+  const cap=String(ph.caption||''),sn=p.name.split(' ').slice(-1)[0].toLowerCase(),i=cap.toLowerCase().indexOf(sn);let s=0;
+  if(i>=0)s+=i<80?2:1;
+  if((ph.w||0)>=1000)s+=1;
+  if(GOOD.test(cap))s+=1;
+  if(BAD.test(cap))s-=3;
+  if((cap.match(/[A-Z][a-z]+ [A-Z][a-z]+/g)||[]).length>2)s-=1;
+  if(ph.w&&ph.h){const r=ph.w/ph.h;if(r>1.75)s-=1;if(r<=1.35)s+=1}
+  return s;
+}
+/* 1) to vakaro gera nuotrauka, 2) gera archyvinė nuotrauka su šiuo žaidėju, 3) null → maketas */
 function pickPhoto(best){
-  const P=(S.photos&&S.photos.photos)||{};
-  const same=(P[best.eid]||[]).find(x=>x.player===best.p.id);
-  if(same)return {...same,kind:'game'};
-  const all=[];Object.keys(P).forEach(e=>(P[e]||[]).forEach(x=>{if(x.player===best.p.id)all.push({...x,date:S.evDate[e]||''})}));
-  all.sort((a,b)=>b.date.localeCompare(a.date));
-  return all[0]?{...all[0],kind:'other'}:null;
+  const P=(S.photos&&S.photos.photos)||{},ov=(S.hero||{})[S.day];
+  if(ov&&typeof ov==='object'&&ov.photo)return {url:ov.photo,caption:ov.caption||'',credit:ov.credit||'',kind:'game'};
+  const mine=[];Object.keys(P).forEach(e=>(P[e]||[]).forEach(x=>{if(x.player===best.p.id)mine.push({...x,e,date:S.evDate[e]||'',score:photoScore(x,best.p)})}));
+  const good=mine.filter(x=>x.score>=PHOTO_MIN);
+  const same=good.filter(x=>x.e===best.eid).sort((a,b)=>b.score-a.score)[0];if(same)return {...same,kind:'game'};
+  const other=good.filter(x=>x.e!==best.eid).sort((a,b)=>b.score-a.score||b.date.localeCompare(a.date))[0];
+  return other?{...other,kind:'other'}:null;
 }
 const dur=s=>{s=Math.round(+s||0);return s?`${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`:''};
+const meta=best=>`${esc(best.p.team)} · ${best.g.home?'prieš':'@'} ${esc(best.g.opponent)} · ${esc(best.g.result||'')} ${esc(sc(best.g))}`;
+const shareBtn='<button type="button" class="hshare" data-share-hero>Dalintis ↗</button>';
 function videoHero(best,v){
-  const g=best.g,line=[`${g.pts} tšk.`,`${g.reb} atk.`,`${g.ast} perd.`,g.stl?`${g.stl} perim.`:'',g.blk?`${g.blk} blok.`:''].filter(Boolean).join(' · ');
-  const link=v.link||'';
+  const g=best.g,link=v.link||'';
   return `<div class="hph-link vid" style="--tc:${teamColor(best.p.team)}"><div class="hph-img">
     <a class="vplay" href="${esc(link||'#')}" target="_blank" rel="noopener" data-src="${esc(v.src||'')}" data-poster="${esc(v.thumb||'')}" data-link="${esc(link)}" aria-label="Paleisti ESPN vaizdo įrašą">
       ${v.thumb?`<img src="${esc(v.thumb)}" alt="" referrerpolicy="no-referrer">`:''}<span class="pbtn">▶</span><span class="vtag">ESPN VIDEO${dur(v.duration)?' · '+dur(v.duration):''}</span></a></div>
     <div class="hph-txt"><div class="kick">VAKARO ŽAIDĖJAS · ${esc(fm(S.day))}</div><h2><a href="players/${esc(best.p.id)}.html" style="color:inherit;text-decoration:none">${esc(best.p.name)}</a></h2>
-    <div class="hl2">${esc(line)}</div><div class="hm">${esc(best.p.team)} · ${g.home?'prieš':'@'} ${esc(g.opponent)} · ${esc(g.result||'')} ${esc(sc(g))}</div>
-    ${v.headline?`<div class="vh">${esc(v.headline)}</div>`:''}</div></div>`;
+    <div class="hl2">${esc(statLine(topStats(g)))}</div><div class="hm">${meta(best)}</div>
+    ${v.headline?`<div class="vh">${esc(v.headline)}</div>`:''}</div></div>${shareBtn}`;
+}
+/* Maketas (kai nėra geros nuotraukos): ESPN portretas + švytėjimas + trys išsiskyrę rodikliai – tinka ir kaip socialinio tinklo įrašas */
+function posterHero(best){
+  const g=best.g,p=best.p,tiles=topStats(g),sur=p.name.split(' ').slice(-1)[0].toUpperCase(),hu=headUrl(p),ini=p.name.split(' ').map(w=>w[0]).slice(0,2).join('');
+  return `<a class="hph-link poster" href="players/${esc(p.id)}.html" style="--tc:${teamColor(p.team)}"><div class="pbg"><span class="pbig">${esc(sur)}</span></div>
+   <div class="hph-img">${hu?`<img class="pimg" src="${esc(hu)}" alt="" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'pini',textContent:'${esc(ini)}'}))">`:`<span class="pini">${esc(ini)}</span>`}</div>
+   <div class="hph-txt"><div class="kick">VAKARO ŽAIDĖJAS · ${esc(fm(S.day))}${isDD(g)?' <i class="ddtag">DOUBLE-DOUBLE</i>':''}</div><h2>${esc(p.name)}</h2><div class="hm">${meta(best)}</div>
+   <div class="pst">${tiles.map(t=>`<div class="pt3"><b>${esc(t.v)}</b><span>${esc(t.u)}</span></div>`).join('')}</div></div></a>${shareBtn}`;
 }
 function heroHTML(rows){
+  S.heroBest=null;
   if(!rows.length)return `<div class="hph-empty"><b>Tą dieną lietuviai nežaidė</b><span>Pasirink kitą dieną kalendoriuje.</span></div>`;
-  const best=rows.slice().sort((a,b)=>b.gs-a.gs)[0],g=best.g,vid=(((S.photos||{}).videos||{})[best.eid]||[]).find(x=>x.player===best.p.id);
-  if(vid&&(vid.thumb||vid.src))return videoHero(best,vid);
+  const best=rows.slice().sort((a,b)=>b.gs-a.gs)[0],g=best.g;S.heroBest=best;
+  const ov=(S.hero||{})[S.day],vid=(((S.photos||{}).videos||{})[best.eid]||[]).find(x=>x.player===best.p.id);
+  if(ov==='poster')return posterHero(best);
+  if(vid&&(vid.thumb||vid.src)&&ov!=='photo')return videoHero(best,vid);
   const ph=pickPhoto(best);
-  const line=[`${g.pts} tšk.`,`${g.reb} atk.`,`${g.ast} perd.`,g.stl?`${g.stl} perim.`:'',g.blk?`${g.blk} blok.`:''].filter(Boolean).join(' · ');
-  const head=(window.PHOTOS[best.p.id]&&window.PHOTOS[best.p.id].url)||best.p.photo||(best.p.espn_id?'https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/'+best.p.espn_id+'.png':'');
-  const img=ph?`<img class="gp" src="${esc(ph.url)}" alt="${esc(ph.caption||best.p.name)}" referrerpolicy="no-referrer" onerror="this.closest('.hph').classList.add('nophoto');this.remove()">`:'';
-  const port=head?`<img class="pt" src="${esc(head.replace('width=100&height=100','width=500&height=500'))}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:'';
-  return `<a class="hph-link${!ph?' has-port':''}" href="players/${esc(best.p.id)}.html" style="--tc:${teamColor(best.p.team)}"><div class="hph-img">${img||''}${!ph?port:''}</div>
-   <div class="hph-shade"></div><div class="hph-txt"><div class="kick">VAKARO ŽAIDĖJAS · ${esc(fm(S.day))}</div><h2>${esc(best.p.name)}</h2>
-   <div class="hl2">${esc(line)}</div><div class="hm">${esc(best.p.team)} · ${g.home?'prieš':'@'} ${esc(g.opponent)} · ${esc(g.result||'')} ${esc(sc(g))}</div></div></a>
-   ${ph?`<figcaption>${esc((ph.caption||'').slice(0,110))}${ph.credit?` · Foto: ${esc(ph.credit)}`:' · ESPN'}${ph.kind==='other'?' · archyvinė':''}</figcaption>`:''}`;
+  if(!ph)return posterHero(best);
+  return `<a class="hph-link" href="players/${esc(best.p.id)}.html" style="--tc:${teamColor(best.p.team)}"><div class="hph-img"><img class="gp" src="${esc(ph.url)}" alt="${esc(ph.caption||best.p.name)}" referrerpolicy="no-referrer" onerror="this.closest('.hph').classList.add('nophoto');this.remove()"></div>
+   <div class="hph-shade"></div><div class="hph-txt"><div class="kick">VAKARO ŽAIDĖJAS · ${esc(fm(S.day))}${isDD(g)?' <i class="ddtag">DOUBLE-DOUBLE</i>':''}</div><h2>${esc(best.p.name)}</h2>
+   <div class="hl2">${esc(statLine(topStats(g)))}</div><div class="hm">${meta(best)}</div></div></a>
+   <figcaption>${esc((ph.caption||'').slice(0,110))}${ph.credit?` · Foto: ${esc(ph.credit)}`:' · ESPN'}${ph.kind==='other'?' · archyvinė':''}</figcaption>${shareBtn}`;
 }
 function catsHTML(rows){
   if(!rows.length)return '';
@@ -96,7 +134,7 @@ function go(day){S.day=day;S.week=monday(day);drawWeek();drawDay()}
 (async()=>{
   await mediaReady;
   S.players=(await load('data/players.json'))?.players||[];S.players.forEach(p=>S.byId[p.id]=p);
-  S.sched=(await load('data/schedule.json'))||[];S.photos=(await load('data/gamephotos.json'))||{photos:{}};
+  S.sched=(await load('data/schedule.json'))||[];S.hero=(await load('data/hero.json'))||{};S.photos=(await load('data/gamephotos.json'))||{photos:{}};
   const stt=await load('data/stats.json');$('#upd').textContent=stt?.updated?`Atnaujinta: ${stt.updated}`:'';
   const files=await Promise.all(S.players.map(p=>load(`data/games/${p.id}.json`)));
   const rank={},map={};S.sched.forEach(g=>rank[g.event_id+'|'+g.team]=g.opp_rank);
@@ -111,7 +149,10 @@ function go(day){S.day=day;S.week=monday(day);drawWeek();drawDay()}
   $('#wdate').onchange=e=>{if(e.target.value)go(e.target.value)};
   $('.wcal').addEventListener('click',e=>{const i=$('#wdate');if(e.target!==i&&i.showPicker){try{i.showPicker()}catch(_){}}});
   document.querySelectorAll('#hf button').forEach(b=>b.onclick=()=>{S.f=b.dataset.f;document.querySelectorAll('#hf button').forEach(x=>x.classList.toggle('on',x===b));drawDay()});
-  $('#hph').addEventListener('click',e=>{const a=e.target.closest('.vplay');if(!a||!a.dataset.src)return;e.preventDefault();
+  $('#hph').addEventListener('click',e=>{const sb=e.target.closest('[data-share-hero]');
+    if(sb&&S.heroBest){e.preventDefault();e.stopPropagation();const b=S.heroBest,g=b.g;sb.disabled=true;
+      window.shareStatsCard({type:'potn',player:b.p,label:'VAKARO ŽAIDĖJAS',date:fm(S.day),tiles:topStats(g),dd:isDD(g),line:`${g.home?'prieš':'@'} ${g.opponent} · ${g.result||''} ${sc(g)}`,headUrl:headUrl(b.p)}).catch(()=>{}).finally(()=>{sb.disabled=false});return}
+    const a=e.target.closest('.vplay');if(!a||!a.dataset.src)return;e.preventDefault();
     const box=a.closest('.hph-img'),v=document.createElement('video');v.controls=true;v.autoplay=true;v.playsInline=true;v.src=a.dataset.src;if(a.dataset.poster)v.poster=a.dataset.poster;
     v.onerror=()=>{box.replaceChildren(a);$('#hph').classList.remove('playing');if(a.dataset.link)window.open(a.dataset.link,'_blank','noopener')};
     box.replaceChildren(v);$('#hph').classList.add('playing')});

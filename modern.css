@@ -369,3 +369,26 @@ body>header:not(.mast){max-width:1200px;margin-left:auto;margin-right:auto;box-s
   .pc .pr{position:static;flex:none}.pc .av,.pc.p1 .av{width:48px;height:48px}.pc .pn{align-items:flex-start;flex:1}.pc .pn small{justify-content:flex-start}
   .pc .pv,.pc.p1 .pv{font-size:30px;margin-left:auto}.pc.p1 .pn b{font-size:15px}
 }
+
+/* ===== Titulinis: „Vakaro žaidėjo“ maketas ===== */
+.hshare{position:absolute;top:10px;right:12px;z-index:6;min-height:36px;padding:0 14px;border-radius:999px;border:1px solid rgba(255,255,255,.28);background:rgba(8,12,20,.55);color:#fff;font:600 12px var(--disp);letter-spacing:.04em;cursor:pointer;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.hshare:hover{border-color:var(--ac)}.hshare:disabled{opacity:.5}
+.hph figcaption{right:120px}
+.ddtag{font-style:normal;margin-left:8px;padding:3px 8px;border-radius:999px;background:var(--ac);color:#1a0c00;font-size:10px;letter-spacing:.08em;vertical-align:1px}
+.hph-link.poster{background:radial-gradient(ellipse at 72% 40%,color-mix(in srgb,var(--tc) 55%,#0b111b) 0,#0b111b 64%)}
+.pbg{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.pbg::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,transparent 0 26px,rgba(255,255,255,.035) 26px 28px)}
+.pbg::after{content:"";position:absolute;inset:0;background:radial-gradient(rgba(255,255,255,.12) 1.2px,transparent 1.5px) 0 0/15px 15px;-webkit-mask-image:linear-gradient(100deg,transparent 35%,#000 90%);mask-image:linear-gradient(100deg,transparent 35%,#000 90%)}
+.pbig{position:absolute;left:-1%;top:4%;font:800 clamp(100px,17vw,210px)/.9 "Barlow Condensed",sans-serif;color:transparent;-webkit-text-stroke:2px rgba(255,255,255,.13);letter-spacing:.01em;white-space:nowrap}
+.pimg{position:absolute;right:2%;bottom:0;height:94%;width:auto;max-width:50%;object-fit:contain;filter:drop-shadow(0 0 26px color-mix(in srgb,var(--tc) 75%,transparent)) contrast(1.06) saturate(1.1)}
+.pini{position:absolute;right:12%;bottom:18%;width:46%;max-width:220px;aspect-ratio:1;border-radius:50%;display:grid;place-items:center;background:color-mix(in srgb,var(--tc) 40%,transparent);font:800 64px "Barlow Condensed",sans-serif;color:#fff}
+.hph-link.poster .hph-txt{max-width:54%;z-index:2}
+.pst{display:flex;gap:8px;margin-top:12px}
+.pt3{flex:1;min-width:0;padding:8px 10px;border-radius:12px;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.16);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.pt3 b{display:block;font:800 30px/1 "Barlow Condensed",sans-serif;color:#fff}.pt3 span{display:block;font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:#d6dee8;margin-top:3px;overflow-wrap:anywhere}
+@media (max-width:1000px){
+  .hph-link.poster .hph-txt{max-width:none}
+  .pimg{right:auto;left:50%;transform:translateX(-50%);height:100%;max-width:90%}.pini{right:auto;left:50%;transform:translateX(-50%);bottom:8%}
+  .pbig{top:2%;font-size:clamp(90px,26vw,200px)}
+  .hph figcaption{right:112px}
+}
