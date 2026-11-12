@@ -22,7 +22,15 @@
     "cat": "fgp",
     "label": "Metimų iš žaidimo taiklumas (FG%)",
     "value": 80.95238208770752,
-    "rank": 24
+    "rank": 17
+   }
+  ],
+  "matas-vokietaitis": [
+   {
+    "cat": "fgp",
+    "label": "Metimų iš žaidimo taiklumas (FG%)",
+    "value": 79.31034564971924,
+    "rank": 18
    }
   ]
  },
@@ -79,7 +87,7 @@
     5.0
    ],
    [
-    "Dontrell Johnson",
+    "Jamir Smith",
     5.0
    ]
   ],
@@ -99,15 +107,15 @@
   ],
   "fgp": [
    [
-    "Jacob Bannarbie",
-    100.0
-   ],
-   [
     "Joseph Annan Jr",
     100.0
    ],
    [
     "Amir Rosa",
+    100.0
+   ],
+   [
+    "Ira Wilson",
     100.0
    ]
   ],
@@ -117,12 +125,12 @@
     100.0
    ],
    [
-    "Rasheed Jones",
-    85.71428656578064
+    "Owen Walther",
+    100.0
    ],
    [
-    "Matt Christian",
-    83.33333134651184
+    "Rasheed Jones",
+    85.71428656578064
    ]
   ],
   "ftp": [
