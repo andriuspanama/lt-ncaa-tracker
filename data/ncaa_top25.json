@@ -6,15 +6,7 @@
     "cat": "ppg",
     "label": "Taškai per rungtynes",
     "value": 25.333334,
-    "rank": 9
-   }
-  ],
-  "dovydas-butka": [
-   {
-    "cat": "rpg",
-    "label": "Atkovoti kamuoliai per rungtynes",
-    "value": 11.5,
-    "rank": 11
+    "rank": 8
    }
   ],
   "dominykas-pleta": [
@@ -51,29 +43,29 @@
   ],
   "rpg": [
    [
-    "Patrick Wessler",
-    15.0
+    "Demetrius Lilley",
+    15.5
    ],
    [
     "DeWayne Brown II",
     14.5
    ],
    [
-    "Demetrius Lilley",
-    14.333333
+    "Ivan Juric",
+    12.666667
    ]
   ],
   "apg": [
-   [
-    "Cian Medley",
-    11.5
-   ],
    [
     "Jeremy Fears Jr.",
     10.333333
    ],
    [
-    "Chris Lockett Jr.",
+    "Cian Medley",
+    9.666667
+   ],
+   [
+    "Quinn Ellis",
     9.0
    ]
   ],
@@ -94,15 +86,15 @@
   "bpg": [
    [
     "Sean Logan",
-    6.0
+    5.6666665
    ],
    [
-    "Abdullah Ahmed",
+    "John McCrear",
     5.0
    ],
    [
-    "Nes Emeneke",
-    4.5
+    "Ngundeng Ruey",
+    4.3333335
    ]
   ],
   "fgp": [
