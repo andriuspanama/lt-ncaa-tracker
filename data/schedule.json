@@ -1303,9 +1303,9 @@
   "team": "Kansas City",
   "opponent": "George Mason Patriots",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "68",
+  "against": "76",
   "opp_rank": null
  },
  {
@@ -1314,7 +1314,7 @@
   "team": "UMBC",
   "opponent": "Morgan State Bears",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -1375,17 +1375,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401926203",
-  "date": "2026-11-13T17:00Z",
-  "team": "VMI Keydets",
-  "opponent": "Mary Baldwin Fighting Squirrels",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401909515",
   "date": "2026-11-13T23:00Z",
   "team": "Clemson Tigers",
@@ -1423,6 +1412,17 @@
   "date": "2026-11-14T00:00Z",
   "team": "UT Martin",
   "opponent": "Champion Christian Tigers",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401926203",
+  "date": "2026-11-14T00:00Z",
+  "team": "VMI Keydets",
+  "opponent": "Mary Baldwin Fighting Squirrels",
   "home": true,
   "state": "pre",
   "for": null,
