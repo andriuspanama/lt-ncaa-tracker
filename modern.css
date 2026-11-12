@@ -58,7 +58,6 @@ header::after{content:"";display:block;height:1px;margin-top:12px;background:lin
   .brand .lg.chip .bl{height:40px!important}
   .brand i{height:38px}.brand{gap:10px}.wm b,.wm span{font-size:19px}.wm span{letter-spacing:.08em;margin-left:6px}
   .topbar .tabs{grid-template-columns:repeat(6,1fr)}
-  .theme-btn{top:auto!important;bottom:calc(86px + env(safe-area-inset-bottom));right:12px!important;width:42px!important;height:42px!important}
 }
 
 /* naujienų juosta (data/ticker.json) */
@@ -299,12 +298,8 @@ body>header:not(.mast){max-width:1200px;margin-left:auto;margin-right:auto;box-s
 .pwa-banner .pi{min-height:40px;padding:0 14px;border-radius:999px;border:0;background:linear-gradient(135deg,var(--bl),var(--bl2));color:#fff;font:600 13px var(--disp);cursor:pointer}
 .pwa-banner .px,.nsheet .px{background:none;border:0;color:var(--mu);font-size:24px;line-height:1;cursor:pointer;width:36px;height:36px}
 @media (min-width:900px){.pwa-banner{left:auto;right:18px;bottom:18px;margin:0}}
-.bell-btn{position:fixed;right:14px;bottom:calc(142px + env(safe-area-inset-bottom));z-index:61;width:42px;height:42px;border-radius:50%;border:1px solid var(--edge);background:var(--card);font-size:18px;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.25)}
-@media (min-width:900px){.bell-btn{bottom:72px;right:18px}}
-.nsheet{position:fixed;right:14px;bottom:calc(196px + env(safe-area-inset-bottom));z-index:75;width:min(320px,calc(100vw - 28px));padding:14px;border-radius:18px;background:var(--card);border:1px solid var(--edge);box-shadow:0 16px 50px rgba(0,0,0,.5)}
-@media (min-width:900px){.nsheet{bottom:122px;right:18px}}
 .nsheet .nh{display:flex;justify-content:space-between;align-items:center}.nsheet p{font-size:14px;line-height:1.45;margin:6px 0 10px}.nsheet small{display:block;color:var(--mu);font-size:11.5px;line-height:1.4;margin-top:8px}
-.nsheet .nb{min-height:44px;width:100%;border-radius:999px;border:0;background:linear-gradient(135deg,var(--ac),#ff9d4a);color:#1a0c00;font:700 14px var(--disp);cursor:pointer}.nsheet .nb.off{background:var(--chip);color:var(--tx)}
+
 /* įdiegta programėlė: saugios zonos */
 @media (display-mode: standalone){body{padding-top:env(safe-area-inset-top)}.progress{top:env(safe-area-inset-top)}}
 
@@ -392,3 +387,20 @@ body>header:not(.mast){max-width:1200px;margin-left:auto;margin-right:auto;box-s
   .pbig{top:2%;font-size:clamp(90px,26vw,200px)}
   .hph figcaption{right:112px}
 }
+
+/* ===== Viršutinis kampas: varpelis + šviesi/tamsi tema (nebe slankioja per turinį) ===== */
+body{position:relative}
+.tools{position:absolute;top:14px;right:max(14px,calc(50% - 600px + 14px));z-index:30;display:flex;gap:8px}
+.tools .theme-btn,.tools .bell-btn{position:static!important;width:40px!important;height:40px!important;border-radius:50%;border:1px solid var(--edge);background:var(--card);font-size:17px!important;line-height:1;cursor:pointer;box-shadow:none;display:grid;place-items:center;padding:0}
+.tools .theme-btn:hover,.tools .bell-btn:hover{border-color:var(--bl)}
+.topbar{padding-right:108px}
+@media (max-width:899px){.topbar{padding-right:0}.topbar .brand{padding-right:112px}.wm b,.wm span{font-size:17px}}
+@media (max-width:380px){.wm b,.wm span{font-size:15px}.topbar .brand{padding-right:104px}}
+.nsheet{position:fixed;top:66px;right:max(12px,calc(50% - 600px + 12px));z-index:80;width:min(330px,calc(100vw - 24px));padding:14px;border-radius:18px;background:var(--card);border:1px solid var(--edge);box-shadow:0 16px 50px rgba(0,0,0,.5)}
+.nsheet .ok{font-size:15px;margin:8px 0 2px}
+.nbtn{display:block;width:100%;min-height:44px;margin-top:8px;border-radius:999px;border:0;background:linear-gradient(135deg,var(--ac),#ff9d4a);color:#1a0c00;font:700 14px var(--disp);cursor:pointer}
+.nbtn.sec{background:var(--chip);color:var(--tx);border:1px solid var(--edge)}.nbtn.off{background:transparent;color:var(--mu);border:1px solid var(--edge);font-weight:600}
+
+@media (max-width:430px){.wm b,.wm span{font-size:15px}.wm span{letter-spacing:.04em;margin-left:4px}.topbar .brand{gap:8px;padding-right:100px}.brand .lg.own .bl{height:46px!important}}
+@media (max-width:360px){.wm b,.wm span{font-size:13.5px}.topbar .brand{padding-right:96px}.tools{gap:6px}.tools .theme-btn,.tools .bell-btn{width:36px!important;height:36px!important}}
+@media (max-width:340px){.wm span{display:none}}

@@ -1,5 +1,4 @@
 /* LT NCAA Tracker – service worker: darbas be tinklo, pasikartojantis fono tikrinimas ir pranešimai */
-if (/[?&]os=1/.test(self.location.search)) { try { importScripts('https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js'); } catch (e) {} }
 const V = 'ltncaa-v1';
 const SHELL = ['./', 'index.html', 'players.html', 'charts.html', 'compare.html', 'insights.html', 'metodika.html', 'style.css', 'extra.css', 'polish.css', 'modern.css', 'insights.css',
   'theme.js', 'media.js', 'pnav.js', 'pwa.js', 'config.js', 'home.js', 'app.js', 'charts.js', 'compare.js', 'insights.js', 'share.js', 'manifest.webmanifest', 'icons/icon-192.png', 'ncaa-logo.png'];

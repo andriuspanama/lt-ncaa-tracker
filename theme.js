@@ -1,3 +1,4 @@
+window.ltnTools=function(){var t=document.querySelector('.tools');if(!t){t=document.createElement('div');t.className='tools';document.body.appendChild(t)}return t};
 (function(){
   var IC={h:'<path d="M4 11l8-7 8 7v9a1 1 0 0 1-1 1h-4v-6H9v6H5a1 1 0 0 1-1-1z"/>',p:'<circle cx="12" cy="8" r="3.5"/><path d="M5 20c0-4 3-6 7-6s7 2 7 6"/>',g:'<rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/>',l:'<path d="M5 20V11M12 20V5M19 20v-7"/>',i:'<path d="M5 5h11v14H5zM16 9h3v8a2 2 0 0 1-2 2M8 9h5M8 13h5"/>',a:'<circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/>',c:'<path d="M8 5L4 9l4 4M4 9h16M16 19l4-4-4-4M20 15H4"/>'};
   var NAV=[['index.html','Pradžia','h'],['players.html','Žaidėjai','p'],['charts.html','Lyderiai','l'],['compare.html','Palyginimas','c'],['insights.html','Įžvalgos','i'],['metodika.html','Apie','a']];
@@ -17,7 +18,7 @@
     var set=function(v){document.documentElement.dataset.theme=v;b.textContent=v==='light'?'🌙':'☀️';try{localStorage.setItem(k,v)}catch(e){}};
     b.textContent=t==='light'?'🌙':'☀️';
     b.onclick=function(){set(document.documentElement.dataset.theme==='light'?'dark':'light')};
-    document.body.appendChild(b);
+    window.ltnTools().appendChild(b);
   });
 })();
 

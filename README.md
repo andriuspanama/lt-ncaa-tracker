@@ -43,8 +43,12 @@ Nėra oficialaus NCAA API; naudojami viešieji ESPN endpointai, jie gali pasikei
 ## Programėlė (PWA) ir pranešimai
 - Svetainę galima įdiegti kaip programėlę (Android/Chrome: „Įdiegti“ juosta; iPhone: Safari → Dalintis → Pridėti į pradžios ekraną). Piktogramos: `python make_icons.py` (tas pats NCAA logotipas iš `ncaa-logo.png`).
 - `sw.js` – veikimas be tinklo (rodo paskutinius duomenis) ir fono tikrinimas (Android Chrome, įdiegta programėlė).
-- **Momentiniai pranešimai (neprivaloma)** – per OneSignal (nemokama paskyra): 1) onesignal.com → naujas „Web“ projektas, svetainės adresas `https://andriuspanama.github.io/lt-ncaa-tracker/`; 2) `config.js` įrašyk savo App ID; 3) GitHub → Settings → Secrets and variables → Actions → pridėk `ONESIGNAL_APP_ID` ir `ONESIGNAL_API_KEY`. `send_push.py` siunčia ne dažniau nei kas 5 val. ir tik kai atsiranda nauji rezultatai. iPhone pranešimus gauna tik įdiegta programėlė (iOS 16.4+).
+- **Pranešimai** – tik naršyklės: 🔔 viršuje dešinėje → „Įjungti pranešimus“. Pranešimas parodomas, kai naršyklė aptinka naujus rezultatus (`data/notify.json`): kol svetainė atidaryta (ir fone) arba Android Chrome įdiegtoje programėlėje fono tikrinimo metu. Išorinių paslaugų nereikia (`send_push.py` / OneSignal neprivalomi ir be raktų tiesiog praleidžiami).
 
 ## Metimų žemėlapis ir rekordai
 - `fetch_shots.py` – ESPN play-by-play metimų koordinatės → `data/shots/<id>.json` (jei ESPN koordinačių nepateikia, žemėlapis nerodomas).
 - `build_records.py` → `data/records.json`: sezono rekordai, pasiekimų ženkliukai ir 🏆 „naujas rekordas“ (7 d.).
+
+## Titulinio „Vakaro žaidėjas“ pasirinkimas
+1. ESPN video su žaidėju (jei yra) → 2. to vakaro nuotrauka, jei ji praeina kokybės patikrą (`photoScore` / `PHOTO_MIN` faile `home.js`) → 3. gera archyvinė nuotrauka su tuo žaidėju → 4. maketas iš ESPN portreto su 3 išsiskyrusiais rodikliais (galima parsisiųsti kaip PNG per „Dalintis“).
+Rankinis pakeitimas: `data/hero.json`, pvz. `{"2026-11-10": "poster"}` (visada maketas) arba `{"2026-11-10": {"photo": "https://...jpg", "caption": "..."}}` (tavo pasirinkta nuotrauka); `"photo"` išjungia video.

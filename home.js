@@ -66,7 +66,7 @@ function pickPhoto(best){
 }
 const dur=s=>{s=Math.round(+s||0);return s?`${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`:''};
 const meta=best=>`${esc(best.p.team)} · ${best.g.home?'prieš':'@'} ${esc(best.g.opponent)} · ${esc(best.g.result||'')} ${esc(sc(best.g))}`;
-const shareBtn='<button type="button" class="hshare" data-share-hero>Dalintis ↗</button>';
+const shareBtn='';
 function videoHero(best,v){
   const g=best.g,link=v.link||'';
   return `<div class="hph-link vid" style="--tc:${teamColor(best.p.team)}"><div class="hph-img">
@@ -149,9 +149,7 @@ function go(day){S.day=day;S.week=monday(day);drawWeek();drawDay()}
   $('#wdate').onchange=e=>{if(e.target.value)go(e.target.value)};
   $('.wcal').addEventListener('click',e=>{const i=$('#wdate');if(e.target!==i&&i.showPicker){try{i.showPicker()}catch(_){}}});
   document.querySelectorAll('#hf button').forEach(b=>b.onclick=()=>{S.f=b.dataset.f;document.querySelectorAll('#hf button').forEach(x=>x.classList.toggle('on',x===b));drawDay()});
-  $('#hph').addEventListener('click',e=>{const sb=e.target.closest('[data-share-hero]');
-    if(sb&&S.heroBest){e.preventDefault();e.stopPropagation();const b=S.heroBest,g=b.g;sb.disabled=true;
-      window.shareStatsCard({type:'potn',player:b.p,label:'VAKARO ŽAIDĖJAS',date:fm(S.day),tiles:topStats(g),dd:isDD(g),line:`${g.home?'prieš':'@'} ${g.opponent} · ${g.result||''} ${sc(g)}`,headUrl:headUrl(b.p)}).catch(()=>{}).finally(()=>{sb.disabled=false});return}
+  $('#hph').addEventListener('click',e=>{
     const a=e.target.closest('.vplay');if(!a||!a.dataset.src)return;e.preventDefault();
     const box=a.closest('.hph-img'),v=document.createElement('video');v.controls=true;v.autoplay=true;v.playsInline=true;v.src=a.dataset.src;if(a.dataset.poster)v.poster=a.dataset.poster;
     v.onerror=()=>{box.replaceChildren(a);$('#hph').classList.remove('playing');if(a.dataset.link)window.open(a.dataset.link,'_blank','noopener')};

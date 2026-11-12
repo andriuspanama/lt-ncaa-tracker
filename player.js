@@ -144,7 +144,6 @@ else(async()=>{
     ${progress(g,id)}
     ${recordsCard(id)}
     <section class="card" id="shots" hidden></section>
-    <section class="card"><h2>SEZONO PASIEKIMAI</h2><div class="hl">${[['pts','PTS'],['reb','REB'],['ast','AST']].map(([k,l])=>{const x=best(k);return `<div><b>${x[k]} ${l}</b> · ${x.home?'prieš':'@'} ${esc(x.opponent)} · ${fd(x.date)}</div>`}).join('')}</div></section>
     <section class="card"><h2>RUNGTYNIŲ ŽURNALAS</h2><p class="sub">Paskutinės 3 rungtynės · iš viso ${g.length}</p><div class="tw"><table><tr><th>Data</th><th>Varžovas</th><th></th><th>MIN</th><th>PTS</th><th>REB</th><th>AST</th><th>FG</th><th>3P</th></tr>
     <tbody id="logb">${[...g].reverse().slice(0,3).map(logRow).join('')}</tbody></table></div><button class="more" id="logmore" type="button" ${g.length>3?'':'hidden'}>Rodyti daugiau</button></section>
     <section class="card"><h2>KARJERA</h2><p class="empty">Ankstesnių sezonų duomenų kol kas nerenkame.</p></section>`;
