@@ -1204,9 +1204,9 @@
   "team": "VMI Keydets",
   "opponent": "North Carolina Central Eagles",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "65",
+  "against": "51",
   "opp_rank": null
  },
  {
@@ -1215,9 +1215,9 @@
   "team": "Campbell",
   "opponent": "East Tennessee State Buccaneers",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "53",
+  "against": "68",
   "opp_rank": null
  },
  {
@@ -1226,9 +1226,9 @@
   "team": "Northern Illinois Huskies",
   "opponent": "Clarke Pride",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "82",
+  "against": "43",
   "opp_rank": null
  },
  {
@@ -1237,9 +1237,9 @@
   "team": "South Carolina",
   "opponent": "Saint Peter's Peacocks",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "77",
+  "against": "41",
   "opp_rank": null
  },
  {
@@ -1248,9 +1248,9 @@
   "team": "Stephen F. Austin",
   "opponent": "Abilene Christian Wildcats",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "76",
+  "against": "71",
   "opp_rank": null
  },
  {
@@ -1259,9 +1259,9 @@
   "team": "Boise State",
   "opponent": "Oakland Golden Grizzlies",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "111",
+  "against": "79",
   "opp_rank": null
  },
  {
@@ -1270,9 +1270,9 @@
   "team": "Portland State",
   "opponent": "Colorado State Rams",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "71",
+  "against": "87",
   "opp_rank": null
  },
  {
@@ -1281,9 +1281,9 @@
   "team": "California Baptist",
   "opponent": "Chicago State Cougars",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "62",
+  "against": "81",
   "opp_rank": null
  },
  {
@@ -1292,9 +1292,9 @@
   "team": "California",
   "opponent": "USC Trojans",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "65",
+  "against": "77",
   "opp_rank": 21
  },
  {

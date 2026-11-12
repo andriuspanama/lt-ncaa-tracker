@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "items": [
   {
    "id": "paulius-murauskas",
@@ -16,6 +16,22 @@
    "stl": 2,
    "blk": 3,
    "gs": 22.3
+  },
+  {
+   "id": "dovydas-butka",
+   "name": "Dovydas Butka",
+   "team": "Boise State",
+   "date": "2026-11-11",
+   "opp": "Oakland Golden Grizzlies",
+   "home": true,
+   "res": "W",
+   "score": "111-79",
+   "pts": 16,
+   "reb": 7,
+   "ast": 2,
+   "stl": 1,
+   "blk": 1,
+   "gs": 18.7
   },
   {
    "id": "motiejus-krivas",
@@ -48,6 +64,22 @@
    "stl": 2,
    "blk": 0,
    "gs": 14.4
+  },
+  {
+   "id": "gediminas-alisas",
+   "name": "Gediminas Alisas",
+   "team": "Stephen F. Austin",
+   "date": "2026-11-11",
+   "opp": "Abilene Christian Wildcats",
+   "home": false,
+   "res": "W",
+   "score": "76-71",
+   "pts": 18,
+   "reb": 4,
+   "ast": 1,
+   "stl": 0,
+   "blk": 0,
+   "gs": 13.8
   },
   {
    "id": "titas-sargiunas",
@@ -98,68 +130,36 @@
    "gs": 11.2
   },
   {
-   "id": "vince-buzelis",
-   "name": "Vince Buzelis",
-   "team": "South Dakota",
-   "date": "2026-11-10",
-   "opp": "Houston Christian Huskies",
+   "id": "justas-stonkus",
+   "name": "Justas Stonkus",
+   "team": "California Baptist",
+   "date": "2026-11-11",
+   "opp": "Chicago State Cougars",
    "home": true,
    "res": "L",
-   "score": "76-87",
-   "pts": 11,
-   "reb": 6,
-   "ast": 0,
-   "stl": 0,
-   "blk": 0,
-   "gs": 4.9
-  },
-  {
-   "id": "nikas-stuknys",
-   "name": "Nikas Stuknys",
-   "team": "UT Martin",
-   "date": "2026-11-10",
-   "opp": "Arkansas State Red Wolves",
-   "home": false,
-   "res": "W",
-   "score": "82-65",
-   "pts": 5,
-   "reb": 4,
-   "ast": 0,
+   "score": "62-81",
+   "pts": 15,
+   "reb": 1,
+   "ast": 2,
    "stl": 2,
    "blk": 0,
-   "gs": 3.6
+   "gs": 11.0
   },
   {
-   "id": "gabrielius-jokubauskas",
-   "name": "Gabrielius Jokubauskas",
-   "team": "Northern Kentucky",
-   "date": "2026-11-10",
-   "opp": "Saint Louis Billikens",
-   "home": false,
-   "res": "L",
-   "score": "63-125",
-   "pts": 3,
-   "reb": 6,
-   "ast": 1,
-   "stl": 0,
-   "blk": 0,
-   "gs": 1.9
-  },
-  {
-   "id": "ernas-valauskas",
-   "name": "Ernas Valauskas",
-   "team": "Dartmouth Big Green",
+   "id": "alex-bieliauskas",
+   "name": "Alex Bieliauskas",
+   "team": "South Carolina",
    "date": "2026-11-11",
-   "opp": "UAlbany Great Danes",
-   "home": false,
+   "opp": "Saint Peter's Peacocks",
+   "home": true,
    "res": "W",
-   "score": "85-76",
-   "pts": 5,
-   "reb": 1,
+   "score": "77-41",
+   "pts": 11,
+   "reb": 3,
    "ast": 1,
    "stl": 0,
-   "blk": 0,
-   "gs": 1.6
+   "blk": 2,
+   "gs": 10.7
   }
  ]
 }

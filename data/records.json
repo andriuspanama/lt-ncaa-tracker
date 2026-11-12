@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "newest": "2026-11-11",
  "players": {
   "motiejus-krivas": {
@@ -209,14 +209,14 @@
    "new": []
   },
   "paulius-narvilas": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
-     "v": 4,
-     "date": "2026-11-07",
-     "eid": "401926201",
-     "opp": "UTSA Roadrunners",
-     "home": false
+     "v": 10,
+     "date": "2026-11-11",
+     "eid": "401926202",
+     "opp": "North Carolina Central Eagles",
+     "home": true
     },
     "reb": {
      "v": 10,
@@ -306,14 +306,14 @@
    ]
   },
   "gediminas-alisas": {
-   "gp": 2,
+   "gp": 3,
    "records": {
     "pts": {
-     "v": 9,
-     "date": "2026-11-06",
-     "eid": "401925089",
-     "opp": "Texas Lutheran Bulldogs",
-     "home": true
+     "v": 18,
+     "date": "2026-11-11",
+     "eid": "401917963",
+     "opp": "Abilene Christian Wildcats",
+     "home": false
     },
     "reb": {
      "v": 10,
@@ -331,7 +331,15 @@
     }
    },
    "counts": {},
-   "new": []
+   "new": [
+    {
+     "stat": "pts",
+     "v": 18,
+     "prev": 9,
+     "date": "2026-11-11",
+     "opp": "Abilene Christian Wildcats"
+    }
+   ]
   },
   "modestas-babraitis": {
    "gp": 1,
@@ -382,13 +390,13 @@
    "new": []
   },
   "alex-bieliauskas": {
-   "gp": 2,
+   "gp": 3,
    "records": {
     "pts": {
-     "v": 10,
-     "date": "2026-11-03",
-     "eid": "401921819",
-     "opp": "Stetson Hatters",
+     "v": 11,
+     "date": "2026-11-11",
+     "eid": "401921821",
+     "opp": "Saint Peter's Peacocks",
      "home": true
     },
     "reb": {
@@ -406,22 +414,32 @@
      "home": true
     },
     "blk": {
-     "v": 1,
-     "date": "2026-11-08",
-     "eid": "401921820",
-     "opp": "Southeast Missouri State Redhawks",
+     "v": 2,
+     "date": "2026-11-11",
+     "eid": "401921821",
+     "opp": "Saint Peter's Peacocks",
      "home": true
     },
     "tpm": {
-     "v": 1,
-     "date": "2026-11-08",
-     "eid": "401921820",
-     "opp": "Southeast Missouri State Redhawks",
+     "v": 3,
+     "date": "2026-11-11",
+     "eid": "401921821",
+     "opp": "Saint Peter's Peacocks",
      "home": true
     }
    },
-   "counts": {},
-   "new": []
+   "counts": {
+    "t3": 1
+   },
+   "new": [
+    {
+     "stat": "tpm",
+     "v": 3,
+     "prev": 1,
+     "date": "2026-11-11",
+     "opp": "Saint Peter's Peacocks"
+    }
+   ]
   },
   "matas-buteliauskas": {
    "gp": 3,
@@ -481,7 +499,7 @@
    ]
   },
   "dovydas-butka": {
-   "gp": 2,
+   "gp": 3,
    "records": {
     "pts": {
      "v": 18,
@@ -506,15 +524,43 @@
     },
     "stl": {
      "v": 1,
-     "date": "2026-11-08",
-     "eid": "401902277",
-     "opp": "Butler Bulldogs",
+     "date": "2026-11-11",
+     "eid": "401928814",
+     "opp": "Oakland Golden Grizzlies",
+     "home": true
+    },
+    "blk": {
+     "v": 1,
+     "date": "2026-11-11",
+     "eid": "401928814",
+     "opp": "Oakland Golden Grizzlies",
      "home": true
     }
    },
    "counts": {
     "dd": 1
    },
+   "new": []
+  },
+  "emilis-butkus": {
+   "gp": 1,
+   "records": {
+    "reb": {
+     "v": 1,
+     "date": "2026-11-11",
+     "eid": "401920740",
+     "opp": "East Tennessee State Buccaneers",
+     "home": false
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-11",
+     "eid": "401920740",
+     "opp": "East Tennessee State Buccaneers",
+     "home": false
+    }
+   },
+   "counts": {},
    "new": []
   },
   "vince-buzelis": {
@@ -661,8 +707,30 @@
    "new": []
   },
   "dominykas-daubaris": {
-   "gp": 1,
-   "records": {},
+   "gp": 2,
+   "records": {
+    "pts": {
+     "v": 3,
+     "date": "2026-11-11",
+     "eid": "401918054",
+     "opp": "USC Trojans",
+     "home": true
+    },
+    "reb": {
+     "v": 2,
+     "date": "2026-11-11",
+     "eid": "401918054",
+     "opp": "USC Trojans",
+     "home": true
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-11",
+     "eid": "401918054",
+     "opp": "USC Trojans",
+     "home": true
+    }
+   },
    "counts": {},
    "new": []
   },
@@ -702,7 +770,7 @@
    "new": []
   },
   "nojus-indrusaitis": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 30,
@@ -712,17 +780,17 @@
      "home": true
     },
     "reb": {
-     "v": 5,
-     "date": "2026-11-04",
-     "eid": "401918052",
-     "opp": "Radford Highlanders",
+     "v": 6,
+     "date": "2026-11-11",
+     "eid": "401918054",
+     "opp": "USC Trojans",
      "home": true
     },
     "ast": {
      "v": 3,
-     "date": "2026-11-02",
-     "eid": "401918051",
-     "opp": "Adams State Grizzlies",
+     "date": "2026-11-11",
+     "eid": "401918054",
+     "opp": "USC Trojans",
      "home": true
     },
     "stl": {
@@ -963,13 +1031,13 @@
    "new": []
   },
   "mantas-kocanas": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 5,
-     "date": "2026-11-02",
-     "eid": "401918051",
-     "opp": "Adams State Grizzlies",
+     "date": "2026-11-11",
+     "eid": "401918054",
+     "opp": "USC Trojans",
      "home": true
     },
     "reb": {
@@ -986,6 +1054,13 @@
      "opp": "Houston Cougars",
      "home": false
     },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-11",
+     "eid": "401918054",
+     "opp": "USC Trojans",
+     "home": true
+    },
     "tpm": {
      "v": 1,
      "date": "2026-11-04",
@@ -998,7 +1073,7 @@
    "new": []
   },
   "gantas-krizanauskas": {
-   "gp": 2,
+   "gp": 3,
    "records": {
     "pts": {
      "v": 6,
@@ -1297,28 +1372,28 @@
    "new": []
   },
   "justas-stonkus": {
-   "gp": 2,
+   "gp": 3,
    "records": {
     "pts": {
-     "v": 12,
-     "date": "2026-11-06",
-     "eid": "401920344",
-     "opp": "Oregon State Beavers",
-     "home": false
+     "v": 15,
+     "date": "2026-11-11",
+     "eid": "401919734",
+     "opp": "Chicago State Cougars",
+     "home": true
     },
     "reb": {
      "v": 1,
-     "date": "2026-11-06",
-     "eid": "401920344",
-     "opp": "Oregon State Beavers",
-     "home": false
+     "date": "2026-11-11",
+     "eid": "401919734",
+     "opp": "Chicago State Cougars",
+     "home": true
     },
     "ast": {
-     "v": 1,
-     "date": "2026-11-06",
-     "eid": "401920344",
-     "opp": "Oregon State Beavers",
-     "home": false
+     "v": 2,
+     "date": "2026-11-11",
+     "eid": "401919734",
+     "opp": "Chicago State Cougars",
+     "home": true
     },
     "stl": {
      "v": 3,
@@ -1328,17 +1403,33 @@
      "home": false
     },
     "tpm": {
-     "v": 2,
-     "date": "2026-11-06",
-     "eid": "401920344",
-     "opp": "Oregon State Beavers",
-     "home": false
+     "v": 3,
+     "date": "2026-11-11",
+     "eid": "401919734",
+     "opp": "Chicago State Cougars",
+     "home": true
     }
    },
    "counts": {
+    "t3": 1,
     "s3": 1
    },
-   "new": []
+   "new": [
+    {
+     "stat": "pts",
+     "v": 15,
+     "prev": 12,
+     "date": "2026-11-11",
+     "opp": "Chicago State Cougars"
+    },
+    {
+     "stat": "tpm",
+     "v": 3,
+     "prev": 2,
+     "date": "2026-11-11",
+     "opp": "Chicago State Cougars"
+    }
+   ]
   },
   "nikas-stuknys": {
    "gp": 3,
@@ -1531,7 +1622,7 @@
    "new": []
   },
   "mykolas-ivanauskas": {
-   "gp": 2,
+   "gp": 3,
    "records": {
     "pts": {
      "v": 12,
@@ -1541,11 +1632,11 @@
      "home": false
     },
     "reb": {
-     "v": 3,
-     "date": "2026-11-05",
-     "eid": "401920913",
-     "opp": "Tulsa Golden Hurricane",
-     "home": false
+     "v": 6,
+     "date": "2026-11-11",
+     "eid": "401920914",
+     "opp": "Clarke Pride",
+     "home": true
     },
     "ast": {
      "v": 1,
@@ -1556,10 +1647,10 @@
     },
     "stl": {
      "v": 1,
-     "date": "2026-11-07",
-     "eid": "401911186",
-     "opp": "Dayton Flyers",
-     "home": false
+     "date": "2026-11-11",
+     "eid": "401920914",
+     "opp": "Clarke Pride",
+     "home": true
     },
     "blk": {
      "v": 2,

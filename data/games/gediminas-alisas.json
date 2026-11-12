@@ -42,5 +42,27 @@
   "tpa": 0,
   "ftm": 1,
   "fta": 2
+ },
+ {
+  "event_id": "401917963",
+  "date": "2026-11-11",
+  "opponent": "Abilene Christian Wildcats",
+  "home": false,
+  "result": "W",
+  "score": "76-71",
+  "min": 19,
+  "pts": 18,
+  "reb": 4,
+  "ast": 1,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 3,
+  "fgm": 7,
+  "fga": 9,
+  "tpm": 0,
+  "tpa": 1,
+  "ftm": 4,
+  "fta": 7
  }
 ]

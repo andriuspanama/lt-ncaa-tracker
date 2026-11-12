@@ -64,5 +64,27 @@
   "tpa": 0,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401918054",
+  "date": "2026-11-11",
+  "opponent": "USC Trojans",
+  "home": true,
+  "result": "L",
+  "score": "65-77",
+  "min": 24,
+  "pts": 5,
+  "reb": 3,
+  "ast": 0,
+  "stl": 1,
+  "blk": 0,
+  "to": 0,
+  "pf": 0,
+  "fgm": 2,
+  "fga": 7,
+  "tpm": 0,
+  "tpa": 1,
+  "ftm": 1,
+  "fta": 2
  }
 ]

@@ -42,5 +42,27 @@
   "tpa": 1,
   "ftm": 3,
   "fta": 4
+ },
+ {
+  "event_id": "401921821",
+  "date": "2026-11-11",
+  "opponent": "Saint Peter's Peacocks",
+  "home": true,
+  "result": "W",
+  "score": "77-41",
+  "min": 24,
+  "pts": 11,
+  "reb": 3,
+  "ast": 1,
+  "stl": 0,
+  "blk": 2,
+  "to": 0,
+  "pf": 4,
+  "fgm": 3,
+  "fga": 5,
+  "tpm": 3,
+  "tpa": 3,
+  "ftm": 2,
+  "fta": 2
  }
 ]
