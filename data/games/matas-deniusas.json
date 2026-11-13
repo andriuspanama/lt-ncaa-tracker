@@ -64,5 +64,27 @@
   "tpa": 1,
   "ftm": 8,
   "fta": 10
+ },
+ {
+  "event_id": "401920064",
+  "date": "2026-11-12",
+  "opponent": "Maryland Eastern Shore Hawks",
+  "home": true,
+  "result": "W",
+  "score": "67-47",
+  "min": 29,
+  "pts": 16,
+  "reb": 12,
+  "ast": 0,
+  "stl": 1,
+  "blk": 0,
+  "to": 1,
+  "pf": 0,
+  "fgm": 3,
+  "fga": 9,
+  "tpm": 1,
+  "tpa": 4,
+  "ftm": 9,
+  "fta": 9
  }
 ]

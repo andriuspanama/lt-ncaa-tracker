@@ -1314,9 +1314,9 @@
   "team": "UMBC",
   "opponent": "Morgan State Bears",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "85",
+  "against": "70",
   "opp_rank": null
  },
  {
@@ -1325,9 +1325,9 @@
   "team": "Mercer",
   "opponent": "West Virginia Mountaineers",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "61",
+  "against": "75",
   "opp_rank": null
  },
  {
@@ -1336,9 +1336,9 @@
   "team": "Quinnipiac",
   "opponent": "Monmouth Hawks",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "70",
+  "against": "74",
   "opp_rank": null
  },
  {
@@ -1347,9 +1347,9 @@
   "team": "Rhode Island",
   "opponent": "Maryland Eastern Shore Hawks",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "67",
+  "against": "47",
   "opp_rank": null
  },
  {
@@ -1358,9 +1358,9 @@
   "team": "Western Michigan",
   "opponent": "Purdue Fort Wayne Mastodons",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "81",
+  "against": "59",
   "opp_rank": null
  },
  {
@@ -1369,9 +1369,9 @@
   "team": "BYU",
   "opponent": "Montana State Bobcats",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "86",
+  "against": "71",
   "opp_rank": null
  },
  {
@@ -1600,6 +1600,17 @@
   "team": "UT Arlington",
   "opponent": "UT Rio Grande Valley Vaqueros",
   "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401920568",
+  "date": "2026-11-15T00:30Z",
+  "team": "UMBC",
+  "opponent": "Towson Tigers",
+  "home": false,
   "state": "pre",
   "for": null,
   "against": null,

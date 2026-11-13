@@ -64,5 +64,27 @@
   "tpa": 4,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401924857",
+  "date": "2026-11-12",
+  "opponent": "Monmouth Hawks",
+  "home": true,
+  "result": "L",
+  "score": "70-74",
+  "min": 12,
+  "pts": 0,
+  "reb": 2,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 2,
+  "pf": 0,
+  "fgm": 0,
+  "fga": 3,
+  "tpm": 0,
+  "tpa": 2,
+  "ftm": 0,
+  "fta": 0
  }
 ]

@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-12",
- "newest": "2026-11-11",
+ "updated": "2026-11-13",
+ "newest": "2026-11-12",
  "players": {
   "motiejus-krivas": {
    "gp": 3,
@@ -609,7 +609,7 @@
    "new": []
   },
   "nedas-cholevinskas": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 6,
@@ -644,7 +644,7 @@
    "new": []
   },
   "nedas-raupelis": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 11,
@@ -672,7 +672,7 @@
    "new": []
   },
   "regimantas-ciunys": {
-   "gp": 1,
+   "gp": 2,
    "records": {
     "pts": {
      "v": 2,
@@ -690,9 +690,9 @@
     },
     "ast": {
      "v": 1,
-     "date": "2026-11-09",
-     "eid": "401921085",
-     "opp": "McDaniel Green Terror",
+     "date": "2026-11-12",
+     "eid": "401921086",
+     "opp": "Morgan State Bears",
      "home": true
     },
     "blk": {
@@ -735,20 +735,20 @@
    "new": []
   },
   "matas-deniusas": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
-     "v": 15,
-     "date": "2026-11-07",
-     "eid": "401920062",
-     "opp": "Monmouth Hawks",
+     "v": 16,
+     "date": "2026-11-12",
+     "eid": "401920064",
+     "opp": "Maryland Eastern Shore Hawks",
      "home": true
     },
     "reb": {
-     "v": 8,
-     "date": "2026-11-03",
-     "eid": "401920061",
-     "opp": "Holy Cross Crusaders",
+     "v": 12,
+     "date": "2026-11-12",
+     "eid": "401920064",
+     "opp": "Maryland Eastern Shore Hawks",
      "home": true
     },
     "stl": {
@@ -760,14 +760,32 @@
     },
     "tpm": {
      "v": 1,
-     "date": "2026-11-07",
-     "eid": "401920062",
-     "opp": "Monmouth Hawks",
+     "date": "2026-11-12",
+     "eid": "401920064",
+     "opp": "Maryland Eastern Shore Hawks",
      "home": true
     }
    },
-   "counts": {},
-   "new": []
+   "counts": {
+    "dd": 1,
+    "ft": 1
+   },
+   "new": [
+    {
+     "stat": "pts",
+     "v": 16,
+     "prev": 15,
+     "date": "2026-11-12",
+     "opp": "Maryland Eastern Shore Hawks"
+    },
+    {
+     "stat": "reb",
+     "v": 12,
+     "prev": 8,
+     "date": "2026-11-12",
+     "opp": "Maryland Eastern Shore Hawks"
+    }
+   ]
   },
   "nojus-indrusaitis": {
    "gp": 4,
@@ -982,13 +1000,13 @@
    "new": []
   },
   "augustinas-kiudulas": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
-     "v": 12,
-     "date": "2026-11-02",
-     "eid": "401910997",
-     "opp": "Old Dominion Monarchs",
+     "v": 15,
+     "date": "2026-11-12",
+     "eid": "401928818",
+     "opp": "Purdue Fort Wayne Mastodons",
      "home": false
     },
     "reb": {
@@ -999,18 +1017,18 @@
      "home": true
     },
     "ast": {
-     "v": 2,
-     "date": "2026-11-08",
-     "eid": "401920739",
-     "opp": "Campbell Fighting Camels",
-     "home": true
+     "v": 3,
+     "date": "2026-11-12",
+     "eid": "401928818",
+     "opp": "Purdue Fort Wayne Mastodons",
+     "home": false
     },
     "stl": {
-     "v": 1,
-     "date": "2026-11-08",
-     "eid": "401920739",
-     "opp": "Campbell Fighting Camels",
-     "home": true
+     "v": 2,
+     "date": "2026-11-12",
+     "eid": "401928818",
+     "opp": "Purdue Fort Wayne Mastodons",
+     "home": false
     },
     "blk": {
      "v": 2,
@@ -1020,15 +1038,32 @@
      "home": true
     },
     "tpm": {
-     "v": 2,
-     "date": "2026-11-02",
-     "eid": "401910997",
-     "opp": "Old Dominion Monarchs",
+     "v": 3,
+     "date": "2026-11-12",
+     "eid": "401928818",
+     "opp": "Purdue Fort Wayne Mastodons",
      "home": false
     }
    },
-   "counts": {},
-   "new": []
+   "counts": {
+    "t3": 1
+   },
+   "new": [
+    {
+     "stat": "pts",
+     "v": 15,
+     "prev": 12,
+     "date": "2026-11-12",
+     "opp": "Purdue Fort Wayne Mastodons"
+    },
+    {
+     "stat": "tpm",
+     "v": 3,
+     "prev": 2,
+     "date": "2026-11-12",
+     "opp": "Purdue Fort Wayne Mastodons"
+    }
+   ]
   },
   "mantas-kocanas": {
    "gp": 4,
@@ -1194,7 +1229,7 @@
    "new": []
   },
   "petras-padegimas": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 2,

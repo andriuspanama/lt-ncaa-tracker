@@ -20,5 +20,27 @@
   "tpa": 2,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401921086",
+  "date": "2026-11-12",
+  "opponent": "Morgan State Bears",
+  "home": true,
+  "result": "W",
+  "score": "85-70",
+  "min": 1,
+  "pts": 0,
+  "reb": 0,
+  "ast": 1,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 0,
+  "fgm": 0,
+  "fga": 0,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
  }
 ]
