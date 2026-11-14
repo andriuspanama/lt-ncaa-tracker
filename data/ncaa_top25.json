@@ -5,7 +5,7 @@
    {
     "cat": "ppg",
     "label": "Taškai per rungtynes",
-    "value": 25.333334,
+    "value": 26.75,
     "rank": 6
    }
   ],
@@ -14,7 +14,7 @@
     "cat": "fgp",
     "label": "Metimų iš žaidimo taiklumas (FG%)",
     "value": 80.95238208770752,
-    "rank": 17
+    "rank": 16
    }
   ],
   "matas-vokietaitis": [
@@ -22,7 +22,7 @@
     "cat": "fgp",
     "label": "Metimų iš žaidimo taiklumas (FG%)",
     "value": 79.31034564971924,
-    "rank": 19
+    "rank": 17
    }
   ]
  },
@@ -33,12 +33,12 @@
     35.0
    ],
    [
-    "Dior Johnson",
-    31.0
-   ],
-   [
     "Jake Hall",
     30.666666
+   ],
+   [
+    "Troy Santos",
+    30.0
    ]
   ],
   "rpg": [
@@ -47,18 +47,18 @@
     15.5
    ],
    [
-    "DeWayne Brown II",
-    14.5
-   ],
-   [
     "Ivan Juric",
     13.25
+   ],
+   [
+    "Patrick Wessler",
+    12.333333
    ]
   ],
   "apg": [
    [
     "Jeremy Fears Jr.",
-    10.333333
+    10.0
    ],
    [
     "Cian Medley",
@@ -117,25 +117,25 @@
     100.0
    ],
    [
-    "Owen Walther",
+    "Orden Roberts",
     100.0
    ],
    [
-    "Rasheed Jones",
-    85.71428656578064
+    "Owen Walther",
+    100.0
    ]
   ],
   "ftp": [
    [
+    "Tyler Lundblade",
+    100.0
+   ],
+   [
+    "Aden Holloway",
+    100.0
+   ],
+   [
     "Layden Blocker",
-    100.0
-   ],
-   [
-    "Elmarko Jackson",
-    100.0
-   ],
-   [
-    "Paul McNeil Jr.",
     100.0
    ]
   ]
