@@ -64,5 +64,27 @@
   "tpa": 3,
   "ftm": 10,
   "fta": 13
+ },
+ {
+  "event_id": "401917980",
+  "date": "2026-11-13",
+  "opponent": "UL Monroe Warhawks",
+  "home": true,
+  "result": "W",
+  "score": "92-62",
+  "min": 30,
+  "pts": 31,
+  "reb": 13,
+  "ast": 3,
+  "stl": 1,
+  "blk": 0,
+  "to": 2,
+  "pf": 2,
+  "fgm": 11,
+  "fga": 20,
+  "tpm": 3,
+  "tpa": 8,
+  "ftm": 6,
+  "fta": 8
  }
 ]

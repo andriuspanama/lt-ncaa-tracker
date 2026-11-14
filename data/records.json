@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-13",
- "newest": "2026-11-12",
+ "updated": "2026-11-14",
+ "newest": "2026-11-13",
  "players": {
   "motiejus-krivas": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 30,
@@ -13,25 +13,25 @@
      "home": true
     },
     "reb": {
-     "v": 9,
-     "date": "2026-11-02",
-     "eid": "401909738",
-     "opp": "UCLA Bruins",
+     "v": 12,
+     "date": "2026-11-13",
+     "eid": "401909741",
+     "opp": "Auburn Tigers",
      "home": false
     },
     "ast": {
-     "v": 1,
-     "date": "2026-11-10",
-     "eid": "401909740",
-     "opp": "Northern Arizona Lumberjacks",
-     "home": true
+     "v": 4,
+     "date": "2026-11-13",
+     "eid": "401909741",
+     "opp": "Auburn Tigers",
+     "home": false
     },
     "stl": {
      "v": 1,
-     "date": "2026-11-05",
-     "eid": "401909739",
-     "opp": "Cal Poly Mustangs",
-     "home": true
+     "date": "2026-11-13",
+     "eid": "401909741",
+     "opp": "Auburn Tigers",
+     "home": false
     },
     "blk": {
      "v": 6,
@@ -42,11 +42,20 @@
     }
    },
    "counts": {
+    "dd": 1,
     "p20": 1,
     "p30": 1,
-    "b3": 1
+    "b3": 2
    },
-   "new": []
+   "new": [
+    {
+     "stat": "reb",
+     "v": 12,
+     "prev": 9,
+     "date": "2026-11-13",
+     "opp": "Auburn Tigers"
+    }
+   ]
   },
   "ugnius-jarusevicius": {
    "gp": 3,
@@ -84,7 +93,7 @@
    "new": []
   },
   "paulius-murauskas": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 33,
@@ -94,17 +103,17 @@
      "home": true
     },
     "reb": {
-     "v": 11,
-     "date": "2026-11-10",
-     "eid": "401921733",
-     "opp": "Hofstra Pride",
+     "v": 13,
+     "date": "2026-11-13",
+     "eid": "401917980",
+     "opp": "UL Monroe Warhawks",
      "home": true
     },
     "ast": {
      "v": 3,
-     "date": "2026-11-10",
-     "eid": "401921733",
-     "opp": "Hofstra Pride",
+     "date": "2026-11-13",
+     "eid": "401917980",
+     "opp": "UL Monroe Warhawks",
      "home": true
     },
     "stl": {
@@ -122,38 +131,39 @@
      "home": true
     },
     "tpm": {
-     "v": 2,
-     "date": "2026-11-06",
-     "eid": "401921732",
-     "opp": "Northern Colorado Bears",
+     "v": 3,
+     "date": "2026-11-13",
+     "eid": "401917980",
+     "opp": "UL Monroe Warhawks",
      "home": true
     }
    },
    "counts": {
-    "dd": 1,
-    "p20": 3,
-    "p30": 1,
+    "dd": 2,
+    "p20": 4,
+    "p30": 2,
+    "t3": 1,
     "b3": 1
    },
    "new": [
     {
      "stat": "reb",
-     "v": 11,
-     "prev": 9,
-     "date": "2026-11-10",
-     "opp": "Hofstra Pride"
+     "v": 13,
+     "prev": 11,
+     "date": "2026-11-13",
+     "opp": "UL Monroe Warhawks"
     },
     {
-     "stat": "blk",
+     "stat": "tpm",
      "v": 3,
-     "prev": 0,
-     "date": "2026-11-10",
-     "opp": "Hofstra Pride"
+     "prev": 2,
+     "date": "2026-11-13",
+     "opp": "UL Monroe Warhawks"
     }
    ]
   },
   "jokubas-rudaitis": {
-   "gp": 2,
+   "gp": 3,
    "records": {
     "pts": {
      "v": 2,
@@ -181,13 +191,13 @@
    "new": []
   },
   "arturas-butajevas": {
-   "gp": 2,
+   "gp": 3,
    "records": {
     "pts": {
-     "v": 1,
-     "date": "2026-11-05",
-     "eid": "401906770",
-     "opp": "Jacksonville Dolphins",
+     "v": 2,
+     "date": "2026-11-13",
+     "eid": "401906772",
+     "opp": "Merrimack Warriors",
      "home": true
     },
     "reb": {
@@ -198,10 +208,10 @@
      "home": true
     },
     "ast": {
-     "v": 1,
-     "date": "2026-11-05",
-     "eid": "401906770",
-     "opp": "Jacksonville Dolphins",
+     "v": 2,
+     "date": "2026-11-13",
+     "eid": "401906772",
+     "opp": "Merrimack Warriors",
      "home": true
     }
    },
@@ -209,7 +219,7 @@
    "new": []
   },
   "paulius-narvilas": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 10,
@@ -244,7 +254,7 @@
    "new": []
   },
   "liutauras-lelevicius": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 21,
@@ -295,15 +305,7 @@
     "t3": 1,
     "ft": 1
    },
-   "new": [
-    {
-     "stat": "pts",
-     "v": 21,
-     "prev": 17,
-     "date": "2026-11-09",
-     "opp": "North Dakota Fighting Hawks"
-    }
-   ]
+   "new": []
   },
   "gediminas-alisas": {
    "gp": 3,
@@ -348,28 +350,28 @@
    "new": []
   },
   "armandas-bancevicius": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
-     "v": 7,
-     "date": "2026-11-07",
-     "eid": "401921174",
-     "opp": "IU Indianapolis Jaguars",
-     "home": false
+     "v": 9,
+     "date": "2026-11-13",
+     "eid": "401926732",
+     "opp": "Champion Christian Tigers",
+     "home": true
     },
     "reb": {
      "v": 4,
-     "date": "2026-11-07",
-     "eid": "401921174",
-     "opp": "IU Indianapolis Jaguars",
-     "home": false
+     "date": "2026-11-13",
+     "eid": "401926732",
+     "opp": "Champion Christian Tigers",
+     "home": true
     },
     "ast": {
-     "v": 2,
-     "date": "2026-11-10",
-     "eid": "401926731",
-     "opp": "Arkansas State Red Wolves",
-     "home": false
+     "v": 4,
+     "date": "2026-11-13",
+     "eid": "401926732",
+     "opp": "Champion Christian Tigers",
+     "home": true
     },
     "blk": {
      "v": 1,
@@ -379,15 +381,25 @@
      "home": false
     },
     "tpm": {
-     "v": 1,
-     "date": "2026-11-07",
-     "eid": "401921174",
-     "opp": "IU Indianapolis Jaguars",
-     "home": false
+     "v": 3,
+     "date": "2026-11-13",
+     "eid": "401926732",
+     "opp": "Champion Christian Tigers",
+     "home": true
     }
    },
-   "counts": {},
-   "new": []
+   "counts": {
+    "t3": 1
+   },
+   "new": [
+    {
+     "stat": "tpm",
+     "v": 3,
+     "prev": 1,
+     "date": "2026-11-13",
+     "opp": "Champion Christian Tigers"
+    }
+   ]
   },
   "alex-bieliauskas": {
    "gp": 3,
@@ -440,6 +452,41 @@
      "opp": "Saint Peter's Peacocks"
     }
    ]
+  },
+  "gabrielius-bubnys": {
+   "gp": 1,
+   "records": {
+    "pts": {
+     "v": 10,
+     "date": "2026-11-13",
+     "eid": "401926732",
+     "opp": "Champion Christian Tigers",
+     "home": true
+    },
+    "reb": {
+     "v": 1,
+     "date": "2026-11-13",
+     "eid": "401926732",
+     "opp": "Champion Christian Tigers",
+     "home": true
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-13",
+     "eid": "401926732",
+     "opp": "Champion Christian Tigers",
+     "home": true
+    },
+    "tpm": {
+     "v": 1,
+     "date": "2026-11-13",
+     "eid": "401926732",
+     "opp": "Champion Christian Tigers",
+     "home": true
+    }
+   },
+   "counts": {},
+   "new": []
   },
   "matas-buteliauskas": {
    "gp": 3,
@@ -564,7 +611,7 @@
    "new": []
   },
   "vince-buzelis": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 26,
@@ -596,10 +643,10 @@
     },
     "tpm": {
      "v": 1,
-     "date": "2026-11-04",
-     "eid": "401928811",
-     "opp": "Northern Kentucky Norse",
-     "home": true
+     "date": "2026-11-13",
+     "eid": "401927363",
+     "opp": "Drake Bulldogs",
+     "home": false
     }
    },
    "counts": {
@@ -897,7 +944,7 @@
    "new": []
   },
   "mantas-juzenas": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 24,
@@ -922,10 +969,10 @@
     },
     "stl": {
      "v": 1,
-     "date": "2026-11-08",
-     "eid": "401911453",
-     "opp": "Nevada Wolf Pack",
-     "home": false
+     "date": "2026-11-13",
+     "eid": "401917525",
+     "opp": "UIC Flames",
+     "home": true
     },
     "blk": {
      "v": 1,
@@ -943,26 +990,11 @@
     }
    },
    "counts": {
-    "dd": 1,
+    "dd": 2,
     "p20": 2,
-    "t3": 1
+    "t3": 2
    },
-   "new": [
-    {
-     "stat": "pts",
-     "v": 24,
-     "prev": 20,
-     "date": "2026-11-08",
-     "opp": "Nevada Wolf Pack"
-    },
-    {
-     "stat": "tpm",
-     "v": 5,
-     "prev": 2,
-     "date": "2026-11-08",
-     "opp": "Nevada Wolf Pack"
-    }
-   ]
+   "new": []
   },
   "domas-kauzonas": {
    "gp": 3,
@@ -1143,7 +1175,7 @@
    "new": []
   },
   "kajus-kublickas": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 16,
@@ -1160,11 +1192,11 @@
      "home": true
     },
     "ast": {
-     "v": 4,
-     "date": "2026-11-04",
-     "eid": "401928811",
-     "opp": "Northern Kentucky Norse",
-     "home": true
+     "v": 6,
+     "date": "2026-11-13",
+     "eid": "401927363",
+     "opp": "Drake Bulldogs",
+     "home": false
     },
     "stl": {
      "v": 2,
@@ -1193,11 +1225,11 @@
    },
    "new": [
     {
-     "stat": "pts",
-     "v": 16,
-     "prev": 15,
-     "date": "2026-11-10",
-     "opp": "Houston Christian Huskies"
+     "stat": "ast",
+     "v": 6,
+     "prev": 4,
+     "date": "2026-11-13",
+     "opp": "Drake Bulldogs"
     }
    ]
   },
@@ -1407,20 +1439,20 @@
    "new": []
   },
   "justas-stonkus": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
-     "v": 15,
-     "date": "2026-11-11",
-     "eid": "401919734",
-     "opp": "Chicago State Cougars",
+     "v": 18,
+     "date": "2026-11-13",
+     "eid": "401920345",
+     "opp": "Arkansas-Pine Bluff Golden Lions",
      "home": true
     },
     "reb": {
-     "v": 1,
-     "date": "2026-11-11",
-     "eid": "401919734",
-     "opp": "Chicago State Cougars",
+     "v": 2,
+     "date": "2026-11-13",
+     "eid": "401920345",
+     "opp": "Arkansas-Pine Bluff Golden Lions",
      "home": true
     },
     "ast": {
@@ -1452,36 +1484,29 @@
    "new": [
     {
      "stat": "pts",
-     "v": 15,
-     "prev": 12,
-     "date": "2026-11-11",
-     "opp": "Chicago State Cougars"
-    },
-    {
-     "stat": "tpm",
-     "v": 3,
-     "prev": 2,
-     "date": "2026-11-11",
-     "opp": "Chicago State Cougars"
+     "v": 18,
+     "prev": 15,
+     "date": "2026-11-13",
+     "opp": "Arkansas-Pine Bluff Golden Lions"
     }
    ]
   },
   "nikas-stuknys": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
-     "v": 5,
-     "date": "2026-11-10",
-     "eid": "401926731",
-     "opp": "Arkansas State Red Wolves",
-     "home": false
+     "v": 9,
+     "date": "2026-11-13",
+     "eid": "401926732",
+     "opp": "Champion Christian Tigers",
+     "home": true
     },
     "reb": {
      "v": 4,
-     "date": "2026-11-10",
-     "eid": "401926731",
-     "opp": "Arkansas State Red Wolves",
-     "home": false
+     "date": "2026-11-13",
+     "eid": "401926732",
+     "opp": "Champion Christian Tigers",
+     "home": true
     },
     "ast": {
      "v": 6,
@@ -1492,24 +1517,24 @@
     },
     "stl": {
      "v": 2,
-     "date": "2026-11-10",
-     "eid": "401926731",
-     "opp": "Arkansas State Red Wolves",
-     "home": false
+     "date": "2026-11-13",
+     "eid": "401926732",
+     "opp": "Champion Christian Tigers",
+     "home": true
     },
     "tpm": {
      "v": 1,
-     "date": "2026-11-02",
-     "eid": "401919001",
-     "opp": "Tulane Green Wave",
-     "home": false
+     "date": "2026-11-13",
+     "eid": "401926732",
+     "opp": "Champion Christian Tigers",
+     "home": true
     }
    },
    "counts": {},
    "new": []
   },
   "arminas-vilkas": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 7,
@@ -1519,11 +1544,11 @@
      "home": false
     },
     "reb": {
-     "v": 5,
-     "date": "2026-11-10",
-     "eid": "401926731",
-     "opp": "Arkansas State Red Wolves",
-     "home": false
+     "v": 6,
+     "date": "2026-11-13",
+     "eid": "401926732",
+     "opp": "Champion Christian Tigers",
+     "home": true
     },
     "ast": {
      "v": 2,
@@ -1534,10 +1559,10 @@
     },
     "stl": {
      "v": 1,
-     "date": "2026-11-02",
-     "eid": "401919001",
-     "opp": "Tulane Green Wave",
-     "home": false
+     "date": "2026-11-13",
+     "eid": "401926732",
+     "opp": "Champion Christian Tigers",
+     "home": true
     },
     "blk": {
      "v": 2,
@@ -1610,7 +1635,7 @@
    ]
   },
   "dominic-pangonis": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 30,

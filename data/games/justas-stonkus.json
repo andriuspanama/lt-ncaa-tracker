@@ -64,5 +64,27 @@
   "tpa": 7,
   "ftm": 2,
   "fta": 2
+ },
+ {
+  "event_id": "401920345",
+  "date": "2026-11-13",
+  "opponent": "Arkansas-Pine Bluff Golden Lions",
+  "home": true,
+  "result": "W",
+  "score": "74-60",
+  "min": 30,
+  "pts": 18,
+  "reb": 2,
+  "ast": 1,
+  "stl": 0,
+  "blk": 0,
+  "to": 2,
+  "pf": 2,
+  "fgm": 4,
+  "fga": 11,
+  "tpm": 1,
+  "tpa": 2,
+  "ftm": 9,
+  "fta": 10
  }
 ]

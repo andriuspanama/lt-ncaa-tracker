@@ -1380,9 +1380,9 @@
   "team": "Clemson Tigers",
   "opponent": "Georgetown Hoyas",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "78",
+  "against": "85",
   "opp_rank": null
  },
  {
@@ -1391,9 +1391,9 @@
   "team": "FIU",
   "opponent": "Florida Gulf Coast Eagles",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "89",
+  "against": "80",
   "opp_rank": null
  },
  {
@@ -1402,9 +1402,9 @@
   "team": "Florida Gators",
   "opponent": "Merrimack Warriors",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "83",
+  "against": "54",
   "opp_rank": null
  },
  {
@@ -1413,9 +1413,9 @@
   "team": "UT Martin",
   "opponent": "Champion Christian Tigers",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "86",
+  "against": "57",
   "opp_rank": null
  },
  {
@@ -1424,9 +1424,9 @@
   "team": "VMI Keydets",
   "opponent": "Mary Baldwin Fighting Squirrels",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "71",
+  "against": "53",
   "opp_rank": null
  },
  {
@@ -1435,9 +1435,9 @@
   "team": "South Dakota",
   "opponent": "Drake Bulldogs",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "72",
+  "against": "81",
   "opp_rank": null
  },
  {
@@ -1446,9 +1446,9 @@
   "team": "Wright State Raiders",
   "opponent": "Samford Bulldogs",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "90",
+  "against": "66",
   "opp_rank": null
  },
  {
@@ -1457,9 +1457,9 @@
   "team": "Arizona State Sun Devils",
   "opponent": "UL Monroe Warhawks",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "92",
+  "against": "62",
   "opp_rank": null
  },
  {
@@ -1468,9 +1468,9 @@
   "team": "Arizona Wildcats",
   "opponent": "Auburn Tigers",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "80",
+  "against": "69",
   "opp_rank": null
  },
  {
@@ -1479,9 +1479,9 @@
   "team": "Saint Mary's",
   "opponent": "UIC Flames",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "84",
+  "against": "61",
   "opp_rank": null
  },
  {
@@ -1490,9 +1490,9 @@
   "team": "California Baptist",
   "opponent": "Arkansas-Pine Bluff Golden Lions",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "74",
+  "against": "60",
   "opp_rank": null
  },
  {
@@ -1750,7 +1750,7 @@
  },
  {
   "event_id": "401926733",
-  "date": "2026-11-15T23:00Z",
+  "date": "2026-11-15T22:30Z",
   "team": "UT Martin",
   "opponent": "Ecclesia Royals",
   "home": true,

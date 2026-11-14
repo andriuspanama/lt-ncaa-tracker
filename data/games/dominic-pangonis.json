@@ -64,5 +64,27 @@
   "tpa": 3,
   "ftm": 4,
   "fta": 5
+ },
+ {
+  "event_id": "401926117",
+  "date": "2026-11-13",
+  "opponent": "Samford Bulldogs",
+  "home": false,
+  "result": "W",
+  "score": "90-66",
+  "min": 12,
+  "pts": 4,
+  "reb": 1,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 0,
+  "fgm": 2,
+  "fga": 4,
+  "tpm": 0,
+  "tpa": 1,
+  "ftm": 0,
+  "fta": 0
  }
 ]

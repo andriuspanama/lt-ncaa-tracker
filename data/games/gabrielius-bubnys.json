@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "event_id": "401926732",
+  "date": "2026-11-13",
+  "opponent": "Champion Christian Tigers",
+  "home": true,
+  "result": "W",
+  "score": "86-57",
+  "min": 13,
+  "pts": 10,
+  "reb": 1,
+  "ast": 0,
+  "stl": 1,
+  "blk": 0,
+  "to": 1,
+  "pf": 0,
+  "fgm": 4,
+  "fga": 6,
+  "tpm": 1,
+  "tpa": 3,
+  "ftm": 1,
+  "fta": 1
+ }
+]

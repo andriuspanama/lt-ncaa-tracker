@@ -86,5 +86,27 @@
   "tpa": 1,
   "ftm": 4,
   "fta": 5
+ },
+ {
+  "event_id": "401926203",
+  "date": "2026-11-13",
+  "opponent": "Mary Baldwin Fighting Squirrels",
+  "home": true,
+  "result": "W",
+  "score": "71-53",
+  "min": 14,
+  "pts": 2,
+  "reb": 1,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 0,
+  "fgm": 1,
+  "fga": 3,
+  "tpm": 0,
+  "tpa": 1,
+  "ftm": 0,
+  "fta": 0
  }
 ]

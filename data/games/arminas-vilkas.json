@@ -64,5 +64,27 @@
   "tpa": 0,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401926732",
+  "date": "2026-11-13",
+  "opponent": "Champion Christian Tigers",
+  "home": true,
+  "result": "W",
+  "score": "86-57",
+  "min": 19,
+  "pts": 5,
+  "reb": 6,
+  "ast": 0,
+  "stl": 1,
+  "blk": 0,
+  "to": 2,
+  "pf": 1,
+  "fgm": 2,
+  "fga": 5,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 1,
+  "fta": 2
  }
 ]
