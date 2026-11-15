@@ -1699,9 +1699,9 @@
   "team": "Rhode Island",
   "opponent": "Princeton Tigers",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "79",
+  "against": "72",
   "opp_rank": null
  },
  {
@@ -1710,9 +1710,9 @@
   "team": "Texas",
   "opponent": "Baylor Bears",
   "home": true,
-  "state": "in",
-  "for": "39",
-  "against": "36",
+  "state": "post",
+  "for": "75",
+  "against": "72",
   "opp_rank": null
  },
  {
@@ -1721,9 +1721,9 @@
   "team": "South Dakota",
   "opponent": "Doane Tigers",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "in",
+  "for": "37",
+  "against": "23",
   "opp_rank": null
  },
  {
@@ -1732,7 +1732,7 @@
   "team": "Western Michigan",
   "opponent": "Southern Indiana Screaming Eagles",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -1743,7 +1743,7 @@
   "team": "Buffalo",
   "opponent": "Canisius Golden Griffins",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null

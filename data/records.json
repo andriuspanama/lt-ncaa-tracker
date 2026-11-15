@@ -706,7 +706,7 @@
    "new": []
   },
   "nedas-raupelis": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 11,
@@ -717,16 +717,16 @@
     },
     "reb": {
      "v": 5,
-     "date": "2026-11-03",
-     "eid": "401920061",
-     "opp": "Holy Cross Crusaders",
+     "date": "2026-11-15",
+     "eid": "401920065",
+     "opp": "Princeton Tigers",
      "home": true
     },
     "ast": {
      "v": 1,
-     "date": "2026-11-07",
-     "eid": "401920062",
-     "opp": "Monmouth Hawks",
+     "date": "2026-11-15",
+     "eid": "401920065",
+     "opp": "Princeton Tigers",
      "home": true
     }
    },
@@ -804,7 +804,7 @@
    "new": []
   },
   "matas-deniusas": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 16,
@@ -818,6 +818,13 @@
      "date": "2026-11-12",
      "eid": "401920064",
      "opp": "Maryland Eastern Shore Hawks",
+     "home": true
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-15",
+     "eid": "401920065",
+     "opp": "Princeton Tigers",
      "home": true
     },
     "stl": {
@@ -839,22 +846,7 @@
     "dd": 1,
     "ft": 1
    },
-   "new": [
-    {
-     "stat": "pts",
-     "v": 16,
-     "prev": 15,
-     "date": "2026-11-12",
-     "opp": "Maryland Eastern Shore Hawks"
-    },
-    {
-     "stat": "reb",
-     "v": 12,
-     "prev": 8,
-     "date": "2026-11-12",
-     "opp": "Maryland Eastern Shore Hawks"
-    }
-   ]
+   "new": []
   },
   "nojus-indrusaitis": {
    "gp": 5,
@@ -1605,7 +1597,7 @@
    "new": []
   },
   "matas-vokietaitis": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 26,
@@ -1615,51 +1607,45 @@
      "home": true
     },
     "reb": {
-     "v": 9,
-     "date": "2026-11-09",
-     "eid": "401906865",
-     "opp": "Grambling Tigers",
+     "v": 10,
+     "date": "2026-11-15",
+     "eid": "401906866",
+     "opp": "Baylor Bears",
      "home": true
     },
     "ast": {
-     "v": 1,
-     "date": "2026-11-02",
-     "eid": "401906863",
-     "opp": "Chicago State Cougars",
+     "v": 2,
+     "date": "2026-11-15",
+     "eid": "401906866",
+     "opp": "Baylor Bears",
      "home": true
     },
     "stl": {
      "v": 1,
-     "date": "2026-11-09",
-     "eid": "401906865",
-     "opp": "Grambling Tigers",
+     "date": "2026-11-15",
+     "eid": "401906866",
+     "opp": "Baylor Bears",
      "home": true
     },
     "blk": {
      "v": 1,
-     "date": "2026-11-09",
-     "eid": "401906865",
-     "opp": "Grambling Tigers",
+     "date": "2026-11-15",
+     "eid": "401906866",
+     "opp": "Baylor Bears",
      "home": true
     }
    },
    "counts": {
+    "dd": 1,
     "p20": 2
    },
    "new": [
     {
-     "stat": "pts",
-     "v": 26,
-     "prev": 22,
-     "date": "2026-11-09",
-     "opp": "Grambling Tigers"
-    },
-    {
      "stat": "reb",
-     "v": 9,
-     "prev": 7,
-     "date": "2026-11-09",
-     "opp": "Grambling Tigers"
+     "v": 10,
+     "prev": 9,
+     "date": "2026-11-15",
+     "opp": "Baylor Bears"
     }
    ]
   },

@@ -86,5 +86,27 @@
   "tpa": 4,
   "ftm": 9,
   "fta": 9
+ },
+ {
+  "event_id": "401920065",
+  "date": "2026-11-15",
+  "opponent": "Princeton Tigers",
+  "home": true,
+  "result": "W",
+  "score": "79-72",
+  "min": 29,
+  "pts": 12,
+  "reb": 7,
+  "ast": 1,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 4,
+  "fgm": 2,
+  "fga": 5,
+  "tpm": 0,
+  "tpa": 2,
+  "ftm": 8,
+  "fta": 9
  }
 ]

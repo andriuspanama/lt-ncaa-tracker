@@ -212,7 +212,9 @@
   "401924858": "2026-11-15",
   "401909774": "2026-11-15",
   "401925896": "2026-11-15",
-  "401920235": "2026-11-15"
+  "401920235": "2026-11-15",
+  "401920065": "2026-11-15",
+  "401906866": "2026-11-15"
  },
  "videos": {
   "401920692": [
@@ -281,6 +283,34 @@
     "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/eb967439-59b5-4c7d-9d8a-8df7a12abebf/eb967439-59b5-4c7d-9d8a-8df7a12abebf.jpg",
     "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/eb967439-59b5-4c7d-9d8a-8df7a12abebf/eb967439-59b5-4c7d-9d8a-8df7a12abebf.mp4",
     "link": "https://www.espn.com/video/clip/_/id/50477480/justas-stonkus-drains-3-point-shot-vs-arkansas-pine-bluff-golden-lions"
+   }
+  ],
+  "401920065": [
+   {
+    "player": "nedas-raupelis",
+    "headline": "Nedas Raupelis throws down big slam dunk vs. Princeton Tigers",
+    "duration": 15,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/81a8d35a-ff28-4f32-8cd7-939b96401e09/81a8d35a-ff28-4f32-8cd7-939b96401e09.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/81a8d35a-ff28-4f32-8cd7-939b96401e09/81a8d35a-ff28-4f32-8cd7-939b96401e09.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50492391/nedas-raupelis-throws-big-slam-dunk-vs-princeton-tigers"
+   },
+   {
+    "player": "matas-deniusas",
+    "headline": "Matas Deniusas gets the and-1 to fall",
+    "duration": 17,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/859aa9c2-417a-419d-9fb1-2d27b6019f06/859aa9c2-417a-419d-9fb1-2d27b6019f06.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/859aa9c2-417a-419d-9fb1-2d27b6019f06/859aa9c2-417a-419d-9fb1-2d27b6019f06.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50493077/matas-deniusas-gets-1-fall"
+   }
+  ],
+  "401906866": [
+   {
+    "player": "matas-vokietaitis",
+    "headline": "Matas Vokietaitis puts down a dunk for Texas",
+    "duration": 16,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/635acac7-d816-49b3-9bf8-806035bf77e5/635acac7-d816-49b3-9bf8-806035bf77e5.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/635acac7-d816-49b3-9bf8-806035bf77e5/635acac7-d816-49b3-9bf8-806035bf77e5.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50493156/matas-vokietaitis-puts-dunk-texas"
    }
   ]
  },

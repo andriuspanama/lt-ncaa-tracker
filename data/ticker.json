@@ -50,6 +50,38 @@
    "gs": 13.5
   },
   {
+   "id": "matas-vokietaitis",
+   "name": "Matas Vokietaitis",
+   "team": "Texas",
+   "date": "2026-11-15",
+   "opp": "Baylor Bears",
+   "home": true,
+   "res": "W",
+   "score": "75-72",
+   "pts": 14,
+   "reb": 10,
+   "ast": 2,
+   "stl": 1,
+   "blk": 1,
+   "gs": 13.3
+  },
+  {
+   "id": "matas-deniusas",
+   "name": "Matas Deniušas",
+   "team": "Rhode Island",
+   "date": "2026-11-15",
+   "opp": "Princeton Tigers",
+   "home": true,
+   "res": "W",
+   "score": "79-72",
+   "pts": 12,
+   "reb": 7,
+   "ast": 1,
+   "stl": 0,
+   "blk": 0,
+   "gs": 10.5
+  },
+  {
    "id": "dovydas-butka",
    "name": "Dovydas Butka",
    "team": "Boise State",
@@ -82,6 +114,22 @@
    "gs": 8.1
   },
   {
+   "id": "nedas-raupelis",
+   "name": "Nedas Raupelis",
+   "team": "Rhode Island",
+   "date": "2026-11-15",
+   "opp": "Princeton Tigers",
+   "home": true,
+   "res": "W",
+   "score": "79-72",
+   "pts": 6,
+   "reb": 5,
+   "ast": 1,
+   "stl": 0,
+   "blk": 0,
+   "gs": 7.0
+  },
+  {
    "id": "mantas-kocanas",
    "name": "Mantas Kočanas",
    "team": "California",
@@ -112,54 +160,6 @@
    "stl": 0,
    "blk": 0,
    "gs": 6.3
-  },
-  {
-   "id": "mykolas-ivanauskas",
-   "name": "Mykolas Ivanauskas",
-   "team": "Northern Illinois Huskies",
-   "date": "2026-11-14",
-   "opp": "Bellarmine Knights",
-   "home": false,
-   "res": "W",
-   "score": "72-64",
-   "pts": 6,
-   "reb": 2,
-   "ast": 0,
-   "stl": 0,
-   "blk": 0,
-   "gs": 5.7
-  },
-  {
-   "id": "dominykas-daubaris",
-   "name": "Dominykas Daubaris",
-   "team": "California",
-   "date": "2026-11-14",
-   "opp": "Utah Tech Trailblazers",
-   "home": true,
-   "res": "W",
-   "score": "79-73",
-   "pts": 3,
-   "reb": 3,
-   "ast": 1,
-   "stl": 0,
-   "blk": 2,
-   "gs": 4.8
-  },
-  {
-   "id": "rytis-petraitis",
-   "name": "Rytis Petraitis",
-   "team": "New Mexico",
-   "date": "2026-11-14",
-   "opp": "Santa Clara Broncos",
-   "home": false,
-   "res": "L",
-   "score": "85-90",
-   "pts": 3,
-   "reb": 5,
-   "ast": 0,
-   "stl": 0,
-   "blk": 1,
-   "gs": 2.9
   }
  ]
 }
