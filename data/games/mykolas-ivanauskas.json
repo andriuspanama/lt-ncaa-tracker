@@ -64,5 +64,27 @@
   "tpa": 0,
   "ftm": 2,
   "fta": 4
+ },
+ {
+  "event_id": "401920915",
+  "date": "2026-11-14",
+  "opponent": "Bellarmine Knights",
+  "home": false,
+  "result": "W",
+  "score": "72-64",
+  "min": 16,
+  "pts": 6,
+  "reb": 2,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 0,
+  "fgm": 2,
+  "fga": 3,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 2,
+  "fta": 2
  }
 ]

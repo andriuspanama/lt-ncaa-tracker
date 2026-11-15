@@ -42,5 +42,27 @@
   "tpa": 1,
   "ftm": 1,
   "fta": 2
+ },
+ {
+  "event_id": "401918055",
+  "date": "2026-11-14",
+  "opponent": "Utah Tech Trailblazers",
+  "home": true,
+  "result": "W",
+  "score": "79-73",
+  "min": 18,
+  "pts": 3,
+  "reb": 3,
+  "ast": 1,
+  "stl": 0,
+  "blk": 2,
+  "to": 0,
+  "pf": 1,
+  "fgm": 1,
+  "fga": 2,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 1,
+  "fta": 2
  }
 ]

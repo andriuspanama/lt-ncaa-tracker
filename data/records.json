@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-14",
- "newest": "2026-11-13",
+ "updated": "2026-11-15",
+ "newest": "2026-11-14",
  "players": {
   "motiejus-krivas": {
    "gp": 4,
@@ -308,7 +308,7 @@
    "new": []
   },
   "gediminas-alisas": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 18,
@@ -325,21 +325,28 @@
      "home": true
     },
     "ast": {
-     "v": 2,
-     "date": "2026-11-02",
-     "eid": "401925088",
-     "opp": "Lyon Scots",
+     "v": 6,
+     "date": "2026-11-14",
+     "eid": "401921096",
+     "opp": "Rice Owls",
+     "home": true
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-14",
+     "eid": "401921096",
+     "opp": "Rice Owls",
      "home": true
     }
    },
    "counts": {},
    "new": [
     {
-     "stat": "pts",
-     "v": 18,
-     "prev": 9,
-     "date": "2026-11-11",
-     "opp": "Abilene Christian Wildcats"
+     "stat": "ast",
+     "v": 6,
+     "prev": 2,
+     "date": "2026-11-14",
+     "opp": "Rice Owls"
     }
    ]
   },
@@ -402,20 +409,20 @@
    ]
   },
   "alex-bieliauskas": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
-     "v": 11,
-     "date": "2026-11-11",
-     "eid": "401921821",
-     "opp": "Saint Peter's Peacocks",
+     "v": 23,
+     "date": "2026-11-14",
+     "eid": "401911392",
+     "opp": "Gardner-Webb Runnin' Bulldogs",
      "home": true
     },
     "reb": {
      "v": 4,
-     "date": "2026-11-08",
-     "eid": "401921820",
-     "opp": "Southeast Missouri State Redhawks",
+     "date": "2026-11-14",
+     "eid": "401911392",
+     "opp": "Gardner-Webb Runnin' Bulldogs",
      "home": true
     },
     "ast": {
@@ -441,15 +448,16 @@
     }
    },
    "counts": {
+    "p20": 1,
     "t3": 1
    },
    "new": [
     {
-     "stat": "tpm",
-     "v": 3,
-     "prev": 1,
-     "date": "2026-11-11",
-     "opp": "Saint Peter's Peacocks"
+     "stat": "pts",
+     "v": 23,
+     "prev": 11,
+     "date": "2026-11-14",
+     "opp": "Gardner-Webb Runnin' Bulldogs"
     }
    ]
   },
@@ -754,27 +762,34 @@
    "new": []
   },
   "dominykas-daubaris": {
-   "gp": 2,
+   "gp": 3,
    "records": {
     "pts": {
      "v": 3,
-     "date": "2026-11-11",
-     "eid": "401918054",
-     "opp": "USC Trojans",
+     "date": "2026-11-14",
+     "eid": "401918055",
+     "opp": "Utah Tech Trailblazers",
      "home": true
     },
     "reb": {
-     "v": 2,
-     "date": "2026-11-11",
-     "eid": "401918054",
-     "opp": "USC Trojans",
+     "v": 3,
+     "date": "2026-11-14",
+     "eid": "401918055",
+     "opp": "Utah Tech Trailblazers",
      "home": true
     },
     "ast": {
      "v": 1,
-     "date": "2026-11-11",
-     "eid": "401918054",
-     "opp": "USC Trojans",
+     "date": "2026-11-14",
+     "eid": "401918055",
+     "opp": "Utah Tech Trailblazers",
+     "home": true
+    },
+    "blk": {
+     "v": 2,
+     "date": "2026-11-14",
+     "eid": "401918055",
+     "opp": "Utah Tech Trailblazers",
      "home": true
     }
    },
@@ -835,7 +850,7 @@
    ]
   },
   "nojus-indrusaitis": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 30,
@@ -860,9 +875,9 @@
     },
     "stl": {
      "v": 2,
-     "date": "2026-11-04",
-     "eid": "401918052",
-     "opp": "Radford Highlanders",
+     "date": "2026-11-14",
+     "eid": "401918055",
+     "opp": "Utah Tech Trailblazers",
      "home": true
     },
     "tpm": {
@@ -874,7 +889,7 @@
     }
    },
    "counts": {
-    "p20": 2,
+    "p20": 3,
     "p30": 1,
     "t3": 2
    },
@@ -895,7 +910,7 @@
    "new": []
   },
   "gabrielius-jokubauskas": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 5,
@@ -926,11 +941,11 @@
      "home": false
     },
     "blk": {
-     "v": 1,
-     "date": "2026-11-06",
-     "eid": "401920807",
-     "opp": "Texas A&M Aggies",
-     "home": false
+     "v": 2,
+     "date": "2026-11-14",
+     "eid": "401911016",
+     "opp": "Central Michigan Chippewas",
+     "home": true
     },
     "tpm": {
      "v": 1,
@@ -1098,20 +1113,20 @@
    ]
   },
   "mantas-kocanas": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 5,
-     "date": "2026-11-11",
-     "eid": "401918054",
-     "opp": "USC Trojans",
+     "date": "2026-11-14",
+     "eid": "401918055",
+     "opp": "Utah Tech Trailblazers",
      "home": true
     },
     "reb": {
-     "v": 5,
-     "date": "2026-11-02",
-     "eid": "401918051",
-     "opp": "Adams State Grizzlies",
+     "v": 6,
+     "date": "2026-11-14",
+     "eid": "401918055",
+     "opp": "Utah Tech Trailblazers",
      "home": true
     },
     "ast": {
@@ -1122,10 +1137,10 @@
      "home": false
     },
     "stl": {
-     "v": 1,
-     "date": "2026-11-11",
-     "eid": "401918054",
-     "opp": "USC Trojans",
+     "v": 2,
+     "date": "2026-11-14",
+     "eid": "401918055",
+     "opp": "Utah Tech Trailblazers",
      "home": true
     },
     "tpm": {
@@ -1682,7 +1697,7 @@
    "new": []
   },
   "mykolas-ivanauskas": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 12,

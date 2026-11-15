@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "items": [
   {
    "id": "paulius-murauskas",
@@ -18,6 +18,22 @@
    "gs": 27.4
   },
   {
+   "id": "alex-bieliauskas",
+   "name": "Alex Bieliauskas",
+   "team": "South Carolina",
+   "date": "2026-11-14",
+   "opp": "Gardner-Webb Runnin' Bulldogs",
+   "home": true,
+   "res": "W",
+   "score": "79-62",
+   "pts": 23,
+   "reb": 4,
+   "ast": 1,
+   "stl": 0,
+   "blk": 1,
+   "gs": 20.7
+  },
+  {
    "id": "motiejus-krivas",
    "name": "Motiejus Krivas",
    "team": "Arizona Wildcats",
@@ -34,20 +50,36 @@
    "gs": 17.2
   },
   {
-   "id": "matas-deniusas",
-   "name": "Matas Deniušas",
-   "team": "Rhode Island",
-   "date": "2026-11-12",
-   "opp": "Maryland Eastern Shore Hawks",
+   "id": "nojus-indrusaitis",
+   "name": "Nojus Indrušaitis",
+   "team": "California",
+   "date": "2026-11-14",
+   "opp": "Utah Tech Trailblazers",
    "home": true,
    "res": "W",
-   "score": "67-47",
-   "pts": 16,
-   "reb": 12,
-   "ast": 0,
+   "score": "79-73",
+   "pts": 21,
+   "reb": 2,
+   "ast": 1,
+   "stl": 2,
+   "blk": 0,
+   "gs": 15.6
+  },
+  {
+   "id": "gediminas-alisas",
+   "name": "Gediminas Alisas",
+   "team": "Stephen F. Austin",
+   "date": "2026-11-14",
+   "opp": "Rice Owls",
+   "home": true,
+   "res": "L",
+   "score": "78-81",
+   "pts": 9,
+   "reb": 4,
+   "ast": 6,
    "stl": 1,
    "blk": 0,
-   "gs": 16.9
+   "gs": 13.5
   },
   {
    "id": "kajus-kublickas",
@@ -114,22 +146,6 @@
    "gs": 10.1
   },
   {
-   "id": "augustinas-kiudulas",
-   "name": "Augustinas Kiudulas",
-   "team": "Western Michigan",
-   "date": "2026-11-12",
-   "opp": "Purdue Fort Wayne Mastodons",
-   "home": false,
-   "res": "W",
-   "score": "81-59",
-   "pts": 15,
-   "reb": 4,
-   "ast": 3,
-   "stl": 2,
-   "blk": 0,
-   "gs": 9.5
-  },
-  {
    "id": "liutauras-lelevicius",
    "name": "Liutauras Lelevičius",
    "team": "Clemson Tigers",
@@ -144,22 +160,6 @@
    "stl": 0,
    "blk": 0,
    "gs": 8.5
-  },
-  {
-   "id": "armandas-bancevicius",
-   "name": "Armandas Bancevičius",
-   "team": "UT Martin",
-   "date": "2026-11-13",
-   "opp": "Champion Christian Tigers",
-   "home": true,
-   "res": "W",
-   "score": "86-57",
-   "pts": 9,
-   "reb": 4,
-   "ast": 4,
-   "stl": 0,
-   "blk": 0,
-   "gs": 8.1
   }
  ]
 }

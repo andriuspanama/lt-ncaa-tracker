@@ -64,5 +64,27 @@
   "tpa": 1,
   "ftm": 4,
   "fta": 7
+ },
+ {
+  "event_id": "401921096",
+  "date": "2026-11-14",
+  "opponent": "Rice Owls",
+  "home": true,
+  "result": "L",
+  "score": "78-81",
+  "min": 26,
+  "pts": 9,
+  "reb": 4,
+  "ast": 6,
+  "stl": 1,
+  "blk": 0,
+  "to": 0,
+  "pf": 1,
+  "fgm": 3,
+  "fga": 5,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 3,
+  "fta": 3
  }
 ]

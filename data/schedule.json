@@ -1501,9 +1501,9 @@
   "team": "Northern Illinois Huskies",
   "opponent": "Bellarmine Knights",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "72",
+  "against": "64",
   "opp_rank": null
  },
  {
@@ -1512,9 +1512,9 @@
   "team": "South Carolina",
   "opponent": "Gardner-Webb Runnin' Bulldogs",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "79",
+  "against": "62",
   "opp_rank": null
  },
  {
@@ -1523,9 +1523,9 @@
   "team": "Stephen F. Austin",
   "opponent": "Rice Owls",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "78",
+  "against": "81",
   "opp_rank": null
  },
  {
@@ -1534,9 +1534,9 @@
   "team": "Northern Kentucky",
   "opponent": "Central Michigan Chippewas",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "57",
+  "against": "68",
   "opp_rank": null
  },
  {
@@ -1545,9 +1545,9 @@
   "team": "Longwood",
   "opponent": "Old Dominion Monarchs",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "74",
+  "against": "80",
   "opp_rank": null
  },
  {
@@ -1556,9 +1556,9 @@
   "team": "Campbell",
   "opponent": "South Carolina Upstate Spartans",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "93",
+  "against": "77",
   "opp_rank": null
  },
  {
@@ -1567,9 +1567,9 @@
   "team": "California",
   "opponent": "Utah Tech Trailblazers",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "79",
+  "against": "73",
   "opp_rank": null
  },
  {
@@ -1578,7 +1578,7 @@
   "team": "Lipscomb",
   "opponent": "Western Carolina Catamounts",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -1589,7 +1589,7 @@
   "team": "Portland State",
   "opponent": "San Francisco Dons",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -1600,7 +1600,7 @@
   "team": "UT Arlington",
   "opponent": "UT Rio Grande Valley Vaqueros",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -1611,7 +1611,7 @@
   "team": "UMBC",
   "opponent": "Towson Tigers",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null

@@ -86,5 +86,27 @@
   "tpa": 2,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401911016",
+  "date": "2026-11-14",
+  "opponent": "Central Michigan Chippewas",
+  "home": true,
+  "result": "L",
+  "score": "57-68",
+  "min": 20,
+  "pts": 2,
+  "reb": 3,
+  "ast": 0,
+  "stl": 0,
+  "blk": 2,
+  "to": 2,
+  "pf": 1,
+  "fgm": 1,
+  "fga": 3,
+  "tpm": 0,
+  "tpa": 2,
+  "ftm": 0,
+  "fta": 0
  }
 ]
