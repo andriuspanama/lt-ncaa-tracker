@@ -64,5 +64,27 @@
   "tpa": 0,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401909774",
+  "date": "2026-11-15",
+  "opponent": "Niagara Purple Eagles",
+  "home": true,
+  "result": "W",
+  "score": "66-45",
+  "min": 20,
+  "pts": 8,
+  "reb": 10,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 1,
+  "fgm": 3,
+  "fga": 7,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 2,
+  "fta": 4
  }
 ]

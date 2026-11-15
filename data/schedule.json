@@ -1644,9 +1644,9 @@
   "team": "Quinnipiac",
   "opponent": "Central Connecticut Blue Devils",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "67",
+  "against": "72",
   "opp_rank": null
  },
  {
@@ -1655,9 +1655,9 @@
   "team": "Boise State",
   "opponent": "Nebraska Cornhuskers",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "75",
+  "against": "102",
   "opp_rank": 25
  },
  {
@@ -1666,9 +1666,9 @@
   "team": "Dartmouth Big Green",
   "opponent": "Boston University Terriers",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "75",
+  "against": "90",
   "opp_rank": null
  },
  {
@@ -1677,9 +1677,9 @@
   "team": "Georgia State",
   "opponent": "Norfolk State Spartans",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "78",
+  "against": "53",
   "opp_rank": null
  },
  {
@@ -1688,9 +1688,9 @@
   "team": "Iowa State",
   "opponent": "Niagara Purple Eagles",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "66",
+  "against": "45",
   "opp_rank": null
  },
  {
@@ -1699,7 +1699,7 @@
   "team": "Rhode Island",
   "opponent": "Princeton Tigers",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -1710,9 +1710,9 @@
   "team": "Texas",
   "opponent": "Baylor Bears",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "in",
+  "for": "39",
+  "against": "36",
   "opp_rank": null
  },
  {

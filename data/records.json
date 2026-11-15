@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-15",
- "newest": "2026-11-14",
+ "newest": "2026-11-15",
  "players": {
   "motiejus-krivas": {
    "gp": 4,
@@ -554,7 +554,7 @@
    ]
   },
   "dovydas-butka": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 18,
@@ -579,10 +579,10 @@
     },
     "stl": {
      "v": 1,
-     "date": "2026-11-11",
-     "eid": "401928814",
-     "opp": "Oakland Golden Grizzlies",
-     "home": true
+     "date": "2026-11-15",
+     "eid": "401926063",
+     "opp": "Nebraska Cornhuskers",
+     "home": false
     },
     "blk": {
      "v": 1,
@@ -664,7 +664,7 @@
    "new": []
   },
   "nedas-cholevinskas": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 6,
@@ -678,6 +678,13 @@
      "date": "2026-11-02",
      "eid": "401924856",
      "opp": "Michigan State Spartans",
+     "home": false
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-15",
+     "eid": "401924858",
+     "opp": "Central Connecticut Blue Devils",
      "home": false
     },
     "stl": {
@@ -1332,7 +1339,7 @@
    "new": []
   },
   "dominykas-pleta": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 15,
@@ -1342,10 +1349,10 @@
      "home": true
     },
     "reb": {
-     "v": 5,
-     "date": "2026-11-06",
-     "eid": "401909772",
-     "opp": "Southern Miss Golden Eagles",
+     "v": 10,
+     "date": "2026-11-15",
+     "eid": "401909774",
+     "opp": "Niagara Purple Eagles",
      "home": true
     },
     "ast": {
@@ -1364,7 +1371,15 @@
     }
    },
    "counts": {},
-   "new": []
+   "new": [
+    {
+     "stat": "reb",
+     "v": 10,
+     "prev": 5,
+     "date": "2026-11-15",
+     "opp": "Niagara Purple Eagles"
+    }
+   ]
   },
   "titas-sargiunas": {
    "gp": 5,
@@ -1418,7 +1433,7 @@
    "new": []
   },
   "jonas-sirtautas": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 9,
@@ -1738,7 +1753,7 @@
    "new": []
   },
   "ernas-valauskas": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 18,

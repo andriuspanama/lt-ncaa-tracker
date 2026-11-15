@@ -64,5 +64,27 @@
   "tpa": 0,
   "ftm": 0,
   "fta": 1
+ },
+ {
+  "event_id": "401926063",
+  "date": "2026-11-15",
+  "opponent": "Nebraska Cornhuskers",
+  "home": false,
+  "result": "L",
+  "score": "75-102",
+  "min": 29,
+  "pts": 13,
+  "reb": 7,
+  "ast": 1,
+  "stl": 1,
+  "blk": 0,
+  "to": 2,
+  "pf": 2,
+  "fgm": 6,
+  "fga": 11,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 1,
+  "fta": 1
  }
 ]
