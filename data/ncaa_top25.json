@@ -6,7 +6,7 @@
     "cat": "ppg",
     "label": "Taškai per rungtynes",
     "value": 26.75,
-    "rank": 6
+    "rank": 5
    }
   ],
   "dominykas-pleta": [
@@ -14,7 +14,7 @@
     "cat": "fgp",
     "label": "Metimų iš žaidimo taiklumas (FG%)",
     "value": 80.95238208770752,
-    "rank": 16
+    "rank": 13
    }
   ],
   "matas-vokietaitis": [
@@ -22,7 +22,7 @@
     "cat": "fgp",
     "label": "Metimų iš žaidimo taiklumas (FG%)",
     "value": 79.31034564971924,
-    "rank": 17
+    "rank": 16
    }
   ]
  },
@@ -33,12 +33,12 @@
     35.0
    ],
    [
-    "Jake Hall",
-    30.666666
-   ],
-   [
     "Troy Santos",
     30.0
+   ],
+   [
+    "Dior Johnson",
+    29.5
    ]
   ],
   "rpg": [
@@ -51,8 +51,8 @@
     13.25
    ],
    [
-    "Patrick Wessler",
-    12.333333
+    "Jaquay Randolph",
+    13.0
    ]
   ],
   "apg": [
@@ -62,7 +62,7 @@
    ],
    [
     "Cian Medley",
-    9.666667
+    9.5
    ],
    [
     "Quinn Ellis",
@@ -75,39 +75,39 @@
     6.0
    ],
    [
-    "Tyler Shephard",
-    5.0
+    "Miles Byrd",
+    5.25
    ],
    [
-    "Jamir Smith",
+    "Tyler Shephard",
     5.0
    ]
   ],
   "bpg": [
    [
-    "Sean Logan",
-    5.6666665
-   ],
-   [
     "John McCrear",
     5.0
    ],
    [
-    "Ngundeng Ruey",
-    4.3333335
+    "Jermaine Lawrence",
+    5.0
+   ],
+   [
+    "Sean Logan",
+    4.75
    ]
   ],
   "fgp": [
+   [
+    "Jacob Bannarbie",
+    100.0
+   ],
    [
     "Joseph Annan Jr",
     100.0
    ],
    [
     "Amir Rosa",
-    100.0
-   ],
-   [
-    "Ira Wilson",
     100.0
    ]
   ],
@@ -131,11 +131,11 @@
     100.0
    ],
    [
-    "Aden Holloway",
+    "Layden Blocker",
     100.0
    ],
    [
-    "Layden Blocker",
+    "Elmarko Jackson",
     100.0
    ]
   ]
