@@ -1304,21 +1304,28 @@
    "new": []
   },
   "rytis-petraitis": {
-   "gp": 1,
+   "gp": 2,
    "records": {
     "pts": {
      "v": 3,
-     "date": "2026-11-10",
-     "eid": "401924896",
-     "opp": "Little Rock Trojans",
-     "home": true
+     "date": "2026-11-14",
+     "eid": "401917530",
+     "opp": "Santa Clara Broncos",
+     "home": false
     },
     "reb": {
-     "v": 2,
-     "date": "2026-11-10",
-     "eid": "401924896",
-     "opp": "Little Rock Trojans",
-     "home": true
+     "v": 5,
+     "date": "2026-11-14",
+     "eid": "401917530",
+     "opp": "Santa Clara Broncos",
+     "home": false
+    },
+    "blk": {
+     "v": 1,
+     "date": "2026-11-14",
+     "eid": "401917530",
+     "opp": "Santa Clara Broncos",
+     "home": false
     }
    },
    "counts": {},
@@ -1360,7 +1367,7 @@
    "new": []
   },
   "titas-sargiunas": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 17,
@@ -1371,10 +1378,10 @@
     },
     "reb": {
      "v": 5,
-     "date": "2026-11-07",
-     "eid": "401920703",
-     "opp": "SIU Edwardsville Cougars",
-     "home": true
+     "date": "2026-11-14",
+     "eid": "401920705",
+     "opp": "Western Carolina Catamounts",
+     "home": false
     },
     "ast": {
      "v": 5,
@@ -1408,15 +1415,7 @@
    "counts": {
     "t3": 2
    },
-   "new": [
-    {
-     "stat": "pts",
-     "v": 17,
-     "prev": 12,
-     "date": "2026-11-10",
-     "opp": "Belmont Bruins"
-    }
-   ]
+   "new": []
   },
   "jonas-sirtautas": {
    "gp": 4,
