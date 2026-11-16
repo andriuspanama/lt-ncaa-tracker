@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "newest": "2026-11-15",
  "players": {
   "motiejus-krivas": {
@@ -357,7 +357,7 @@
    "new": []
   },
   "armandas-bancevicius": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 9,
@@ -374,18 +374,25 @@
      "home": true
     },
     "ast": {
-     "v": 4,
-     "date": "2026-11-13",
-     "eid": "401926732",
-     "opp": "Champion Christian Tigers",
+     "v": 5,
+     "date": "2026-11-15",
+     "eid": "401926733",
+     "opp": "Ecclesia Royals",
+     "home": true
+    },
+    "stl": {
+     "v": 2,
+     "date": "2026-11-15",
+     "eid": "401926733",
+     "opp": "Ecclesia Royals",
      "home": true
     },
     "blk": {
-     "v": 1,
-     "date": "2026-11-10",
-     "eid": "401926731",
-     "opp": "Arkansas State Red Wolves",
-     "home": false
+     "v": 3,
+     "date": "2026-11-15",
+     "eid": "401926733",
+     "opp": "Ecclesia Royals",
+     "home": true
     },
     "tpm": {
      "v": 3,
@@ -396,15 +403,23 @@
     }
    },
    "counts": {
-    "t3": 1
+    "t3": 1,
+    "b3": 1
    },
    "new": [
     {
-     "stat": "tpm",
+     "stat": "ast",
+     "v": 5,
+     "prev": 4,
+     "date": "2026-11-15",
+     "opp": "Ecclesia Royals"
+    },
+    {
+     "stat": "blk",
      "v": 3,
      "prev": 1,
-     "date": "2026-11-13",
-     "opp": "Champion Christian Tigers"
+     "date": "2026-11-15",
+     "opp": "Ecclesia Royals"
     }
    ]
   },
@@ -462,20 +477,27 @@
    ]
   },
   "gabrielius-bubnys": {
-   "gp": 1,
+   "gp": 2,
    "records": {
     "pts": {
      "v": 10,
-     "date": "2026-11-13",
-     "eid": "401926732",
-     "opp": "Champion Christian Tigers",
+     "date": "2026-11-15",
+     "eid": "401926733",
+     "opp": "Ecclesia Royals",
      "home": true
     },
     "reb": {
+     "v": 2,
+     "date": "2026-11-15",
+     "eid": "401926733",
+     "opp": "Ecclesia Royals",
+     "home": true
+    },
+    "ast": {
      "v": 1,
-     "date": "2026-11-13",
-     "eid": "401926732",
-     "opp": "Champion Christian Tigers",
+     "date": "2026-11-15",
+     "eid": "401926733",
+     "opp": "Ecclesia Royals",
      "home": true
     },
     "stl": {
@@ -486,10 +508,10 @@
      "home": true
     },
     "tpm": {
-     "v": 1,
-     "date": "2026-11-13",
-     "eid": "401926732",
-     "opp": "Champion Christian Tigers",
+     "v": 2,
+     "date": "2026-11-15",
+     "eid": "401926733",
+     "opp": "Ecclesia Royals",
      "home": true
     }
    },
@@ -497,7 +519,7 @@
    "new": []
   },
   "matas-buteliauskas": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 14,
@@ -543,15 +565,7 @@
     }
    },
    "counts": {},
-   "new": [
-    {
-     "stat": "pts",
-     "v": 14,
-     "prev": 3,
-     "date": "2026-11-09",
-     "opp": "Penn State Schuylkill Nittany Lions"
-    }
-   ]
+   "new": []
   },
   "dovydas-butka": {
    "gp": 4,
@@ -619,7 +633,7 @@
    "new": []
   },
   "vince-buzelis": {
-   "gp": 5,
+   "gp": 6,
    "records": {
     "pts": {
      "v": 26,
@@ -1046,27 +1060,27 @@
    "new": []
   },
   "augustinas-kiudulas": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
-     "v": 15,
-     "date": "2026-11-12",
-     "eid": "401928818",
-     "opp": "Purdue Fort Wayne Mastodons",
+     "v": 16,
+     "date": "2026-11-15",
+     "eid": "401923393",
+     "opp": "Southern Indiana Screaming Eagles",
      "home": false
     },
     "reb": {
-     "v": 5,
-     "date": "2026-11-08",
-     "eid": "401920739",
-     "opp": "Campbell Fighting Camels",
-     "home": true
+     "v": 9,
+     "date": "2026-11-15",
+     "eid": "401923393",
+     "opp": "Southern Indiana Screaming Eagles",
+     "home": false
     },
     "ast": {
      "v": 3,
-     "date": "2026-11-12",
-     "eid": "401928818",
-     "opp": "Purdue Fort Wayne Mastodons",
+     "date": "2026-11-15",
+     "eid": "401923393",
+     "opp": "Southern Indiana Screaming Eagles",
      "home": false
     },
     "stl": {
@@ -1097,17 +1111,17 @@
    "new": [
     {
      "stat": "pts",
-     "v": 15,
-     "prev": 12,
-     "date": "2026-11-12",
-     "opp": "Purdue Fort Wayne Mastodons"
+     "v": 16,
+     "prev": 15,
+     "date": "2026-11-15",
+     "opp": "Southern Indiana Screaming Eagles"
     },
     {
-     "stat": "tpm",
-     "v": 3,
-     "prev": 2,
-     "date": "2026-11-12",
-     "opp": "Purdue Fort Wayne Mastodons"
+     "stat": "reb",
+     "v": 9,
+     "prev": 5,
+     "date": "2026-11-15",
+     "opp": "Southern Indiana Screaming Eagles"
     }
    ]
   },
@@ -1189,7 +1203,7 @@
    "new": []
   },
   "kajus-kublickas": {
-   "gp": 5,
+   "gp": 6,
    "records": {
     "pts": {
      "v": 16,
@@ -1237,15 +1251,7 @@
    "counts": {
     "ft": 1
    },
-   "new": [
-    {
-     "stat": "ast",
-     "v": 6,
-     "prev": 4,
-     "date": "2026-11-13",
-     "opp": "Drake Bulldogs"
-    }
-   ]
+   "new": []
   },
   "mantas-laurencikas": {
    "gp": 2,
@@ -1513,7 +1519,7 @@
    ]
   },
   "nikas-stuknys": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 9,
@@ -1523,10 +1529,10 @@
      "home": true
     },
     "reb": {
-     "v": 4,
-     "date": "2026-11-13",
-     "eid": "401926732",
-     "opp": "Champion Christian Tigers",
+     "v": 6,
+     "date": "2026-11-15",
+     "eid": "401926733",
+     "opp": "Ecclesia Royals",
      "home": true
     },
     "ast": {
@@ -1545,9 +1551,9 @@
     },
     "tpm": {
      "v": 1,
-     "date": "2026-11-13",
-     "eid": "401926732",
-     "opp": "Champion Christian Tigers",
+     "date": "2026-11-15",
+     "eid": "401926733",
+     "opp": "Ecclesia Royals",
      "home": true
     }
    },
@@ -1555,20 +1561,20 @@
    "new": []
   },
   "arminas-vilkas": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
-     "v": 7,
-     "date": "2026-11-07",
-     "eid": "401921174",
-     "opp": "IU Indianapolis Jaguars",
-     "home": false
+     "v": 16,
+     "date": "2026-11-15",
+     "eid": "401926733",
+     "opp": "Ecclesia Royals",
+     "home": true
     },
     "reb": {
-     "v": 6,
-     "date": "2026-11-13",
-     "eid": "401926732",
-     "opp": "Champion Christian Tigers",
+     "v": 7,
+     "date": "2026-11-15",
+     "eid": "401926733",
+     "opp": "Ecclesia Royals",
      "home": true
     },
     "ast": {
@@ -1594,7 +1600,22 @@
     }
    },
    "counts": {},
-   "new": []
+   "new": [
+    {
+     "stat": "pts",
+     "v": 16,
+     "prev": 7,
+     "date": "2026-11-15",
+     "opp": "Ecclesia Royals"
+    },
+    {
+     "stat": "reb",
+     "v": 7,
+     "prev": 6,
+     "date": "2026-11-15",
+     "opp": "Ecclesia Royals"
+    }
+   ]
   },
   "matas-vokietaitis": {
    "gp": 4,

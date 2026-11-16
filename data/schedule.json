@@ -1721,9 +1721,9 @@
   "team": "South Dakota",
   "opponent": "Doane Tigers",
   "home": true,
-  "state": "in",
-  "for": "37",
-  "against": "23",
+  "state": "post",
+  "for": "81",
+  "against": "57",
   "opp_rank": null
  },
  {
@@ -1732,9 +1732,9 @@
   "team": "Western Michigan",
   "opponent": "Southern Indiana Screaming Eagles",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "80",
+  "against": "59",
   "opp_rank": null
  },
  {
@@ -1743,9 +1743,9 @@
   "team": "Buffalo",
   "opponent": "Canisius Golden Griffins",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "79",
+  "against": "55",
   "opp_rank": null
  },
  {
@@ -1754,9 +1754,9 @@
   "team": "UT Martin",
   "opponent": "Ecclesia Royals",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "128",
+  "against": "44",
   "opp_rank": null
  },
  {
@@ -2278,7 +2278,7 @@
  },
  {
   "event_id": "401921088",
-  "date": "2026-11-22T05:00Z",
+  "date": "2026-11-22T17:00Z",
   "team": "UMBC",
   "opponent": "Lancaster Bible Chargers",
   "home": true,

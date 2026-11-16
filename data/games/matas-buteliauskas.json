@@ -64,5 +64,27 @@
   "tpa": 3,
   "ftm": 6,
   "fta": 7
+ },
+ {
+  "event_id": "401911017",
+  "date": "2026-11-15",
+  "opponent": "Canisius Golden Griffins",
+  "home": true,
+  "result": "W",
+  "score": "79-55",
+  "min": 6,
+  "pts": 3,
+  "reb": 4,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 0,
+  "fgm": 0,
+  "fga": 3,
+  "tpm": 0,
+  "tpa": 1,
+  "ftm": 3,
+  "fta": 3
  }
 ]

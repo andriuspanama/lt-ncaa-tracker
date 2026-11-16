@@ -108,5 +108,27 @@
   "tpa": 1,
   "ftm": 5,
   "fta": 6
+ },
+ {
+  "event_id": "401929405",
+  "date": "2026-11-15",
+  "opponent": "Doane Tigers",
+  "home": true,
+  "result": "W",
+  "score": "81-57",
+  "min": 22,
+  "pts": 13,
+  "reb": 3,
+  "ast": 1,
+  "stl": 1,
+  "blk": 0,
+  "to": 2,
+  "pf": 3,
+  "fgm": 3,
+  "fga": 4,
+  "tpm": 1,
+  "tpa": 2,
+  "ftm": 6,
+  "fta": 8
  }
 ]

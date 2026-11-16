@@ -86,5 +86,27 @@
   "tpa": 6,
   "ftm": 2,
   "fta": 2
+ },
+ {
+  "event_id": "401923393",
+  "date": "2026-11-15",
+  "opponent": "Southern Indiana Screaming Eagles",
+  "home": false,
+  "result": "W",
+  "score": "80-59",
+  "min": 28,
+  "pts": 16,
+  "reb": 9,
+  "ast": 3,
+  "stl": 1,
+  "blk": 0,
+  "to": 1,
+  "pf": 2,
+  "fgm": 5,
+  "fga": 12,
+  "tpm": 1,
+  "tpa": 4,
+  "ftm": 5,
+  "fta": 8
  }
 ]
