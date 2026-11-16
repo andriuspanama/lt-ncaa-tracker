@@ -9,20 +9,12 @@
     "rank": 5
    }
   ],
-  "dominykas-pleta": [
-   {
-    "cat": "fgp",
-    "label": "Metimų iš žaidimo taiklumas (FG%)",
-    "value": 80.95238208770752,
-    "rank": 13
-   }
-  ],
   "matas-vokietaitis": [
    {
     "cat": "fgp",
     "label": "Metimų iš žaidimo taiklumas (FG%)",
-    "value": 79.31034564971924,
-    "rank": 16
+    "value": 78.37837934494019,
+    "rank": 17
    }
   ]
  },
@@ -47,12 +39,12 @@
     15.5
    ],
    [
-    "Ivan Juric",
-    13.25
-   ],
-   [
     "Jaquay Randolph",
     13.0
+   ],
+   [
+    "Ivan Juric",
+    12.6
    ]
   ],
   "apg": [
@@ -65,8 +57,8 @@
     9.5
    ],
    [
-    "Quinn Ellis",
-    9.0
+    "Donovan Dent",
+    8.75
    ]
   ],
   "spg": [
@@ -99,15 +91,15 @@
   ],
   "fgp": [
    [
-    "Jacob Bannarbie",
-    100.0
-   ],
-   [
     "Joseph Annan Jr",
     100.0
    ],
    [
     "Amir Rosa",
+    100.0
+   ],
+   [
+    "Ira Wilson",
     100.0
    ]
   ],
@@ -127,15 +119,15 @@
   ],
   "ftp": [
    [
+    "KK Robinson",
+    100.0
+   ],
+   [
     "Tyler Lundblade",
     100.0
    ],
    [
     "Layden Blocker",
-    100.0
-   ],
-   [
-    "Elmarko Jackson",
     100.0
    ]
   ]
