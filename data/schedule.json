@@ -1765,9 +1765,9 @@
   "team": "UMBC",
   "opponent": "Iona Gaels",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "75",
+  "against": "67",
   "opp_rank": null
  },
  {
@@ -1776,9 +1776,9 @@
   "team": "Clemson Tigers",
   "opponent": "The Citadel Bulldogs",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "87",
+  "against": "51",
   "opp_rank": null
  },
  {
@@ -2211,17 +2211,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401911394",
-  "date": "2026-11-21T17:00Z",
-  "team": "VMI Keydets",
-  "opponent": "Gardner-Webb Runnin' Bulldogs",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401919031",
   "date": "2026-11-21T19:00Z",
   "team": "New Mexico",
@@ -2270,6 +2259,17 @@
   "date": "2026-11-22T00:00Z",
   "team": "Mercer",
   "opponent": "Charleston Southern Buccaneers",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401911394",
+  "date": "2026-11-22T00:00Z",
+  "team": "VMI Keydets",
+  "opponent": "Gardner-Webb Runnin' Bulldogs",
   "home": true,
   "state": "pre",
   "for": null,

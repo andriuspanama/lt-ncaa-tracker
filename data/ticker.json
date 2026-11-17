@@ -1,22 +1,6 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "items": [
-  {
-   "id": "alex-bieliauskas",
-   "name": "Alex Bieliauskas",
-   "team": "South Carolina",
-   "date": "2026-11-14",
-   "opp": "Gardner-Webb Runnin' Bulldogs",
-   "home": true,
-   "res": "W",
-   "score": "79-62",
-   "pts": 23,
-   "reb": 4,
-   "ast": 1,
-   "stl": 0,
-   "blk": 1,
-   "gs": 20.7
-  },
   {
    "id": "arminas-vilkas",
    "name": "Arminas Vilkas",
@@ -34,22 +18,6 @@
    "gs": 15.7
   },
   {
-   "id": "nojus-indrusaitis",
-   "name": "Nojus Indrušaitis",
-   "team": "California",
-   "date": "2026-11-14",
-   "opp": "Utah Tech Trailblazers",
-   "home": true,
-   "res": "W",
-   "score": "79-73",
-   "pts": 21,
-   "reb": 2,
-   "ast": 1,
-   "stl": 2,
-   "blk": 0,
-   "gs": 15.6
-  },
-  {
    "id": "augustinas-kiudulas",
    "name": "Augustinas Kiudulas",
    "team": "Western Michigan",
@@ -64,22 +32,6 @@
    "stl": 1,
    "blk": 0,
    "gs": 14.2
-  },
-  {
-   "id": "gediminas-alisas",
-   "name": "Gediminas Alisas",
-   "team": "Stephen F. Austin",
-   "date": "2026-11-14",
-   "opp": "Rice Owls",
-   "home": true,
-   "res": "L",
-   "score": "78-81",
-   "pts": 9,
-   "reb": 4,
-   "ast": 6,
-   "stl": 1,
-   "blk": 0,
-   "gs": 13.5
   },
   {
    "id": "matas-vokietaitis",
@@ -160,6 +112,54 @@
    "stl": 0,
    "blk": 0,
    "gs": 10.5
+  },
+  {
+   "id": "dovydas-butka",
+   "name": "Dovydas Butka",
+   "team": "Boise State",
+   "date": "2026-11-15",
+   "opp": "Nebraska Cornhuskers",
+   "home": false,
+   "res": "L",
+   "score": "75-102",
+   "pts": 13,
+   "reb": 7,
+   "ast": 1,
+   "stl": 1,
+   "blk": 0,
+   "gs": 10.1
+  },
+  {
+   "id": "gabrielius-bubnys",
+   "name": "Gabrielius Bubnys",
+   "team": "UT Martin",
+   "date": "2026-11-15",
+   "opp": "Ecclesia Royals",
+   "home": true,
+   "res": "W",
+   "score": "128-44",
+   "pts": 10,
+   "reb": 2,
+   "ast": 1,
+   "stl": 0,
+   "blk": 0,
+   "gs": 9.1
+  },
+  {
+   "id": "dominykas-pleta",
+   "name": "Dominykas Pleta",
+   "team": "Iowa State",
+   "date": "2026-11-15",
+   "opp": "Niagara Purple Eagles",
+   "home": true,
+   "res": "W",
+   "score": "66-45",
+   "pts": 8,
+   "reb": 10,
+   "ast": 0,
+   "stl": 0,
+   "blk": 0,
+   "gs": 8.1
   }
  ]
 }
