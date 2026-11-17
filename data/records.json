@@ -972,14 +972,14 @@
    "new": []
   },
   "mantas-juzenas": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
-     "v": 24,
-     "date": "2026-11-08",
-     "eid": "401911453",
-     "opp": "Nevada Wolf Pack",
-     "home": false
+     "v": 32,
+     "date": "2026-11-16",
+     "eid": "401917532",
+     "opp": "Portland State Vikings",
+     "home": true
     },
     "reb": {
      "v": 11,
@@ -996,10 +996,10 @@
      "home": true
     },
     "stl": {
-     "v": 1,
-     "date": "2026-11-13",
-     "eid": "401917525",
-     "opp": "UIC Flames",
+     "v": 2,
+     "date": "2026-11-16",
+     "eid": "401917532",
+     "opp": "Portland State Vikings",
      "home": true
     },
     "blk": {
@@ -1010,19 +1010,35 @@
      "home": true
     },
     "tpm": {
-     "v": 5,
-     "date": "2026-11-08",
-     "eid": "401911453",
-     "opp": "Nevada Wolf Pack",
-     "home": false
+     "v": 7,
+     "date": "2026-11-16",
+     "eid": "401917532",
+     "opp": "Portland State Vikings",
+     "home": true
     }
    },
    "counts": {
     "dd": 2,
-    "p20": 2,
-    "t3": 2
+    "p20": 3,
+    "p30": 1,
+    "t3": 3
    },
-   "new": []
+   "new": [
+    {
+     "stat": "pts",
+     "v": 32,
+     "prev": 24,
+     "date": "2026-11-16",
+     "opp": "Portland State Vikings"
+    },
+    {
+     "stat": "tpm",
+     "v": 7,
+     "prev": 5,
+     "date": "2026-11-16",
+     "opp": "Portland State Vikings"
+    }
+   ]
   },
   "domas-kauzonas": {
    "gp": 3,
@@ -1168,7 +1184,7 @@
    "new": []
   },
   "gantas-krizanauskas": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 6,

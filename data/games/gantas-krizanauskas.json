@@ -64,5 +64,27 @@
   "tpa": 1,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401917532",
+  "date": "2026-11-16",
+  "opponent": "Saint Mary's Gaels",
+  "home": false,
+  "result": "L",
+  "score": "78-94",
+  "min": 12,
+  "pts": 0,
+  "reb": 0,
+  "ast": 1,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 1,
+  "fgm": 0,
+  "fga": 1,
+  "tpm": 0,
+  "tpa": 1,
+  "ftm": 0,
+  "fta": 0
  }
 ]

@@ -2,6 +2,22 @@
  "updated": "2026-11-17",
  "items": [
   {
+   "id": "mantas-juzenas",
+   "name": "Mantas Juzėnas",
+   "team": "Saint Mary's",
+   "date": "2026-11-16",
+   "opp": "Portland State Vikings",
+   "home": true,
+   "res": "W",
+   "score": "94-78",
+   "pts": 32,
+   "reb": 8,
+   "ast": 2,
+   "stl": 2,
+   "blk": 0,
+   "gs": 25.2
+  },
+  {
    "id": "arminas-vilkas",
    "name": "Arminas Vilkas",
    "team": "UT Martin",
@@ -144,22 +160,6 @@
    "stl": 0,
    "blk": 0,
    "gs": 9.1
-  },
-  {
-   "id": "dominykas-pleta",
-   "name": "Dominykas Pleta",
-   "team": "Iowa State",
-   "date": "2026-11-15",
-   "opp": "Niagara Purple Eagles",
-   "home": true,
-   "res": "W",
-   "score": "66-45",
-   "pts": 8,
-   "reb": 10,
-   "ast": 0,
-   "stl": 0,
-   "blk": 0,
-   "gs": 8.1
   }
  ]
 }

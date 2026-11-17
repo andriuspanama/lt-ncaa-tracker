@@ -1787,9 +1787,9 @@
   "team": "Portland State",
   "opponent": "Saint Mary's Gaels",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "78",
+  "against": "94",
   "opp_rank": null
  },
  {
@@ -1798,9 +1798,9 @@
   "team": "Saint Mary's",
   "opponent": "Portland State Vikings",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "94",
+  "against": "78",
   "opp_rank": null
  },
  {

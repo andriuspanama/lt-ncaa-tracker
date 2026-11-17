@@ -87,6 +87,17 @@
     "link": "http://www.espn.com/ncb/recap?gameId=401911392",
     "player": "alex-bieliauskas"
    }
+  ],
+  "401917532": [
+   {
+    "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/6892f462-8148-4145-b582-03984cef8ad0/6892f462-8148-4145-b582-03984cef8ad0.jpg",
+    "caption": "Portland State Vikings vs. Saint Mary's Gaels: Game Highlights Portland State Vikings vs. Saint Mary's Gaels: Game Highlights",
+    "credit": null,
+    "w": 576,
+    "h": 324,
+    "link": "http://www.espn.com/ncb/recap?gameId=401917532",
+    "player": "mantas-juzenas"
+   }
   ]
  },
  "checked": {
@@ -219,7 +230,8 @@
   "401911017": "2026-11-17",
   "401929405": "2026-11-17",
   "401923393": "2026-11-17",
-  "401918075": "2026-11-17"
+  "401918075": "2026-11-17",
+  "401917532": "2026-11-17"
  },
  "videos": {
   "401920692": [
@@ -374,6 +386,13 @@
     "player": "vince-buzelis",
     "headline": "Vince Buzelis’ 17 lead South Dakota past NAIA Doane 81-57",
     "link": "http://www.espn.com/ncb/recap?gameId=401929405"
+   }
+  ],
+  "401917532": [
+   {
+    "player": "mantas-juzenas",
+    "headline": "Mantas Juzenas scores 32 to propel Saint Mary's to 94-78 victory over Portland State",
+    "link": "http://www.espn.com/ncb/recap?gameId=401917532"
    }
   ]
  }
