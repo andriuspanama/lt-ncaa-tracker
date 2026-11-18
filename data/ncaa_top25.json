@@ -6,7 +6,7 @@
     "cat": "ppg",
     "label": "Taškai per rungtynes",
     "value": 26.75,
-    "rank": 5
+    "rank": 6
    }
   ],
   "matas-vokietaitis": [
@@ -30,7 +30,7 @@
    ],
    [
     "Dior Johnson",
-    29.5
+    28.8
    ]
   ],
   "rpg": [
@@ -49,12 +49,12 @@
   ],
   "apg": [
    [
-    "Jeremy Fears Jr.",
-    10.0
-   ],
-   [
     "Cian Medley",
     9.5
+   ],
+   [
+    "Bryce Quinet",
+    8.8
    ],
    [
     "Donovan Dent",
@@ -67,11 +67,11 @@
     6.0
    ],
    [
-    "Miles Byrd",
-    5.25
+    "Tyler Shephard",
+    5.0
    ],
    [
-    "Tyler Shephard",
+    "Jamir Smith",
     5.0
    ]
   ],
@@ -86,7 +86,7 @@
    ],
    [
     "Sean Logan",
-    4.75
+    4.2
    ]
   ],
   "fgp": [
@@ -105,15 +105,15 @@
   ],
   "tpp": [
    [
-    "Rambo Eagins",
-    100.0
-   ],
-   [
     "Orden Roberts",
     100.0
    ],
    [
     "Owen Walther",
+    100.0
+   ],
+   [
+    "Maxwell Lanham",
     100.0
    ]
   ],
@@ -127,7 +127,7 @@
     100.0
    ],
    [
-    "Layden Blocker",
+    "Elmarko Jackson",
     100.0
    ]
   ]
