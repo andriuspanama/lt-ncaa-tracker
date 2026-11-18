@@ -1809,9 +1809,9 @@
   "team": "Florida Gators",
   "opponent": "Notre Dame Fighting Irish",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "86",
+  "against": "78",
   "opp_rank": null
  },
  {
@@ -1820,9 +1820,9 @@
   "team": "Dartmouth Big Green",
   "opponent": "Maine Augusta Moose",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "117",
+  "against": "67",
   "opp_rank": null
  },
  {
@@ -1831,9 +1831,9 @@
   "team": "Lipscomb",
   "opponent": "Purdue Boilermakers",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "78",
+  "against": "95",
   "opp_rank": null
  },
  {
@@ -1842,9 +1842,9 @@
   "team": "FIU",
   "opponent": "UAB Blazers",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "82",
+  "against": "94",
   "opp_rank": null
  },
  {
@@ -1853,9 +1853,9 @@
   "team": "Kansas City",
   "opponent": "Newman Jets",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "68",
+  "against": "64",
   "opp_rank": null
  },
  {
@@ -1864,9 +1864,9 @@
   "team": "UT Arlington",
   "opponent": "Southern Miss Golden Eagles",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "83",
+  "against": "72",
   "opp_rank": null
  },
  {
@@ -1875,10 +1875,21 @@
   "team": "California Baptist",
   "opponent": "Seattle U Redhawks",
   "home": true,
+  "state": "post",
+  "for": "54",
+  "against": "83",
+  "opp_rank": null
+ },
+ {
+  "event_id": "401920514",
+  "date": "2026-11-18T21:30Z",
+  "team": "Florida Gators",
+  "opponent": "Houston Cougars",
+  "home": true,
   "state": "pre",
   "for": null,
   "against": null,
-  "opp_rank": null
+  "opp_rank": 8
  },
  {
   "event_id": "401922047",
@@ -4312,6 +4323,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401909779",
+  "date": "2026-12-13T18:00Z",
+  "team": "Iowa State",
+  "opponent": "North Carolina Central Eagles",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401920712",
   "date": "2026-12-13T21:00Z",
   "team": "Lipscomb",
@@ -4332,17 +4354,6 @@
   "for": null,
   "against": null,
   "opp_rank": 20
- },
- {
-  "event_id": "401909779",
-  "date": "2026-12-13T23:00Z",
-  "team": "Iowa State",
-  "opponent": "North Carolina Central Eagles",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
  },
  {
   "event_id": "401926737",
@@ -5610,17 +5621,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401913429",
-  "date": "2026-12-31T21:00Z",
-  "team": "Portland State",
-  "opponent": "Montana State Bobcats",
-  "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401917390",
   "date": "2026-12-31T21:00Z",
   "team": "Utah Valley",
@@ -5637,6 +5637,17 @@
   "team": "California Baptist",
   "opponent": "UC Santa Barbara Gauchos",
   "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401913429",
+  "date": "2027-01-01T02:00Z",
+  "team": "Portland State",
+  "opponent": "Montana State Bobcats",
+  "home": false,
   "state": "pre",
   "for": null,
   "against": null,

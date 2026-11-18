@@ -108,5 +108,27 @@
   "tpa": 7,
   "ftm": 2,
   "fta": 2
+ },
+ {
+  "event_id": "401920706",
+  "date": "2026-11-17",
+  "opponent": "Purdue Boilermakers",
+  "home": false,
+  "result": "L",
+  "score": "78-95",
+  "min": 29,
+  "pts": 12,
+  "reb": 3,
+  "ast": 1,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 4,
+  "fgm": 4,
+  "fga": 8,
+  "tpm": 2,
+  "tpa": 5,
+  "ftm": 2,
+  "fta": 2
  }
 ]

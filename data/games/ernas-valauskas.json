@@ -108,5 +108,27 @@
   "tpa": 5,
   "ftm": 1,
   "fta": 2
+ },
+ {
+  "event_id": "401920236",
+  "date": "2026-11-17",
+  "opponent": "Maine Augusta Moose",
+  "home": true,
+  "result": "W",
+  "score": "117-67",
+  "min": 24,
+  "pts": 24,
+  "reb": 7,
+  "ast": 2,
+  "stl": 1,
+  "blk": 0,
+  "to": 2,
+  "pf": 2,
+  "fgm": 7,
+  "fga": 13,
+  "tpm": 3,
+  "tpa": 8,
+  "ftm": 7,
+  "fta": 7
  }
 ]
