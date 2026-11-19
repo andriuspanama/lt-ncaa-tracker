@@ -1882,13 +1882,13 @@
  },
  {
   "event_id": "401920514",
-  "date": "2026-11-18T21:30Z",
+  "date": "2026-11-18T21:48Z",
   "team": "Florida Gators",
   "opponent": "Houston Cougars",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "76",
+  "against": "86",
   "opp_rank": 8
  },
  {
@@ -1897,7 +1897,7 @@
   "team": "Longwood",
   "opponent": "VMI Keydets",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -1908,7 +1908,7 @@
   "team": "Mercer",
   "opponent": "Presbyterian Blue Hose",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -1919,7 +1919,7 @@
   "team": "South Carolina",
   "opponent": "Elon Phoenix",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -1930,7 +1930,7 @@
   "team": "VMI Keydets",
   "opponent": "Longwood Lancers",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
