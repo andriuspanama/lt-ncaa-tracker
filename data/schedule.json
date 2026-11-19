@@ -1897,9 +1897,9 @@
   "team": "Longwood",
   "opponent": "VMI Keydets",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "82",
+  "against": "76",
   "opp_rank": null
  },
  {
@@ -1908,9 +1908,9 @@
   "team": "Mercer",
   "opponent": "Presbyterian Blue Hose",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "84",
+  "against": "88",
   "opp_rank": null
  },
  {
@@ -1919,9 +1919,9 @@
   "team": "South Carolina",
   "opponent": "Elon Phoenix",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "80",
+  "against": "72",
   "opp_rank": null
  },
  {
@@ -1930,9 +1930,9 @@
   "team": "VMI Keydets",
   "opponent": "Longwood Lancers",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "76",
+  "against": "82",
   "opp_rank": null
  },
  {
@@ -1941,9 +1941,9 @@
   "team": "Northern Illinois Huskies",
   "opponent": "Marquette Golden Eagles",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "65",
+  "against": "79",
   "opp_rank": null
  },
  {
@@ -1952,9 +1952,9 @@
   "team": "Wright State Raiders",
   "opponent": "Malone Pioneers",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "77",
+  "against": "60",
   "opp_rank": null
  },
  {
@@ -1963,9 +1963,9 @@
   "team": "Campbell",
   "opponent": "Oklahoma Sooners",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "78",
+  "against": "87",
   "opp_rank": null
  },
  {
@@ -1974,9 +1974,9 @@
   "team": "South Dakota",
   "opponent": "Nebraska Cornhuskers",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "47",
+  "against": "73",
   "opp_rank": 24
  },
  {
@@ -1985,9 +1985,9 @@
   "team": "Arizona State Sun Devils",
   "opponent": "Oakland Golden Grizzlies",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "68",
+  "against": "65",
   "opp_rank": null
  },
  {
@@ -1996,9 +1996,9 @@
   "team": "Arizona Wildcats",
   "opponent": "UConn Huskies",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "85",
+  "against": "79",
   "opp_rank": 3
  },
  {
@@ -2007,6 +2007,17 @@
   "team": "BYU",
   "opponent": "Northern Colorado Bears",
   "home": true,
+  "state": "post",
+  "for": "98",
+  "against": "54",
+  "opp_rank": null
+ },
+ {
+  "event_id": "401920517",
+  "date": "2026-11-19T19:30Z",
+  "team": "Florida Gators",
+  "opponent": "West Virginia Mountaineers",
+  "home": false,
   "state": "pre",
   "for": null,
   "against": null,

@@ -86,5 +86,27 @@
   "tpa": 4,
   "ftm": 5,
   "fta": 6
+ },
+ {
+  "event_id": "401921141",
+  "date": "2026-11-18",
+  "opponent": "Elon Phoenix",
+  "home": true,
+  "result": "W",
+  "score": "80-72",
+  "min": 23,
+  "pts": 8,
+  "reb": 7,
+  "ast": 3,
+  "stl": 1,
+  "blk": 0,
+  "to": 2,
+  "pf": 2,
+  "fgm": 3,
+  "fga": 8,
+  "tpm": 1,
+  "tpa": 4,
+  "ftm": 1,
+  "fta": 2
  }
 ]

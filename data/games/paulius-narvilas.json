@@ -108,5 +108,27 @@
   "tpa": 1,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401922047",
+  "date": "2026-11-18",
+  "opponent": "Longwood Lancers",
+  "home": false,
+  "result": "L",
+  "score": "76-82",
+  "min": 26,
+  "pts": 8,
+  "reb": 6,
+  "ast": 0,
+  "stl": 2,
+  "blk": 0,
+  "to": 1,
+  "pf": 3,
+  "fgm": 2,
+  "fga": 8,
+  "tpm": 0,
+  "tpa": 1,
+  "ftm": 4,
+  "fta": 4
  }
 ]

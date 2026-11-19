@@ -98,6 +98,17 @@
     "link": "http://www.espn.com/ncb/recap?gameId=401917532",
     "player": "mantas-juzenas"
    }
+  ],
+  "401921734": [
+   {
+    "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1119/e4679b22-3d5e-41dc-99d9-c1d8805e3a40/e4679b22-3d5e-41dc-99d9-c1d8805e3a40.jpg",
+    "caption": "Oakland Golden Grizzlies vs. Arizona State Sun Devils: Game Highlights Oakland Golden Grizzlies vs. Arizona State Sun Devils: Game Highlights",
+    "credit": null,
+    "w": 576,
+    "h": 324,
+    "link": "http://www.espn.com/ncb/recap?gameId=401921734",
+    "player": "paulius-murauskas"
+   }
   ]
  },
  "checked": {
@@ -234,7 +245,14 @@
   "401917532": "2026-11-19",
   "401920706": "2026-11-19",
   "401917533": "2026-11-19",
-  "401920236": "2026-11-19"
+  "401920236": "2026-11-19",
+  "401909742": "2026-11-19",
+  "401921734": "2026-11-19",
+  "401922047": "2026-11-19",
+  "401921141": "2026-11-19",
+  "401926064": "2026-11-19",
+  "401928347": "2026-11-19",
+  "401909526": "2026-11-19"
  },
  "videos": {
   "401920692": [
@@ -332,6 +350,16 @@
     "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1115/635acac7-d816-49b3-9bf8-806035bf77e5/635acac7-d816-49b3-9bf8-806035bf77e5.mp4",
     "link": "https://www.espn.com/video/clip/_/id/50493156/matas-vokietaitis-puts-dunk-texas"
    }
+  ],
+  "401926064": [
+   {
+    "player": "vince-buzelis",
+    "headline": "Vince Buzelis rocks the rim with slam dunk",
+    "duration": 28,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1119/b9c6fb6e-6b5a-4da9-aa5b-2757563bb0a7/b9c6fb6e-6b5a-4da9-aa5b-2757563bb0a7.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1119/b9c6fb6e-6b5a-4da9-aa5b-2757563bb0a7/b9c6fb6e-6b5a-4da9-aa5b-2757563bb0a7.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50527161/vince-buzelis-rocks-rim-slam-dunk"
+   }
   ]
  },
  "news": {
@@ -396,6 +424,13 @@
     "player": "mantas-juzenas",
     "headline": "Mantas Juzenas scores 32 to propel Saint Mary's to 94-78 victory over Portland State",
     "link": "http://www.espn.com/ncb/recap?gameId=401917532"
+   }
+  ],
+  "401921734": [
+   {
+    "player": "paulius-murauskas",
+    "headline": "Paulius Murauskas scores 23 and Arizona State erases 14-point deficit to defeat Oakland 68-65",
+    "link": "http://www.espn.com/ncb/recap?gameId=401921734"
    }
   ]
  }

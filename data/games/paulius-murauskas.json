@@ -86,5 +86,27 @@
   "tpa": 8,
   "ftm": 6,
   "fta": 8
+ },
+ {
+  "event_id": "401921734",
+  "date": "2026-11-18",
+  "opponent": "Oakland Golden Grizzlies",
+  "home": true,
+  "result": "W",
+  "score": "68-65",
+  "min": 40,
+  "pts": 23,
+  "reb": 8,
+  "ast": 4,
+  "stl": 0,
+  "blk": 0,
+  "to": 2,
+  "pf": 2,
+  "fgm": 4,
+  "fga": 12,
+  "tpm": 2,
+  "tpa": 4,
+  "ftm": 13,
+  "fta": 13
  }
 ]

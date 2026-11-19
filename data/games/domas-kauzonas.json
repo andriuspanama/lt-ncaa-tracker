@@ -64,5 +64,27 @@
   "tpa": 0,
   "ftm": 0,
   "fta": 2
+ },
+ {
+  "event_id": "401922047",
+  "date": "2026-11-18",
+  "opponent": "VMI Keydets",
+  "home": true,
+  "result": "W",
+  "score": "82-76",
+  "min": 2,
+  "pts": 0,
+  "reb": 0,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 0,
+  "fgm": 0,
+  "fga": 0,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
  }
 ]
