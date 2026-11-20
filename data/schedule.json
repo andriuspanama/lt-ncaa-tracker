@@ -2018,9 +2018,9 @@
   "team": "Florida Gators",
   "opponent": "West Virginia Mountaineers",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "85",
+  "against": "72",
   "opp_rank": null
  },
  {
@@ -2029,9 +2029,9 @@
   "team": "Buffalo",
   "opponent": "St. Bonaventure Bonnies",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "69",
+  "against": "78",
   "opp_rank": null
  },
  {
@@ -2040,9 +2040,9 @@
   "team": "Northern Kentucky",
   "opponent": "Berea Mountaineers",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "93",
+  "against": "41",
   "opp_rank": null
  },
  {
@@ -2051,9 +2051,9 @@
   "team": "Quinnipiac",
   "opponent": "Maine Black Bears",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "67",
+  "against": "69",
   "opp_rank": null
  },
  {
@@ -2062,9 +2062,9 @@
   "team": "UMBC",
   "opponent": "Ohio State Buckeyes",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "62",
+  "against": "101",
   "opp_rank": null
  },
  {
@@ -2073,9 +2073,9 @@
   "team": "Texas",
   "opponent": "Southern Utah Thunderbirds",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "92",
+  "against": "68",
   "opp_rank": null
  },
  {
@@ -2084,7 +2084,7 @@
   "team": "California",
   "opponent": "East Texas A&M Lions",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2095,7 +2095,7 @@
   "team": "Portland State",
   "opponent": "Northwest Indian RedHawks",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2629,17 +2629,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401924897",
-  "date": "2026-11-25T05:00Z",
-  "team": "New Mexico",
-  "opponent": "Mississippi Valley State Delta Devils",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401928831",
   "date": "2026-11-25T17:30Z",
   "team": "Wright State Raiders",
@@ -2776,6 +2765,17 @@
   "date": "2026-11-26T00:00Z",
   "team": "Northern Kentucky",
   "opponent": "Bellarmine Knights",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401924897",
+  "date": "2026-11-26T02:00Z",
+  "team": "New Mexico",
+  "opponent": "Mississippi Valley State Delta Devils",
   "home": true,
   "state": "pre",
   "for": null,

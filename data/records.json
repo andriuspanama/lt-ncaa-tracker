@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-19",
- "newest": "2026-11-18",
+ "updated": "2026-11-20",
+ "newest": "2026-11-19",
  "players": {
   "motiejus-krivas": {
    "gp": 5,
@@ -504,7 +504,7 @@
    "new": []
   },
   "matas-buteliauskas": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 14,
@@ -670,14 +670,14 @@
    "new": []
   },
   "nedas-cholevinskas": {
-   "gp": 5,
+   "gp": 6,
    "records": {
     "pts": {
-     "v": 6,
-     "date": "2026-11-08",
-     "eid": "401920692",
-     "opp": "Vermont Catamounts",
-     "home": false
+     "v": 8,
+     "date": "2026-11-19",
+     "eid": "401923304",
+     "opp": "Maine Black Bears",
+     "home": true
     },
     "reb": {
      "v": 3,
@@ -702,10 +702,10 @@
     },
     "tpm": {
      "v": 2,
-     "date": "2026-11-08",
-     "eid": "401920692",
-     "opp": "Vermont Catamounts",
-     "home": false
+     "date": "2026-11-19",
+     "eid": "401923304",
+     "opp": "Maine Black Bears",
+     "home": true
     }
    },
    "counts": {},
@@ -740,7 +740,7 @@
    "new": []
   },
   "regimantas-ciunys": {
-   "gp": 2,
+   "gp": 3,
    "records": {
     "pts": {
      "v": 2,
@@ -750,11 +750,11 @@
      "home": true
     },
     "reb": {
-     "v": 2,
-     "date": "2026-11-09",
-     "eid": "401921085",
-     "opp": "McDaniel Green Terror",
-     "home": true
+     "v": 3,
+     "date": "2026-11-19",
+     "eid": "401916318",
+     "opp": "Ohio State Buckeyes",
+     "home": false
     },
     "ast": {
      "v": 1,
@@ -1635,20 +1635,20 @@
    ]
   },
   "matas-vokietaitis": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 26,
-     "date": "2026-11-09",
-     "eid": "401906865",
-     "opp": "Grambling Tigers",
+     "date": "2026-11-19",
+     "eid": "401906867",
+     "opp": "Southern Utah Thunderbirds",
      "home": true
     },
     "reb": {
-     "v": 10,
-     "date": "2026-11-15",
-     "eid": "401906866",
-     "opp": "Baylor Bears",
+     "v": 11,
+     "date": "2026-11-19",
+     "eid": "401906867",
+     "opp": "Southern Utah Thunderbirds",
      "home": true
     },
     "ast": {
@@ -1667,23 +1667,23 @@
     },
     "blk": {
      "v": 1,
-     "date": "2026-11-15",
-     "eid": "401906866",
-     "opp": "Baylor Bears",
+     "date": "2026-11-19",
+     "eid": "401906867",
+     "opp": "Southern Utah Thunderbirds",
      "home": true
     }
    },
    "counts": {
-    "dd": 1,
-    "p20": 2
+    "dd": 2,
+    "p20": 3
    },
    "new": [
     {
      "stat": "reb",
-     "v": 10,
-     "prev": 9,
-     "date": "2026-11-15",
-     "opp": "Baylor Bears"
+     "v": 11,
+     "prev": 10,
+     "date": "2026-11-19",
+     "opp": "Southern Utah Thunderbirds"
     }
    ]
   },

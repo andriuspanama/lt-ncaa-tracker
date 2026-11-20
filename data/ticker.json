@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "items": [
   {
-   "id": "ernas-valauskas",
-   "name": "Ernas Valauskas",
-   "team": "Dartmouth Big Green",
-   "date": "2026-11-17",
-   "opp": "Maine Augusta Moose",
+   "id": "matas-vokietaitis",
+   "name": "Matas Vokietaitis",
+   "team": "Texas",
+   "date": "2026-11-19",
+   "opp": "Southern Utah Thunderbirds",
    "home": true,
    "res": "W",
-   "score": "117-67",
-   "pts": 24,
-   "reb": 7,
-   "ast": 2,
-   "stl": 1,
-   "blk": 0,
-   "gs": 20.8
+   "score": "92-68",
+   "pts": 26,
+   "reb": 11,
+   "ast": 0,
+   "stl": 0,
+   "blk": 1,
+   "gs": 21.7
   },
   {
    "id": "paulius-murauskas",
@@ -82,22 +82,6 @@
    "gs": 7.7
   },
   {
-   "id": "titas-sargiunas",
-   "name": "Titas Sargiūnas",
-   "team": "Lipscomb",
-   "date": "2026-11-17",
-   "opp": "Purdue Boilermakers",
-   "home": false,
-   "res": "L",
-   "score": "78-95",
-   "pts": 12,
-   "reb": 3,
-   "ast": 1,
-   "stl": 0,
-   "blk": 0,
-   "gs": 7.6
-  },
-  {
    "id": "alex-bieliauskas",
    "name": "Alex Bieliauskas",
    "team": "South Carolina",
@@ -130,20 +114,20 @@
    "gs": 6.0
   },
   {
-   "id": "justas-stonkus",
-   "name": "Justas Stonkus",
-   "team": "California Baptist",
-   "date": "2026-11-17",
-   "opp": "Seattle U Redhawks",
+   "id": "nedas-cholevinskas",
+   "name": "Nedas Cholevinskas",
+   "team": "Quinnipiac",
+   "date": "2026-11-19",
+   "opp": "Maine Black Bears",
    "home": true,
    "res": "L",
-   "score": "54-83",
-   "pts": 13,
-   "reb": 9,
-   "ast": 1,
+   "score": "67-69",
+   "pts": 8,
+   "reb": 2,
+   "ast": 0,
    "stl": 0,
    "blk": 0,
-   "gs": 2.3
+   "gs": 3.4
   },
   {
    "id": "mykolas-ivanauskas",

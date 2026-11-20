@@ -42,5 +42,27 @@
   "tpa": 0,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401916318",
+  "date": "2026-11-19",
+  "opponent": "Ohio State Buckeyes",
+  "home": false,
+  "result": "L",
+  "score": "62-101",
+  "min": 9,
+  "pts": 0,
+  "reb": 3,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 0,
+  "fgm": 0,
+  "fga": 0,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
  }
 ]

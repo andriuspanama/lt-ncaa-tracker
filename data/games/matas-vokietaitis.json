@@ -86,5 +86,27 @@
   "tpa": 0,
   "ftm": 2,
   "fta": 4
+ },
+ {
+  "event_id": "401906867",
+  "date": "2026-11-19",
+  "opponent": "Southern Utah Thunderbirds",
+  "home": true,
+  "result": "W",
+  "score": "92-68",
+  "min": 31,
+  "pts": 26,
+  "reb": 11,
+  "ast": 0,
+  "stl": 0,
+  "blk": 1,
+  "to": 3,
+  "pf": 4,
+  "fgm": 9,
+  "fga": 13,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 8,
+  "fta": 9
  }
 ]
