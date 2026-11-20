@@ -108,5 +108,27 @@
   "tpa": 4,
   "ftm": 6,
   "fta": 7
+ },
+ {
+  "event_id": "401918056",
+  "date": "2026-11-19",
+  "opponent": "East Texas A&M Lions",
+  "home": true,
+  "result": "W",
+  "score": "86-54",
+  "min": 30,
+  "pts": 23,
+  "reb": 3,
+  "ast": 2,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 1,
+  "fgm": 9,
+  "fga": 15,
+  "tpm": 5,
+  "tpa": 8,
+  "ftm": 0,
+  "fta": 0
  }
 ]

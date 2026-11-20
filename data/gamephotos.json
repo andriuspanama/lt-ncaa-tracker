@@ -109,6 +109,28 @@
     "link": "http://www.espn.com/ncb/recap?gameId=401921734",
     "player": "paulius-murauskas"
    }
+  ],
+  "401918056": [
+   {
+    "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1120/7ed60d90-91ed-4eae-bbeb-b1cdcd7ee250/7ed60d90-91ed-4eae-bbeb-b1cdcd7ee250.jpg",
+    "caption": "East Texas A&M Lions vs. California Golden Bears: Game Highlights East Texas A&M Lions vs. California Golden Bears: Game Highlights",
+    "credit": null,
+    "w": 576,
+    "h": 324,
+    "link": "http://www.espn.com/ncb/recap?gameId=401918056",
+    "player": "nojus-indrusaitis"
+   }
+  ],
+  "401906867": [
+   {
+    "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1120/93c0fc4c-a9e7-4b9f-8b91-9c27603b277e/93c0fc4c-a9e7-4b9f-8b91-9c27603b277e.jpg",
+    "caption": "Southern Utah Thunderbirds vs. Texas Longhorns: Game Highlights Southern Utah Thunderbirds vs. Texas Longhorns: Game Highlights",
+    "credit": null,
+    "w": 576,
+    "h": 324,
+    "link": "http://www.espn.com/ncb/recap?gameId=401906867",
+    "player": "matas-vokietaitis"
+   }
   ]
  },
  "checked": {
@@ -256,7 +278,9 @@
   "401911021": "2026-11-20",
   "401923304": "2026-11-20",
   "401916318": "2026-11-20",
-  "401906867": "2026-11-20"
+  "401906867": "2026-11-20",
+  "401918056": "2026-11-20",
+  "401925916": "2026-11-20"
  },
  "videos": {
   "401920692": [
@@ -364,6 +388,34 @@
     "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1119/b9c6fb6e-6b5a-4da9-aa5b-2757563bb0a7/b9c6fb6e-6b5a-4da9-aa5b-2757563bb0a7.mp4",
     "link": "https://www.espn.com/video/clip/_/id/50527161/vince-buzelis-rocks-rim-slam-dunk"
    }
+  ],
+  "401918056": [
+   {
+    "player": "dominykas-daubaris",
+    "headline": "Dominykas Daubaris rocks the rim with slam dunk",
+    "duration": 21,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1120/b0d30233-8a1c-4c30-bcc1-79513722e5b0/b0d30233-8a1c-4c30-bcc1-79513722e5b0.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1120/b0d30233-8a1c-4c30-bcc1-79513722e5b0/b0d30233-8a1c-4c30-bcc1-79513722e5b0.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50537129/dominykas-daubaris-rocks-rim-slam-dunk"
+   }
+  ],
+  "401925916": [
+   {
+    "player": "gantas-krizanauskas",
+    "headline": "Gantas Krianauskas throws down big slam vs. Northwest Indian Eagles",
+    "duration": 31,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1120/b239d411-dee0-4b4d-bed8-7f6e9e8b7f8b/b239d411-dee0-4b4d-bed8-7f6e9e8b7f8b.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1120/b239d411-dee0-4b4d-bed8-7f6e9e8b7f8b/b239d411-dee0-4b4d-bed8-7f6e9e8b7f8b.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50537080/gantas-krianauskas-throws-big-slam-vs-northwest-indian-eagles"
+   },
+   {
+    "player": "gantas-krizanauskas",
+    "headline": "Gantas Krianauskas rocks the rim with powerful slam dunk",
+    "duration": 18,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1120/54fd1925-a30e-4f82-9516-127d9e65470d/54fd1925-a30e-4f82-9516-127d9e65470d.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1120/54fd1925-a30e-4f82-9516-127d9e65470d/54fd1925-a30e-4f82-9516-127d9e65470d.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50537754/gantas-krianauskas-rocks-rim-powerful-slam-dunk"
+   }
   ]
  },
  "news": {
@@ -435,6 +487,20 @@
     "player": "paulius-murauskas",
     "headline": "Paulius Murauskas scores 23 and Arizona State erases 14-point deficit to defeat Oakland 68-65",
     "link": "http://www.espn.com/ncb/recap?gameId=401921734"
+   }
+  ],
+  "401918056": [
+   {
+    "player": "nojus-indrusaitis",
+    "headline": "Indrusaitis scores 23 and California pulls away from East Texas A&M for 86-54 win",
+    "link": "http://www.espn.com/ncb/recap?gameId=401918056"
+   }
+  ],
+  "401906867": [
+   {
+    "player": "matas-vokietaitis",
+    "headline": "Vokietaitis and Punch lead No. 6 Texas to a 92-68 win over Southern Utah",
+    "link": "http://www.espn.com/ncb/recap?gameId=401906867"
    }
   ]
  }

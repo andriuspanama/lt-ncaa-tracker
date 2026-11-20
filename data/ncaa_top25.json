@@ -14,15 +14,15 @@
     "cat": "bpg",
     "label": "Blokai per rungtynes",
     "value": 3.0,
-    "rank": 12
+    "rank": 11
    }
   ],
   "matas-vokietaitis": [
    {
     "cat": "fgp",
     "label": "Metimų iš žaidimo taiklumas (FG%)",
-    "value": 78.37837934494019,
-    "rank": 15
+    "value": 75.99999904632568,
+    "rank": 17
    }
   ]
  },
@@ -47,12 +47,12 @@
     15.8
    ],
    [
-    "Jaquay Randolph",
-    13.25
-   ],
-   [
     "Ivan Juric",
     13.166667
+   ],
+   [
+    "Patrick Wessler",
+    13.0
    ]
   ],
   "apg": [
@@ -127,15 +127,15 @@
   ],
   "ftp": [
    [
-    "KK Robinson",
-    100.0
-   ],
-   [
     "Tyler Lundblade",
     100.0
    ],
    [
-    "Elmarko Jackson",
+    "Justin Begg",
+    100.0
+   ],
+   [
+    "Luke Skaljac",
     100.0
    ]
   ]

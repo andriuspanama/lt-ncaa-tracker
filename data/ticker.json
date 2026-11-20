@@ -34,6 +34,22 @@
    "gs": 20.2
   },
   {
+   "id": "dominykas-daubaris",
+   "name": "Dominykas Daubaris",
+   "team": "California",
+   "date": "2026-11-19",
+   "opp": "East Texas A&M Lions",
+   "home": true,
+   "res": "W",
+   "score": "86-54",
+   "pts": 9,
+   "reb": 11,
+   "ast": 2,
+   "stl": 4,
+   "blk": 4,
+   "gs": 19.7
+  },
+  {
    "id": "motiejus-krivas",
    "name": "Motiejus Krivas",
    "team": "Arizona Wildcats",
@@ -48,6 +64,38 @@
    "stl": 1,
    "blk": 4,
    "gs": 19.4
+  },
+  {
+   "id": "nojus-indrusaitis",
+   "name": "Nojus Indrušaitis",
+   "team": "California",
+   "date": "2026-11-19",
+   "opp": "East Texas A&M Lions",
+   "home": true,
+   "res": "W",
+   "score": "86-54",
+   "pts": 23,
+   "reb": 3,
+   "ast": 2,
+   "stl": 0,
+   "blk": 0,
+   "gs": 17.6
+  },
+  {
+   "id": "gantas-krizanauskas",
+   "name": "Gantas Križanauskas",
+   "team": "Portland State",
+   "date": "2026-11-19",
+   "opp": "Northwest Indian RedHawks",
+   "home": true,
+   "res": "W",
+   "score": "132-41",
+   "pts": 13,
+   "reb": 1,
+   "ast": 2,
+   "stl": 3,
+   "blk": 0,
+   "gs": 13.6
   },
   {
    "id": "vince-buzelis",
@@ -112,38 +160,6 @@
    "stl": 2,
    "blk": 0,
    "gs": 6.0
-  },
-  {
-   "id": "nedas-cholevinskas",
-   "name": "Nedas Cholevinskas",
-   "team": "Quinnipiac",
-   "date": "2026-11-19",
-   "opp": "Maine Black Bears",
-   "home": true,
-   "res": "L",
-   "score": "67-69",
-   "pts": 8,
-   "reb": 2,
-   "ast": 0,
-   "stl": 0,
-   "blk": 0,
-   "gs": 3.4
-  },
-  {
-   "id": "mykolas-ivanauskas",
-   "name": "Mykolas Ivanauskas",
-   "team": "Northern Illinois Huskies",
-   "date": "2026-11-18",
-   "opp": "Marquette Golden Eagles",
-   "home": false,
-   "res": "L",
-   "score": "65-79",
-   "pts": 3,
-   "reb": 2,
-   "ast": 0,
-   "stl": 0,
-   "blk": 0,
-   "gs": 2.2
   }
  ]
 }
