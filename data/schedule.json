@@ -2106,7 +2106,7 @@
   "team": "Stephen F. Austin",
   "opponent": "Indiana State Sycamores",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2117,7 +2117,7 @@
   "team": "Rhode Island",
   "opponent": "Liberty Flames",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
