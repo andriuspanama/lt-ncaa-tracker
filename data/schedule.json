@@ -2238,7 +2238,7 @@
   "team": "New Mexico",
   "opponent": "Wichita State Shockers",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2249,7 +2249,7 @@
   "team": "Northern Illinois Huskies",
   "opponent": "Bowling Green Falcons",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
