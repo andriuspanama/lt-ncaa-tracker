@@ -2,6 +2,22 @@
  "updated": "2026-11-21",
  "items": [
   {
+   "id": "mantas-juzenas",
+   "name": "Mantas Juzėnas",
+   "team": "Saint Mary's",
+   "date": "2026-11-20",
+   "opp": "Saint Louis Billikens",
+   "home": true,
+   "res": "W",
+   "score": "95-78",
+   "pts": 25,
+   "reb": 10,
+   "ast": 2,
+   "stl": 2,
+   "blk": 1,
+   "gs": 23.6
+  },
+  {
    "id": "matas-vokietaitis",
    "name": "Matas Vokietaitis",
    "team": "Texas",
@@ -82,6 +98,22 @@
    "gs": 13.6
   },
   {
+   "id": "dovydas-butka",
+   "name": "Dovydas Butka",
+   "team": "Boise State",
+   "date": "2026-11-20",
+   "opp": "Sam Houston Bearkats",
+   "home": true,
+   "res": "L",
+   "score": "69-83",
+   "pts": 17,
+   "reb": 7,
+   "ast": 1,
+   "stl": 4,
+   "blk": 0,
+   "gs": 12.0
+  },
+  {
    "id": "augustinas-kiudulas",
    "name": "Augustinas Kiudulas",
    "team": "Western Michigan",
@@ -92,6 +124,22 @@
    "score": "73-67",
    "pts": 16,
    "reb": 4,
+   "ast": 2,
+   "stl": 1,
+   "blk": 0,
+   "gs": 11.1
+  },
+  {
+   "id": "titas-sargiunas",
+   "name": "Titas Sargiūnas",
+   "team": "Lipscomb",
+   "date": "2026-11-20",
+   "opp": "Alabama A&M Bulldogs",
+   "home": false,
+   "res": "L",
+   "score": "69-85",
+   "pts": 13,
+   "reb": 1,
    "ast": 2,
    "stl": 1,
    "blk": 0,
@@ -112,54 +160,6 @@
    "stl": 0,
    "blk": 0,
    "gs": 10.8
-  },
-  {
-   "id": "nedas-cholevinskas",
-   "name": "Nedas Cholevinskas",
-   "team": "Quinnipiac",
-   "date": "2026-11-19",
-   "opp": "Maine Black Bears",
-   "home": true,
-   "res": "L",
-   "score": "67-69",
-   "pts": 8,
-   "reb": 2,
-   "ast": 0,
-   "stl": 0,
-   "blk": 0,
-   "gs": 3.4
-  },
-  {
-   "id": "armandas-bancevicius",
-   "name": "Armandas Bancevičius",
-   "team": "UT Martin",
-   "date": "2026-11-20",
-   "opp": "Southern Illinois Salukis",
-   "home": false,
-   "res": "W",
-   "score": "76-73",
-   "pts": 5,
-   "reb": 1,
-   "ast": 1,
-   "stl": 1,
-   "blk": 0,
-   "gs": 3.2
-  },
-  {
-   "id": "gabrielius-bubnys",
-   "name": "Gabrielius Bubnys",
-   "team": "UT Martin",
-   "date": "2026-11-20",
-   "opp": "Southern Illinois Salukis",
-   "home": false,
-   "res": "W",
-   "score": "76-73",
-   "pts": 3,
-   "reb": 1,
-   "ast": 0,
-   "stl": 0,
-   "blk": 0,
-   "gs": 2.1
   }
  ]
 }

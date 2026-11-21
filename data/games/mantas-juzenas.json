@@ -108,5 +108,27 @@
   "tpa": 11,
   "ftm": 3,
   "fta": 4
+ },
+ {
+  "event_id": "401911252",
+  "date": "2026-11-20",
+  "opponent": "Saint Louis Billikens",
+  "home": true,
+  "result": "W",
+  "score": "95-78",
+  "min": 40,
+  "pts": 25,
+  "reb": 10,
+  "ast": 2,
+  "stl": 2,
+  "blk": 1,
+  "to": 4,
+  "pf": 3,
+  "fgm": 6,
+  "fga": 11,
+  "tpm": 5,
+  "tpa": 9,
+  "ftm": 8,
+  "fta": 8
  }
 ]

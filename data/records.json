@@ -530,7 +530,7 @@
    "new": []
   },
   "dovydas-butka": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 18,
@@ -554,11 +554,11 @@
      "home": true
     },
     "stl": {
-     "v": 1,
-     "date": "2026-11-15",
-     "eid": "401926063",
-     "opp": "Nebraska Cornhuskers",
-     "home": false
+     "v": 4,
+     "date": "2026-11-20",
+     "eid": "401928795",
+     "opp": "Sam Houston Bearkats",
+     "home": true
     },
     "blk": {
      "v": 1,
@@ -566,12 +566,28 @@
      "eid": "401928814",
      "opp": "Oakland Golden Grizzlies",
      "home": true
+    },
+    "tpm": {
+     "v": 1,
+     "date": "2026-11-20",
+     "eid": "401928795",
+     "opp": "Sam Houston Bearkats",
+     "home": true
     }
    },
    "counts": {
-    "dd": 1
+    "dd": 1,
+    "s3": 1
    },
-   "new": []
+   "new": [
+    {
+     "stat": "stl",
+     "v": 4,
+     "prev": 1,
+     "date": "2026-11-20",
+     "opp": "Sam Houston Bearkats"
+    }
+   ]
   },
   "emilis-butkus": {
    "gp": 1,
@@ -988,7 +1004,7 @@
    "new": []
   },
   "mantas-juzenas": {
-   "gp": 5,
+   "gp": 6,
    "records": {
     "pts": {
      "v": 32,
@@ -1013,16 +1029,16 @@
     },
     "stl": {
      "v": 2,
-     "date": "2026-11-16",
-     "eid": "401917532",
-     "opp": "Portland State Vikings",
+     "date": "2026-11-20",
+     "eid": "401911252",
+     "opp": "Saint Louis Billikens",
      "home": true
     },
     "blk": {
      "v": 1,
-     "date": "2026-11-04",
-     "eid": "401917512",
-     "opp": "North Dakota State Bison",
+     "date": "2026-11-20",
+     "eid": "401911252",
+     "opp": "Saint Louis Billikens",
      "home": true
     },
     "tpm": {
@@ -1034,27 +1050,13 @@
     }
    },
    "counts": {
-    "dd": 2,
-    "p20": 3,
+    "dd": 3,
+    "p20": 4,
     "p30": 1,
-    "t3": 3
+    "t3": 4,
+    "ft": 1
    },
-   "new": [
-    {
-     "stat": "pts",
-     "v": 32,
-     "prev": 24,
-     "date": "2026-11-16",
-     "opp": "Portland State Vikings"
-    },
-    {
-     "stat": "tpm",
-     "v": 7,
-     "prev": 5,
-     "date": "2026-11-16",
-     "opp": "Portland State Vikings"
-    }
-   ]
+   "new": []
   },
   "domas-kauzonas": {
    "gp": 4,
@@ -1430,7 +1432,7 @@
    ]
   },
   "titas-sargiunas": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 17,
@@ -1455,10 +1457,10 @@
     },
     "stl": {
      "v": 1,
-     "date": "2026-11-07",
-     "eid": "401920703",
-     "opp": "SIU Edwardsville Cougars",
-     "home": true
+     "date": "2026-11-20",
+     "eid": "401920707",
+     "opp": "Alabama A&M Bulldogs",
+     "home": false
     },
     "blk": {
      "v": 1,

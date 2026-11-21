@@ -2194,9 +2194,9 @@
   "team": "Lipscomb",
   "opponent": "Alabama A&M Bulldogs",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "69",
+  "against": "85",
   "opp_rank": null
  },
  {
@@ -2205,9 +2205,9 @@
   "team": "Utah Valley",
   "opponent": "East Carolina Pirates",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "90",
+  "against": "79",
   "opp_rank": null
  },
  {
@@ -2216,9 +2216,9 @@
   "team": "Boise State",
   "opponent": "Sam Houston Bearkats",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "69",
+  "against": "83",
   "opp_rank": null
  },
  {
@@ -2227,9 +2227,9 @@
   "team": "Saint Mary's",
   "opponent": "Saint Louis Billikens",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "95",
+  "against": "78",
   "opp_rank": null
  },
  {
@@ -2391,6 +2391,28 @@
   "date": "2026-11-23T01:00Z",
   "team": "Saint Mary's",
   "opponent": "Menlo Oaks",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401921206",
+  "date": "2026-11-23T01:00Z",
+  "team": "UT Martin",
+  "opponent": "Utah Valley Wolverines",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401921206",
+  "date": "2026-11-23T01:00Z",
+  "team": "Utah Valley",
+  "opponent": "UT Martin Skyhawks",
   "home": true,
   "state": "pre",
   "for": null,

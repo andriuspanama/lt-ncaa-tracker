@@ -130,5 +130,27 @@
   "tpa": 5,
   "ftm": 2,
   "fta": 2
+ },
+ {
+  "event_id": "401920707",
+  "date": "2026-11-20",
+  "opponent": "Alabama A&M Bulldogs",
+  "home": false,
+  "result": "L",
+  "score": "69-85",
+  "min": 24,
+  "pts": 13,
+  "reb": 1,
+  "ast": 2,
+  "stl": 1,
+  "blk": 0,
+  "to": 0,
+  "pf": 4,
+  "fgm": 6,
+  "fga": 8,
+  "tpm": 1,
+  "tpa": 1,
+  "ftm": 0,
+  "fta": 0
  }
 ]

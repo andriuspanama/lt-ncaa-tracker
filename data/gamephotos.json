@@ -131,6 +131,17 @@
     "link": "http://www.espn.com/ncb/recap?gameId=401906867",
     "player": "matas-vokietaitis"
    }
+  ],
+  "401911252": [
+   {
+    "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/28f42ddd-70f2-4ca8-95de-4b3c1f49fe90/28f42ddd-70f2-4ca8-95de-4b3c1f49fe90.jpg",
+    "caption": "Saint Louis Billikens vs. Saint Mary's Gaels: Game Highlights Saint Louis Billikens vs. Saint Mary's Gaels: Game Highlights",
+    "credit": null,
+    "w": 576,
+    "h": 324,
+    "link": "http://www.espn.com/ncb/recap?gameId=401911252",
+    "player": "mantas-juzenas"
+   }
   ]
  },
  "checked": {
@@ -285,7 +296,10 @@
   "401916124": "2026-11-21",
   "401920066": "2026-11-21",
   "401920922": "2026-11-21",
-  "401925080": "2026-11-21"
+  "401925080": "2026-11-21",
+  "401928795": "2026-11-21",
+  "401911252": "2026-11-21",
+  "401920707": "2026-11-21"
  },
  "videos": {
   "401920692": [
@@ -421,6 +435,24 @@
     "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1120/54fd1925-a30e-4f82-9516-127d9e65470d/54fd1925-a30e-4f82-9516-127d9e65470d.mp4",
     "link": "https://www.espn.com/video/clip/_/id/50537754/gantas-krianauskas-rocks-rim-powerful-slam-dunk"
    }
+  ],
+  "401911252": [
+   {
+    "player": "mantas-juzenas",
+    "headline": "Mantas Juzenas fights off defender for and-1",
+    "duration": 21,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/6e047257-e1b2-4739-9a1c-26753d90868f/6e047257-e1b2-4739-9a1c-26753d90868f.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1121/6e047257-e1b2-4739-9a1c-26753d90868f/6e047257-e1b2-4739-9a1c-26753d90868f.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50546997/mantas-juzenas-fights-defender-1"
+   },
+   {
+    "player": "mantas-juzenas",
+    "headline": "Mantas Juzenas drills 3-point shot vs. Saint Louis Billikens",
+    "duration": 21,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/ceadefeb-4d59-495c-b15e-8ee2e147c07c/ceadefeb-4d59-495c-b15e-8ee2e147c07c.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1121/ceadefeb-4d59-495c-b15e-8ee2e147c07c/ceadefeb-4d59-495c-b15e-8ee2e147c07c.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50547294/mantas-juzenas-drills-3-point-shot-vs-saint-louis-billikens"
+   }
   ]
  },
  "news": {
@@ -506,6 +538,13 @@
     "player": "matas-vokietaitis",
     "headline": "Vokietaitis and Punch lead No. 6 Texas to a 92-68 win over Southern Utah",
     "link": "http://www.espn.com/ncb/recap?gameId=401906867"
+   }
+  ],
+  "401911252": [
+   {
+    "player": "mantas-juzenas",
+    "headline": "Mantas Juzenas scores 25, Saint Mary’s defeats Saint Louis 95-78",
+    "link": "http://www.espn.com/ncb/recap?gameId=401911252"
    }
   ]
  }
