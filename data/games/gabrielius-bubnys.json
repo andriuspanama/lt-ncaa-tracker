@@ -42,5 +42,27 @@
   "tpa": 4,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401916124",
+  "date": "2026-11-20",
+  "opponent": "Southern Illinois Salukis",
+  "home": false,
+  "result": "W",
+  "score": "76-73",
+  "min": 11,
+  "pts": 3,
+  "reb": 1,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 1,
+  "fgm": 1,
+  "fga": 2,
+  "tpm": 1,
+  "tpa": 2,
+  "ftm": 0,
+  "fta": 0
  }
 ]

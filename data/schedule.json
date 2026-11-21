@@ -2106,9 +2106,9 @@
   "team": "Stephen F. Austin",
   "opponent": "Indiana State Sycamores",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "86",
+  "against": "76",
   "opp_rank": null
  },
  {
@@ -2117,9 +2117,9 @@
   "team": "Rhode Island",
   "opponent": "Liberty Flames",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "68",
+  "against": "71",
   "opp_rank": null
  },
  {
@@ -2128,9 +2128,9 @@
   "team": "UT Martin",
   "opponent": "Southern Illinois Salukis",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "76",
+  "against": "73",
   "opp_rank": null
  },
  {
@@ -2139,9 +2139,9 @@
   "team": "Georgia State",
   "opponent": "Jacksonville State Gamecocks",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "77",
+  "against": "82",
   "opp_rank": null
  },
  {
@@ -2150,9 +2150,9 @@
   "team": "Kansas City",
   "opponent": "Iona Gaels",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "61",
+  "against": "62",
   "opp_rank": null
  },
  {
@@ -2161,9 +2161,9 @@
   "team": "Western Michigan",
   "opponent": "Mount St. Mary's Mountaineers",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "73",
+  "against": "67",
   "opp_rank": null
  },
  {
@@ -2172,9 +2172,9 @@
   "team": "UT Arlington",
   "opponent": "Northwestern State Demons",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "69",
+  "against": "62",
   "opp_rank": null
  },
  {
@@ -2183,9 +2183,9 @@
   "team": "Campbell",
   "opponent": "Kansas State Wildcats",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "80",
+  "against": "70",
   "opp_rank": null
  },
  {
@@ -2194,7 +2194,7 @@
   "team": "Lipscomb",
   "opponent": "Alabama A&M Bulldogs",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2204,8 +2204,8 @@
   "date": "2026-11-21T01:00Z",
   "team": "Utah Valley",
   "opponent": "East Carolina Pirates",
-  "home": false,
-  "state": "pre",
+  "home": true,
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2216,7 +2216,7 @@
   "team": "Boise State",
   "opponent": "Sam Houston Bearkats",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2347,6 +2347,17 @@
   "date": "2026-11-22T22:00Z",
   "team": "Portland State",
   "opponent": "Cal State Fullerton Titans",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401921205",
+  "date": "2026-11-22T22:30Z",
+  "team": "Stephen F. Austin",
+  "opponent": "Temple Owls",
   "home": true,
   "state": "pre",
   "for": null,

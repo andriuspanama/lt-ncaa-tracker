@@ -20,5 +20,27 @@
   "tpa": 0,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401925080",
+  "date": "2026-11-20",
+  "opponent": "Northwestern State Demons",
+  "home": false,
+  "result": "W",
+  "score": "69-62",
+  "min": 4,
+  "pts": 0,
+  "reb": 0,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 2,
+  "fgm": 0,
+  "fga": 0,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
  }
 ]

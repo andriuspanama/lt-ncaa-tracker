@@ -108,5 +108,27 @@
   "tpa": 4,
   "ftm": 5,
   "fta": 8
+ },
+ {
+  "event_id": "401920922",
+  "date": "2026-11-20",
+  "opponent": "Mount St. Mary's Mountaineers",
+  "home": false,
+  "result": "W",
+  "score": "73-67",
+  "min": 23,
+  "pts": 16,
+  "reb": 4,
+  "ast": 2,
+  "stl": 1,
+  "blk": 0,
+  "to": 1,
+  "pf": 5,
+  "fgm": 3,
+  "fga": 9,
+  "tpm": 1,
+  "tpa": 4,
+  "ftm": 9,
+  "fta": 12
  }
 ]

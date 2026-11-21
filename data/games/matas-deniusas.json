@@ -108,5 +108,27 @@
   "tpa": 2,
   "ftm": 8,
   "fta": 9
+ },
+ {
+  "event_id": "401920066",
+  "date": "2026-11-20",
+  "opponent": "Liberty Flames",
+  "home": false,
+  "result": "L",
+  "score": "68-71",
+  "min": 18,
+  "pts": 6,
+  "reb": 3,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 2,
+  "pf": 1,
+  "fgm": 2,
+  "fga": 6,
+  "tpm": 2,
+  "tpa": 2,
+  "ftm": 0,
+  "fta": 0
  }
 ]
