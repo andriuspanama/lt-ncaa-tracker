@@ -6,7 +6,7 @@
     "cat": "ppg",
     "label": "Taškai per rungtynes",
     "value": 26.0,
-    "rank": 6
+    "rank": 5
    }
   ],
   "motiejus-krivas": [
@@ -14,7 +14,7 @@
     "cat": "bpg",
     "label": "Blokai per rungtynes",
     "value": 3.0,
-    "rank": 11
+    "rank": 12
    }
   ],
   "matas-vokietaitis": [
@@ -22,7 +22,7 @@
     "cat": "fgp",
     "label": "Metimų iš žaidimo taiklumas (FG%)",
     "value": 75.99999904632568,
-    "rank": 17
+    "rank": 16
    }
   ]
  },
@@ -38,7 +38,7 @@
    ],
    [
     "Dior Johnson",
-    28.8
+    29.0
    ]
   ],
   "rpg": [
@@ -57,11 +57,11 @@
   ],
   "apg": [
    [
-    "Cian Medley",
-    9.5
+    "Donovan Dent",
+    9.0
    ],
    [
-    "Donovan Dent",
+    "Cian Medley",
     9.0
    ],
    [
@@ -93,8 +93,8 @@
     5.0
    ],
    [
-    "Sean Logan",
-    4.2
+    "Tim Okojie",
+    4.0
    ]
   ],
   "fgp": [
