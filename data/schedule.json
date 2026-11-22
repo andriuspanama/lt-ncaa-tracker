@@ -2238,9 +2238,9 @@
   "team": "New Mexico",
   "opponent": "Wichita State Shockers",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "60",
+  "against": "85",
   "opp_rank": null
  },
  {
@@ -2249,9 +2249,9 @@
   "team": "Northern Illinois Huskies",
   "opponent": "Bowling Green Falcons",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "86",
+  "against": "68",
   "opp_rank": null
  },
  {
@@ -2260,9 +2260,9 @@
   "team": "Longwood",
   "opponent": "East Tennessee State Buccaneers",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "68",
+  "against": "74",
   "opp_rank": null
  },
  {
@@ -2270,10 +2270,10 @@
   "date": "2026-11-22T00:00Z",
   "team": "California Baptist",
   "opponent": "Loyola Marymount Lions",
-  "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "home": true,
+  "state": "post",
+  "for": "73",
+  "against": "80",
   "opp_rank": null
  },
  {
@@ -2282,7 +2282,7 @@
   "team": "Mercer",
   "opponent": "Charleston Southern Buccaneers",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2293,9 +2293,9 @@
   "team": "VMI Keydets",
   "opponent": "Gardner-Webb Runnin' Bulldogs",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "in",
+  "for": "71",
+  "against": "68",
   "opp_rank": null
  },
  {

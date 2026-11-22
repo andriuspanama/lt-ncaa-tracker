@@ -108,5 +108,27 @@
   "tpa": 10,
   "ftm": 1,
   "fta": 2
+ },
+ {
+  "event_id": "401917539",
+  "date": "2026-11-21",
+  "opponent": "Loyola Marymount Lions",
+  "home": true,
+  "result": "L",
+  "score": "73-80",
+  "min": 29,
+  "pts": 3,
+  "reb": 3,
+  "ast": 0,
+  "stl": 2,
+  "blk": 0,
+  "to": 1,
+  "pf": 2,
+  "fgm": 1,
+  "fga": 10,
+  "tpm": 1,
+  "tpa": 5,
+  "ftm": 0,
+  "fta": 0
  }
 ]

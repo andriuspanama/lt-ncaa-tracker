@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-21",
- "newest": "2026-11-20",
+ "updated": "2026-11-22",
+ "newest": "2026-11-21",
  "players": {
   "motiejus-krivas": {
    "gp": 5,
@@ -1361,7 +1361,7 @@
    "new": []
   },
   "rytis-petraitis": {
-   "gp": 2,
+   "gp": 3,
    "records": {
     "pts": {
      "v": 3,
@@ -1375,6 +1375,13 @@
      "date": "2026-11-14",
      "eid": "401917530",
      "opp": "Santa Clara Broncos",
+     "home": false
+    },
+    "stl": {
+     "v": 1,
+     "date": "2026-11-21",
+     "eid": "401919031",
+     "opp": "Wichita State Shockers",
      "home": false
     },
     "blk": {
@@ -1518,7 +1525,7 @@
    "new": []
   },
   "justas-stonkus": {
-   "gp": 5,
+   "gp": 6,
    "records": {
     "pts": {
      "v": 18,
@@ -1560,15 +1567,7 @@
     "t3": 1,
     "s3": 1
    },
-   "new": [
-    {
-     "stat": "reb",
-     "v": 9,
-     "prev": 2,
-     "date": "2026-11-17",
-     "opp": "Seattle U Redhawks"
-    }
-   ]
+   "new": []
   },
   "nikas-stuknys": {
    "gp": 6,
