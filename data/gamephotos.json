@@ -142,6 +142,17 @@
     "link": "http://www.espn.com/ncb/recap?gameId=401911252",
     "player": "mantas-juzenas"
    }
+  ],
+  "401906868": [
+   {
+    "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/381dc00c-50f0-414a-be7e-8813766d8819/381dc00c-50f0-414a-be7e-8813766d8819.jpg",
+    "caption": "Southern Indiana Screaming Eagles vs. Texas Longhorns: Game Highlights Southern Indiana Screaming Eagles vs. Texas Longhorns: Game Highlights",
+    "credit": null,
+    "w": 576,
+    "h": 324,
+    "link": "http://www.espn.com/ncb/recap?gameId=401906868",
+    "player": "matas-vokietaitis"
+   }
   ]
  },
  "checked": {
@@ -302,7 +313,10 @@
   "401920707": "2026-11-22",
   "401919031": "2026-11-22",
   "401917539": "2026-11-22",
-  "401911394": "2026-11-22"
+  "401911394": "2026-11-22",
+  "401925942": "2026-11-22",
+  "401921088": "2026-11-22",
+  "401906868": "2026-11-22"
  },
  "videos": {
   "401920692": [
@@ -456,6 +470,34 @@
     "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1121/ceadefeb-4d59-495c-b15e-8ee2e147c07c/ceadefeb-4d59-495c-b15e-8ee2e147c07c.mp4",
     "link": "https://www.espn.com/video/clip/_/id/50547294/mantas-juzenas-drills-3-point-shot-vs-saint-louis-billikens"
    }
+  ],
+  "401921088": [
+   {
+    "player": "regimantas-ciunys",
+    "headline": "Regimantas Ciunys rocks the rim with powerful dunk",
+    "duration": 19,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/1f27c1a9-764d-4b1e-837c-722e51ce4411/1f27c1a9-764d-4b1e-837c-722e51ce4411.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1122/1f27c1a9-764d-4b1e-837c-722e51ce4411/1f27c1a9-764d-4b1e-837c-722e51ce4411.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50563341/regimantas-ciunys-rocks-rim-powerful-dunk"
+   },
+   {
+    "player": "regimantas-ciunys",
+    "headline": "Regimantas Ciunys skies for big slam dunk",
+    "duration": 16,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/6333b1ba-1de2-4daa-9c88-de6ed3f49455/6333b1ba-1de2-4daa-9c88-de6ed3f49455.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1122/6333b1ba-1de2-4daa-9c88-de6ed3f49455/6333b1ba-1de2-4daa-9c88-de6ed3f49455.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50563951/regimantas-ciunys-skies-big-slam-dunk"
+   }
+  ],
+  "401906868": [
+   {
+    "player": "matas-vokietaitis",
+    "headline": "Matas Vokietaitis throws down powerful dunk vs. Southern Indiana Screaming Eagles",
+    "duration": 14,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/c916525d-6797-4534-a0f2-61770e3d2791/c916525d-6797-4534-a0f2-61770e3d2791.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1122/c916525d-6797-4534-a0f2-61770e3d2791/c916525d-6797-4534-a0f2-61770e3d2791.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50565467/matas-vokietaitis-throws-powerful-dunk-vs-southern-indiana-screaming-eagles"
+   }
   ]
  },
  "news": {
@@ -548,6 +590,13 @@
     "player": "mantas-juzenas",
     "headline": "Mantas Juzenas scores 25, Saint Mary’s defeats Saint Louis 95-78",
     "link": "http://www.espn.com/ncb/recap?gameId=401911252"
+   }
+  ],
+  "401906868": [
+   {
+    "player": "matas-vokietaitis",
+    "headline": "Vokietaitis, Freeman lead No. 6 Texas past Southern Indiana 97-61",
+    "link": "http://www.espn.com/ncb/recap?gameId=401906868"
    }
   ]
  }

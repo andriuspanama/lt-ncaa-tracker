@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-22",
- "newest": "2026-11-21",
+ "newest": "2026-11-22",
  "players": {
   "motiejus-krivas": {
    "gp": 5,
@@ -618,7 +618,7 @@
    "new": []
   },
   "vince-buzelis": {
-   "gp": 7,
+   "gp": 8,
    "records": {
     "pts": {
      "v": 26,
@@ -643,16 +643,16 @@
     },
     "stl": {
      "v": 2,
-     "date": "2026-11-18",
-     "eid": "401926064",
-     "opp": "Nebraska Cornhuskers",
+     "date": "2026-11-22",
+     "eid": "401925942",
+     "opp": "Utah Tech Trailblazers",
      "home": false
     },
     "blk": {
      "v": 1,
-     "date": "2026-11-18",
-     "eid": "401926064",
-     "opp": "Nebraska Cornhuskers",
+     "date": "2026-11-22",
+     "eid": "401925942",
+     "opp": "Utah Tech Trailblazers",
      "home": false
     },
     "tpm": {
@@ -755,39 +755,54 @@
    ]
   },
   "regimantas-ciunys": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
-     "v": 2,
-     "date": "2026-11-09",
-     "eid": "401921085",
-     "opp": "McDaniel Green Terror",
+     "v": 11,
+     "date": "2026-11-22",
+     "eid": "401921088",
+     "opp": "Lancaster Bible Chargers",
      "home": true
     },
     "reb": {
-     "v": 3,
-     "date": "2026-11-19",
-     "eid": "401916318",
-     "opp": "Ohio State Buckeyes",
-     "home": false
+     "v": 7,
+     "date": "2026-11-22",
+     "eid": "401921088",
+     "opp": "Lancaster Bible Chargers",
+     "home": true
     },
     "ast": {
      "v": 1,
-     "date": "2026-11-12",
-     "eid": "401921086",
-     "opp": "Morgan State Bears",
+     "date": "2026-11-22",
+     "eid": "401921088",
+     "opp": "Lancaster Bible Chargers",
+     "home": true
+    },
+    "stl": {
+     "v": 2,
+     "date": "2026-11-22",
+     "eid": "401921088",
+     "opp": "Lancaster Bible Chargers",
      "home": true
     },
     "blk": {
      "v": 1,
-     "date": "2026-11-09",
-     "eid": "401921085",
-     "opp": "McDaniel Green Terror",
+     "date": "2026-11-22",
+     "eid": "401921088",
+     "opp": "Lancaster Bible Chargers",
      "home": true
     }
    },
    "counts": {},
-   "new": []
+   "new": [
+    {
+     "stat": "reb",
+     "v": 7,
+     "prev": 3,
+     "date": "2026-11-22",
+     "opp": "Lancaster Bible Chargers"
+    }
+   ]
   },
   "dominykas-daubaris": {
    "gp": 4,
@@ -1253,7 +1268,7 @@
    ]
   },
   "kajus-kublickas": {
-   "gp": 7,
+   "gp": 8,
    "records": {
     "pts": {
      "v": 16,
@@ -1302,24 +1317,23 @@
     "t3": 1,
     "ft": 1
    },
-   "new": [
-    {
-     "stat": "tpm",
-     "v": 3,
-     "prev": 2,
-     "date": "2026-11-18",
-     "opp": "Nebraska Cornhuskers"
-    }
-   ]
+   "new": []
   },
   "mantas-laurencikas": {
-   "gp": 2,
+   "gp": 3,
    "records": {
+    "reb": {
+     "v": 1,
+     "date": "2026-11-22",
+     "eid": "401906868",
+     "opp": "Southern Indiana Screaming Eagles",
+     "home": true
+    },
     "ast": {
      "v": 1,
-     "date": "2026-11-05",
-     "eid": "401906864",
-     "opp": "Gardner-Webb Runnin' Bulldogs",
+     "date": "2026-11-22",
+     "eid": "401906868",
+     "opp": "Southern Indiana Screaming Eagles",
      "home": true
     },
     "stl": {
@@ -1661,7 +1675,7 @@
    "new": []
   },
   "matas-vokietaitis": {
-   "gp": 5,
+   "gp": 6,
    "records": {
     "pts": {
      "v": 26,
@@ -1686,32 +1700,24 @@
     },
     "stl": {
      "v": 1,
-     "date": "2026-11-15",
-     "eid": "401906866",
-     "opp": "Baylor Bears",
+     "date": "2026-11-22",
+     "eid": "401906868",
+     "opp": "Southern Indiana Screaming Eagles",
      "home": true
     },
     "blk": {
      "v": 1,
-     "date": "2026-11-19",
-     "eid": "401906867",
-     "opp": "Southern Utah Thunderbirds",
+     "date": "2026-11-22",
+     "eid": "401906868",
+     "opp": "Southern Indiana Screaming Eagles",
      "home": true
     }
    },
    "counts": {
-    "dd": 2,
-    "p20": 3
+    "dd": 3,
+    "p20": 4
    },
-   "new": [
-    {
-     "stat": "reb",
-     "v": 11,
-     "prev": 10,
-     "date": "2026-11-19",
-     "opp": "Southern Utah Thunderbirds"
-    }
-   ]
+   "new": []
   },
   "dominic-pangonis": {
    "gp": 4,

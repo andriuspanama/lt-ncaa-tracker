@@ -152,5 +152,27 @@
   "tpa": 5,
   "ftm": 2,
   "fta": 2
+ },
+ {
+  "event_id": "401925942",
+  "date": "2026-11-22",
+  "opponent": "Utah Tech Trailblazers",
+  "home": false,
+  "result": "W",
+  "score": "74-73",
+  "min": 32,
+  "pts": 10,
+  "reb": 2,
+  "ast": 3,
+  "stl": 0,
+  "blk": 0,
+  "to": 2,
+  "pf": 3,
+  "fgm": 2,
+  "fga": 6,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 6,
+  "fta": 7
  }
 ]

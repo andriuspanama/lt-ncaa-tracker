@@ -2304,9 +2304,9 @@
   "team": "UMBC",
   "opponent": "Lancaster Bible Chargers",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "89",
+  "against": "55",
   "opp_rank": null
  },
  {
@@ -2315,9 +2315,9 @@
   "team": "South Dakota",
   "opponent": "Utah Tech Trailblazers",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "74",
+  "against": "73",
   "opp_rank": null
  },
  {
@@ -2326,9 +2326,9 @@
   "team": "Texas",
   "opponent": "Southern Indiana Screaming Eagles",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "97",
+  "against": "61",
   "opp_rank": null
  },
  {
@@ -2337,7 +2337,7 @@
   "team": "Lipscomb",
   "opponent": "Milligan Buffaloes",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2348,7 +2348,7 @@
   "team": "Portland State",
   "opponent": "Cal State Fullerton Titans",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2359,7 +2359,7 @@
   "team": "Stephen F. Austin",
   "opponent": "Temple Owls",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
