@@ -98,6 +98,22 @@
    "gs": 10.8
   },
   {
+   "id": "paulius-narvilas",
+   "name": "Paulius Narvilas",
+   "team": "VMI Keydets",
+   "date": "2026-11-21",
+   "opp": "Gardner-Webb Runnin' Bulldogs",
+   "home": true,
+   "res": "W",
+   "score": "71-68",
+   "pts": 10,
+   "reb": 2,
+   "ast": 2,
+   "stl": 0,
+   "blk": 1,
+   "gs": 9.1
+  },
+  {
    "id": "armandas-bancevicius",
    "name": "Armandas Bancevičius",
    "team": "UT Martin",
@@ -144,22 +160,6 @@
    "stl": 0,
    "blk": 0,
    "gs": 1.7
-  },
-  {
-   "id": "justas-stonkus",
-   "name": "Justas Stonkus",
-   "team": "California Baptist",
-   "date": "2026-11-21",
-   "opp": "Loyola Marymount Lions",
-   "home": true,
-   "res": "L",
-   "score": "73-80",
-   "pts": 3,
-   "reb": 3,
-   "ast": 0,
-   "stl": 2,
-   "blk": 0,
-   "gs": -1.9
   }
  ]
 }

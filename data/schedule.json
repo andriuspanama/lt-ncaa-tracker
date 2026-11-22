@@ -2282,9 +2282,9 @@
   "team": "Mercer",
   "opponent": "Charleston Southern Buccaneers",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "69",
+  "against": "64",
   "opp_rank": null
  },
  {
@@ -2293,7 +2293,7 @@
   "team": "VMI Keydets",
   "opponent": "Gardner-Webb Runnin' Bulldogs",
   "home": true,
-  "state": "in",
+  "state": "post",
   "for": "71",
   "against": "68",
   "opp_rank": null

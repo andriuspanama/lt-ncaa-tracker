@@ -197,13 +197,13 @@
    "new": []
   },
   "paulius-narvilas": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 10,
-     "date": "2026-11-11",
-     "eid": "401926202",
-     "opp": "North Carolina Central Eagles",
+     "date": "2026-11-21",
+     "eid": "401911394",
+     "opp": "Gardner-Webb Runnin' Bulldogs",
      "home": true
     },
     "reb": {
@@ -214,10 +214,10 @@
      "home": true
     },
     "ast": {
-     "v": 1,
-     "date": "2026-11-02",
-     "eid": "401926200",
-     "opp": "Virginia Lynchburg Dragons",
+     "v": 2,
+     "date": "2026-11-21",
+     "eid": "401911394",
+     "opp": "Gardner-Webb Runnin' Bulldogs",
      "home": true
     },
     "stl": {
@@ -226,6 +226,13 @@
      "eid": "401922047",
      "opp": "Longwood Lancers",
      "home": false
+    },
+    "blk": {
+     "v": 1,
+     "date": "2026-11-21",
+     "eid": "401911394",
+     "opp": "Gardner-Webb Runnin' Bulldogs",
+     "home": true
     }
    },
    "counts": {},
