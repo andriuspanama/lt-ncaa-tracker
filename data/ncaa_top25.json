@@ -6,7 +6,7 @@
     "cat": "ppg",
     "label": "Taškai per rungtynes",
     "value": 26.0,
-    "rank": 5
+    "rank": 4
    }
   ],
   "motiejus-krivas": [
@@ -14,7 +14,7 @@
     "cat": "bpg",
     "label": "Blokai per rungtynes",
     "value": 3.0,
-    "rank": 12
+    "rank": 11
    }
   ],
   "matas-vokietaitis": [
@@ -44,29 +44,29 @@
   "rpg": [
    [
     "Demetrius Lilley",
-    15.8
+    16.5
    ],
    [
     "Ivan Juric",
     13.166667
    ],
    [
-    "Patrick Wessler",
-    13.0
+    "Jaquay Randolph",
+    12.6
    ]
   ],
   "apg": [
    [
+    "Jeremy Fears Jr.",
+    9.333333
+   ],
+   [
     "Donovan Dent",
-    9.0
+    9.166667
    ],
    [
     "Cian Medley",
-    9.0
-   ],
-   [
-    "Bryce Quinet",
-    8.8
+    8.833333
    ]
   ],
   "spg": [
@@ -131,11 +131,11 @@
     100.0
    ],
    [
-    "Justin Begg",
+    "Elmarko Jackson",
     100.0
    ],
    [
-    "Luke Skaljac",
+    "Justin Begg",
     100.0
    ]
   ]
