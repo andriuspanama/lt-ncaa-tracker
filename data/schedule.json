@@ -2425,9 +2425,9 @@
   "team": "FIU",
   "opponent": "Long Beach State Beach",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "79",
+  "against": "75",
   "opp_rank": null
  },
  {
@@ -2436,7 +2436,7 @@
   "team": "Wright State Raiders",
   "opponent": "Akron Zips",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2447,7 +2447,7 @@
   "team": "Clemson Tigers",
   "opponent": "Ole Miss Rebels",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
