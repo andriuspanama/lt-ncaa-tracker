@@ -130,5 +130,27 @@
   "tpa": 5,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401917541",
+  "date": "2026-11-22",
+  "opponent": "Portland Pilots",
+  "home": true,
+  "result": "W",
+  "score": "79-71",
+  "min": 29,
+  "pts": 4,
+  "reb": 5,
+  "ast": 1,
+  "stl": 1,
+  "blk": 0,
+  "to": 1,
+  "pf": 4,
+  "fgm": 2,
+  "fga": 9,
+  "tpm": 0,
+  "tpa": 4,
+  "ftm": 0,
+  "fta": 0
  }
 ]

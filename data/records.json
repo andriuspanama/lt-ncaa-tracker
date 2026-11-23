@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "newest": "2026-11-22",
  "players": {
   "motiejus-krivas": {
@@ -293,7 +293,7 @@
    "new": []
   },
   "gediminas-alisas": {
-   "gp": 5,
+   "gp": 6,
    "records": {
     "pts": {
      "v": 18,
@@ -334,7 +334,7 @@
    "new": []
   },
   "armandas-bancevicius": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 9,
@@ -446,7 +446,7 @@
    ]
   },
   "gabrielius-bubnys": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
      "v": 10,
@@ -712,7 +712,7 @@
    "new": []
   },
   "nedas-raupelis": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 11,
@@ -729,30 +729,22 @@
      "home": false
     },
     "ast": {
-     "v": 1,
-     "date": "2026-11-20",
-     "eid": "401920066",
-     "opp": "Liberty Flames",
+     "v": 3,
+     "date": "2026-11-22",
+     "eid": "401919020",
+     "opp": "UAB Blazers",
      "home": false
     },
     "blk": {
      "v": 1,
-     "date": "2026-11-20",
-     "eid": "401920066",
-     "opp": "Liberty Flames",
+     "date": "2026-11-22",
+     "eid": "401919020",
+     "opp": "UAB Blazers",
      "home": false
     }
    },
    "counts": {},
-   "new": [
-    {
-     "stat": "reb",
-     "v": 14,
-     "prev": 5,
-     "date": "2026-11-20",
-     "opp": "Liberty Flames"
-    }
-   ]
+   "new": []
   },
   "regimantas-ciunys": {
    "gp": 4,
@@ -872,7 +864,7 @@
    ]
   },
   "matas-deniusas": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 16,
@@ -890,10 +882,10 @@
     },
     "ast": {
      "v": 1,
-     "date": "2026-11-15",
-     "eid": "401920065",
-     "opp": "Princeton Tigers",
-     "home": true
+     "date": "2026-11-22",
+     "eid": "401919020",
+     "opp": "UAB Blazers",
+     "home": false
     },
     "stl": {
      "v": 2,
@@ -1026,7 +1018,7 @@
    "new": []
   },
   "mantas-juzenas": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 32,
@@ -1058,9 +1050,9 @@
     },
     "blk": {
      "v": 1,
-     "date": "2026-11-20",
-     "eid": "401911252",
-     "opp": "Saint Louis Billikens",
+     "date": "2026-11-22",
+     "eid": "401929595",
+     "opp": "Menlo Oaks",
      "home": true
     },
     "tpm": {
@@ -1073,9 +1065,9 @@
    },
    "counts": {
     "dd": 3,
-    "p20": 4,
+    "p20": 5,
     "p30": 1,
-    "t3": 4,
+    "t3": 5,
     "ft": 1
    },
    "new": []
@@ -1460,7 +1452,7 @@
    ]
   },
   "titas-sargiunas": {
-   "gp": 7,
+   "gp": 8,
    "records": {
     "pts": {
      "v": 17,
@@ -1546,7 +1538,7 @@
    "new": []
   },
   "justas-stonkus": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 18,
@@ -1591,7 +1583,7 @@
    "new": []
   },
   "nikas-stuknys": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 9,
@@ -1633,7 +1625,7 @@
    "new": []
   },
   "arminas-vilkas": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 16,
@@ -1643,11 +1635,11 @@
      "home": true
     },
     "reb": {
-     "v": 7,
-     "date": "2026-11-15",
-     "eid": "401926733",
-     "opp": "Ecclesia Royals",
-     "home": true
+     "v": 8,
+     "date": "2026-11-22",
+     "eid": "401921206",
+     "opp": "Utah Valley Wolverines",
+     "home": false
     },
     "ast": {
      "v": 2,
@@ -1672,7 +1664,15 @@
     }
    },
    "counts": {},
-   "new": []
+   "new": [
+    {
+     "stat": "reb",
+     "v": 8,
+     "prev": 7,
+     "date": "2026-11-22",
+     "opp": "Utah Valley Wolverines"
+    }
+   ]
   },
   "matas-vokietaitis": {
    "gp": 6,

@@ -152,5 +152,27 @@
   "tpa": 1,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401920708",
+  "date": "2026-11-22",
+  "opponent": "Milligan Buffaloes",
+  "home": true,
+  "result": "W",
+  "score": "92-67",
+  "min": 10,
+  "pts": 7,
+  "reb": 4,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 0,
+  "fgm": 3,
+  "fga": 6,
+  "tpm": 1,
+  "tpa": 4,
+  "ftm": 0,
+  "fta": 0
  }
 ]

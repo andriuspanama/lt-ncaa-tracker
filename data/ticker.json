@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "items": [
+  {
+   "id": "mantas-juzenas",
+   "name": "Mantas Juzėnas",
+   "team": "Saint Mary's",
+   "date": "2026-11-22",
+   "opp": "Menlo Oaks",
+   "home": true,
+   "res": "W",
+   "score": "94-78",
+   "pts": 20,
+   "reb": 8,
+   "ast": 3,
+   "stl": 1,
+   "blk": 1,
+   "gs": 17.6
+  },
   {
    "id": "vince-buzelis",
    "name": "Vince Buzelis",
@@ -50,6 +66,38 @@
    "gs": 13.1
   },
   {
+   "id": "arminas-vilkas",
+   "name": "Arminas Vilkas",
+   "team": "UT Martin",
+   "date": "2026-11-22",
+   "opp": "Utah Valley Wolverines",
+   "home": false,
+   "res": "L",
+   "score": "76-78",
+   "pts": 10,
+   "reb": 8,
+   "ast": 0,
+   "stl": 0,
+   "blk": 0,
+   "gs": 9.8
+  },
+  {
+   "id": "gediminas-alisas",
+   "name": "Gediminas Alisas",
+   "team": "Stephen F. Austin",
+   "date": "2026-11-22",
+   "opp": "Temple Owls",
+   "home": true,
+   "res": "W",
+   "score": "72-70",
+   "pts": 11,
+   "reb": 6,
+   "ast": 1,
+   "stl": 0,
+   "blk": 0,
+   "gs": 9.3
+  },
+  {
    "id": "paulius-narvilas",
    "name": "Paulius Narvilas",
    "team": "VMI Keydets",
@@ -64,6 +112,22 @@
    "stl": 0,
    "blk": 1,
    "gs": 9.1
+  },
+  {
+   "id": "matas-deniusas",
+   "name": "Matas Deniušas",
+   "team": "Rhode Island",
+   "date": "2026-11-22",
+   "opp": "UAB Blazers",
+   "home": false,
+   "res": "W",
+   "score": "79-64",
+   "pts": 10,
+   "reb": 3,
+   "ast": 1,
+   "stl": 0,
+   "blk": 0,
+   "gs": 9.0
   },
   {
    "id": "kajus-kublickas",
@@ -82,20 +146,20 @@
    "gs": 6.1
   },
   {
-   "id": "justas-stonkus",
-   "name": "Justas Stonkus",
-   "team": "California Baptist",
-   "date": "2026-11-21",
-   "opp": "Loyola Marymount Lions",
+   "id": "titas-sargiunas",
+   "name": "Titas Sargiūnas",
+   "team": "Lipscomb",
+   "date": "2026-11-22",
+   "opp": "Milligan Buffaloes",
    "home": true,
-   "res": "L",
-   "score": "73-80",
-   "pts": 3,
-   "reb": 3,
+   "res": "W",
+   "score": "92-67",
+   "pts": 7,
+   "reb": 4,
    "ast": 0,
-   "stl": 2,
+   "stl": 0,
    "blk": 0,
-   "gs": -1.9
+   "gs": 6.0
   }
  ]
 }

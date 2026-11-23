@@ -130,5 +130,27 @@
   "tpa": 2,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401919020",
+  "date": "2026-11-22",
+  "opponent": "UAB Blazers",
+  "home": false,
+  "result": "W",
+  "score": "79-64",
+  "min": 19,
+  "pts": 10,
+  "reb": 3,
+  "ast": 1,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 4,
+  "fgm": 4,
+  "fga": 4,
+  "tpm": 1,
+  "tpa": 1,
+  "ftm": 1,
+  "fta": 2
  }
 ]

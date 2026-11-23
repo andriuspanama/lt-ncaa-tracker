@@ -64,5 +64,27 @@
   "tpa": 2,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401921206",
+  "date": "2026-11-22",
+  "opponent": "Utah Valley Wolverines",
+  "home": false,
+  "result": "L",
+  "score": "76-78",
+  "min": 9,
+  "pts": 1,
+  "reb": 0,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 0,
+  "fgm": 0,
+  "fga": 2,
+  "tpm": 0,
+  "tpa": 1,
+  "ftm": 1,
+  "fta": 2
  }
 ]
