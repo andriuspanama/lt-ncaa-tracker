@@ -6,7 +6,7 @@
     "cat": "ppg",
     "label": "Taškai per rungtynes",
     "value": 26.0,
-    "rank": 4
+    "rank": 5
    }
   ],
   "motiejus-krivas": [
@@ -14,15 +14,7 @@
     "cat": "bpg",
     "label": "Blokai per rungtynes",
     "value": 3.0,
-    "rank": 11
-   }
-  ],
-  "matas-vokietaitis": [
-   {
-    "cat": "fgp",
-    "label": "Metimų iš žaidimo taiklumas (FG%)",
-    "value": 75.99999904632568,
-    "rank": 16
+    "rank": 12
    }
   ]
  },
@@ -51,8 +43,8 @@
     13.166667
    ],
    [
-    "Jaquay Randolph",
-    12.6
+    "Patrick Wessler",
+    12.4
    ]
   ],
   "apg": [
