@@ -172,8 +172,8 @@
   "Texas": {
     "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Texas_Longhorns_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
     "file_page": "https://commons.wikimedia.org/wiki/File:Texas_Longhorns_logo.svg",
-    "license": "Public domain",
-    "free_to_reuse": true
+    "license": "nežinoma",
+    "free_to_reuse": false
   },
   "UMBC": {
     "logo_url": "https://upload.wikimedia.org/wikipedia/en/c/cc/UMBC_Retrievers_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",

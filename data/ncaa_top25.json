@@ -8,14 +8,6 @@
     "value": 26.0,
     "rank": 5
    }
-  ],
-  "motiejus-krivas": [
-   {
-    "cat": "bpg",
-    "label": "Blokai per rungtynes",
-    "value": 3.0,
-    "rank": 12
-   }
   ]
  },
  "debug": {
@@ -39,12 +31,12 @@
     16.5
    ],
    [
-    "Ivan Juric",
-    13.166667
+    "Evin Eversole",
+    14.0
    ],
    [
-    "Patrick Wessler",
-    12.4
+    "Ivan Juric",
+    13.166667
    ]
   ],
   "apg": [
@@ -57,8 +49,8 @@
     9.166667
    ],
    [
-    "Cian Medley",
-    8.833333
+    "Brock Harding",
+    8.6
    ]
   ],
   "spg": [

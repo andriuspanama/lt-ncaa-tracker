@@ -108,5 +108,27 @@
   "tpa": 0,
   "ftm": 4,
   "fta": 5
+ },
+ {
+  "event_id": "401909743",
+  "date": "2026-11-23",
+  "opponent": "Colorado State Rams",
+  "home": true,
+  "result": "W",
+  "score": "96-83",
+  "min": 29,
+  "pts": 17,
+  "reb": 7,
+  "ast": 5,
+  "stl": 1,
+  "blk": 1,
+  "to": 1,
+  "pf": 4,
+  "fgm": 6,
+  "fga": 9,
+  "tpm": 2,
+  "tpa": 3,
+  "ftm": 3,
+  "fta": 6
  }
 ]

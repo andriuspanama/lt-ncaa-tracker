@@ -18,6 +18,22 @@
    "gs": 19.2
   },
   {
+   "id": "motiejus-krivas",
+   "name": "Motiejus Krivas",
+   "team": "Arizona Wildcats",
+   "date": "2026-11-23",
+   "opp": "Colorado State Rams",
+   "home": true,
+   "res": "W",
+   "score": "96-83",
+   "pts": 17,
+   "reb": 7,
+   "ast": 5,
+   "stl": 1,
+   "blk": 1,
+   "gs": 18.0
+  },
+  {
    "id": "mantas-juzenas",
    "name": "Mantas Juzėnas",
    "team": "Saint Mary's",
@@ -32,6 +48,22 @@
    "stl": 1,
    "blk": 1,
    "gs": 17.6
+  },
+  {
+   "id": "nojus-indrusaitis",
+   "name": "Nojus Indrušaitis",
+   "team": "California",
+   "date": "2026-11-23",
+   "opp": "Alabama State Hornets",
+   "home": true,
+   "res": "W",
+   "score": "96-54",
+   "pts": 18,
+   "reb": 3,
+   "ast": 5,
+   "stl": 0,
+   "blk": 0,
+   "gs": 16.3
   },
   {
    "id": "gediminas-alisas",
@@ -82,6 +114,22 @@
    "gs": 14.0
   },
   {
+   "id": "mantas-kocanas",
+   "name": "Mantas Kočanas",
+   "team": "California",
+   "date": "2026-11-23",
+   "opp": "Alabama State Hornets",
+   "home": true,
+   "res": "W",
+   "score": "96-54",
+   "pts": 10,
+   "reb": 5,
+   "ast": 2,
+   "stl": 1,
+   "blk": 0,
+   "gs": 13.4
+  },
+  {
    "id": "matas-vokietaitis",
    "name": "Matas Vokietaitis",
    "team": "Texas",
@@ -112,54 +160,6 @@
    "stl": 2,
    "blk": 1,
    "gs": 12.3
-  },
-  {
-   "id": "liutauras-lelevicius",
-   "name": "Liutauras Lelevičius",
-   "team": "Clemson Tigers",
-   "date": "2026-11-23",
-   "opp": "Ole Miss Rebels",
-   "home": true,
-   "res": "L",
-   "score": "62-82",
-   "pts": 11,
-   "reb": 3,
-   "ast": 2,
-   "stl": 1,
-   "blk": 0,
-   "gs": 10.9
-  },
-  {
-   "id": "nikas-stuknys",
-   "name": "Nikas Stuknys",
-   "team": "UT Martin",
-   "date": "2026-11-23",
-   "opp": "Temple Owls",
-   "home": true,
-   "res": "W",
-   "score": "90-81",
-   "pts": 7,
-   "reb": 3,
-   "ast": 7,
-   "stl": 1,
-   "blk": 0,
-   "gs": 10.2
-  },
-  {
-   "id": "arminas-vilkas",
-   "name": "Arminas Vilkas",
-   "team": "UT Martin",
-   "date": "2026-11-22",
-   "opp": "Utah Valley Wolverines",
-   "home": false,
-   "res": "L",
-   "score": "76-78",
-   "pts": 10,
-   "reb": 8,
-   "ast": 0,
-   "stl": 0,
-   "blk": 0,
-   "gs": 9.8
   }
  ]
 }

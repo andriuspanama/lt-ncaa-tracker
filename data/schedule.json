@@ -2535,9 +2535,9 @@
   "team": "California",
   "opponent": "Alabama State Hornets",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "96",
+  "against": "54",
   "opp_rank": null
  },
  {
@@ -2546,9 +2546,9 @@
   "team": "Arizona Wildcats",
   "opponent": "Colorado State Rams",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "96",
+  "against": "83",
   "opp_rank": null
  },
  {
@@ -2578,6 +2578,17 @@
   "date": "2026-11-24T19:30Z",
   "team": "BYU",
   "opponent": "Ole Miss Rebels",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401921710",
+  "date": "2026-11-24T22:00Z",
+  "team": "Arizona Wildcats",
+  "opponent": "Providence Friars",
   "home": true,
   "state": "pre",
   "for": null,

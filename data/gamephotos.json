@@ -328,7 +328,9 @@
   "401921210": "2026-11-24",
   "401911025": "2026-11-24",
   "401921029": "2026-11-24",
-  "401919006": "2026-11-24"
+  "401919006": "2026-11-24",
+  "401909743": "2026-11-24",
+  "401918057": "2026-11-24"
  },
  "videos": {
   "401920692": [
@@ -520,6 +522,16 @@
     "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1123/4432e4e7-531c-4a03-bf11-0d5baebc50ed/4432e4e7-531c-4a03-bf11-0d5baebc50ed.mp4",
     "link": "https://www.espn.com/video/clip/_/id/50568607/mantas-juzenas-somehow-gets-1-fall"
    }
+  ],
+  "401909743": [
+   {
+    "player": "ugnius-jarusevicius",
+    "headline": "Arizona's Ugnius Jarusevicius gets up for a massive block",
+    "duration": 16,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1124/b6a216d1-d88a-4426-b75b-eb6a875bd871/b6a216d1-d88a-4426-b75b-eb6a875bd871.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1124/b6a216d1-d88a-4426-b75b-eb6a875bd871/b6a216d1-d88a-4426-b75b-eb6a875bd871.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50580175/arizona-ugnius-jarusevicius-gets-massive-block"
+   }
   ]
  },
  "news": {
@@ -619,6 +631,13 @@
     "player": "matas-vokietaitis",
     "headline": "Vokietaitis, Freeman lead No. 6 Texas past Southern Indiana 97-61",
     "link": "http://www.espn.com/ncb/recap?gameId=401906868"
+   }
+  ],
+  "401918057": [
+   {
+    "player": "nojus-indrusaitis",
+    "headline": "Nojus Indrusaitis scores 18 to power California to 96-54 victory over Alabama State",
+    "link": "http://www.espn.com/ncb/recap?gameId=401918057"
    }
   ]
  }

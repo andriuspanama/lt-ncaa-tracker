@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "teams": {
   "Abilene Christian Wildcats": {
    "conf": "UAC",
@@ -429,14 +429,14 @@
    "alt": "000000"
   },
   "Davidson Wildcats": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Davidson",
    "color": "000000",
    "alt": "e51837"
   },
   "Dayton Flyers": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Dayton",
    "color": "004B8D",
@@ -499,7 +499,7 @@
    "alt": "ffffff"
   },
   "Duquesne Dukes": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Duquesne",
    "color": "002D62",
@@ -611,7 +611,7 @@
    "alt": "ceb888"
   },
   "Fordham Rams": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Fordham",
    "color": "830032",
@@ -639,14 +639,14 @@
    "alt": "909090"
   },
   "George Mason Patriots": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "George Mason",
    "color": "016600",
    "alt": "ecb010"
   },
   "George Washington Revolutionaries": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "George Washington",
    "color": "002843",
@@ -940,7 +940,7 @@
    "alt": "fdd023"
   },
   "La Salle Explorers": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "La Salle",
    "color": "003356",
@@ -1045,7 +1045,7 @@
    "alt": "ffffff"
   },
   "Loyola Chicago Ramblers": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Loyola Chicago",
    "color": "9d1244",
@@ -1661,14 +1661,14 @@
    "alt": "c2c3c0"
   },
   "Rhode Island Rams": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Rhode Island",
    "color": "091f3f",
    "alt": "5ab3e8"
   },
   "Richmond Spiders": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Richmond",
    "color": "9e0712",
@@ -1731,14 +1731,14 @@
    "alt": "c29472"
   },
   "Saint Joseph's Hawks": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Saint Joseph's",
    "color": "9e1b32",
    "alt": "6c6f70"
   },
   "Saint Louis Billikens": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Saint Louis",
    "color": "00539C",
@@ -1913,7 +1913,7 @@
    "alt": "000000"
   },
   "St. Bonaventure Bonnies": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "St. Bonaventure",
    "color": "70261D",
@@ -2263,7 +2263,7 @@
    "alt": "e1c736"
   },
   "VCU Rams": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "VCU",
    "color": "ffaf00",
@@ -2893,14 +2893,14 @@
    "alt": "000000"
   },
   "Davidson": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Davidson",
    "color": "000000",
    "alt": "e51837"
   },
   "Dayton": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Dayton",
    "color": "004B8D",
@@ -2963,7 +2963,7 @@
    "alt": "ffffff"
   },
   "Duquesne": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Duquesne",
    "color": "002D62",
@@ -3075,7 +3075,7 @@
    "alt": "ceb888"
   },
   "Fordham": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Fordham",
    "color": "830032",
@@ -3103,14 +3103,14 @@
    "alt": "909090"
   },
   "George Mason": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "George Mason",
    "color": "016600",
    "alt": "ecb010"
   },
   "George Washington": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "George Washington",
    "color": "002843",
@@ -3404,7 +3404,7 @@
    "alt": "fdd023"
   },
   "La Salle": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "La Salle",
    "color": "003356",
@@ -3509,7 +3509,7 @@
    "alt": "ffffff"
   },
   "Loyola Chicago": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Loyola Chicago",
    "color": "9d1244",
@@ -4125,14 +4125,14 @@
    "alt": "c2c3c0"
   },
   "Rhode Island": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Rhode Island",
    "color": "091f3f",
    "alt": "5ab3e8"
   },
   "Richmond": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Richmond",
    "color": "9e0712",
@@ -4195,14 +4195,14 @@
    "alt": "c29472"
   },
   "Saint Joseph's": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Saint Joseph's",
    "color": "9e1b32",
    "alt": "6c6f70"
   },
   "Saint Louis": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "Saint Louis",
    "color": "00539C",
@@ -4377,7 +4377,7 @@
    "alt": "000000"
   },
   "St. Bonaventure": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "St. Bonaventure",
    "color": "70261D",
@@ -4727,7 +4727,7 @@
    "alt": "e1c736"
   },
   "VCU": {
-   "conf": "A-10",
+   "conf": "A10",
    "tier": "B",
    "location": "VCU",
    "color": "ffaf00",
