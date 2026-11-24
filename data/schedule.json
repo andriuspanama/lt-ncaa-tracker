@@ -2436,9 +2436,9 @@
   "team": "Wright State Raiders",
   "opponent": "Akron Zips",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "66",
+  "against": "64",
   "opp_rank": null
  },
  {
@@ -2447,9 +2447,9 @@
   "team": "Clemson Tigers",
   "opponent": "Ole Miss Rebels",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "62",
+  "against": "82",
   "opp_rank": null
  },
  {
@@ -2458,9 +2458,9 @@
   "team": "Georgia State",
   "opponent": "Tulane Green Wave",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "73",
+  "against": "63",
   "opp_rank": null
  },
  {
@@ -2469,20 +2469,20 @@
   "team": "BYU",
   "opponent": "Washington Huskies",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "83",
+  "against": "77",
   "opp_rank": null
  },
  {
   "event_id": "401921210",
-  "date": "2026-11-23T22:30Z",
+  "date": "2026-11-23T23:00Z",
   "team": "UT Martin",
   "opponent": "Temple Owls",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "90",
+  "against": "81",
   "opp_rank": null
  },
  {
@@ -2491,9 +2491,9 @@
   "team": "Buffalo",
   "opponent": "RIT Tigers",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "93",
+  "against": "47",
   "opp_rank": null
  },
  {
@@ -2502,9 +2502,9 @@
   "team": "Northern Kentucky",
   "opponent": "Georgia Southern Eagles",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "79",
+  "against": "84",
   "opp_rank": null
  },
  {
@@ -2513,9 +2513,9 @@
   "team": "Stephen F. Austin",
   "opponent": "Utah Valley Wolverines",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "77",
+  "against": "72",
   "opp_rank": null
  },
  {
@@ -2524,9 +2524,9 @@
   "team": "Utah Valley",
   "opponent": "Stephen F. Austin Lumberjacks",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "72",
+  "against": "77",
   "opp_rank": null
  },
  {
@@ -2535,14 +2535,14 @@
   "team": "California",
   "opponent": "Alabama State Hornets",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
  },
  {
   "event_id": "401909743",
-  "date": "2026-11-24T04:30Z",
+  "date": "2026-11-24T04:55Z",
   "team": "Arizona Wildcats",
   "opponent": "Colorado State Rams",
   "home": true,
@@ -2567,6 +2567,17 @@
   "date": "2026-11-24T18:00Z",
   "team": "FIU",
   "opponent": "Southern Utah Thunderbirds",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401921709",
+  "date": "2026-11-24T19:30Z",
+  "team": "BYU",
+  "opponent": "Ole Miss Rebels",
   "home": true,
   "state": "pre",
   "for": null,
@@ -2644,6 +2655,17 @@
   "date": "2026-11-25T00:00Z",
   "team": "UMBC",
   "opponent": "Iowa Hawkeyes",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401921711",
+  "date": "2026-11-25T01:00Z",
+  "team": "Clemson Tigers",
+  "opponent": "Washington Huskies",
   "home": false,
   "state": "pre",
   "for": null,

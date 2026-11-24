@@ -152,5 +152,27 @@
   "tpa": 2,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401921210",
+  "date": "2026-11-23",
+  "opponent": "Temple Owls",
+  "home": true,
+  "result": "W",
+  "score": "90-81",
+  "min": 14,
+  "pts": 7,
+  "reb": 3,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 3,
+  "fgm": 3,
+  "fga": 4,
+  "tpm": 1,
+  "tpa": 1,
+  "ftm": 0,
+  "fta": 0
  }
 ]

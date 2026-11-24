@@ -108,5 +108,27 @@
   "tpa": 2,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401921029",
+  "date": "2026-11-23",
+  "opponent": "Georgia Southern Eagles",
+  "home": true,
+  "result": "L",
+  "score": "79-84",
+  "min": 8,
+  "pts": 3,
+  "reb": 2,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 1,
+  "fgm": 1,
+  "fga": 4,
+  "tpm": 1,
+  "tpa": 4,
+  "ftm": 0,
+  "fta": 0
  }
 ]
