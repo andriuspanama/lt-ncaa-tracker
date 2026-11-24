@@ -2557,9 +2557,9 @@
   "team": "Wright State Raiders",
   "opponent": "St. Bonaventure Bonnies",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "70",
+  "against": "72",
   "opp_rank": null
  },
  {
