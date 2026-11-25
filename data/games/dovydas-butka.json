@@ -108,5 +108,27 @@
   "tpa": 2,
   "ftm": 6,
   "fta": 11
+ },
+ {
+  "event_id": "401922023",
+  "date": "2026-11-24",
+  "opponent": "Idaho State Bengals",
+  "home": true,
+  "result": "W",
+  "score": "88-71",
+  "min": 35,
+  "pts": 16,
+  "reb": 8,
+  "ast": 2,
+  "stl": 2,
+  "blk": 0,
+  "to": 0,
+  "pf": 1,
+  "fgm": 5,
+  "fga": 15,
+  "tpm": 1,
+  "tpa": 5,
+  "ftm": 5,
+  "fta": 6
  }
 ]

@@ -253,7 +253,7 @@
    "new": []
   },
   "liutauras-lelevicius": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 21,
@@ -264,10 +264,10 @@
     },
     "reb": {
      "v": 10,
-     "date": "2026-11-06",
-     "eid": "401912208",
-     "opp": "American University Eagles",
-     "home": true
+     "date": "2026-11-24",
+     "eid": "401921711",
+     "opp": "Washington Huskies",
+     "home": false
     },
     "ast": {
      "v": 2,
@@ -278,10 +278,10 @@
     },
     "stl": {
      "v": 1,
-     "date": "2026-11-23",
-     "eid": "401918076",
-     "opp": "Ole Miss Rebels",
-     "home": true
+     "date": "2026-11-24",
+     "eid": "401921711",
+     "opp": "Washington Huskies",
+     "home": false
     },
     "blk": {
      "v": 1,
@@ -551,7 +551,7 @@
    "new": []
   },
   "dovydas-butka": {
-   "gp": 5,
+   "gp": 6,
    "records": {
     "pts": {
      "v": 18,
@@ -590,9 +590,9 @@
     },
     "tpm": {
      "v": 1,
-     "date": "2026-11-20",
-     "eid": "401928795",
-     "opp": "Sam Houston Bearkats",
+     "date": "2026-11-24",
+     "eid": "401922023",
+     "opp": "Idaho State Bengals",
      "home": true
     }
    },
@@ -600,15 +600,7 @@
     "dd": 1,
     "s3": 1
    },
-   "new": [
-    {
-     "stat": "stl",
-     "v": 4,
-     "prev": 1,
-     "date": "2026-11-20",
-     "opp": "Sam Houston Bearkats"
-    }
-   ]
+   "new": []
   },
   "emilis-butkus": {
    "gp": 1,
@@ -1332,8 +1324,16 @@
    "new": []
   },
   "kajus-mikalauskas": {
-   "gp": 2,
-   "records": {},
+   "gp": 3,
+   "records": {
+    "ast": {
+     "v": 1,
+     "date": "2026-11-24",
+     "eid": "401929359",
+     "opp": "Oral Roberts Golden Eagles",
+     "home": true
+    }
+   },
    "counts": {},
    "new": []
   },
@@ -1443,7 +1443,7 @@
    "new": []
   },
   "titas-sargiunas": {
-   "gp": 8,
+   "gp": 9,
    "records": {
     "pts": {
      "v": 17,

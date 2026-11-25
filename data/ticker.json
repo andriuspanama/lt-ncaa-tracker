@@ -82,6 +82,22 @@
    "gs": 15.5
   },
   {
+   "id": "dovydas-butka",
+   "name": "Dovydas Butka",
+   "team": "Boise State",
+   "date": "2026-11-24",
+   "opp": "Idaho State Bengals",
+   "home": true,
+   "res": "W",
+   "score": "88-71",
+   "pts": 16,
+   "reb": 8,
+   "ast": 2,
+   "stl": 2,
+   "blk": 0,
+   "gs": 14.1
+  },
+  {
    "id": "mantas-kocanas",
    "name": "Mantas Kočanas",
    "team": "California",
@@ -114,6 +130,22 @@
    "gs": 12.3
   },
   {
+   "id": "liutauras-lelevicius",
+   "name": "Liutauras Lelevičius",
+   "team": "Clemson Tigers",
+   "date": "2026-11-24",
+   "opp": "Washington Huskies",
+   "home": false,
+   "res": "L",
+   "score": "63-64",
+   "pts": 9,
+   "reb": 10,
+   "ast": 1,
+   "stl": 1,
+   "blk": 0,
+   "gs": 11.8
+  },
+  {
    "id": "dominykas-daubaris",
    "name": "Dominykas Daubaris",
    "team": "California",
@@ -128,38 +160,6 @@
    "stl": 1,
    "blk": 0,
    "gs": 11.1
-  },
-  {
-   "id": "liutauras-lelevicius",
-   "name": "Liutauras Lelevičius",
-   "team": "Clemson Tigers",
-   "date": "2026-11-23",
-   "opp": "Ole Miss Rebels",
-   "home": true,
-   "res": "L",
-   "score": "62-82",
-   "pts": 11,
-   "reb": 3,
-   "ast": 2,
-   "stl": 1,
-   "blk": 0,
-   "gs": 10.9
-  },
-  {
-   "id": "nikas-stuknys",
-   "name": "Nikas Stuknys",
-   "team": "UT Martin",
-   "date": "2026-11-23",
-   "opp": "Temple Owls",
-   "home": true,
-   "res": "W",
-   "score": "90-81",
-   "pts": 7,
-   "reb": 3,
-   "ast": 7,
-   "stl": 1,
-   "blk": 0,
-   "gs": 10.2
   }
  ]
 }

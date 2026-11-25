@@ -174,5 +174,27 @@
   "tpa": 4,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401920709",
+  "date": "2026-11-24",
+  "opponent": "Auburn Tigers",
+  "home": false,
+  "result": "L",
+  "score": "66-101",
+  "min": 20,
+  "pts": 0,
+  "reb": 2,
+  "ast": 2,
+  "stl": 0,
+  "blk": 0,
+  "to": 5,
+  "pf": 1,
+  "fgm": 0,
+  "fga": 3,
+  "tpm": 0,
+  "tpa": 3,
+  "ftm": 0,
+  "fta": 0
  }
 ]
