@@ -2729,11 +2729,11 @@
  },
  {
   "event_id": "401928831",
-  "date": "2026-11-25T17:30Z",
+  "date": "2026-11-25T17:31Z",
   "team": "Wright State Raiders",
   "opponent": "Yale Bulldogs",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2754,7 +2754,7 @@
   "date": "2026-11-25T19:00Z",
   "team": "Arizona State Sun Devils",
   "opponent": "LSU Tigers",
-  "home": false,
+  "home": true,
   "state": "pre",
   "for": null,
   "against": null,
