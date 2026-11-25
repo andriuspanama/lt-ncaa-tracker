@@ -130,5 +130,27 @@
   "tpa": 5,
   "ftm": 2,
   "fta": 3
+ },
+ {
+  "event_id": "401924859",
+  "date": "2026-11-24",
+  "opponent": "Emerson Lions",
+  "home": true,
+  "result": "W",
+  "score": "85-57",
+  "min": 17,
+  "pts": 8,
+  "reb": 3,
+  "ast": 1,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 3,
+  "fgm": 2,
+  "fga": 5,
+  "tpm": 2,
+  "tpa": 5,
+  "ftm": 2,
+  "fta": 2
  }
 ]

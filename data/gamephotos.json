@@ -153,6 +153,28 @@
     "link": "http://www.espn.com/ncb/recap?gameId=401906868",
     "player": "matas-vokietaitis"
    }
+  ],
+  "401909743": [
+   {
+    "url": "https://a.espncdn.com/photo/2026/1125/r1750885_1296x729_16-9.jpg",
+    "caption": "Motiejus Krivas and Caleb Holt have been playing like the lottery picks they were projected to be -- particularly in the Maui Invitational semifinal against Providence. Motiejus Krivas, Caleb Holt [1296x729]",
+    "credit": "Mitchell Layton/Getty Images",
+    "w": 1296,
+    "h": 729,
+    "link": "https://www.espn.com/mens-college-basketball/story/_/id/50575102/feast-week-matchups-analysis",
+    "player": "motiejus-krivas"
+   }
+  ],
+  "401921710": [
+   {
+    "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1125/e5205ccc-457b-43c3-a6c9-7acb72eb0d52/e5205ccc-457b-43c3-a6c9-7acb72eb0d52.jpg",
+    "caption": "Providence Friars vs. Arizona Wildcats: Game Highlights Providence Friars vs. Arizona Wildcats: Game Highlights",
+    "credit": null,
+    "w": 576,
+    "h": 324,
+    "link": "http://www.espn.com/ncb/recap?gameId=401921710",
+    "player": "motiejus-krivas"
+   }
   ]
  },
  "checked": {
@@ -311,26 +333,32 @@
   "401928795": "2026-11-24",
   "401911252": "2026-11-24",
   "401920707": "2026-11-24",
-  "401919031": "2026-11-24",
-  "401917539": "2026-11-24",
-  "401911394": "2026-11-24",
-  "401925942": "2026-11-24",
-  "401921088": "2026-11-24",
-  "401906868": "2026-11-24",
-  "401921205": "2026-11-24",
-  "401921206": "2026-11-24",
-  "401919020": "2026-11-24",
-  "401929595": "2026-11-24",
-  "401920708": "2026-11-24",
-  "401917541": "2026-11-24",
-  "401918076": "2026-11-24",
-  "401921208": "2026-11-24",
-  "401921210": "2026-11-24",
-  "401911025": "2026-11-24",
-  "401921029": "2026-11-24",
-  "401919006": "2026-11-24",
-  "401909743": "2026-11-24",
-  "401918057": "2026-11-24"
+  "401919031": "2026-11-25",
+  "401917539": "2026-11-25",
+  "401911394": "2026-11-25",
+  "401925942": "2026-11-25",
+  "401921088": "2026-11-25",
+  "401906868": "2026-11-25",
+  "401921205": "2026-11-25",
+  "401921206": "2026-11-25",
+  "401919020": "2026-11-25",
+  "401929595": "2026-11-25",
+  "401920708": "2026-11-25",
+  "401917541": "2026-11-25",
+  "401918076": "2026-11-25",
+  "401921208": "2026-11-25",
+  "401921210": "2026-11-25",
+  "401911025": "2026-11-25",
+  "401921029": "2026-11-25",
+  "401919006": "2026-11-25",
+  "401909743": "2026-11-25",
+  "401918057": "2026-11-25",
+  "401921710": "2026-11-25",
+  "401923395": "2026-11-25",
+  "401924859": "2026-11-25",
+  "401920727": "2026-11-25",
+  "401923262": "2026-11-25",
+  "401909775": "2026-11-25"
  },
  "videos": {
   "401920692": [
@@ -532,6 +560,16 @@
     "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1124/b6a216d1-d88a-4426-b75b-eb6a875bd871/b6a216d1-d88a-4426-b75b-eb6a875bd871.mp4",
     "link": "https://www.espn.com/video/clip/_/id/50580175/arizona-ugnius-jarusevicius-gets-massive-block"
    }
+  ],
+  "401921710": [
+   {
+    "player": "motiejus-krivas",
+    "headline": "Motiejus Krivas rocks the rim with powerful dunk",
+    "duration": 21,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1124/35a60716-1e8c-4c5a-a90b-c54600cf324a/35a60716-1e8c-4c5a-a90b-c54600cf324a.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1124/35a60716-1e8c-4c5a-a90b-c54600cf324a/35a60716-1e8c-4c5a-a90b-c54600cf324a.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50586724/motiejus-krivas-rocks-rim-powerful-dunk"
+   }
   ]
  },
  "news": {
@@ -638,6 +676,13 @@
     "player": "nojus-indrusaitis",
     "headline": "Nojus Indrusaitis scores 18 to power California to 96-54 victory over Alabama State",
     "link": "http://www.espn.com/ncb/recap?gameId=401918057"
+   }
+  ],
+  "401921710": [
+   {
+    "player": "motiejus-krivas",
+    "headline": "Holt and Krivas lead No. 8 Arizona past Providence 84-66 in Maui Invitational semifinals",
+    "link": "http://www.espn.com/ncb/recap?gameId=401921710"
    }
   ]
  }

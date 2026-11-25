@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "items": [
+  {
+   "id": "motiejus-krivas",
+   "name": "Motiejus Krivas",
+   "team": "Arizona Wildcats",
+   "date": "2026-11-24",
+   "opp": "Providence Friars",
+   "home": true,
+   "res": "W",
+   "score": "84-66",
+   "pts": 20,
+   "reb": 7,
+   "ast": 3,
+   "stl": 1,
+   "blk": 4,
+   "gs": 22.9
+  },
   {
    "id": "arminas-vilkas",
    "name": "Arminas Vilkas",
@@ -32,22 +48,6 @@
    "stl": 1,
    "blk": 1,
    "gs": 18.0
-  },
-  {
-   "id": "mantas-juzenas",
-   "name": "Mantas Juzėnas",
-   "team": "Saint Mary's",
-   "date": "2026-11-22",
-   "opp": "Menlo Oaks",
-   "home": true,
-   "res": "W",
-   "score": "94-78",
-   "pts": 20,
-   "reb": 8,
-   "ast": 3,
-   "stl": 1,
-   "blk": 1,
-   "gs": 17.6
   },
   {
    "id": "nojus-indrusaitis",
@@ -82,38 +82,6 @@
    "gs": 15.5
   },
   {
-   "id": "vince-buzelis",
-   "name": "Vince Buzelis",
-   "team": "South Dakota",
-   "date": "2026-11-22",
-   "opp": "Utah Tech Trailblazers",
-   "home": false,
-   "res": "W",
-   "score": "74-73",
-   "pts": 17,
-   "reb": 8,
-   "ast": 0,
-   "stl": 2,
-   "blk": 1,
-   "gs": 14.6
-  },
-  {
-   "id": "regimantas-ciunys",
-   "name": "Regimantas Ciunys",
-   "team": "UMBC",
-   "date": "2026-11-22",
-   "opp": "Lancaster Bible Chargers",
-   "home": true,
-   "res": "W",
-   "score": "89-55",
-   "pts": 11,
-   "reb": 7,
-   "ast": 1,
-   "stl": 2,
-   "blk": 1,
-   "gs": 14.0
-  },
-  {
    "id": "mantas-kocanas",
    "name": "Mantas Kočanas",
    "team": "California",
@@ -130,22 +98,6 @@
    "gs": 13.4
   },
   {
-   "id": "matas-vokietaitis",
-   "name": "Matas Vokietaitis",
-   "team": "Texas",
-   "date": "2026-11-22",
-   "opp": "Southern Indiana Screaming Eagles",
-   "home": true,
-   "res": "W",
-   "score": "97-61",
-   "pts": 20,
-   "reb": 10,
-   "ast": 0,
-   "stl": 1,
-   "blk": 1,
-   "gs": 13.1
-  },
-  {
    "id": "matas-buteliauskas",
    "name": "Matas Buteliauskas",
    "team": "Buffalo",
@@ -160,6 +112,54 @@
    "stl": 2,
    "blk": 1,
    "gs": 12.3
+  },
+  {
+   "id": "dominykas-daubaris",
+   "name": "Dominykas Daubaris",
+   "team": "California",
+   "date": "2026-11-23",
+   "opp": "Alabama State Hornets",
+   "home": true,
+   "res": "W",
+   "score": "96-54",
+   "pts": 7,
+   "reb": 7,
+   "ast": 1,
+   "stl": 1,
+   "blk": 0,
+   "gs": 11.1
+  },
+  {
+   "id": "liutauras-lelevicius",
+   "name": "Liutauras Lelevičius",
+   "team": "Clemson Tigers",
+   "date": "2026-11-23",
+   "opp": "Ole Miss Rebels",
+   "home": true,
+   "res": "L",
+   "score": "62-82",
+   "pts": 11,
+   "reb": 3,
+   "ast": 2,
+   "stl": 1,
+   "blk": 0,
+   "gs": 10.9
+  },
+  {
+   "id": "nikas-stuknys",
+   "name": "Nikas Stuknys",
+   "team": "UT Martin",
+   "date": "2026-11-23",
+   "opp": "Temple Owls",
+   "home": true,
+   "res": "W",
+   "score": "90-81",
+   "pts": 7,
+   "reb": 3,
+   "ast": 7,
+   "stl": 1,
+   "blk": 0,
+   "gs": 10.2
   }
  ]
 }

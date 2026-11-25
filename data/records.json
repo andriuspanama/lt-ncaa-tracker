@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-24",
- "newest": "2026-11-23",
+ "updated": "2026-11-25",
+ "newest": "2026-11-24",
  "players": {
   "motiejus-krivas": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 30,
@@ -28,9 +28,9 @@
     },
     "stl": {
      "v": 1,
-     "date": "2026-11-23",
-     "eid": "401909743",
-     "opp": "Colorado State Rams",
+     "date": "2026-11-24",
+     "eid": "401921710",
+     "opp": "Providence Friars",
      "home": true
     },
     "blk": {
@@ -50,28 +50,20 @@
    },
    "counts": {
     "dd": 2,
-    "p20": 1,
+    "p20": 2,
     "p30": 1,
-    "b3": 3
+    "b3": 4
    },
-   "new": [
-    {
-     "stat": "ast",
-     "v": 5,
-     "prev": 4,
-     "date": "2026-11-23",
-     "opp": "Colorado State Rams"
-    }
-   ]
+   "new": []
   },
   "ugnius-jarusevicius": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 2,
-     "date": "2026-11-23",
-     "eid": "401909743",
-     "opp": "Colorado State Rams",
+     "date": "2026-11-24",
+     "eid": "401921710",
+     "opp": "Providence Friars",
      "home": true
     },
     "reb": {
@@ -219,13 +211,13 @@
    "new": []
   },
   "paulius-narvilas": {
-   "gp": 7,
+   "gp": 8,
    "records": {
     "pts": {
      "v": 10,
-     "date": "2026-11-21",
-     "eid": "401911394",
-     "opp": "Gardner-Webb Runnin' Bulldogs",
+     "date": "2026-11-24",
+     "eid": "401923395",
+     "opp": "Southern Indiana Screaming Eagles",
      "home": true
     },
     "reb": {
@@ -692,28 +684,28 @@
    "new": []
   },
   "nedas-cholevinskas": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 8,
-     "date": "2026-11-19",
-     "eid": "401923304",
-     "opp": "Maine Black Bears",
+     "date": "2026-11-24",
+     "eid": "401924859",
+     "opp": "Emerson Lions",
      "home": true
     },
     "reb": {
      "v": 3,
-     "date": "2026-11-02",
-     "eid": "401924856",
-     "opp": "Michigan State Spartans",
-     "home": false
+     "date": "2026-11-24",
+     "eid": "401924859",
+     "opp": "Emerson Lions",
+     "home": true
     },
     "ast": {
      "v": 1,
-     "date": "2026-11-15",
-     "eid": "401924858",
-     "opp": "Central Connecticut Blue Devils",
-     "home": false
+     "date": "2026-11-24",
+     "eid": "401924859",
+     "opp": "Emerson Lions",
+     "home": true
     },
     "stl": {
      "v": 1,
@@ -724,9 +716,9 @@
     },
     "tpm": {
      "v": 2,
-     "date": "2026-11-19",
-     "eid": "401923304",
-     "opp": "Maine Black Bears",
+     "date": "2026-11-24",
+     "eid": "401924859",
+     "opp": "Emerson Lions",
      "home": true
     }
    },
@@ -769,7 +761,7 @@
    "new": []
   },
   "regimantas-ciunys": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 11,
@@ -787,10 +779,10 @@
     },
     "ast": {
      "v": 1,
-     "date": "2026-11-22",
-     "eid": "401921088",
-     "opp": "Lancaster Bible Chargers",
-     "home": true
+     "date": "2026-11-24",
+     "eid": "401920727",
+     "opp": "Iowa Hawkeyes",
+     "home": false
     },
     "stl": {
      "v": 2,
@@ -808,15 +800,7 @@
     }
    },
    "counts": {},
-   "new": [
-    {
-     "stat": "reb",
-     "v": 7,
-     "prev": 3,
-     "date": "2026-11-22",
-     "opp": "Lancaster Bible Chargers"
-    }
-   ]
+   "new": []
   },
   "dominykas-daubaris": {
    "gp": 5,
@@ -1354,13 +1338,13 @@
    "new": []
   },
   "petras-padegimas": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 2,
-     "date": "2026-11-18",
-     "eid": "401928347",
-     "opp": "Presbyterian Blue Hose",
+     "date": "2026-11-24",
+     "eid": "401923262",
+     "opp": "Florida Atlantic Owls",
      "home": false
     },
     "reb": {
@@ -1376,6 +1360,13 @@
      "eid": "401929384",
      "opp": "Reinhardt Eagles",
      "home": true
+    },
+    "blk": {
+     "v": 1,
+     "date": "2026-11-24",
+     "eid": "401923262",
+     "opp": "Florida Atlantic Owls",
+     "home": false
     }
    },
    "counts": {},
@@ -1417,7 +1408,7 @@
    "new": []
   },
   "dominykas-pleta": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 15,
@@ -1428,9 +1419,9 @@
     },
     "reb": {
      "v": 10,
-     "date": "2026-11-15",
-     "eid": "401909774",
-     "opp": "Niagara Purple Eagles",
+     "date": "2026-11-24",
+     "eid": "401909775",
+     "opp": "San Diego State Aztecs",
      "home": true
     },
     "ast": {
@@ -1442,9 +1433,9 @@
     },
     "stl": {
      "v": 2,
-     "date": "2026-11-10",
-     "eid": "401909773",
-     "opp": "Southern Jaguars",
+     "date": "2026-11-24",
+     "eid": "401909775",
+     "opp": "San Diego State Aztecs",
      "home": true
     }
    },

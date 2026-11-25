@@ -2568,9 +2568,9 @@
   "team": "FIU",
   "opponent": "Southern Utah Thunderbirds",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "81",
+  "against": "66",
   "opp_rank": null
  },
  {
@@ -2579,9 +2579,9 @@
   "team": "BYU",
   "opponent": "Ole Miss Rebels",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "63",
+  "against": "73",
   "opp_rank": null
  },
  {
@@ -2590,9 +2590,9 @@
   "team": "Arizona Wildcats",
   "opponent": "Providence Friars",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "84",
+  "against": "66",
   "opp_rank": null
  },
  {
@@ -2601,9 +2601,9 @@
   "team": "Iowa State",
   "opponent": "San Diego State Aztecs",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "81",
+  "against": "68",
   "opp_rank": null
  },
  {
@@ -2612,9 +2612,9 @@
   "team": "Quinnipiac",
   "opponent": "Emerson Lions",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "85",
+  "against": "57",
   "opp_rank": null
  },
  {
@@ -2623,9 +2623,9 @@
   "team": "Mercer",
   "opponent": "Florida Atlantic Owls",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "84",
+  "against": "95",
   "opp_rank": null
  },
  {
@@ -2634,9 +2634,9 @@
   "team": "VMI Keydets",
   "opponent": "Southern Indiana Screaming Eagles",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "87",
+  "against": "83",
   "opp_rank": null
  },
  {
@@ -2645,9 +2645,9 @@
   "team": "Campbell",
   "opponent": "Coastal Carolina Chanticleers",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "70",
+  "against": "66",
   "opp_rank": null
  },
  {
@@ -2656,9 +2656,9 @@
   "team": "Florida Gators",
   "opponent": "Milwaukee Panthers",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "76",
+  "against": "67",
   "opp_rank": null
  },
  {
@@ -2667,9 +2667,9 @@
   "team": "UMBC",
   "opponent": "Iowa Hawkeyes",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "48",
+  "against": "87",
   "opp_rank": null
  },
  {
@@ -2678,7 +2678,7 @@
   "team": "Clemson Tigers",
   "opponent": "Washington Huskies",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2689,7 +2689,7 @@
   "team": "Kansas City",
   "opponent": "Green Bay Phoenix",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2700,7 +2700,7 @@
   "team": "Lipscomb",
   "opponent": "Auburn Tigers",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2711,7 +2711,7 @@
   "team": "UT Arlington",
   "opponent": "Oral Roberts Golden Eagles",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2722,7 +2722,7 @@
   "team": "Boise State",
   "opponent": "Idaho State Bengals",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2783,6 +2783,17 @@
   "opp_rank": null
  },
  {
+  "event_id": "401921715",
+  "date": "2026-11-25T19:30Z",
+  "team": "Arizona Wildcats",
+  "opponent": "Ole Miss Rebels",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
   "event_id": "401928359",
   "date": "2026-11-25T20:30Z",
   "team": "FIU",
@@ -2831,6 +2842,17 @@
   "date": "2026-11-25T22:00Z",
   "team": "Portland State",
   "opponent": "UC Riverside Highlanders",
+  "home": false,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": null
+ },
+ {
+  "event_id": "401921716",
+  "date": "2026-11-25T22:30Z",
+  "team": "BYU",
+  "opponent": "Providence Friars",
   "home": false,
   "state": "pre",
   "for": null,
@@ -2913,6 +2935,17 @@
   "for": null,
   "against": null,
   "opp_rank": null
+ },
+ {
+  "event_id": "401920529",
+  "date": "2026-11-26T20:30Z",
+  "team": "Iowa State",
+  "opponent": "Tennessee Volunteers",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": 9
  },
  {
   "event_id": "401917547",
