@@ -64,5 +64,27 @@
   "tpa": 0,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401924897",
+  "date": "2026-11-25",
+  "opponent": "Mississippi Valley State Delta Devils",
+  "home": true,
+  "result": "W",
+  "score": "100-77",
+  "min": 15,
+  "pts": 6,
+  "reb": 8,
+  "ast": 1,
+  "stl": 1,
+  "blk": 0,
+  "to": 1,
+  "pf": 2,
+  "fgm": 3,
+  "fga": 4,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 0
  }
 ]

@@ -5,8 +5,8 @@
    {
     "cat": "ppg",
     "label": "Taškai per rungtynes",
-    "value": 26.0,
-    "rank": 5
+    "value": 26.166666,
+    "rank": 6
    }
   ]
  },
@@ -36,17 +36,17 @@
    ],
    [
     "Ivan Juric",
-    13.166667
+    12.857142
    ]
   ],
   "apg": [
    [
-    "Jeremy Fears Jr.",
-    9.333333
+    "Donovan Dent",
+    9.571428
    ],
    [
-    "Donovan Dent",
-    9.166667
+    "Jeremy Fears Jr.",
+    9.333333
    ],
    [
     "Brock Harding",
@@ -119,7 +119,7 @@
     100.0
    ],
    [
-    "Ethan Roberts",
+    "Luke Skaljac",
     100.0
    ]
   ]

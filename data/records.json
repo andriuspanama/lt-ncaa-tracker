@@ -969,7 +969,7 @@
    "new": []
   },
   "gabrielius-jokubauskas": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 5,
@@ -1001,9 +1001,9 @@
     },
     "blk": {
      "v": 2,
-     "date": "2026-11-14",
-     "eid": "401911016",
-     "opp": "Central Michigan Chippewas",
+     "date": "2026-11-25",
+     "eid": "401921108",
+     "opp": "Bellarmine Knights",
      "home": true
     },
     "tpm": {
@@ -1073,7 +1073,7 @@
    "new": []
   },
   "domas-kauzonas": {
-   "gp": 4,
+   "gp": 5,
    "records": {
     "pts": {
      "v": 2,
@@ -1389,28 +1389,35 @@
    "new": []
   },
   "rytis-petraitis": {
-   "gp": 3,
+   "gp": 4,
    "records": {
     "pts": {
-     "v": 3,
-     "date": "2026-11-14",
-     "eid": "401917530",
-     "opp": "Santa Clara Broncos",
-     "home": false
+     "v": 6,
+     "date": "2026-11-25",
+     "eid": "401924897",
+     "opp": "Mississippi Valley State Delta Devils",
+     "home": true
     },
     "reb": {
-     "v": 5,
-     "date": "2026-11-14",
-     "eid": "401917530",
-     "opp": "Santa Clara Broncos",
-     "home": false
+     "v": 8,
+     "date": "2026-11-25",
+     "eid": "401924897",
+     "opp": "Mississippi Valley State Delta Devils",
+     "home": true
+    },
+    "ast": {
+     "v": 1,
+     "date": "2026-11-25",
+     "eid": "401924897",
+     "opp": "Mississippi Valley State Delta Devils",
+     "home": true
     },
     "stl": {
      "v": 1,
-     "date": "2026-11-21",
-     "eid": "401919031",
-     "opp": "Wichita State Shockers",
-     "home": false
+     "date": "2026-11-25",
+     "eid": "401924897",
+     "opp": "Mississippi Valley State Delta Devils",
+     "home": true
     },
     "blk": {
      "v": 1,
@@ -1421,7 +1428,15 @@
     }
    },
    "counts": {},
-   "new": []
+   "new": [
+    {
+     "stat": "reb",
+     "v": 8,
+     "prev": 5,
+     "date": "2026-11-25",
+     "opp": "Mississippi Valley State Delta Devils"
+    }
+   ]
   },
   "dominykas-pleta": {
    "gp": 5,
@@ -1510,7 +1525,7 @@
    "new": []
   },
   "jonas-sirtautas": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 9,

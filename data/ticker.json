@@ -130,6 +130,22 @@
    "gs": 11.8
   },
   {
+   "id": "rytis-petraitis",
+   "name": "Rytis Petraitis",
+   "team": "New Mexico",
+   "date": "2026-11-25",
+   "opp": "Mississippi Valley State Delta Devils",
+   "home": true,
+   "res": "W",
+   "score": "100-77",
+   "pts": 6,
+   "reb": 8,
+   "ast": 1,
+   "stl": 1,
+   "blk": 0,
+   "gs": 8.3
+  },
+  {
    "id": "paulius-narvilas",
    "name": "Paulius Narvilas",
    "team": "VMI Keydets",
@@ -144,22 +160,6 @@
    "stl": 0,
    "blk": 0,
    "gs": 7.3
-  },
-  {
-   "id": "regimantas-ciunys",
-   "name": "Regimantas Ciunys",
-   "team": "UMBC",
-   "date": "2026-11-24",
-   "opp": "Iowa Hawkeyes",
-   "home": false,
-   "res": "L",
-   "score": "48-87",
-   "pts": 4,
-   "reb": 4,
-   "ast": 1,
-   "stl": 1,
-   "blk": 0,
-   "gs": 6.4
   }
  ]
 }
