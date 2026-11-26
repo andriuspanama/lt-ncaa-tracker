@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-26",
- "newest": "2026-11-25",
+ "newest": "2026-11-26",
  "players": {
   "motiejus-krivas": {
    "gp": 8,
@@ -114,7 +114,7 @@
    "new": []
   },
   "paulius-murauskas": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 33,
@@ -161,7 +161,7 @@
    },
    "counts": {
     "dd": 2,
-    "p20": 6,
+    "p20": 7,
     "p30": 2,
     "t3": 1,
     "b3": 1,
@@ -415,21 +415,21 @@
    "new": []
   },
   "alex-bieliauskas": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
-     "v": 23,
-     "date": "2026-11-14",
-     "eid": "401911392",
-     "opp": "Gardner-Webb Runnin' Bulldogs",
+     "v": 25,
+     "date": "2026-11-26",
+     "eid": "401921674",
+     "opp": "Arizona State Sun Devils",
      "home": true
     },
     "reb": {
-     "v": 12,
-     "date": "2026-11-25",
-     "eid": "401921670",
-     "opp": "USC Trojans",
-     "home": false
+     "v": 13,
+     "date": "2026-11-26",
+     "eid": "401921674",
+     "opp": "Arizona State Sun Devils",
+     "home": true
     },
     "ast": {
      "v": 3,
@@ -454,24 +454,31 @@
     },
     "tpm": {
      "v": 3,
-     "date": "2026-11-25",
-     "eid": "401921670",
-     "opp": "USC Trojans",
-     "home": false
+     "date": "2026-11-26",
+     "eid": "401921674",
+     "opp": "Arizona State Sun Devils",
+     "home": true
     }
    },
    "counts": {
-    "dd": 1,
-    "p20": 1,
-    "t3": 2
+    "dd": 2,
+    "p20": 2,
+    "t3": 3
    },
    "new": [
     {
+     "stat": "pts",
+     "v": 25,
+     "prev": 23,
+     "date": "2026-11-26",
+     "opp": "Arizona State Sun Devils"
+    },
+    {
      "stat": "reb",
-     "v": 12,
-     "prev": 7,
-     "date": "2026-11-25",
-     "opp": "USC Trojans"
+     "v": 13,
+     "prev": 12,
+     "date": "2026-11-26",
+     "opp": "Arizona State Sun Devils"
     }
    ]
   },

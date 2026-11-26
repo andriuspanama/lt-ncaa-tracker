@@ -130,5 +130,27 @@
   "tpa": 3,
   "ftm": 3,
   "fta": 7
+ },
+ {
+  "event_id": "401921674",
+  "date": "2026-11-26",
+  "opponent": "Arizona State Sun Devils",
+  "home": true,
+  "result": "W",
+  "score": "80-73",
+  "min": 32,
+  "pts": 25,
+  "reb": 13,
+  "ast": 1,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 3,
+  "fgm": 7,
+  "fga": 9,
+  "tpm": 3,
+  "tpa": 4,
+  "ftm": 8,
+  "fta": 10
  }
 ]

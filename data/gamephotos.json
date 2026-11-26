@@ -175,6 +175,28 @@
     "link": "http://www.espn.com/ncb/recap?gameId=401921715",
     "player": "motiejus-krivas"
    }
+  ],
+  "401921674": [
+   {
+    "url": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401921674.png?templateId=espn.applewatch.awayhome.1",
+    "caption": "espn.applewatch.awayhome.1",
+    "credit": null,
+    "w": null,
+    "h": null,
+    "link": "http://www.espn.com/ncb/recap?gameId=401921674",
+    "player": "alex-bieliauskas"
+   }
+  ],
+  "401921670": [
+   {
+    "url": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401921674.png?templateId=espn.applewatch.awayhome.1",
+    "caption": "espn.applewatch.awayhome.1",
+    "credit": null,
+    "w": null,
+    "h": null,
+    "link": "http://www.espn.com/ncb/recap?gameId=401921674",
+    "player": "alex-bieliauskas"
+   }
   ]
  },
  "checked": {
@@ -373,7 +395,8 @@
   "401921108": "2026-11-26",
   "401920076": "2026-11-26",
   "401924897": "2026-11-26",
-  "401921703": "2026-11-26"
+  "401921703": "2026-11-26",
+  "401921674": "2026-11-26"
  },
  "videos": {
   "401920692": [
@@ -733,6 +756,13 @@
     "player": "motiejus-krivas",
     "headline": "Krivas scores 31, grabs 17 rebounds as No. 8 Arizona tops Ole Miss 84-73 for Maui Invitational title",
     "link": "http://www.espn.com/ncb/recap?gameId=401921715"
+   }
+  ],
+  "401921674": [
+   {
+    "player": "alex-bieliauskas",
+    "headline": "Bieliauskas' 25 points power South Carolina over Arizona State",
+    "link": "http://www.espn.com/ncb/recap?gameId=401921674"
    }
   ]
  }

@@ -2919,10 +2919,10 @@
   "date": "2026-11-26T19:00Z",
   "team": "Arizona State Sun Devils",
   "opponent": "South Carolina Gamecocks",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "home": false,
+  "state": "post",
+  "for": "73",
+  "against": "80",
   "opp_rank": null
  },
  {
@@ -2930,10 +2930,10 @@
   "date": "2026-11-26T19:00Z",
   "team": "South Carolina",
   "opponent": "Arizona State Sun Devils",
-  "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "home": true,
+  "state": "post",
+  "for": "80",
+  "against": "73",
   "opp_rank": null
  },
  {
@@ -2942,7 +2942,7 @@
   "team": "Texas",
   "opponent": "Georgetown Hoyas",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2953,7 +2953,7 @@
   "team": "Iowa State",
   "opponent": "Tennessee Volunteers",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": 9
