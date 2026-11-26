@@ -152,5 +152,27 @@
   "tpa": 1,
   "ftm": 5,
   "fta": 5
+ },
+ {
+  "event_id": "401921715",
+  "date": "2026-11-25",
+  "opponent": "Ole Miss Rebels",
+  "home": true,
+  "result": "W",
+  "score": "84-73",
+  "min": 35,
+  "pts": 31,
+  "reb": 17,
+  "ast": 2,
+  "stl": 0,
+  "blk": 1,
+  "to": 3,
+  "pf": 1,
+  "fgm": 11,
+  "fga": 13,
+  "tpm": 0,
+  "tpa": 1,
+  "ftm": 9,
+  "fta": 14
  }
 ]

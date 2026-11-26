@@ -164,6 +164,17 @@
     "link": "http://www.espn.com/ncb/recap?gameId=401921710",
     "player": "motiejus-krivas"
    }
+  ],
+  "401921715": [
+   {
+    "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1125/242eee6b-3c2a-4a2f-873b-cd5f80574830/242eee6b-3c2a-4a2f-873b-cd5f80574830.jpg",
+    "caption": "Arizona claims Maui Invitational title behind Motiejus Krivas' huge game Arizona claims Maui Invitational title behind Motiejus Krivas' huge game",
+    "credit": null,
+    "w": 576,
+    "h": 324,
+    "link": "http://www.espn.com/ncb/recap?gameId=401921715",
+    "player": "motiejus-krivas"
+   }
   ]
  },
  "checked": {
@@ -325,33 +336,40 @@
   "401919031": "2026-11-25",
   "401917539": "2026-11-25",
   "401911394": "2026-11-25",
-  "401925942": "2026-11-25",
-  "401921088": "2026-11-25",
-  "401906868": "2026-11-25",
-  "401921205": "2026-11-25",
-  "401921206": "2026-11-25",
-  "401919020": "2026-11-25",
-  "401929595": "2026-11-25",
-  "401920708": "2026-11-25",
-  "401917541": "2026-11-25",
-  "401918076": "2026-11-25",
-  "401921208": "2026-11-25",
-  "401921210": "2026-11-25",
-  "401911025": "2026-11-25",
-  "401921029": "2026-11-25",
-  "401919006": "2026-11-25",
-  "401909743": "2026-11-25",
-  "401918057": "2026-11-25",
-  "401921710": "2026-11-25",
-  "401923395": "2026-11-25",
-  "401924859": "2026-11-25",
-  "401920727": "2026-11-25",
-  "401923262": "2026-11-25",
-  "401909775": "2026-11-25",
-  "401921711": "2026-11-25",
-  "401922023": "2026-11-25",
-  "401929359": "2026-11-25",
-  "401920709": "2026-11-25"
+  "401925942": "2026-11-26",
+  "401921088": "2026-11-26",
+  "401906868": "2026-11-26",
+  "401921205": "2026-11-26",
+  "401921206": "2026-11-26",
+  "401919020": "2026-11-26",
+  "401929595": "2026-11-26",
+  "401920708": "2026-11-26",
+  "401917541": "2026-11-26",
+  "401918076": "2026-11-26",
+  "401921208": "2026-11-26",
+  "401921210": "2026-11-26",
+  "401911025": "2026-11-26",
+  "401921029": "2026-11-26",
+  "401919006": "2026-11-26",
+  "401909743": "2026-11-26",
+  "401918057": "2026-11-26",
+  "401921710": "2026-11-26",
+  "401923395": "2026-11-26",
+  "401924859": "2026-11-26",
+  "401920727": "2026-11-26",
+  "401923262": "2026-11-26",
+  "401909775": "2026-11-26",
+  "401921711": "2026-11-26",
+  "401922023": "2026-11-26",
+  "401929359": "2026-11-26",
+  "401920709": "2026-11-26",
+  "401921715": "2026-11-26",
+  "401921669": "2026-11-26",
+  "401921670": "2026-11-26",
+  "401929406": "2026-11-26",
+  "401920067": "2026-11-26",
+  "401928850": "2026-11-26",
+  "401920237": "2026-11-26"
  },
  "videos": {
   "401920692": [
@@ -563,6 +581,34 @@
     "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1124/35a60716-1e8c-4c5a-a90b-c54600cf324a/35a60716-1e8c-4c5a-a90b-c54600cf324a.mp4",
     "link": "https://www.espn.com/video/clip/_/id/50586724/motiejus-krivas-rocks-rim-powerful-dunk"
    }
+  ],
+  "401921715": [
+   {
+    "player": "motiejus-krivas",
+    "headline": "Motiejus Krivas throws down big dunk vs. Ole Miss Rebels",
+    "duration": 15,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1125/0ccf6994-21d0-4de3-9c97-866e3ecc12de/0ccf6994-21d0-4de3-9c97-866e3ecc12de.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1125/0ccf6994-21d0-4de3-9c97-866e3ecc12de/0ccf6994-21d0-4de3-9c97-866e3ecc12de.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50596865/motiejus-krivas-throws-big-dunk-vs-ole-miss-rebels"
+   },
+   {
+    "player": "motiejus-krivas",
+    "headline": "Motiejus Krivas gets the hoop and the harm",
+    "duration": 26,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1125/12c1cd61-b7cd-4be9-8d42-4df9c711b97b/12c1cd61-b7cd-4be9-8d42-4df9c711b97b.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1125/12c1cd61-b7cd-4be9-8d42-4df9c711b97b/12c1cd61-b7cd-4be9-8d42-4df9c711b97b.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50597035/motiejus-krivas-gets-hoop-harm"
+   }
+  ],
+  "401920237": [
+   {
+    "player": "ernas-valauskas",
+    "headline": "Ernas Valauskas with the and-1 bucket",
+    "duration": 20,
+    "thumb": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1125/bcab3801-58c2-4aa9-a24d-613a9ded2d0a/bcab3801-58c2-4aa9-a24d-613a9ded2d0a.jpg",
+    "src": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1125/bcab3801-58c2-4aa9-a24d-613a9ded2d0a/bcab3801-58c2-4aa9-a24d-613a9ded2d0a.mp4",
+    "link": "https://www.espn.com/video/clip/_/id/50599105/ernas-valauskas-1-bucket"
+   }
   ]
  },
  "news": {
@@ -676,6 +722,13 @@
     "player": "motiejus-krivas",
     "headline": "Holt and Krivas lead No. 8 Arizona past Providence 84-66 in Maui Invitational semifinals",
     "link": "http://www.espn.com/ncb/recap?gameId=401921710"
+   }
+  ],
+  "401921715": [
+   {
+    "player": "motiejus-krivas",
+    "headline": "Krivas scores 31, grabs 17 rebounds as No. 8 Arizona tops Ole Miss 84-73 for Maui Invitational title",
+    "link": "http://www.espn.com/ncb/recap?gameId=401921715"
    }
   ]
  }

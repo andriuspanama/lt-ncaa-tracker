@@ -130,5 +130,27 @@
   "tpa": 4,
   "ftm": 9,
   "fta": 12
+ },
+ {
+  "event_id": "401928850",
+  "date": "2026-11-25",
+  "opponent": "Grace Christian Tigers",
+  "home": true,
+  "result": "W",
+  "score": "104-52",
+  "min": 16,
+  "pts": 8,
+  "reb": 4,
+  "ast": 3,
+  "stl": 0,
+  "blk": 0,
+  "to": 3,
+  "pf": 3,
+  "fgm": 3,
+  "fga": 4,
+  "tpm": 0,
+  "tpa": 1,
+  "ftm": 2,
+  "fta": 4
  }
 ]

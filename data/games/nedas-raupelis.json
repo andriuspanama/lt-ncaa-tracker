@@ -152,5 +152,27 @@
   "tpa": 0,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401920067",
+  "date": "2026-11-25",
+  "opponent": "American International Yellow Jackets",
+  "home": true,
+  "result": "W",
+  "score": "98-89",
+  "min": 10,
+  "pts": 6,
+  "reb": 5,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 3,
+  "pf": 1,
+  "fgm": 2,
+  "fga": 3,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 2,
+  "fta": 4
  }
 ]

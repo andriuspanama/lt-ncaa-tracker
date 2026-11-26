@@ -130,5 +130,27 @@
   "tpa": 8,
   "ftm": 7,
   "fta": 7
+ },
+ {
+  "event_id": "401920237",
+  "date": "2026-11-25",
+  "opponent": "Holy Cross Crusaders",
+  "home": true,
+  "result": "L",
+  "score": "65-67",
+  "min": 18,
+  "pts": 16,
+  "reb": 7,
+  "ast": 4,
+  "stl": 2,
+  "blk": 0,
+  "to": 0,
+  "pf": 0,
+  "fgm": 7,
+  "fga": 13,
+  "tpm": 0,
+  "tpa": 4,
+  "ftm": 2,
+  "fta": 3
  }
 ]

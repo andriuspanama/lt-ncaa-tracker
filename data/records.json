@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-25",
- "newest": "2026-11-24",
+ "updated": "2026-11-26",
+ "newest": "2026-11-25",
  "players": {
   "motiejus-krivas": {
-   "gp": 7,
+   "gp": 8,
    "records": {
     "pts": {
-     "v": 30,
-     "date": "2026-11-05",
-     "eid": "401909739",
-     "opp": "Cal Poly Mustangs",
+     "v": 31,
+     "date": "2026-11-25",
+     "eid": "401921715",
+     "opp": "Ole Miss Rebels",
      "home": true
     },
     "reb": {
-     "v": 12,
-     "date": "2026-11-18",
-     "eid": "401909742",
-     "opp": "UConn Huskies",
+     "v": 17,
+     "date": "2026-11-25",
+     "eid": "401921715",
+     "opp": "Ole Miss Rebels",
      "home": true
     },
     "ast": {
@@ -49,12 +49,27 @@
     }
    },
    "counts": {
-    "dd": 2,
-    "p20": 2,
-    "p30": 1,
+    "dd": 3,
+    "p20": 3,
+    "p30": 2,
     "b3": 4
    },
-   "new": []
+   "new": [
+    {
+     "stat": "pts",
+     "v": 31,
+     "prev": 30,
+     "date": "2026-11-25",
+     "opp": "Ole Miss Rebels"
+    },
+    {
+     "stat": "reb",
+     "v": 17,
+     "prev": 12,
+     "date": "2026-11-25",
+     "opp": "Ole Miss Rebels"
+    }
+   ]
   },
   "ugnius-jarusevicius": {
    "gp": 5,
@@ -99,7 +114,7 @@
    "new": []
   },
   "paulius-murauskas": {
-   "gp": 5,
+   "gp": 6,
    "records": {
     "pts": {
      "v": 33,
@@ -146,7 +161,7 @@
    },
    "counts": {
     "dd": 2,
-    "p20": 5,
+    "p20": 6,
     "p30": 2,
     "t3": 1,
     "b3": 1,
@@ -400,7 +415,7 @@
    "new": []
   },
   "alex-bieliauskas": {
-   "gp": 5,
+   "gp": 6,
    "records": {
     "pts": {
      "v": 23,
@@ -410,11 +425,11 @@
      "home": true
     },
     "reb": {
-     "v": 7,
-     "date": "2026-11-18",
-     "eid": "401921141",
-     "opp": "Elon Phoenix",
-     "home": true
+     "v": 12,
+     "date": "2026-11-25",
+     "eid": "401921670",
+     "opp": "USC Trojans",
+     "home": false
     },
     "ast": {
      "v": 3,
@@ -439,23 +454,24 @@
     },
     "tpm": {
      "v": 3,
-     "date": "2026-11-11",
-     "eid": "401921821",
-     "opp": "Saint Peter's Peacocks",
-     "home": true
+     "date": "2026-11-25",
+     "eid": "401921670",
+     "opp": "USC Trojans",
+     "home": false
     }
    },
    "counts": {
+    "dd": 1,
     "p20": 1,
-    "t3": 1
+    "t3": 2
    },
    "new": [
     {
      "stat": "reb",
-     "v": 7,
-     "prev": 4,
-     "date": "2026-11-18",
-     "opp": "Elon Phoenix"
+     "v": 12,
+     "prev": 7,
+     "date": "2026-11-25",
+     "opp": "USC Trojans"
     }
    ]
   },
@@ -624,7 +640,7 @@
    "new": []
   },
   "vince-buzelis": {
-   "gp": 8,
+   "gp": 9,
    "records": {
     "pts": {
      "v": 26,
@@ -718,7 +734,7 @@
    "new": []
   },
   "nedas-raupelis": {
-   "gp": 7,
+   "gp": 8,
    "records": {
     "pts": {
      "v": 11,
@@ -1092,7 +1108,7 @@
    "new": []
   },
   "augustinas-kiudulas": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 16,
@@ -1110,10 +1126,10 @@
     },
     "ast": {
      "v": 3,
-     "date": "2026-11-15",
-     "eid": "401923393",
-     "opp": "Southern Indiana Screaming Eagles",
-     "home": false
+     "date": "2026-11-25",
+     "eid": "401928850",
+     "opp": "Grace Christian Tigers",
+     "home": true
     },
     "stl": {
      "v": 2,
@@ -1244,7 +1260,7 @@
    ]
   },
   "kajus-kublickas": {
-   "gp": 8,
+   "gp": 9,
    "records": {
     "pts": {
      "v": 16,
@@ -1810,7 +1826,7 @@
    "new": []
   },
   "ernas-valauskas": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 24,
@@ -1821,23 +1837,23 @@
     },
     "reb": {
      "v": 7,
-     "date": "2026-11-17",
-     "eid": "401920236",
-     "opp": "Maine Augusta Moose",
+     "date": "2026-11-25",
+     "eid": "401920237",
+     "opp": "Holy Cross Crusaders",
      "home": true
     },
     "ast": {
-     "v": 2,
-     "date": "2026-11-17",
-     "eid": "401920236",
-     "opp": "Maine Augusta Moose",
+     "v": 4,
+     "date": "2026-11-25",
+     "eid": "401920237",
+     "opp": "Holy Cross Crusaders",
      "home": true
     },
     "stl": {
-     "v": 1,
-     "date": "2026-11-17",
-     "eid": "401920236",
-     "opp": "Maine Augusta Moose",
+     "v": 2,
+     "date": "2026-11-25",
+     "eid": "401920237",
+     "opp": "Holy Cross Crusaders",
      "home": true
     },
     "blk": {
@@ -1860,22 +1876,7 @@
     "t3": 2,
     "ft": 1
    },
-   "new": [
-    {
-     "stat": "pts",
-     "v": 24,
-     "prev": 18,
-     "date": "2026-11-17",
-     "opp": "Maine Augusta Moose"
-    },
-    {
-     "stat": "reb",
-     "v": 7,
-     "prev": 4,
-     "date": "2026-11-17",
-     "opp": "Maine Augusta Moose"
-    }
-   ]
+   "new": []
   }
  }
 }

@@ -108,5 +108,27 @@
   "tpa": 4,
   "ftm": 13,
   "fta": 13
+ },
+ {
+  "event_id": "401921669",
+  "date": "2026-11-25",
+  "opponent": "LSU Tigers",
+  "home": true,
+  "result": "L",
+  "score": "92-94",
+  "min": 47,
+  "pts": 27,
+  "reb": 6,
+  "ast": 3,
+  "stl": 1,
+  "blk": 0,
+  "to": 5,
+  "pf": 4,
+  "fgm": 7,
+  "fga": 17,
+  "tpm": 0,
+  "tpa": 6,
+  "ftm": 13,
+  "fta": 17
  }
 ]

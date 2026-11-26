@@ -55,17 +55,6 @@
   "opp_rank": 14
  },
  {
-  "event_id": "401910994",
-  "date": "2026-11-02T23:00Z",
-  "team": "Georgia State",
-  "opponent": "Bowling Green Falcons",
-  "home": true,
-  "state": "post",
-  "for": "73",
-  "against": "76",
-  "opp_rank": null
- },
- {
   "event_id": "401929404",
   "date": "2026-11-02T23:00Z",
   "team": "South Dakota",
@@ -484,17 +473,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401925819",
-  "date": "2026-11-06T00:00Z",
-  "team": "Georgia State",
-  "opponent": "Charlotte 49ers",
-  "home": false,
-  "state": "post",
-  "for": "67",
-  "against": "77",
-  "opp_rank": null
- },
- {
   "event_id": "401920377",
   "date": "2026-11-06T00:00Z",
   "team": "Mercer",
@@ -712,17 +690,6 @@
   "state": "post",
   "for": "89",
   "against": "85",
-  "opp_rank": null
- },
- {
-  "event_id": "401929449",
-  "date": "2026-11-07T18:00Z",
-  "team": "Georgia State",
-  "opponent": "Andrew Fighting Tigers",
-  "home": true,
-  "state": "post",
-  "for": "111",
-  "against": "61",
   "opp_rank": null
  },
  {
@@ -1152,17 +1119,6 @@
   "state": "post",
   "for": "98",
   "against": "82",
-  "opp_rank": null
- },
- {
-  "event_id": "401929180",
-  "date": "2026-11-11T02:00Z",
-  "team": "Georgia State",
-  "opponent": "Fresno State Bulldogs",
-  "home": false,
-  "state": "post",
-  "for": "92",
-  "against": "95",
   "opp_rank": null
  },
  {
@@ -1672,17 +1628,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401925896",
-  "date": "2026-11-15T18:00Z",
-  "team": "Georgia State",
-  "opponent": "Norfolk State Spartans",
-  "home": true,
-  "state": "post",
-  "for": "78",
-  "against": "53",
-  "opp_rank": null
- },
- {
   "event_id": "401909774",
   "date": "2026-11-15T18:00Z",
   "team": "Iowa State",
@@ -2134,17 +2079,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401926782",
-  "date": "2026-11-21T00:00Z",
-  "team": "Georgia State",
-  "opponent": "Jacksonville State Gamecocks",
-  "home": false,
-  "state": "post",
-  "for": "77",
-  "against": "82",
-  "opp_rank": null
- },
- {
   "event_id": "401921007",
   "date": "2026-11-21T00:00Z",
   "team": "Kansas City",
@@ -2453,17 +2387,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401919006",
-  "date": "2026-11-23T21:00Z",
-  "team": "Georgia State",
-  "opponent": "Tulane Green Wave",
-  "home": true,
-  "state": "post",
-  "for": "73",
-  "against": "63",
-  "opp_rank": null
- },
- {
   "event_id": "401921708",
   "date": "2026-11-23T22:00Z",
   "team": "BYU",
@@ -2733,9 +2656,9 @@
   "team": "Wright State Raiders",
   "opponent": "Yale Bulldogs",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "70",
+  "against": "72",
   "opp_rank": null
  },
  {
@@ -2744,9 +2667,9 @@
   "team": "Rhode Island",
   "opponent": "American International Yellow Jackets",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "98",
+  "against": "89",
   "opp_rank": null
  },
  {
@@ -2755,9 +2678,9 @@
   "team": "Arizona State Sun Devils",
   "opponent": "LSU Tigers",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "92",
+  "against": "94",
   "opp_rank": 20
  },
  {
@@ -2766,9 +2689,9 @@
   "team": "South Dakota",
   "opponent": "Arkansas-Pine Bluff Golden Lions",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "86",
+  "against": "50",
   "opp_rank": null
  },
  {
@@ -2777,9 +2700,9 @@
   "team": "Western Michigan",
   "opponent": "Grace Christian Tigers",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "104",
+  "against": "52",
   "opp_rank": null
  },
  {
@@ -2788,9 +2711,9 @@
   "team": "Arizona Wildcats",
   "opponent": "Ole Miss Rebels",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "84",
+  "against": "73",
   "opp_rank": null
  },
  {
@@ -2799,32 +2722,10 @@
   "team": "FIU",
   "opponent": "Arkansas State Red Wolves",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "88",
+  "against": "92",
   "opp_rank": null
- },
- {
-  "event_id": "401921703",
-  "date": "2026-11-25T21:00Z",
-  "team": "Georgia State",
-  "opponent": "Florida Gulf Coast Eagles",
-  "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
-  "event_id": "401921670",
-  "date": "2026-11-25T21:30Z",
-  "team": "South Carolina",
-  "opponent": "USC Trojans",
-  "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": 18
  },
  {
   "event_id": "401920237",
@@ -2832,9 +2733,9 @@
   "team": "Dartmouth Big Green",
   "opponent": "Holy Cross Crusaders",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "65",
+  "against": "67",
   "opp_rank": null
  },
  {
@@ -2843,10 +2744,21 @@
   "team": "Portland State",
   "opponent": "UC Riverside Highlanders",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "72",
+  "against": "65",
   "opp_rank": null
+ },
+ {
+  "event_id": "401921670",
+  "date": "2026-11-25T22:17Z",
+  "team": "South Carolina",
+  "opponent": "USC Trojans",
+  "home": false,
+  "state": "post",
+  "for": "69",
+  "against": "71",
+  "opp_rank": 18
  },
  {
   "event_id": "401921716",
@@ -2854,7 +2766,7 @@
   "team": "BYU",
   "opponent": "Providence Friars",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2865,7 +2777,7 @@
   "team": "Longwood",
   "opponent": "George Mason Patriots",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2876,7 +2788,7 @@
   "team": "Northern Illinois Huskies",
   "opponent": "SIU Edwardsville Cougars",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -2887,7 +2799,7 @@
   "team": "Northern Kentucky",
   "opponent": "Bellarmine Knights",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -3227,17 +3139,6 @@
   "date": "2026-12-02T00:00Z",
   "team": "Clemson Tigers",
   "opponent": "Auburn Tigers",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
-  "event_id": "401929390",
-  "date": "2026-12-02T00:00Z",
-  "team": "Georgia State",
-  "opponent": "Mercer Bears",
   "home": true,
   "state": "pre",
   "for": null,
@@ -3641,17 +3542,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401911944",
-  "date": "2026-12-05T19:00Z",
-  "team": "Georgia State",
-  "opponent": "UL Monroe Warhawks",
-  "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401911823",
   "date": "2026-12-05T19:00Z",
   "team": "Mercer",
@@ -4037,17 +3927,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401926790",
-  "date": "2026-12-10T00:00Z",
-  "team": "Georgia State",
-  "opponent": "Kennesaw State Owls",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401911044",
   "date": "2026-12-10T00:00Z",
   "team": "Western Michigan",
@@ -4349,17 +4228,6 @@
   "date": "2026-12-12T20:00Z",
   "team": "California",
   "opponent": "UC Riverside Highlanders",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
-  "event_id": "401929415",
-  "date": "2026-12-12T20:00Z",
-  "team": "Georgia State",
-  "opponent": "Texas Southern Tigers",
   "home": true,
   "state": "pre",
   "for": null,
@@ -4675,17 +4543,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401911946",
-  "date": "2026-12-17T00:00Z",
-  "team": "Georgia State",
-  "opponent": "James Madison Dukes",
-  "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401921145",
   "date": "2026-12-17T00:00Z",
   "team": "Longwood",
@@ -4767,17 +4624,6 @@
   "date": "2026-12-19T00:00Z",
   "team": "Campbell",
   "opponent": "East Carolina Pirates",
-  "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
-  "event_id": "401909714",
-  "date": "2026-12-19T00:00Z",
-  "team": "Georgia State",
-  "opponent": "Pittsburgh Panthers",
   "home": false,
   "state": "pre",
   "for": null,
@@ -5258,17 +5104,6 @@
   "opp_rank": 8
  },
  {
-  "event_id": "401929451",
-  "date": "2026-12-22T18:00Z",
-  "team": "Georgia State",
-  "opponent": "Coastal Georgia Mariner",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401918082",
   "date": "2026-12-22T19:00Z",
   "team": "Clemson Tigers",
@@ -5720,17 +5555,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401911960",
-  "date": "2026-12-31T18:00Z",
-  "team": "Georgia State",
-  "opponent": "Southern Miss Golden Eagles",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401905215",
   "date": "2026-12-31T19:00Z",
   "team": "Campbell",
@@ -5846,17 +5670,6 @@
   "team": "Clemson Tigers",
   "opponent": "NC State Wolfpack",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
-  "event_id": "401911967",
-  "date": "2027-01-02T18:00Z",
-  "team": "Georgia State",
-  "opponent": "Louisiana Ragin' Cajuns",
-  "home": true,
   "state": "pre",
   "for": null,
   "against": null,
@@ -6314,17 +6127,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401911971",
-  "date": "2027-01-06T23:00Z",
-  "team": "Georgia State",
-  "opponent": "Troy Trojans",
-  "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401911846",
   "date": "2027-01-06T23:00Z",
   "team": "Mercer",
@@ -6765,17 +6567,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401911981",
-  "date": "2027-01-09T20:00Z",
-  "team": "Georgia State",
-  "opponent": "Arkansas State Red Wolves",
-  "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401905702",
   "date": "2027-01-09T20:00Z",
   "team": "Kansas City",
@@ -7183,17 +6974,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401911988",
-  "date": "2027-01-14T20:00Z",
-  "team": "Georgia State",
-  "opponent": "Marshall Thundering Herd",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401913283",
   "date": "2027-01-14T23:00Z",
   "team": "UMBC",
@@ -7353,17 +7133,6 @@
   "team": "Texas",
   "opponent": "Oklahoma Sooners",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
-  "event_id": "401911991",
-  "date": "2027-01-16T18:00Z",
-  "team": "Georgia State",
-  "opponent": "App State Mountaineers",
-  "home": false,
   "state": "pre",
   "for": null,
   "against": null,
@@ -7865,17 +7634,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401911999",
-  "date": "2027-01-21T00:00Z",
-  "team": "Georgia State",
-  "opponent": "Georgia Southern Eagles",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401924055",
   "date": "2027-01-21T00:00Z",
   "team": "Longwood",
@@ -8232,17 +7990,6 @@
   "date": "2027-01-23T19:00Z",
   "team": "Wright State Raiders",
   "opponent": "Northern Illinois Huskies",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
-  "event_id": "401912006",
-  "date": "2027-01-23T20:00Z",
-  "team": "Georgia State",
-  "opponent": "James Madison Dukes",
   "home": true,
   "state": "pre",
   "for": null,
@@ -8712,17 +8459,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401912015",
-  "date": "2027-01-29T00:00Z",
-  "team": "Georgia State",
-  "opponent": "Marshall Thundering Herd",
-  "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401924066",
   "date": "2027-01-29T00:00Z",
   "team": "Longwood",
@@ -9130,17 +8866,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401912018",
-  "date": "2027-01-31T01:00Z",
-  "team": "Georgia State",
-  "opponent": "Coastal Carolina Chanticleers",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401905723",
   "date": "2027-01-31T01:00Z",
   "team": "Kansas City",
@@ -9321,17 +9046,6 @@
   "date": "2027-02-03T23:00Z",
   "team": "VMI Keydets",
   "opponent": "Wofford Terriers",
-  "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
-  "event_id": "401912026",
-  "date": "2027-02-04T00:00Z",
-  "team": "Georgia State",
-  "opponent": "Old Dominion Monarchs",
   "home": false,
   "state": "pre",
   "for": null,
@@ -10274,17 +9988,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401912039",
-  "date": "2027-02-13T18:00Z",
-  "team": "Georgia State",
-  "opponent": "South Alabama Jaguars",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401913322",
   "date": "2027-02-13T18:00Z",
   "team": "UMBC",
@@ -10747,17 +10450,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401912043",
-  "date": "2027-02-18T00:00Z",
-  "team": "Georgia State",
-  "opponent": "Coastal Carolina Chanticleers",
-  "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401919300",
   "date": "2027-02-18T00:00Z",
   "team": "Northern Illinois Huskies",
@@ -11121,17 +10813,6 @@
   "opp_rank": null
  },
  {
-  "event_id": "401912049",
-  "date": "2027-02-20T20:00Z",
-  "team": "Georgia State",
-  "opponent": "App State Mountaineers",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
   "event_id": "401911916",
   "date": "2027-02-20T20:00Z",
   "team": "Mercer",
@@ -11405,17 +11086,6 @@
   "for": null,
   "against": null,
   "opp_rank": 8
- },
- {
-  "event_id": "401912058",
-  "date": "2027-02-23T23:00Z",
-  "team": "Georgia State",
-  "opponent": "Old Dominion Monarchs",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
  },
  {
   "event_id": "401911154",
@@ -11730,17 +11400,6 @@
   "date": "2027-02-27T00:00Z",
   "team": "Quinnipiac",
   "opponent": "Saint Peter's Peacocks",
-  "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
-  "opp_rank": null
- },
- {
-  "event_id": "401912063",
-  "date": "2027-02-27T01:00Z",
-  "team": "Georgia State",
-  "opponent": "Georgia Southern Eagles",
   "home": false,
   "state": "pre",
   "for": null,
