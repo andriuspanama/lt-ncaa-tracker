@@ -108,5 +108,27 @@
   "tpa": 1,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401911212",
+  "date": "2026-11-27",
+  "opponent": "George Washington Revolutionaries",
+  "home": false,
+  "result": "L",
+  "score": "51-91",
+  "min": 18,
+  "pts": 6,
+  "reb": 4,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 1,
+  "pf": 0,
+  "fgm": 2,
+  "fga": 5,
+  "tpm": 0,
+  "tpa": 1,
+  "ftm": 2,
+  "fta": 2
  }
 ]

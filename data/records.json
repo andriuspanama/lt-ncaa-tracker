@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-27",
- "newest": "2026-11-26",
+ "newest": "2026-11-27",
  "players": {
   "motiejus-krivas": {
    "gp": 8,
@@ -647,7 +647,7 @@
    "new": []
   },
   "vince-buzelis": {
-   "gp": 9,
+   "gp": 10,
    "records": {
     "pts": {
      "v": 26,
@@ -671,11 +671,11 @@
      "home": true
     },
     "stl": {
-     "v": 2,
-     "date": "2026-11-22",
-     "eid": "401925942",
-     "opp": "Utah Tech Trailblazers",
-     "home": false
+     "v": 3,
+     "date": "2026-11-27",
+     "eid": "401929407",
+     "opp": "Clarke Pride",
+     "home": true
     },
     "blk": {
      "v": 1,
@@ -694,9 +694,18 @@
    },
    "counts": {
     "dd": 1,
-    "p20": 2
+    "p20": 2,
+    "s3": 1
    },
-   "new": []
+   "new": [
+    {
+     "stat": "stl",
+     "v": 3,
+     "prev": 2,
+     "date": "2026-11-27",
+     "opp": "Clarke Pride"
+    }
+   ]
   },
   "nedas-cholevinskas": {
    "gp": 7,
@@ -776,7 +785,7 @@
    "new": []
   },
   "regimantas-ciunys": {
-   "gp": 5,
+   "gp": 6,
    "records": {
     "pts": {
      "v": 11,
@@ -1249,25 +1258,10 @@
    "counts": {
     "s3": 1
    },
-   "new": [
-    {
-     "stat": "pts",
-     "v": 13,
-     "prev": 6,
-     "date": "2026-11-19",
-     "opp": "Northwest Indian RedHawks"
-    },
-    {
-     "stat": "stl",
-     "v": 3,
-     "prev": 0,
-     "date": "2026-11-19",
-     "opp": "Northwest Indian RedHawks"
-    }
-   ]
+   "new": []
   },
   "kajus-kublickas": {
-   "gp": 9,
+   "gp": 10,
    "records": {
     "pts": {
      "v": 16,
@@ -1446,14 +1440,14 @@
    ]
   },
   "dominykas-pleta": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
      "v": 15,
-     "date": "2026-11-02",
-     "eid": "401909771",
-     "opp": "Memphis Tigers",
-     "home": true
+     "date": "2026-11-27",
+     "eid": "401920533",
+     "opp": "St. John's Red Storm",
+     "home": false
     },
     "reb": {
      "v": 10,
@@ -1464,21 +1458,38 @@
     },
     "ast": {
      "v": 3,
-     "date": "2026-11-10",
-     "eid": "401909773",
-     "opp": "Southern Jaguars",
-     "home": true
+     "date": "2026-11-27",
+     "eid": "401920533",
+     "opp": "St. John's Red Storm",
+     "home": false
     },
     "stl": {
-     "v": 2,
-     "date": "2026-11-24",
-     "eid": "401909775",
-     "opp": "San Diego State Aztecs",
-     "home": true
+     "v": 3,
+     "date": "2026-11-27",
+     "eid": "401920533",
+     "opp": "St. John's Red Storm",
+     "home": false
+    },
+    "blk": {
+     "v": 1,
+     "date": "2026-11-27",
+     "eid": "401920533",
+     "opp": "St. John's Red Storm",
+     "home": false
     }
    },
-   "counts": {},
-   "new": []
+   "counts": {
+    "s3": 1
+   },
+   "new": [
+    {
+     "stat": "stl",
+     "v": 3,
+     "prev": 2,
+     "date": "2026-11-27",
+     "opp": "St. John's Red Storm"
+    }
+   ]
   },
   "titas-sargiunas": {
    "gp": 9,

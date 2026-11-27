@@ -196,5 +196,27 @@
   "tpa": 0,
   "ftm": 2,
   "fta": 2
+ },
+ {
+  "event_id": "401929407",
+  "date": "2026-11-27",
+  "opponent": "Clarke Pride",
+  "home": true,
+  "result": "W",
+  "score": "99-47",
+  "min": 6,
+  "pts": 2,
+  "reb": 3,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 0,
+  "fgm": 0,
+  "fga": 1,
+  "tpm": 0,
+  "tpa": 1,
+  "ftm": 2,
+  "fta": 2
  }
 ]

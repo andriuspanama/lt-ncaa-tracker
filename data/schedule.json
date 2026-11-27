@@ -2974,10 +2974,10 @@
   "date": "2026-11-27T18:00Z",
   "team": "Iowa State",
   "opponent": "St. John's Red Storm",
-  "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "home": false,
+  "state": "post",
+  "for": "75",
+  "against": "80",
   "opp_rank": 13
  },
  {
@@ -2986,9 +2986,9 @@
   "team": "South Dakota",
   "opponent": "Clarke Pride",
   "home": true,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "99",
+  "against": "47",
   "opp_rank": null
  },
  {
@@ -2997,9 +2997,9 @@
   "team": "UMBC",
   "opponent": "George Washington Revolutionaries",
   "home": false,
-  "state": "pre",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "51",
+  "against": "91",
   "opp_rank": null
  },
  {
@@ -3008,7 +3008,7 @@
   "team": "Saint Mary's",
   "opponent": "Texas Longhorns",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": 7
@@ -3019,7 +3019,7 @@
   "team": "Texas",
   "opponent": "Saint Mary's Gaels",
   "home": false,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null
@@ -3030,7 +3030,7 @@
   "team": "Boise State",
   "opponent": "Drake Bulldogs",
   "home": true,
-  "state": "pre",
+  "state": "in",
   "for": null,
   "against": null,
   "opp_rank": null

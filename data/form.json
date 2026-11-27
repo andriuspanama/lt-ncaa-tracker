@@ -2,11 +2,100 @@
  "updated": "2026-11-27",
  "min_games": 10,
  "window": 5,
- "max_gp": 9,
- "eligible": 0,
- "players": {},
+ "max_gp": 10,
+ "eligible": 2,
+ "players": {
+  "vince-buzelis": {
+   "gp": 10,
+   "season": {
+    "ppg": 14.7,
+    "mpg": 26.4,
+    "rpg": 5.8,
+    "apg": 2.1,
+    "imp": 13.5,
+    "fga": 8.4
+   },
+   "last5": {
+    "ppg": 14.2,
+    "mpg": 26.2,
+    "rpg": 5.4,
+    "apg": 2.2,
+    "imp": 14.1,
+    "fga": 9.4
+   },
+   "prev": {
+    "ppg": 15.2,
+    "mpg": 26.6,
+    "rpg": 6.2,
+    "apg": 2.0,
+    "imp": 12.9,
+    "fga": 7.4
+   },
+   "d_imp": 0.6,
+   "d_ppg": -0.5,
+   "d_mpg": -0.2,
+   "tags": [],
+   "spark": [
+    14,
+    20,
+    26,
+    11,
+    5,
+    17,
+    9,
+    17,
+    14,
+    14
+   ]
+  },
+  "kajus-kublickas": {
+   "gp": 10,
+   "season": {
+    "ppg": 10.9,
+    "mpg": 23.6,
+    "rpg": 2.4,
+    "apg": 2.6,
+    "imp": 7.9,
+    "fga": 5.6
+   },
+   "last5": {
+    "ppg": 9.2,
+    "mpg": 22.2,
+    "rpg": 2.0,
+    "apg": 1.8,
+    "imp": 5.6,
+    "fga": 5.0
+   },
+   "prev": {
+    "ppg": 12.6,
+    "mpg": 25.0,
+    "rpg": 2.8,
+    "apg": 3.4,
+    "imp": 10.2,
+    "fga": 6.2
+   },
+   "d_imp": -2.3,
+   "d_ppg": -1.7,
+   "d_mpg": -1.4,
+   "tags": [],
+   "spark": [
+    14,
+    15,
+    6,
+    16,
+    12,
+    13,
+    15,
+    10,
+    6,
+    2
+   ]
+  }
+ },
  "hot": [],
- "cold": [],
+ "cold": [
+  "kajus-kublickas"
+ ],
  "tags": {
   "progress": [],
   "best": [],
