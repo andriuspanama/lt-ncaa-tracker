@@ -108,5 +108,27 @@
   "tpa": 0,
   "ftm": 0,
   "fta": 0
+ },
+ {
+  "event_id": "401920529",
+  "date": "2026-11-26",
+  "opponent": "Tennessee Volunteers",
+  "home": true,
+  "result": "L",
+  "score": "64-75",
+  "min": 14,
+  "pts": 0,
+  "reb": 2,
+  "ast": 0,
+  "stl": 1,
+  "blk": 0,
+  "to": 2,
+  "pf": 1,
+  "fgm": 0,
+  "fga": 4,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 0,
+  "fta": 2
  }
 ]

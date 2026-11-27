@@ -176,26 +176,15 @@
     "player": "motiejus-krivas"
    }
   ],
-  "401921674": [
+  "401909743": [
    {
-    "url": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401921674.png?templateId=espn.applewatch.awayhome.1",
-    "caption": "espn.applewatch.awayhome.1",
-    "credit": null,
-    "w": null,
-    "h": null,
-    "link": "http://www.espn.com/ncb/recap?gameId=401921674",
-    "player": "alex-bieliauskas"
-   }
-  ],
-  "401921670": [
-   {
-    "url": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401921674.png?templateId=espn.applewatch.awayhome.1",
-    "caption": "espn.applewatch.awayhome.1",
-    "credit": null,
-    "w": null,
-    "h": null,
-    "link": "http://www.espn.com/ncb/recap?gameId=401921674",
-    "player": "alex-bieliauskas"
+    "url": "https://a.espncdn.com/photo/2026/1125/r1750885_1296x729_16-9.jpg",
+    "caption": "Motiejus Krivas and Caleb Holt have been playing like the lottery picks they were projected to be -- particularly in the Maui Invitational semifinal against Providence. Motiejus Krivas, Caleb Holt [1296x729]",
+    "credit": "Mitchell Layton/Getty Images",
+    "w": 1296,
+    "h": 729,
+    "link": "https://www.espn.com/mens-college-basketball/story/_/id/50575102/feast-week-matchups-analysis",
+    "player": "motiejus-krivas"
    }
   ]
  },
@@ -367,36 +356,38 @@
   "401929595": "2026-11-26",
   "401920708": "2026-11-26",
   "401917541": "2026-11-26",
-  "401918076": "2026-11-26",
-  "401921208": "2026-11-26",
-  "401921210": "2026-11-26",
-  "401911025": "2026-11-26",
-  "401921029": "2026-11-26",
-  "401919006": "2026-11-26",
-  "401909743": "2026-11-26",
-  "401918057": "2026-11-26",
-  "401921710": "2026-11-26",
-  "401923395": "2026-11-26",
-  "401924859": "2026-11-26",
-  "401920727": "2026-11-26",
-  "401923262": "2026-11-26",
-  "401909775": "2026-11-26",
-  "401921711": "2026-11-26",
-  "401922023": "2026-11-26",
-  "401929359": "2026-11-26",
-  "401920709": "2026-11-26",
-  "401921715": "2026-11-26",
-  "401921669": "2026-11-26",
-  "401921670": "2026-11-26",
-  "401929406": "2026-11-26",
-  "401920067": "2026-11-26",
-  "401928850": "2026-11-26",
-  "401920237": "2026-11-26",
-  "401921108": "2026-11-26",
-  "401920076": "2026-11-26",
-  "401924897": "2026-11-26",
-  "401921703": "2026-11-26",
-  "401921674": "2026-11-26"
+  "401918076": "2026-11-27",
+  "401921208": "2026-11-27",
+  "401921210": "2026-11-27",
+  "401911025": "2026-11-27",
+  "401921029": "2026-11-27",
+  "401919006": "2026-11-27",
+  "401909743": "2026-11-27",
+  "401918057": "2026-11-27",
+  "401921710": "2026-11-27",
+  "401923395": "2026-11-27",
+  "401924859": "2026-11-27",
+  "401920727": "2026-11-27",
+  "401923262": "2026-11-27",
+  "401909775": "2026-11-27",
+  "401921711": "2026-11-27",
+  "401922023": "2026-11-27",
+  "401929359": "2026-11-27",
+  "401920709": "2026-11-27",
+  "401921715": "2026-11-27",
+  "401921669": "2026-11-27",
+  "401921670": "2026-11-27",
+  "401929406": "2026-11-27",
+  "401920067": "2026-11-27",
+  "401928850": "2026-11-27",
+  "401920237": "2026-11-27",
+  "401921108": "2026-11-27",
+  "401920076": "2026-11-27",
+  "401924897": "2026-11-27",
+  "401921703": "2026-11-27",
+  "401921674": "2026-11-27",
+  "401920529": "2026-11-27",
+  "401906869": "2026-11-27"
  },
  "videos": {
   "401920692": [
@@ -763,6 +754,13 @@
     "player": "alex-bieliauskas",
     "headline": "Bieliauskas' 25 points power South Carolina over Arizona State",
     "link": "http://www.espn.com/ncb/recap?gameId=401921674"
+   }
+  ],
+  "401906869": [
+   {
+    "player": "matas-vokietaitis",
+    "headline": "Johnson scores 26 points to carry No. 7 Texas to 92-83 win over Georgetown",
+    "link": "http://www.espn.com/ncb/recap?gameId=401906869"
    }
   ]
  }

@@ -130,5 +130,27 @@
   "tpa": 0,
   "ftm": 2,
   "fta": 6
+ },
+ {
+  "event_id": "401906869",
+  "date": "2026-11-26",
+  "opponent": "Georgetown Hoyas",
+  "home": true,
+  "result": "W",
+  "score": "92-83",
+  "min": 13,
+  "pts": 5,
+  "reb": 1,
+  "ast": 0,
+  "stl": 0,
+  "blk": 0,
+  "to": 4,
+  "pf": 5,
+  "fgm": 2,
+  "fga": 6,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 1,
+  "fta": 3
  }
 ]
