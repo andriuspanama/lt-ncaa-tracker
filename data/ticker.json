@@ -114,6 +114,22 @@
    "gs": 14.6
   },
   {
+   "id": "mantas-juzenas",
+   "name": "Mantas Juzėnas",
+   "team": "Saint Mary's",
+   "date": "2026-11-26",
+   "opp": "UCLA Bruins",
+   "home": true,
+   "res": "W",
+   "score": "85-70",
+   "pts": 18,
+   "reb": 6,
+   "ast": 4,
+   "stl": 1,
+   "blk": 1,
+   "gs": 14.6
+  },
+  {
    "id": "rytis-petraitis",
    "name": "Rytis Petraitis",
    "team": "New Mexico",
@@ -144,22 +160,6 @@
    "stl": 0,
    "blk": 0,
    "gs": 5.5
-  },
-  {
-   "id": "nedas-raupelis",
-   "name": "Nedas Raupelis",
-   "team": "Rhode Island",
-   "date": "2026-11-25",
-   "opp": "American International Yellow Jackets",
-   "home": true,
-   "res": "W",
-   "score": "98-89",
-   "pts": 6,
-   "reb": 5,
-   "ast": 0,
-   "stl": 0,
-   "blk": 0,
-   "gs": 3.0
   }
  ]
 }

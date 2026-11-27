@@ -5,8 +5,16 @@
    {
     "cat": "ppg",
     "label": "Taškai per rungtynes",
-    "value": 26.166666,
+    "value": 26.571428,
     "rank": 6
+   }
+  ],
+  "motiejus-krivas": [
+   {
+    "cat": "fgp",
+    "label": "Metimų iš žaidimo taiklumas (FG%)",
+    "value": 72.36841917037964,
+    "rank": 24
    }
   ]
  },
@@ -22,7 +30,7 @@
    ],
    [
     "Dior Johnson",
-    29.0
+    28.142857
    ]
   ],
   "rpg": [
@@ -42,15 +50,15 @@
   "apg": [
    [
     "Donovan Dent",
-    9.571428
+    9.5
    ],
    [
     "Jeremy Fears Jr.",
-    9.333333
+    9.428572
    ],
    [
     "Brock Harding",
-    8.666667
+    8.857142
    ]
   ],
   "spg": [
@@ -97,29 +105,29 @@
   ],
   "tpp": [
    [
-    "Orden Roberts",
-    100.0
-   ],
-   [
     "Owen Walther",
     100.0
    ],
    [
     "Maxwell Lanham",
     100.0
+   ],
+   [
+    "Brad Stratton",
+    100.0
    ]
   ],
   "ftp": [
-   [
-    "Elmarko Jackson",
-    100.0
-   ],
    [
     "Justin Begg",
     100.0
    ],
    [
-    "Luke Skaljac",
+    "Ethan Roberts",
+    100.0
+   ],
+   [
+    "Rob Dix",
     100.0
    ]
   ]

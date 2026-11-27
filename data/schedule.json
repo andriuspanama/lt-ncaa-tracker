@@ -2970,6 +2970,17 @@
   "opp_rank": 6
  },
  {
+  "event_id": "401920533",
+  "date": "2026-11-27T18:00Z",
+  "team": "Iowa State",
+  "opponent": "St. John's Red Storm",
+  "home": true,
+  "state": "pre",
+  "for": null,
+  "against": null,
+  "opp_rank": 13
+ },
+ {
   "event_id": "401929407",
   "date": "2026-11-27T19:00Z",
   "team": "South Dakota",
