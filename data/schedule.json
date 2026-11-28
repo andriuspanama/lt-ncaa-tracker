@@ -3008,9 +3008,9 @@
   "team": "Saint Mary's",
   "opponent": "Texas Longhorns",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "73",
+  "against": "76",
   "opp_rank": 7
  },
  {
@@ -3019,9 +3019,9 @@
   "team": "Texas",
   "opponent": "Saint Mary's Gaels",
   "home": false,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "76",
+  "against": "73",
   "opp_rank": null
  },
  {
@@ -3030,9 +3030,9 @@
   "team": "Boise State",
   "opponent": "Drake Bulldogs",
   "home": true,
-  "state": "in",
-  "for": null,
-  "against": null,
+  "state": "post",
+  "for": "88",
+  "against": "71",
   "opp_rank": null
  },
  {

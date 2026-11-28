@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "items": [
+  {
+   "id": "matas-vokietaitis",
+   "name": "Matas Vokietaitis",
+   "team": "Texas",
+   "date": "2026-11-27",
+   "opp": "Saint Mary's Gaels",
+   "home": false,
+   "res": "W",
+   "score": "76-73",
+   "pts": 29,
+   "reb": 11,
+   "ast": 2,
+   "stl": 0,
+   "blk": 0,
+   "gs": 29.2
+  },
   {
    "id": "alex-bieliauskas",
    "name": "Alex Bieliauskas",
@@ -32,6 +48,22 @@
    "stl": 1,
    "blk": 1,
    "gs": 22.8
+  },
+  {
+   "id": "dovydas-butka",
+   "name": "Dovydas Butka",
+   "team": "Boise State",
+   "date": "2026-11-27",
+   "opp": "Drake Bulldogs",
+   "home": true,
+   "res": "W",
+   "score": "88-71",
+   "pts": 22,
+   "reb": 8,
+   "ast": 2,
+   "stl": 2,
+   "blk": 0,
+   "gs": 19.2
   },
   {
    "id": "dominykas-pleta",
@@ -98,6 +130,22 @@
    "gs": 4.3
   },
   {
+   "id": "mantas-juzenas",
+   "name": "Mantas Juzėnas",
+   "team": "Saint Mary's",
+   "date": "2026-11-27",
+   "opp": "Texas Longhorns",
+   "home": true,
+   "res": "L",
+   "score": "73-76",
+   "pts": 8,
+   "reb": 1,
+   "ast": 2,
+   "stl": 1,
+   "blk": 1,
+   "gs": 3.8
+  },
+  {
    "id": "dominykas-pleta",
    "name": "Dominykas Pleta",
    "team": "Iowa State",
@@ -112,22 +160,6 @@
    "stl": 1,
    "blk": 0,
    "gs": -4.0
-  },
-  {
-   "id": "matas-vokietaitis",
-   "name": "Matas Vokietaitis",
-   "team": "Texas",
-   "date": "2026-11-26",
-   "opp": "Georgetown Hoyas",
-   "home": true,
-   "res": "W",
-   "score": "92-83",
-   "pts": 5,
-   "reb": 1,
-   "ast": 0,
-   "stl": 0,
-   "blk": 0,
-   "gs": -4.7
   }
  ]
 }

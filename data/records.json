@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "newest": "2026-11-27",
  "players": {
   "motiejus-krivas": {
@@ -574,13 +574,13 @@
    "new": []
   },
   "dovydas-butka": {
-   "gp": 6,
+   "gp": 7,
    "records": {
     "pts": {
-     "v": 18,
-     "date": "2026-11-04",
-     "eid": "401929171",
-     "opp": "West Coast Baptist Eagles",
+     "v": 22,
+     "date": "2026-11-27",
+     "eid": "401927366",
+     "opp": "Drake Bulldogs",
      "home": true
     },
     "reb": {
@@ -621,9 +621,18 @@
    },
    "counts": {
     "dd": 1,
+    "p20": 1,
     "s3": 1
    },
-   "new": []
+   "new": [
+    {
+     "stat": "pts",
+     "v": 22,
+     "prev": 18,
+     "date": "2026-11-27",
+     "opp": "Drake Bulldogs"
+    }
+   ]
   },
   "emilis-butkus": {
    "gp": 1,
@@ -1034,7 +1043,7 @@
    "new": []
   },
   "mantas-juzenas": {
-   "gp": 8,
+   "gp": 9,
    "records": {
     "pts": {
      "v": 32,
@@ -1066,9 +1075,9 @@
     },
     "blk": {
      "v": 1,
-     "date": "2026-11-26",
-     "eid": "401917547",
-     "opp": "UCLA Bruins",
+     "date": "2026-11-27",
+     "eid": "401921718",
+     "opp": "Texas Longhorns",
      "home": true
     },
     "tpm": {
@@ -1725,28 +1734,28 @@
    ]
   },
   "matas-vokietaitis": {
-   "gp": 7,
+   "gp": 8,
    "records": {
     "pts": {
-     "v": 26,
-     "date": "2026-11-19",
-     "eid": "401906867",
-     "opp": "Southern Utah Thunderbirds",
-     "home": true
+     "v": 29,
+     "date": "2026-11-27",
+     "eid": "401921718",
+     "opp": "Saint Mary's Gaels",
+     "home": false
     },
     "reb": {
      "v": 11,
-     "date": "2026-11-19",
-     "eid": "401906867",
-     "opp": "Southern Utah Thunderbirds",
-     "home": true
+     "date": "2026-11-27",
+     "eid": "401921718",
+     "opp": "Saint Mary's Gaels",
+     "home": false
     },
     "ast": {
      "v": 2,
-     "date": "2026-11-15",
-     "eid": "401906866",
-     "opp": "Baylor Bears",
-     "home": true
+     "date": "2026-11-27",
+     "eid": "401921718",
+     "opp": "Saint Mary's Gaels",
+     "home": false
     },
     "stl": {
      "v": 1,
@@ -1764,10 +1773,18 @@
     }
    },
    "counts": {
-    "dd": 3,
-    "p20": 4
+    "dd": 4,
+    "p20": 5
    },
-   "new": []
+   "new": [
+    {
+     "stat": "pts",
+     "v": 29,
+     "prev": 26,
+     "date": "2026-11-27",
+     "opp": "Saint Mary's Gaels"
+    }
+   ]
   },
   "dominic-pangonis": {
    "gp": 4,

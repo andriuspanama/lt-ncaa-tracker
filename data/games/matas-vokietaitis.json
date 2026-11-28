@@ -152,5 +152,27 @@
   "tpa": 0,
   "ftm": 1,
   "fta": 3
+ },
+ {
+  "event_id": "401921718",
+  "date": "2026-11-27",
+  "opponent": "Saint Mary's Gaels",
+  "home": false,
+  "result": "W",
+  "score": "76-73",
+  "min": 31,
+  "pts": 29,
+  "reb": 11,
+  "ast": 2,
+  "stl": 0,
+  "blk": 0,
+  "to": 0,
+  "pf": 3,
+  "fgm": 6,
+  "fga": 9,
+  "tpm": 0,
+  "tpa": 0,
+  "ftm": 17,
+  "fta": 21
  }
 ]

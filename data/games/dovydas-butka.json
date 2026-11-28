@@ -130,5 +130,27 @@
   "tpa": 5,
   "ftm": 5,
   "fta": 6
+ },
+ {
+  "event_id": "401927366",
+  "date": "2026-11-27",
+  "opponent": "Drake Bulldogs",
+  "home": true,
+  "result": "W",
+  "score": "88-71",
+  "min": 33,
+  "pts": 22,
+  "reb": 8,
+  "ast": 2,
+  "stl": 2,
+  "blk": 0,
+  "to": 1,
+  "pf": 3,
+  "fgm": 11,
+  "fga": 16,
+  "tpm": 0,
+  "tpa": 3,
+  "ftm": 0,
+  "fta": 3
  }
 ]
